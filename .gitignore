@@ -1,0 +1,11 @@
+# 原本の PDF（再配布しない）
+source/*.pdf
+source/*.part
+# Python
+.venv/
+__pycache__/
+*.pyc
+# Node
+node_modules/
+# 照合用のページ画像・作業領域
+work/

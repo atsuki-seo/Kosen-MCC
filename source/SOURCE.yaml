@@ -1,0 +1,11 @@
+# 原本の出典情報。PDF 本体はコミットしない（.gitignore）。
+# 取得: uv run python source/fetch.py
+id: mcc2023
+title: モデルコアカリキュラム
+publisher: 独立行政法人 国立高等専門学校機構
+published: "2023-04-28"   # 令和 5 年 4 月 28 日
+url: https://www.kosen-k.go.jp/wp/wp-content/uploads/2023/12/2c383e29-7e20-4b20-af19-ca3737450665.pdf
+sha256: 7810bf3a68110f2be0336b3cc83dcbcafda698b86abbd34c5bffc237e6cde965
+bytes: 7330724
+pages: 234
+local_path: source/mcc-2023.pdf
