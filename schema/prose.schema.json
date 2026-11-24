@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/atsuki-seo/kosen-mcc/schema/prose.schema.json",
+  "title": "散文ファイルの先頭の項目（front matter）",
+  "description": "text/mcc2023/**/*.md（設計 5.6）",
+  "type": "object",
+  "required": ["id", "kind", "title", "pages_pdf", "verification"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^mcc2023:doc:[0-9]{3}$"},
+    "kind": {"enum": ["section", "figure"]},
+    "title": {"type": "string"},
+    "heading_raw": {"type": ["string", "null"]},
+    "part": {"type": ["string", "null"]},
+    "pages_pdf": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/page"}, "minItems": 1},
+    "pages_printed": {"type": "array", "items": {"type": ["integer", "null"]}},
+    "image": {"type": "string"},
+    "bbox": {"type": "array", "items": {"type": "number"}, "minItems": 4, "maxItems": 4},
+    "transcription_note": {"type": "string"},
+    "related_ids": {"type": "array", "items": {"type": "string"}},
+    "verification": {"$ref": "common.schema.json#/$defs/verification"}
+  }
+}

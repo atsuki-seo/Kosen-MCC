@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/atsuki-seo/kosen-mcc/schema/extension.schema.json",
+  "title": "付加情報のファイル",
+  "description": "extensions/**/*.yaml（設計 5.7）。原本にない情報。正本への参照は ID だけにする",
+  "type": "object",
+  "required": ["meta", "records"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["name", "description"],
+      "properties": {"name": {"type": "string"}, "description": {"type": "string"}}
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "targets", "author", "basis"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^ext:[a-z0-9-]+:[A-Za-z0-9._:-]+$"},
+          "targets": {"type": "array", "minItems": 1, "items": {"$ref": "common.schema.json#/$defs/anyId"}, "description": "対象の正本の ID"},
+          "author": {"type": "string", "minLength": 1, "description": "作成者"},
+          "basis": {"type": "string", "minLength": 1, "description": "作成根拠"}
+        }
+      }
+    }
+  }
+}

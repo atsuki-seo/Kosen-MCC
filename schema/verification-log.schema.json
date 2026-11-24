@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/atsuki-seo/kosen-mcc/schema/verification-log.schema.json",
+  "title": "画像照合と人の確認の記録",
+  "description": "data/mcc2023/verification-log.yaml（設計 7.1）。抽出器はこの記録から各レコードの verification を決める",
+  "type": "object",
+  "required": ["meta", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {"$ref": "common.schema.json#/$defs/meta"},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "date", "status", "verifier", "target", "pages_pdf", "scope", "result", "record_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^vlog-[0-9]{4}$"},
+          "date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+          "status": {"enum": ["image", "human"]},
+          "verifier": {"type": "string", "description": "image はエージェント（page-verifier）、human は人"},
+          "target": {"enum": ["page-top-row", "committee", "abet", "cdio", "unresolved", "figure", "other"], "description": "設計 7.2 の対象の種類"},
+          "pages_pdf": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/page"}, "minItems": 1},
+          "scope": {"type": "string", "description": "照合した範囲"},
+          "result": {"enum": ["match", "mismatch-fixed", "mismatch-open"]},
+          "findings": {"type": "string"},
+          "record_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+        }
+      }
+    }
+  }
+}

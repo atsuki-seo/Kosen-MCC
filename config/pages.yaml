@@ -1,0 +1,240 @@
+# ページ対応表（plan フェーズ 1）。全 234 ページに、当てる抽出器を書く。1 ページに複数の抽出器が当たってよい。
+# 抽出器: prose（散文）、figure（図の切り出し）、goals（到達目標）、hairyo（複合融合学科への配慮事項）、
+#         plus（MCC plus）、abet（ABET・JABEE・IEA）、cdio（CDIO）、guideline（学習指導要領）、
+#         categories（表 3 から大分類の区分を取る）
+# 画像の照合で確かめた事実は note に書く。
+pages:
+  1: {extractors: [prose, figure], note: 表紙。シンボルマークは図として切り出す}
+  2: {extractors: [prose], note: 白紙（白一色の画像のみ）。表紙の範囲に含める}
+  3: {extractors: [prose], note: モデルコアカリキュラム改訂について}
+  4: {extractors: [prose], note: モデルコアカリキュラム改訂について}
+  5: {extractors: [prose], note: モデルコアカリキュラム改訂について}
+  6: {extractors: [prose], note: 白紙（白一色の画像のみ）。改訂についての範囲に含める}
+  7: {extractors: [prose], note: 目次。画像は文字層と重なる同じ文字の画像で、図ではない}
+  8: {extractors: [prose], note: 目次。画像は文字層と重なる同じ文字の画像で、図ではない}
+  9: {extractors: [prose], note: 目次。画像は文字層と重なる同じ文字の画像で、図ではない}
+  10: {extractors: [prose], note: 白紙。目次の範囲に含める}
+  11: {extractors: [prose], note: 第 1 部 扉}
+  12: {extractors: [prose], note: 白紙。第 1 部 扉の範囲に含める}
+  13: {extractors: [prose], note: 第 1 部}
+  14: {extractors: [prose], note: 第 1 部}
+  15: {extractors: [prose], note: 第 1 部}
+  16: {extractors: [prose], note: 第 1 部}
+  17: {extractors: [prose], note: 第 1 部}
+  18: {extractors: [prose], note: 第 1 部}
+  19: {extractors: [prose], note: 第 1 部}
+  20: {extractors: [prose], note: 第 1 部}
+  21: {extractors: [prose], note: 第 1 部}
+  22: {extractors: [prose], note: 第 1 部}
+  23: {extractors: [prose, figure], note: 第 1 部}
+  24: {extractors: [prose, figure], note: 第 1 部}
+  25: {extractors: [prose, categories], note: 第 1 部}
+  26: {extractors: [prose, figure], note: 第 1 部}
+  27: {extractors: [prose], note: 第 1 部}
+  28: {extractors: [prose, figure], note: 第 1 部}
+  29: {extractors: [prose, figure], note: 第 1 部}
+  30: {extractors: [prose], note: 第 1 部}
+  31: {extractors: [prose, figure], note: 第 1 部}
+  32: {extractors: [prose, figure], note: 第 1 部}
+  33: {extractors: [prose], note: 第 1 部}
+  34: {extractors: [prose, figure], note: 第 1 部}
+  35: {extractors: [prose], note: 第 1 部}
+  36: {extractors: [prose, figure], note: 第 1 部}
+  37: {extractors: [prose, figure], note: 第 1 部}
+  38: {extractors: [prose, figure], note: 第 1 部}
+  39: {extractors: [prose, figure], note: 第 1 部}
+  40: {extractors: [prose], note: 第 1 部}
+  41: {extractors: [prose], note: 第 1 部}
+  42: {extractors: [prose], note: 第 1 部}
+  43: {extractors: [prose], note: 第 1 部}
+  44: {extractors: [prose], note: 白紙（ノンブルのみ）。第 1 部 参考文献の範囲に含める}
+  45: {extractors: [prose], note: 第 2 部 扉}
+  46: {extractors: [prose], note: 白紙。第 2 部 扉の範囲に含める}
+  47: {extractors: [prose, figure], note: 第 2 部 第 1 章 到達目標の表記方法}
+  48: {extractors: [prose, figure], note: 第 2 部 第 1 章 到達目標の表記方法}
+  49: {extractors: [goals]}
+  50: {extractors: [goals]}
+  51: {extractors: [goals]}
+  52: {extractors: [goals]}
+  53: {extractors: [goals]}
+  54: {extractors: [goals]}
+  55: {extractors: [goals]}
+  56: {extractors: [goals]}
+  57: {extractors: [goals]}
+  58: {extractors: [goals]}
+  59: {extractors: [goals]}
+  60: {extractors: [goals]}
+  61: {extractors: [goals]}
+  62: {extractors: [goals]}
+  63: {extractors: [goals]}
+  64: {extractors: [goals]}
+  65: {extractors: [goals]}
+  66: {extractors: [goals]}
+  67: {extractors: [goals]}
+  68: {extractors: [goals]}
+  69: {extractors: [goals]}
+  70: {extractors: [goals]}
+  71: {extractors: [goals]}
+  72: {extractors: [goals]}
+  73: {extractors: [goals]}
+  74: {extractors: [goals]}
+  75: {extractors: [goals]}
+  76: {extractors: [goals]}
+  77: {extractors: [goals]}
+  78: {extractors: [goals]}
+  79: {extractors: [goals]}
+  80: {extractors: [goals]}
+  81: {extractors: [goals]}
+  82: {extractors: [goals]}
+  83: {extractors: [goals]}
+  84: {extractors: [goals]}
+  85: {extractors: [goals]}
+  86: {extractors: [goals]}
+  87: {extractors: [goals]}
+  88: {extractors: [goals]}
+  89: {extractors: [goals]}
+  90: {extractors: [goals]}
+  91: {extractors: [goals]}
+  92: {extractors: [goals]}
+  93: {extractors: [goals]}
+  94: {extractors: [goals]}
+  95: {extractors: [goals]}
+  96: {extractors: [goals]}
+  97: {extractors: [goals]}
+  98: {extractors: [goals]}
+  99: {extractors: [goals]}
+  100: {extractors: [goals]}
+  101: {extractors: [goals]}
+  102: {extractors: [goals]}
+  103: {extractors: [goals]}
+  104: {extractors: [goals]}
+  105: {extractors: [goals]}
+  106: {extractors: [goals]}
+  107: {extractors: [goals]}
+  108: {extractors: [goals]}
+  109: {extractors: [goals]}
+  110: {extractors: [goals]}
+  111: {extractors: [goals]}
+  112: {extractors: [goals]}
+  113: {extractors: [goals]}
+  114: {extractors: [goals]}
+  115: {extractors: [goals]}
+  116: {extractors: [goals]}
+  117: {extractors: [goals]}
+  118: {extractors: [goals]}
+  119: {extractors: [goals]}
+  120: {extractors: [goals]}
+  121: {extractors: [goals]}
+  122: {extractors: [goals]}
+  123: {extractors: [goals]}
+  124: {extractors: [goals]}
+  125: {extractors: [goals]}
+  126: {extractors: [goals]}
+  127: {extractors: [goals]}
+  128: {extractors: [goals]}
+  129: {extractors: [goals]}
+  130: {extractors: [goals]}
+  131: {extractors: [goals]}
+  132: {extractors: [goals]}
+  133: {extractors: [goals]}
+  134: {extractors: [goals]}
+  135: {extractors: [hairyo]}
+  136: {extractors: [hairyo]}
+  137: {extractors: [hairyo]}
+  138: {extractors: [hairyo]}
+  139: {extractors: [hairyo]}
+  140: {extractors: [hairyo]}
+  141: {extractors: [hairyo]}
+  142: {extractors: [hairyo]}
+  143: {extractors: [hairyo]}
+  144: {extractors: [goals]}
+  145: {extractors: [goals]}
+  146: {extractors: [goals]}
+  147: {extractors: [goals]}
+  148: {extractors: [goals]}
+  149: {extractors: [goals]}
+  150: {extractors: [prose], note: 白紙（ノンブルのみ）。第 2 部 第 5 章の範囲に含める}
+  151: {extractors: [prose], note: 第 3 部 扉}
+  152: {extractors: [prose], note: 白紙。第 3 部 扉の範囲に含める}
+  153: {extractors: [prose, figure], note: 第 3 部 第 1 章、第 2 章 2-1}
+  154: {extractors: [prose, figure], note: 第 3 部 第 1 章、第 2 章 2-1}
+  155: {extractors: [prose], note: 第 3 部 第 1 章、第 2 章 2-1}
+  156: {extractors: [prose], note: 第 3 部 第 1 章、第 2 章 2-1}
+  157: {extractors: [prose, figure], note: 第 3 部 第 1 章、第 2 章 2-1}
+  158: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  159: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  160: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  161: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  162: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  163: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  164: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  165: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  166: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  167: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  168: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  169: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  170: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  171: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  172: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  173: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  174: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  175: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  176: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  177: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  178: {extractors: [plus], note: MCC plus。【事業概要】などの説明文は分野ノードに持たせる}
+  179: {extractors: [prose], note: 第 4 部 扉}
+  180: {extractors: [prose], note: 白紙（白一色の画像のみ）。第 4 部 扉の範囲に含める}
+  181: {extractors: [prose], note: 第 4 部 第 1 章 前文}
+  182: {extractors: [prose], note: 第 4 部 第 1 章 前文}
+  183: {extractors: [abet], note: ABET・JABEE・IEA の対照表}
+  184: {extractors: [abet], note: ABET・JABEE・IEA の対照表}
+  185: {extractors: [cdio], note: CDIO の対照表}
+  186: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  187: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  188: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  189: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  190: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  191: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  192: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  193: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  194: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  195: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  196: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  197: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  198: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  199: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  200: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  201: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  202: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  203: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  204: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  205: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  206: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  207: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  208: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  209: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  210: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  211: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  212: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  213: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  214: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  215: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  216: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  217: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  218: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  219: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  220: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  221: {extractors: [guideline], note: 高等学校学習指導要領との対照表}
+  222: {extractors: [prose], note: 第 4 部 第 2 章}
+  223: {extractors: [prose], note: 第 4 部 第 2 章}
+  224: {extractors: [prose], note: 第 4 部 第 2 章}
+  225: {extractors: [prose], note: 審議過程・委員名簿}
+  226: {extractors: [prose], note: 審議過程・委員名簿}
+  227: {extractors: [prose], note: 審議過程・委員名簿}
+  228: {extractors: [prose], note: 審議過程・委員名簿}
+  229: {extractors: [prose], note: 審議過程・委員名簿}
+  230: {extractors: [prose], note: 審議過程・委員名簿}
+  231: {extractors: [prose], note: 審議過程・委員名簿}
+  232: {extractors: [prose], note: 審議過程・委員名簿}
+  233: {extractors: [prose], note: 審議過程・委員名簿}
+  234: {extractors: [prose], note: 審議過程・委員名簿}

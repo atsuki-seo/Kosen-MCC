@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/atsuki-seo/kosen-mcc/schema/unclassified.schema.json",
+  "title": "種類を判定できず取り込まなかった表",
+  "description": "data/mcc2023/unclassified.yaml（設計 6.2）。捨てずに原文のまま残し、未解決の一覧に出す",
+  "type": "object",
+  "required": ["meta", "tables"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {"$ref": "common.schema.json#/$defs/meta"},
+    "tables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "reason", "rows", "source", "verification"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^mcc2023:unclassified:p[0-9]{3}-t[0-9]+$"},
+          "reason": {"type": "string"},
+          "context": {"type": ["string", "null"]},
+          "rows": {"type": "array", "items": {"type": "array", "items": {"type": ["string", "null"]}}},
+          "source": {"$ref": "common.schema.json#/$defs/source"},
+          "verification": {"$ref": "common.schema.json#/$defs/verification"}
+        }
+      }
+    }
+  }
+}
