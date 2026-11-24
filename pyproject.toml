@@ -1,7 +1,7 @@
 [project]
-name = "kosen-mcc"
+name = "Kosen-MCC"
 version = "0.1.0"
-description = "国立高等専門学校機構 モデルコアカリキュラム（令和5年版）の機械可読な転記"
+description = "国立高専機構「モデルコアカリキュラム」（令和5年4月28日版）を AI エージェントが引ける形に転記した参照元（SSOT）"
 requires-python = ">=3.12"
 license = "MIT"
 dependencies = [
