@@ -1,0 +1,27 @@
+# 散文の抽出範囲と方式（設計 5.6、6.1）。範囲は config/pages.yaml の prose と一致させる。
+# mode:
+#   paragraph  本文。折り返しをつないで段落にし、見出し（第N章、N-N、N-N.N と extra_headings）で節に分ける
+#   layout     行の配置に意味がある範囲（表紙、目次、扉、審議過程、委員名簿）。行をそのまま残す
+#   headings   到達目標や対照表のページ。章などの見出しの行だけを節にし、ページ範囲を次の見出しの前まで広げる
+# skip_tables: 表は別の抽出器が扱うので、散文に入れない
+segments:
+  - {pages: [1, 2], mode: layout, title: 表紙, part: null}
+  - {pages: [3, 6], mode: paragraph, title: モデルコアカリキュラム改訂について, part: null}
+  - {pages: [7, 10], mode: layout, title: 目次, part: null}
+  - {pages: [11, 12], mode: layout, title: 第1部 扉, part: 第1部}
+  - {pages: [13, 44], mode: paragraph, part: 第1部}
+  - {pages: [45, 46], mode: layout, title: 第2部 扉, part: 第2部}
+  - {pages: [47, 48], mode: paragraph, part: 第2部}
+  - {pages: [49, 150], mode: headings, part: 第2部}
+  - {pages: [151, 152], mode: layout, title: 第3部 扉, part: 第3部}
+  - {pages: [153, 157], mode: paragraph, part: 第3部}
+  - {pages: [179, 180], mode: layout, title: 第4部 扉, part: 第4部}
+  - {pages: [181, 185], mode: paragraph, part: 第4部, skip_tables: true}
+  - {pages: [186, 221], mode: headings, part: 第4部, heading_pattern: "^1-2 "}
+  - {pages: [222, 224], mode: paragraph, part: 第4部}
+  - {pages: [225, 234], mode: layout, title: 審議過程・委員名簿, part: null}
+# 見出しの番号の形をしていないが、節の区切りにする行
+extra_headings:
+  - ［参考文献］
+# 段落の扱いで、段落の区切りにする行頭の記号
+paragraph_markers: "^(・|○|●|◎|※|［|【|≪|（[0-9０-９]+）|\\([0-9]+\\)|[①-⑳]|[0-9]+\\.\\s|[ア-ン]）|\\[[0-9]+\\])"
