@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/atsuki-seo/kosen-mcc/schema/verification-log.schema.json",
+  "$id": "https://github.com/atsuki-seo/Kosen-MCC/schema/verification-log.schema.json",
   "title": "画像照合と人の確認の記録",
   "description": "data/mcc2023/verification-log.yaml（設計 7.1）。抽出器はこの記録から各レコードの verification を決める",
   "type": "object",

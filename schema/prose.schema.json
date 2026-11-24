@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/atsuki-seo/kosen-mcc/schema/prose.schema.json",
+  "$id": "https://github.com/atsuki-seo/Kosen-MCC/schema/prose.schema.json",
   "title": "散文ファイルの先頭の項目（front matter）",
   "description": "text/mcc2023/**/*.md（設計 5.6）",
   "type": "object",

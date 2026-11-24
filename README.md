@@ -1,4 +1,4 @@
-# kosen-mcc
+# Kosen-MCC
 
 国立高等専門学校機構「モデルコアカリキュラム」（令和 5 年版）の内容を、AI エージェントが参照しやすい形式に転記したリポジトリです。到達目標、他の基準との対応、考え方を説明した散文までを、ID とページ付きで引けるようにしています。
 
@@ -16,7 +16,7 @@ AI エージェントは `AGENTS.md`（Claude Code は `CLAUDE.md`）を読ん�
 スキルを自分のプロジェクトに取り込むコマンド:
 
 ```bash
-npx rulesync fetch atsuki-seo/kosen-mcc --skills mcc-lookup
+npx rulesync fetch atsuki-seo/Kosen-MCC --skills mcc-lookup
 ```
 
 人が読む場合は `build/by-field/` の分野ごとの Markdown を開いてください。

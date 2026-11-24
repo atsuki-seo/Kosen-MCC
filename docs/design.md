@@ -1,4 +1,4 @@
-# kosen-mcc 設計
+# Kosen-MCC 設計
 
 このリポジトリの設計と、その決定の理由を記録する。実装の手順と完了条件は `docs/plan.md` に書く。
 
@@ -339,7 +339,7 @@ hooks と permissions は Claude Code にだけ効く。同じ検査（メール
 
 | 項目 | 決めたこと |
 | --- | --- |
-| リポジトリ | `atsuki-seo/kosen-mcc`（個人アカウント、公開） |
+| リポジトリ | `atsuki-seo/Kosen-MCC`（個人アカウント、公開） |
 | 既定ブランチ | `main` |
 | コミットの名前 | `atsuki-seo`（リポジトリ内の設定） |
 | コミットのメールアドレス | `146819854+atsuki-seo@users.noreply.github.com`（リポジトリ内の設定） |

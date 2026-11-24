@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/atsuki-seo/kosen-mcc/schema/extension.schema.json",
+  "$id": "https://github.com/atsuki-seo/Kosen-MCC/schema/extension.schema.json",
   "title": "付加情報のファイル",
   "description": "extensions/**/*.yaml（設計 5.7）。原本にない情報。正本への参照は ID だけにする",
   "type": "object",

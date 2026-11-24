@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/atsuki-seo/kosen-mcc/schema/nodes.schema.json",
+  "$id": "https://github.com/atsuki-seo/Kosen-MCC/schema/nodes.schema.json",
   "title": "ノード（大分類・分野・領域・学習内容・到達目標）のファイル",
   "description": "data/mcc2023/*.yaml と data/mcc2023/mccplus/*.yaml。設計 5.1〜5.3",
   "type": "object",

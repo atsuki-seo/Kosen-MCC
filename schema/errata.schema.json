@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/atsuki-seo/kosen-mcc/schema/errata.schema.json",
+  "$id": "https://github.com/atsuki-seo/Kosen-MCC/schema/errata.schema.json",
   "title": "原本の表記ゆれと誤記",
   "description": "data/mcc2023/errata.yaml。正本の原文は直さず、ここに記録する（設計 5.5）",
   "type": "object",

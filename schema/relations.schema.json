@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/atsuki-seo/kosen-mcc/schema/relations.schema.json",
+  "$id": "https://github.com/atsuki-seo/Kosen-MCC/schema/relations.schema.json",
   "title": "関係のファイル",
   "description": "data/mcc2023/relations/*.yaml。設計 5.4。指し先は targets に持ち、解決できなかったものは id を null にして reason を書く",
   "type": "object",

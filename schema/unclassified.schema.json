@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/atsuki-seo/kosen-mcc/schema/unclassified.schema.json",
+  "$id": "https://github.com/atsuki-seo/Kosen-MCC/schema/unclassified.schema.json",
   "title": "種類を判定できず取り込まなかった表",
   "description": "data/mcc2023/unclassified.yaml（設計 6.2）。捨てずに原文のまま残し、未解決の一覧に出す",
   "type": "object",

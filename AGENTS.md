@@ -18,7 +18,7 @@ rules[4]:
 
 As this project's AI coding tool, you must follow the additional conventions below, in addition to the built-in functions.
 
-# kosen-mcc
+# Kosen-MCC
 
 国立高等専門学校機構「モデルコアカリキュラム」（令和 5 年 4 月 28 日版、以下「原本」）を、AI エージェントが参照しやすい形式で転記したリポジトリ。知識の取り出しと確認のための SSOT（唯一の参照元）として使う。設計と決定の理由は `docs/design.md` にある。
 
