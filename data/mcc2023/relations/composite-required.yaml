@@ -1,0 +1,4138 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: relations
+  file: relations/composite-required
+relations:
+- id: mcc2023:rel:composite:1-001
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-1 設計製図
+    id: mcc2023:V-A-1
+    method: code+name
+  text: 図面の役割、線の種類と用途、物体の投影図の描き方、図面の作成に使用する用具を理解し、利用できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 図面の役割、線の種類と用途、物体の投影図の描き方、図面の作成に使用する用具を理解し、利用できる。
+    id: null
+    reason: mcc2023:V-A-1 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-002
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-1 設計製図
+    id: mcc2023:V-A-1
+    method: code+name
+  text: 図形の表し方、寸法・公差・表面性状の指示、部品のスケッチの仕方を理解し、製作図を作成できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 図形の表し方、寸法・公差・表面性状の指示、部品のスケッチの仕方を理解し、製作図を作成できる。
+    id: mcc2023:V-A-1:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-003
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-1 設計製図
+    id: mcc2023:V-A-1
+    method: code+name
+  text: 機械要素の製図の規格を理解し、図面を作成できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 機械要素の製図の規格を理解し、図面を作成できる。
+    id: mcc2023:V-A-1:01.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-004
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-2 機械設計
+    id: mcc2023:V-A-2
+    method: code+name
+  text: 標準規格の意義を説明でき、機械設計に適用できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 標準規格の意義を説明でき、機械設計に適用できる。
+    id: null
+    reason: mcc2023:V-A-2 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-005
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-2 機械設計
+    id: mcc2023:V-A-2
+    method: code+name
+  text: 機械設計に関する基礎用語を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 機械設計に関する基礎用語を説明できる。
+    id: mcc2023:V-A-2:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-006
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-2 機械設計
+    id: mcc2023:V-A-2
+    method: code+name
+  text: ねじ、ボルト・ナットの種類、用途、規格、設計を理解し、適用及び計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: ねじ、ボルト・ナットの種類、用途、規格、設計を理解し、適用及び計算できる。
+    id: null
+    reason: mcc2023:V-A-2 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-007
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 力の合成と分解をすることができる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 力の合成と分解をすることができる。
+    id: mcc2023:V-A-3:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-008
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 力のモーメント、偶力の意味を理解し、それらを計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 力のモーメント、偶力の意味を理解し、それらを計算できる。
+    id: mcc2023:V-A-3:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-009
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 一点に作用する力のつりあい条件、着力点が異なる力のつりあい条件を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 一点に作用する力のつりあい条件、着力点が異なる力のつりあい条件を説明できる。
+    id: mcc2023:V-A-3:01.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-010
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 重心の意味を理解し、簡単な図形の重心位置を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 重心の意味を理解し、簡単な図形の重心位置を計算できる。
+    id: mcc2023:V-A-3:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-011
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 速度と加速度の意味を理解し、時間と変位・速度の関係を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 速度と加速度の意味を理解し、時間と変位・速度の関係を説明できる。
+    id: mcc2023:V-A-3:03.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-012
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 運動の三法則を説明でき、力、質量及び加速度の関係を運動方程式で表すことができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 運動の三法則を説明でき、力、質量及び加速度の関係を運動方程式で表すことができる。
+    id: mcc2023:V-A-3:04.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-013
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 回転運動において、周速度、角速度、回転速度、向心加速度、向心力、遠心力の意味を理解し、それらを計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 回転運動において、周速度、角速度、回転速度、向心加速度、向心力、遠心力の意味を理解し、それらを計算できる。
+    id: mcc2023:V-A-3:05.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-014
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 仕事、動力の意味を理解し、それらを計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 仕事、動力の意味を理解し、それらを計算できる。
+    id: mcc2023:V-A-3:06.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-015
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: エネルギーの意味と種類、エネルギー保存の法則を理解し、力学的エネルギーを計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: エネルギーの意味と種類、エネルギー保存の法則を理解し、力学的エネルギーを計算できる。
+    id: mcc2023:V-A-3:06.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-016
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 運動量及び運動量保存の法則を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 運動量及び運動量保存の法則を説明できる。
+    id: mcc2023:V-A-3:07.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-017
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: すべり摩擦の意味を理解し、摩擦力と摩擦係数の関係を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: すべり摩擦の意味を理解し、摩擦力と摩擦係数の関係を説明できる。
+    id: mcc2023:V-A-3:08.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-018
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 剛体の回転運動を運動方程式で表すことができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 剛体の回転運動を運動方程式で表すことができる。
+    id: mcc2023:V-A-3:09.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-019
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 簡単な形状の慣性モーメントを計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 簡単な形状の慣性モーメントを計算できる。
+    id: mcc2023:V-A-3:09.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-020
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 材料に荷重が作用した時の応力とひずみを計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 材料に荷重が作用した時の応力とひずみを計算できる。
+    id: mcc2023:V-A-3:10.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-021
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 応力とひずみの関係を理解し、弾性係数や安全率を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 応力とひずみの関係を理解し、弾性係数や安全率を計算できる。
+    id: mcc2023:V-A-3:10.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-022
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 引張荷重や圧縮荷重が作用する棒の応力や変形を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 引張荷重や圧縮荷重が作用する棒の応力や変形を計算できる。
+    id: mcc2023:V-A-3:11.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-023
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-3 力学
+    id: mcc2023:V-A-3
+    method: code+name
+  text: 各種のはりについて、はりの任意位置におけるせん断力及び曲げモーメントを計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 各種のはりについて、はりの任意位置におけるせん断力及び曲げモーメントを計算できる。
+    id: mcc2023:V-A-3:13.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-024
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-4 熱流体
+    id: mcc2023:V-A-4
+    method: code+name
+  text: 流体の性質を表す各種物性値について理解し、流体の分類について説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 流体の性質を表す各種物性値について理解し、流体の分類について説明できる。
+    id: mcc2023:V-A-4:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-025
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-4 熱流体
+    id: mcc2023:V-A-4
+    method: code+name
+  text: 圧力の表示方法や静止流体の圧力分布について理解し、流体の圧力を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 圧力の表示方法や静止流体の圧力分布について理解し、流体の圧力を計算できる。
+    id: mcc2023:V-A-4:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-026
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-4 熱流体
+    id: mcc2023:V-A-4
+    method: code+name
+  text: 流体の流れの速度、流れる量、流れ状態について理解し、流体における質量保存則やエネルギー保存則を適用できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 流体の流れの速度、流れる量、流れ状態について理解し、流体における質量保存則やエネルギー保存則を適用できる。
+    id: mcc2023:V-A-4:03.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-027
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-4 熱流体
+    id: mcc2023:V-A-4
+    method: code+name
+  text: 熱力学の基本となる物理量や対象とする各種の系について理解し、熱力学的性質について説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 熱力学の基本となる物理量や対象とする各種の系について理解し、熱力学的性質について説明できる。
+    id: mcc2023:V-A-4:06.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-028
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-4 熱流体
+    id: mcc2023:V-A-4
+    method: code+name
+  text: 熱力学の第一法則を理解し、各種の系について、エネルギー式を適用でき、線図を用いて各種の系の仕事について説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 熱力学の第一法則を理解し、各種の系について、エネルギー式を適用でき、線図を用いて各種の系の仕事について説明できる。
+    id: mcc2023:V-A-4:07.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 135
+    page_printed: 121
+  verification: machine
+- id: mcc2023:rel:composite:1-029
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-7 計測制御
+    id: mcc2023:V-A-7
+    method: code+name
+  text: 測定値の誤差、精度、不確かさ及び単位系などの計測の基礎を理解し、代表的な物理量の計測方法と計測機器を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 測定値の誤差、精度、不確かさ及び単位系などの計測の基礎を理解し、代表的な物理量の計測方法と計測機器を説明できる。
+    id: mcc2023:V-A-7:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:composite:1-030
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅴ-A-7 計測制御
+    id: mcc2023:V-A-7
+    method: code+name
+  text: 自動制御を理解し、制御系の基本構成を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 自動制御を理解し、制御系の基本構成を説明できる。
+    id: mcc2023:V-A-7:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:1-031
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅵ-A 機械系(実験・実習能力)
+    id: null
+    reason: コード VI-A の名称は「機械系分野」で、参照の名称「機械系」と食い違う
+  text: 各種計測機器の使い方を理解し、計測できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 各種計測機器の使い方を理解し、計測できる。
+    id: null
+    reason: 同じ文の到達目標が 2 件ある
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:1-032
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅵ-A 機械系(実験・実習能力)
+    id: null
+    reason: コード VI-A の名称は「機械系分野」で、参照の名称「機械系」と食い違う
+  text: 旋盤、フライス盤、ボール盤の基本操作を習得し、切削作業ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 旋盤、フライス盤、ボール盤の基本操作を習得し、切削作業ができる。
+    id: null
+    reason: 同じ文の到達目標が 2 件ある
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:1-033
+  type: composite-required
+  section: 機械系分野
+  area:
+    raw: Ⅵ-A 機械系(実験・実習能力)
+    id: null
+    reason: コード VI-A の名称は「機械系分野」で、参照の名称「機械系」と食い違う
+  text: 機械工学に関する実験を行い、実験の準備、実験装置の操作、実験結果の整理と考察ができる。
+  consideration: 機械工学に関する実験を 2 テーマ以上行うこと
+  consideration_shared: false
+  targets:
+  - raw: 機械工学に関する実験を行い、実験の準備、実験装置の操作、実験結果の整理と考察ができる。
+    id: mcc2023:VI-A:06.01
+    method: text-exact
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-001
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-1 材料物性
+    id: mcc2023:V-B-1
+    method: code+name
+  text: 原子の結合の種類及び結合力や物質の例など特徴について説明できる。
+  consideration: 原子の構造、結合様式、単位格子については、化学の学習内容に含めてもよい。
+  consideration_shared: false
+  targets:
+  - raw: 原子の結合の種類及び結合力や物質の例など特徴について説明できる。
+    id: mcc2023:V-B-1:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-002
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-1 材料物性
+    id: mcc2023:V-B-1
+    method: code+name
+  text: ミラー指数を用いて格子方位と格子面を記述できる。
+  consideration: 原子の構造、結合様式、単位格子については、化学の学習内容に含めてもよい。
+  consideration_shared: true
+  targets:
+  - raw: ミラー指数を用いて格子方位と格子面を記述できる。
+    id: mcc2023:V-B-1:03.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-003
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-1 材料物性
+    id: mcc2023:V-B-1
+    method: code+name
+  text: X線回折法を用いて結晶構造の解析に応用できる。
+  consideration: 原子の構造、結合様式、単位格子については、化学の学習内容に含めてもよい。
+  consideration_shared: true
+  targets:
+  - raw: X線回折法を用いて結晶構造の解析に応用できる。
+    id: mcc2023:V-B-1:03.04
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-004
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-1 材料物性
+    id: mcc2023:V-B-1
+    method: code+name
+  text: 真性半導体の伝導機構について説明できる。
+  consideration: 原子の構造、結合様式、単位格子については、化学の学習内容に含めてもよい。
+  consideration_shared: true
+  targets:
+  - raw: 真性半導体の伝導機構について説明できる。
+    id: mcc2023:V-B-1:05.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-005
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-1 材料物性
+    id: mcc2023:V-B-1
+    method: code+name
+  text: 不純物半導体のエネルギーバンドと不純物準位を描き、伝導機構について説明できる。
+  consideration: 原子の構造、結合様式、単位格子については、化学の学習内容に含めてもよい。
+  consideration_shared: true
+  targets:
+  - raw: 不純物半導体のエネルギーバンドと不純物準位を描き、伝導機構について説明できる。
+    id: mcc2023:V-B-1:05.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-006
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-2 材料組織
+    id: mcc2023:V-B-2
+    method: code+name
+  text: 格子欠陥の種類と特徴を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 格子欠陥の種類と特徴を説明できる。
+    id: mcc2023:V-B-2:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-007
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-2 材料組織
+    id: mcc2023:V-B-2
+    method: code+name
+  text: 格子欠陥と金属材料の強化機構との関係を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 格子欠陥と金属材料の強化機構との関係を説明できる。
+    id: mcc2023:V-B-2:05.04
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-008
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-2 材料組織
+    id: mcc2023:V-B-2
+    method: code+name
+  text: Gibbsの相律から自由度を求めて系の自由度を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: Gibbsの相律から自由度を求めて系の自由度を説明できる。
+    id: mcc2023:V-B-2:02.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-009
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-2 材料組織
+    id: mcc2023:V-B-2
+    method: code+name
+  text: 二元系平衡状態図上で、てこの原理を用いて、各相の割合を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 二元系平衡状態図上で、てこの原理を用いて、各相の割合を計算できる。
+    id: mcc2023:V-B-2:04.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-010
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-2 材料組織
+    id: mcc2023:V-B-2
+    method: code+name
+  text: 二成分系状態図を用いて、共晶、共析、包晶組織の形成過程について説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 二成分系状態図を用いて、共晶、共析、包晶組織の形成過程について説明できる。
+    id: mcc2023:V-B-2:04.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-011
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-2 材料組織
+    id: mcc2023:V-B-2
+    method: code+name
+  text: 加工組織の回復、再結晶、結晶粒の成長過程と諸特性の変化を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 加工組織の回復、再結晶、結晶粒の成長過程と諸特性の変化を説明できる。
+    id: mcc2023:V-B-2:07.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-012
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-2 材料組織
+    id: mcc2023:V-B-2
+    method: code+name
+  text: Gibbsエネルギーの変化を利用して、相変態について説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: Gibbsエネルギーの変化を利用して、相変態について説明できる。
+    id: mcc2023:V-B-2:08.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-013
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-2 材料組織
+    id: mcc2023:V-B-2
+    method: code+name
+  text: 拡散係数の物理的意味を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 拡散係数の物理的意味を説明できる。
+    id: mcc2023:V-B-2:06.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-014
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-3 物理化学
+    id: mcc2023:V-B-3
+    method: code+name
+  text: 熱力学第一法則と内部エネルギーの概念を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 熱力学第一法則と内部エネルギーの概念を説明できる。
+    id: mcc2023:V-B-3:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-015
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-3 物理化学
+    id: mcc2023:V-B-3
+    method: code+name
+  text: 内部エネルギー、熱、仕事の符号の規則を説明でき、膨張の仕事を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 内部エネルギー、熱、仕事の符号の規則を説明でき、膨張の仕事を計算できる。
+    id: mcc2023:V-B-3:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-016
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-3 物理化学
+    id: mcc2023:V-B-3
+    method: code+name
+  text: エンタルピーの定義及びエンタルピーが状態量であることを説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: エンタルピーの定義及びエンタルピーが状態量であることを説明できる。
+    id: mcc2023:V-B-3:01.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-017
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-3 物理化学
+    id: mcc2023:V-B-3
+    method: code+name
+  text: 標準生成エンタルピーの物理的意味を理解し、反応エンタルピーを計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 標準生成エンタルピーの物理的意味を理解し、反応エンタルピーを計算できる。
+    id: mcc2023:V-B-3:01.05
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-018
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-3 物理化学
+    id: mcc2023:V-B-3
+    method: code+name
+  text: エントロピーの定義を理解し、不可逆過程におけるエントロピー生成について説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: エントロピーの定義を理解し、不可逆過程におけるエントロピー生成について説明できる。
+    id: mcc2023:V-B-3:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-019
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-3 物理化学
+    id: mcc2023:V-B-3
+    method: code+name
+  text: Gibbsエネルギー変化から相平衡、化学平衡の計算ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: Gibbsエネルギー変化から相平衡、化学平衡の計算ができる。
+    id: null
+    reason: mcc2023:V-B-3 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-020
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-4 力学
+    id: mcc2023:V-B-4
+    method: code+name
+  text: 材料に荷重が作用した時の応力とひずみを計算できる。
+  consideration: これらについては、基本問題に限ってよい。
+  consideration_shared: false
+  targets:
+  - raw: 材料に荷重が作用した時の応力とひずみを計算できる。
+    id: mcc2023:V-B-4:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-021
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-4 力学
+    id: mcc2023:V-B-4
+    method: code+name
+  text: 各種のはりについて、はりの任意の位置におけるせん断力及び曲げモーメントを計算できる。
+  consideration: これらについては、基本問題に限ってよい。
+  consideration_shared: true
+  targets:
+  - raw: 各種のはりについて、はりの任意の位置におけるせん断力及び曲げモーメントを計算できる。
+    id: mcc2023:V-B-4:03.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-022
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-4 力学
+    id: mcc2023:V-B-4
+    method: code+name
+  text: 各種断面の図心及び断面二次モーメントを理解し、曲げモーメントが作用するはりに生じる曲げ応力を計算できる。
+  consideration: これらについては、基本問題に限ってよい。
+  consideration_shared: true
+  targets:
+  - raw: 各種断面の図心及び断面二次モーメントを理解し、曲げモーメントが作用するはりに生じる曲げ応力を計算できる。
+    id: mcc2023:V-B-4:03.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-023
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-4 力学
+    id: mcc2023:V-B-4
+    method: code+name
+  text: ねじりモーメントが作用する軸に生じるせん断ひずみ、せん断応力及びねじれ角を計算できる。
+  consideration: これらについては、基本問題に限ってよい。
+  consideration_shared: true
+  targets:
+  - raw: ねじりモーメントが作用する軸に生じるせん断ひずみ、せん断応力及びねじれ角を計算できる。
+    id: mcc2023:V-B-4:04.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 136
+    page_printed: 122
+  verification: machine
+- id: mcc2023:rel:composite:2-024
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-5 環境
+    id: mcc2023:V-B-5
+    method: code+name
+  text: 公害と人の健康、環境と人の健康、それぞれの関わりを説明できる。
+  consideration: これらについては、Ⅳ-B 技術者倫理の学習内容に含めてよい。
+  consideration_shared: false
+  targets:
+  - raw: 公害と人の健康、環境と人の健康、それぞれの関わりを説明できる。
+    id: mcc2023:V-B-5:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:composite:2-025
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-5 環境
+    id: mcc2023:V-B-5
+    method: code+name
+  text: 地球規模の環境問題を説明できる。
+  consideration: これらについては、Ⅳ-B 技術者倫理の学習内容に含めてよい。
+  consideration_shared: true
+  targets:
+  - raw: 地球規模の環境問題を説明できる。
+    id: mcc2023:V-B-5:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-026
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-5 環境
+    id: mcc2023:V-B-5
+    method: code+name
+  text: エネルギー資源問題について説明できる。
+  consideration: これらについては、Ⅳ-B 技術者倫理の学習内容に含めてよい。
+  consideration_shared: true
+  targets:
+  - raw: エネルギー資源問題について説明できる。
+    id: mcc2023:V-B-5:03.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-027
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-5 環境
+    id: mcc2023:V-B-5
+    method: code+name
+  text: 廃棄物処理の目的と資源化について説明できる。
+  consideration: これらについては、Ⅳ-B 技術者倫理の学習内容に含めてよい。
+  consideration_shared: true
+  targets:
+  - raw: 廃棄物処理の目的と資源化について説明できる。
+    id: mcc2023:V-B-5:04.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-028
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-6 金属材料
+    id: mcc2023:V-B-6
+    method: code+name
+  text: 製銑及び製鋼工程を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 製銑及び製鋼工程を説明できる。
+    id: mcc2023:V-B-6:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-029
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-6 金属材料
+    id: mcc2023:V-B-6
+    method: code+name
+  text: 炭素鋼の状態図を用いて標準組織及び機械的性質を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 炭素鋼の状態図を用いて標準組織及び機械的性質を説明できる。
+    id: mcc2023:V-B-6:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-030
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-6 金属材料
+    id: mcc2023:V-B-6
+    method: code+name
+  text: 炭素鋼の熱処理の目的を理解し、各熱処理の操作及び得られる組織の特徴を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 炭素鋼の熱処理の目的を理解し、各熱処理の操作及び得られる組織の特徴を説明できる。
+    id: mcc2023:V-B-6:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-031
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-6 金属材料
+    id: mcc2023:V-B-6
+    method: code+name
+  text: 合金鋼の状態図及び組織の特徴を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 合金鋼の状態図及び組織の特徴を説明できる。
+    id: mcc2023:V-B-6:03.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-032
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-6 金属材料
+    id: mcc2023:V-B-6
+    method: code+name
+  text: 合金鋼の種類、特徴、代表的な用途を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 合金鋼の種類、特徴、代表的な用途を説明できる。
+    id: mcc2023:V-B-6:03.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-033
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-6 金属材料
+    id: mcc2023:V-B-6
+    method: code+name
+  text: 純アルミニウム、鋳造用・展伸用アルミニウムの強度的特徴、物理的・化学的性質について説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 純アルミニウム、鋳造用・展伸用アルミニウムの強度的特徴、物理的・化学的性質について説明できる。
+    id: mcc2023:V-B-6:06.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-034
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-7 無機材料
+    id: mcc2023:V-B-7
+    method: code+name
+  text: 代表的な非金属元素の単体と化合物の性質を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 代表的な非金属元素の単体と化合物の性質を説明できる。
+    id: mcc2023:V-B-7:06.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-035
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-7 無機材料
+    id: mcc2023:V-B-7
+    method: code+name
+  text: 代表的な金属元素の単体と化合物の性質を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 代表的な金属元素の単体と化合物の性質を説明できる。
+    id: mcc2023:V-B-7:06.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-036
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-7 無機材料
+    id: mcc2023:V-B-7
+    method: code+name
+  text: セラミックス、炭素材料、無機系複合材料等、無機材料の用途・製法・構造等について説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: セラミックス、炭素材料、無機系複合材料等、無機材料の用途・製法・構造等について説明できる。
+    id: mcc2023:V-B-7:07.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-037
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-7 無機材料
+    id: mcc2023:V-B-7
+    method: code+name
+  text: 単結晶化、焼結、薄膜化、微粒子化、多孔質化などに必要な材料合成法について説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 単結晶化、焼結、薄膜化、微粒子化、多孔質化などに必要な材料合成法について説明できる。
+    id: mcc2023:V-B-7:07.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-038
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-7 無機材料
+    id: mcc2023:V-B-7
+    method: code+name
+  text: パウリの排他原理、軌道のエネルギー準位、フントの規則から電子の配置を示すことができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: パウリの排他原理、軌道のエネルギー準位、フントの規則から電子の配置を示すことができる。
+    id: mcc2023:V-B-7:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-039
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-8 有機材料
+    id: mcc2023:V-B-8
+    method: code+name
+  text: 有機化合物のルイス構造を理解し、混成軌道を用いて分子の結合状態、形、極性及び反応を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 有機化合物のルイス構造を理解し、混成軌道を用いて分子の結合状態、形、極性及び反応を説明できる。
+    id: mcc2023:V-B-8:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-040
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-8 有機材料
+    id: mcc2023:V-B-8
+    method: code+name
+  text: 有機化合物が炭素骨格を持つ化合物であることを説明でき、IUPAC命名法に基づいてそれらの構造と名前を変換できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 有機化合物が炭素骨格を持つ化合物であることを説明でき、IUPAC命名法に基づいてそれらの構造と名前を変換できる。
+    id: mcc2023:V-B-8:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-041
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-8 有機材料
+    id: mcc2023:V-B-8
+    method: code+name
+  text: 代表的な高分子化合物の種類と構造、また、構造の違いによる諸性質について説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 代表的な高分子化合物の種類と構造、また、構造の違いによる諸性質について説明できる。
+    id: mcc2023:V-B-8:06.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-042
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-8 有機材料
+    id: mcc2023:V-B-8
+    method: code+name
+  text: 重縮合、付加重合、重付加、開環重合などの高分子合成反応の特徴を理解し、扱う高分子がどのような重合反応により生成されるか説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 重縮合、付加重合、重付加、開環重合などの高分子合成反応の特徴を理解し、扱う高分子がどのような重合反応により生成されるか説明できる。
+    id: mcc2023:V-B-8:07.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-043
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-8 有機材料
+    id: mcc2023:V-B-8
+    method: code+name
+  text: 高分子系複合材料の用途・製法・構造等について説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 高分子系複合材料の用途・製法・構造等について説明できる。
+    id: mcc2023:V-B-8:08.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-044
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-9 設計・加工
+    id: mcc2023:V-B-9
+    method: code+name
+  text: 図面の役割、線の種類と用途、物体の投影図の描き方、図面の作成用具の役割を理解し、活用できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 図面の役割、線の種類と用途、物体の投影図の描き方、図面の作成用具の役割を理解し、活用できる。
+    id: mcc2023:V-B-9:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-045
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: V-B-9 設計・加工
+    id: mcc2023:V-B-9
+    method: code+name
+  text: 製作図の描き方、寸法・公差・表面性状の指示、部品のスケッチの仕方を理解し、製作図を作成できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 製作図の描き方、寸法・公差・表面性状の指示、部品のスケッチの仕方を理解し、製作図を作成できる。
+    id: mcc2023:V-B-9:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-046
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: Ⅵ-B 材料系(実験・実習能力)
+    id: null
+    reason: コード VI-B の名称は「材料系分野」で、参照の名称「材料系」と食い違う
+  text: 旋盤、フライス盤、ボール盤の基本操作を習得し、切削作業ができる。
+  consideration: 材料系の基本的な実験を行うための基本知識を修得すること。実験を安全に行うための基本知識は、Ⅳ-A 工学実験技術の学習内容に含めてよい。
+  consideration_shared: false
+  targets:
+  - raw: 旋盤、フライス盤、ボール盤の基本操作を習得し、切削作業ができる。
+    id: null
+    reason: 同じ文の到達目標が 2 件ある
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-047
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: Ⅵ-B 材料系(実験・実習能力)
+    id: null
+    reason: コード VI-B の名称は「材料系分野」で、参照の名称「材料系」と食い違う
+  text: 光学顕微鏡や電子顕微鏡などで材料を観察し、組織について評価できる。
+  consideration: 材料系の基本的な実験を行うための基本知識を修得すること。実験を安全に行うための基本知識は、Ⅳ-A 工学実験技術の学習内容に含めてよい。
+  consideration_shared: true
+  targets:
+  - raw: 光学顕微鏡や電子顕微鏡などで材料を観察し、組織について評価できる。
+    id: mcc2023:VI-B:04.03
+    method: text-exact
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-048
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: Ⅵ-B 材料系(実験・実習能力)
+    id: null
+    reason: コード VI-B の名称は「材料系分野」で、参照の名称「材料系」と食い違う
+  text: 硬さ試験機や万能試験機などを用いて、材料の強度特性を評価できる。
+  consideration: 材料系の基本的な実験を行うための基本知識を修得すること。実験を安全に行うための基本知識は、Ⅳ-A 工学実験技術の学習内容に含めてよい。
+  consideration_shared: true
+  targets:
+  - raw: 硬さ試験機や万能試験機などを用いて、材料の強度特性を評価できる。
+    id: mcc2023:VI-B:04.04
+    method: text-exact
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:2-049
+  type: composite-required
+  section: 材料系分野
+  area:
+    raw: Ⅵ-B 材料系(実験・実習能力)
+    id: null
+    reason: コード VI-B の名称は「材料系分野」で、参照の名称「材料系」と食い違う
+  text: 分析機器を用いて、成分などを定量的に評価できる。
+  consideration: 材料系の基本的な実験を行うための基本知識を修得すること。実験を安全に行うための基本知識は、Ⅳ-A 工学実験技術の学習内容に含めてよい。
+  consideration_shared: true
+  targets:
+  - raw: 分析機器を用いて、成分などを定量的に評価できる。
+    id: mcc2023:VI-B:04.05
+    method: text-exact
+  source:
+    page_pdf: 137
+    page_printed: 123
+  verification: machine
+- id: mcc2023:rel:composite:3-001
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-1 電気回路
+    id: mcc2023:V-C-1
+    method: code+name
+  text: 電荷と電流、電圧、電力の関係を理解し、回路の計算に用いることができる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 電荷と電流、電圧、電力の関係を理解し、回路の計算に用いることができる。
+    id: mcc2023:V-C-1:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-002
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-1 電気回路
+    id: mcc2023:V-C-1
+    method: code+name
+  text: 合成抵抗や分圧・分流の考え方を用いて、回路の計算ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 合成抵抗や分圧・分流の考え方を用いて、回路の計算ができる。
+    id: mcc2023:V-C-1:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-003
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-1 電気回路
+    id: mcc2023:V-C-1
+    method: code+name
+  text: キルヒホッフの法則や重ねの理等の定理を理解し、回路の電圧や電流、電力を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: キルヒホッフの法則や重ねの理等の定理を理解し、回路の電圧や電流、電力を計算できる。
+    id: mcc2023:V-C-1:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-004
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-1 電気回路
+    id: mcc2023:V-C-1
+    method: code+name
+  text: 瞬時値を理解し、抵抗、インダクタンス、キャパシタンス回路の計算に用いることができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 瞬時値を理解し、抵抗、インダクタンス、キャパシタンス回路の計算に用いることができる。
+    id: mcc2023:V-C-1:03.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-005
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-1 電気回路
+    id: mcc2023:V-C-1
+    method: code+name
+  text: フェーザ、複素数表示を理解し、これらを正弦波交流回路の計算に用いることができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: フェーザ、複素数表示を理解し、これらを正弦波交流回路の計算に用いることができる。
+    id: mcc2023:V-C-1:03.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-006
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-1 電気回路
+    id: mcc2023:V-C-1
+    method: code+name
+  text: インピーダンスとアドミタンスを説明し、これらを計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: インピーダンスとアドミタンスを説明し、これらを計算できる。
+    id: mcc2023:V-C-1:03.04
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-007
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-2 電磁気
+    id: mcc2023:V-C-2
+    method: code+name
+  text: 電荷及びクーロンの法則を説明でき、点電荷に働く力等を計算できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 電荷及びクーロンの法則を説明でき、点電荷に働く力等を計算できる。
+    id: mcc2023:V-C-2:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-008
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-2 電磁気
+    id: mcc2023:V-C-2
+    method: code+name
+  text: 電界、電位、電気力線、電束を説明でき、これらを用いた計算ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 電界、電位、電気力線、電束を説明でき、これらを用いた計算ができる。
+    id: mcc2023:V-C-2:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-009
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-2 電磁気
+    id: mcc2023:V-C-2
+    method: code+name
+  text: ガウスの法則を説明でき、電界の計算に用いることができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: ガウスの法則を説明でき、電界の計算に用いることができる。
+    id: mcc2023:V-C-2:01.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-010
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-2 電磁気
+    id: mcc2023:V-C-2
+    method: code+name
+  text: 静電容量を説明でき、平行平板コンデンサ等の静電容量を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 静電容量を説明でき、平行平板コンデンサ等の静電容量を計算できる。
+    id: mcc2023:V-C-2:03.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-011
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-2 電磁気
+    id: mcc2023:V-C-2
+    method: code+name
+  text: コンデンサの直列接続、並列接続を説明し、その合成静電容量を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: コンデンサの直列接続、並列接続を説明し、その合成静電容量を計算できる。
+    id: mcc2023:V-C-2:03.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-012
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-2 電磁気
+    id: mcc2023:V-C-2
+    method: code+name
+  text: 電流が作る磁界をアンペールの法則を用いて計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 電流が作る磁界をアンペールの法則を用いて計算できる。
+    id: mcc2023:V-C-2:04.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-013
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-2 電磁気
+    id: mcc2023:V-C-2
+    method: code+name
+  text: 磁界中の電流に作用するローレンツ力を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 磁界中の電流に作用するローレンツ力を説明できる。
+    id: mcc2023:V-C-2:04.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-014
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-2 電磁気
+    id: mcc2023:V-C-2
+    method: code+name
+  text: 電磁誘導を説明でき、誘導起電力を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 電磁誘導を説明でき、誘導起電力を計算できる。
+    id: mcc2023:V-C-2:06.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-015
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-3 電子回路
+    id: mcc2023:V-C-3
+    method: code+name
+  text: ダイオードの特徴を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: ダイオードの特徴を説明できる。
+    id: mcc2023:V-C-3:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-016
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-3 電子回路
+    id: mcc2023:V-C-3
+    method: code+name
+  text: バイポーラトランジスタの特徴と等価回路を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: バイポーラトランジスタの特徴と等価回路を説明できる。
+    id: mcc2023:V-C-3:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-017
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-3 電子回路
+    id: mcc2023:V-C-3
+    method: code+name
+  text: 演算増幅器の特性を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 演算増幅器の特性を説明できる。
+    id: mcc2023:V-C-3:03.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-018
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-3 電子回路
+    id: mcc2023:V-C-3
+    method: code+name
+  text: 演算増幅器を用いた基本的な回路の動作を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 演算増幅器を用いた基本的な回路の動作を説明できる。
+    id: mcc2023:V-C-3:03.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-019
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-6 計測
+    id: mcc2023:V-C-6
+    method: code+name
+  text: SI単位系における基本単位と組立単位について説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: SI単位系における基本単位と組立単位について説明できる。
+    id: mcc2023:V-C-6:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-020
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-6 計測
+    id: mcc2023:V-C-6
+    method: code+name
+  text: 指示計器について、その動作原理を理解し、電圧・電流測定に使用する方法を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 指示計器について、その動作原理を理解し、電圧・電流測定に使用する方法を説明できる。
+    id: mcc2023:V-C-6:03.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-021
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: V-C-6 計測
+    id: mcc2023:V-C-6
+    method: code+name
+  text: オシロスコープの動作原理を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: オシロスコープの動作原理を説明できる。
+    id: mcc2023:V-C-6:06.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-022
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: Ⅵ-C 電気・電子系(実験・実習能力)
+    id: null
+    reason: コード VI-C の名称は「電気・電子系分野」で、参照の名称「電気・電子系」と食い違う
+  text: 実験装置・器具・情報機器等を利用して直流や交流の電気的特性を測定できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 実験装置・器具・情報機器等を利用して直流や交流の電気的特性を測定できる。
+    id: mcc2023:VI-C:01.01
+    method: text-exact
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-023
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: Ⅵ-C 電気・電子系(実験・実習能力)
+    id: null
+    reason: コード VI-C の名称は「電気・電子系分野」で、参照の名称「電気・電子系」と食い違う
+  text: 直流回路の電気諸量を測定し、結果を考察できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 直流回路の電気諸量を測定し、結果を考察できる。
+    id: mcc2023:VI-C:02.01
+    method: text-exact
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:3-024
+  type: composite-required
+  section: 電気・電子系分野
+  area:
+    raw: Ⅵ-C 電気・電子系(実験・実習能力)
+    id: null
+    reason: コード VI-C の名称は「電気・電子系分野」で、参照の名称「電気・電子系」と食い違う
+  text: 交流回路の電気諸量を測定し、結果を考察できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 交流回路の電気諸量を測定し、結果を考察できる。
+    id: mcc2023:VI-C:02.02
+    method: text-exact
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:4-001
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-1 プログラミング
+    id: mcc2023:V-D-1
+    method: code+name
+  text: プログラミングの基本的な構造を理解し、プログラムを記述できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: プログラミングの基本的な構造を理解し、プログラムを記述できる。
+    id: mcc2023:V-D-1:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:4-002
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-1 プログラミング
+    id: mcc2023:V-D-1
+    method: code+name
+  text: サブルーチンの概念を理解し、これらを含むプログラムを記述できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: サブルーチンの概念を理解し、これらを含むプログラムを記述できる。
+    id: mcc2023:V-D-1:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 138
+    page_printed: 124
+  verification: machine
+- id: mcc2023:rel:composite:4-003
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-1 プログラミング
+    id: mcc2023:V-D-1
+    method: code+name
+  text: 与えられた問題に対して、それを解決するためのソースプログラムを記述できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 与えられた問題に対して、それを解決するためのソースプログラムを記述できる。
+    id: mcc2023:V-D-1:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:composite:4-004
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-1 プログラミング
+    id: mcc2023:V-D-1
+    method: code+name
+  text: 与えられたソースプログラムを解析し、プログラムの動作を予測することができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 与えられたソースプログラムを解析し、プログラムの動作を予測することができる。
+    id: null
+    reason: mcc2023:V-D-1 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-005
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-1 プログラミング
+    id: mcc2023:V-D-1
+    method: code+name
+  text: ソフトウェア生成に必要なツールを使い、ソースプログラムを実行できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: ソフトウェア生成に必要なツールを使い、ソースプログラムを実行できる。
+    id: mcc2023:V-D-1:02.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-006
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-2 ソフトウェア
+    id: mcc2023:V-D-2
+    method: code+name
+  text: アルゴリズムの概念を理解し、与えられたアルゴリズムが問題を解決していく過程を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: アルゴリズムの概念を理解し、与えられたアルゴリズムが問題を解決していく過程を説明できる。
+    id: mcc2023:V-D-2:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-007
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-2 ソフトウェア
+    id: mcc2023:V-D-2
+    method: code+name
+  text: 計算量によってアルゴリズムを比較・評価できることを説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 計算量によってアルゴリズムを比較・評価できることを説明できる。
+    id: mcc2023:V-D-2:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-008
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-2 ソフトウェア
+    id: mcc2023:V-D-2
+    method: code+name
+  text: コンピュータ内部でデータを表現する方法（データ構造）にはバリエーションがあることを理解し、基本的なデータ構造の概念と操作を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: コンピュータ内部でデータを表現する方法（データ構造）にはバリエーションがあることを理解し、基本的なデータ構造の概念と操作を説明できる。
+    id: mcc2023:V-D-2:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-009
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-2 ソフトウェア
+    id: mcc2023:V-D-2
+    method: code+name
+  text: コンピュータ上での数値表現方法や計算方法により、誤差が発生することを説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: コンピュータ上での数値表現方法や計算方法により、誤差が発生することを説明できる。
+    id: mcc2023:V-D-2:03.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-010
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-3 計算機工学
+    id: mcc2023:V-D-3
+    method: code+name
+  text: 整数・小数を二進数、十進数、十六進数で表現でき、それぞれの間で相互に変換できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 整数・小数を二進数、十進数、十六進数で表現でき、それぞれの間で相互に変換できる。
+    id: mcc2023:V-D-3:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-011
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-3 計算機工学
+    id: mcc2023:V-D-3
+    method: code+name
+  text: 整数・小数をコンピュータのメモリ上でディジタル表現する方法を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 整数・小数をコンピュータのメモリ上でディジタル表現する方法を説明できる。
+    id: mcc2023:V-D-3:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-012
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-3 計算機工学
+    id: mcc2023:V-D-3
+    method: code+name
+  text: 基本的な論理演算を行うことができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 基本的な論理演算を行うことができる。
+    id: null
+    reason: mcc2023:V-D-3 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-013
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-3 計算機工学
+    id: mcc2023:V-D-3
+    method: code+name
+  text: 基本的な論理演算を組み合わせて、論理関数をブール代数の論理式として表現できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 基本的な論理演算を組み合わせて、論理関数をブール代数の論理式として表現できる。
+    id: mcc2023:V-D-3:02.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-014
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-3 計算機工学
+    id: mcc2023:V-D-3
+    method: code+name
+  text: コンピュータを構成する基本的な要素の役割を説明でき、各要素を実現する主要な技術を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: コンピュータを構成する基本的な要素の役割を説明でき、各要素を実現する主要な技術を説明できる。
+    id: mcc2023:V-D-3:05.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-015
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-4 コンピュータシステム
+    id: mcc2023:V-D-4
+    method: code+name
+  text: コンピュータシステムの処理形態について、それぞれの特徴と代表的な例を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: コンピュータシステムの処理形態について、それぞれの特徴と代表的な例を説明できる。
+    id: mcc2023:V-D-4:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-016
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-4 コンピュータシステム
+    id: mcc2023:V-D-4
+    method: code+name
+  text: ユーザの要求に従ってシステム設計を行うプロセスを説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: ユーザの要求に従ってシステム設計を行うプロセスを説明できる。
+    id: mcc2023:V-D-4:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-017
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-5 システムプログラム
+    id: mcc2023:V-D-5
+    method: code+name
+  text: コンピュータシステムにおけるオペレーティングシステムの位置づけを説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: コンピュータシステムにおけるオペレーティングシステムの位置づけを説明できる。
+    id: mcc2023:V-D-5:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-018
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-6 情報通信ネットワーク
+    id: mcc2023:V-D-6
+    method: code+name
+  text: プロトコルの概念を理解し、階層化の概念や利点を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: プロトコルの概念を理解し、階層化の概念や利点を説明できる。
+    id: mcc2023:V-D-6:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-019
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-6 情報通信ネットワーク
+    id: mcc2023:V-D-6
+    method: code+name
+  text: インターネット、ローカルエリアネットワーク等の概念を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: インターネット、ローカルエリアネットワーク等の概念を説明できる。
+    id: mcc2023:V-D-6:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-020
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: V-D-7 情報数学・情報理論
+    id: mcc2023:V-D-7
+    method: code+name
+  text: 集合に関する基本的な概念を理解し、集合演算を実行できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 集合に関する基本的な概念を理解し、集合演算を実行できる。
+    id: mcc2023:V-D-7:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-021
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: Ⅵ-D 情報系(実験・実習能力)
+    id: null
+    reason: コード VI-D の名称は「情報系分野」で、参照の名称「情報系」と食い違う
+  text: 与えられた問題に対してそれを解決するためのソースプログラムを、標準的な開発ツールや開発環境を利用して記述できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 与えられた問題に対してそれを解決するためのソースプログラムを、標準的な開発ツールや開発環境を利用して記述できる。
+    id: mcc2023:VI-D:01.01
+    method: text-exact
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:4-022
+  type: composite-required
+  section: 情報系分野
+  area:
+    raw: Ⅵ-D 情報系(実験・実習能力)
+    id: null
+    reason: コード VI-D の名称は「情報系分野」で、参照の名称「情報系」と食い違う
+  text: 標準的な方法を用いて、作成するプログラムの設計図を作成することができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 標準的な方法を用いて、作成するプログラムの設計図を作成することができる。
+    id: null
+    reason: 同じ文の到達目標がない
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:5-001
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-1 有機化学
+    id: mcc2023:V-E-1
+    method: code+name
+  text: 有機化合物に関して、IUPACの命名法を使い、構造と名前を結びつけることができる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 有機化合物に関して、IUPACの命名法を使い、構造と名前を結びつけることができる。
+    id: null
+    reason: mcc2023:V-E-1 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:5-002
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-1 有機化学
+    id: mcc2023:V-E-1
+    method: code+name
+  text: 代表的な官能基の性質を説明でき、その反応及び導入法を示すことができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 代表的な官能基の性質を説明でき、その反応及び導入法を示すことができる。
+    id: null
+    reason: mcc2023:V-E-1 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:5-003
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-1 有機化学
+    id: mcc2023:V-E-1
+    method: code+name
+  text: 代表的な高分子化合物の性質や合成法を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 代表的な高分子化合物の性質や合成法を説明できる。
+    id: null
+    reason: mcc2023:V-E-1 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:5-004
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-2 無機化学
+    id: mcc2023:V-E-2
+    method: code+name
+  text: 原子の構造、種類、性質について説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 原子の構造、種類、性質について説明できる。
+    id: null
+    reason: mcc2023:V-E-2 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 139
+    page_printed: 125
+  verification: machine
+- id: mcc2023:rel:composite:5-005
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-2 無機化学
+    id: mcc2023:V-E-2
+    method: code+name
+  text: 元素及び化合物の構造、結合状態、性質について説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 元素及び化合物の構造、結合状態、性質について説明できる。
+    id: null
+    reason: mcc2023:V-E-2 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:composite:5-006
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-3 分析化学
+    id: mcc2023:V-E-3
+    method: code+name
+  text: 物理量の表現方法としての単位計算ができる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 物理量の表現方法としての単位計算ができる。
+    id: null
+    reason: mcc2023:V-E-3 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-007
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-3 分析化学
+    id: mcc2023:V-E-3
+    method: code+name
+  text: 化学反応（沈殿形成、錯体形成、電離など）や物理現象による状態変化について説明でき、必要な定量計算ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 化学反応（沈殿形成、錯体形成、電離など）や物理現象による状態変化について説明でき、必要な定量計算ができる。
+    id: null
+    reason: mcc2023:V-E-3 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-008
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-3 分析化学
+    id: mcc2023:V-E-3
+    method: code+name
+  text: 標準的な機器分析の目的や特徴を理解し、分析対象に応じて選択できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 標準的な機器分析の目的や特徴を理解し、分析対象に応じて選択できる。
+    id: null
+    reason: mcc2023:V-E-3 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-009
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-4 物理化学
+    id: mcc2023:V-E-4
+    method: code+name
+  text: 気体の性質を理解し、関連する計算ができる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 気体の性質を理解し、関連する計算ができる。
+    id: null
+    reason: mcc2023:V-E-4 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-010
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-4 物理化学
+    id: mcc2023:V-E-4
+    method: code+name
+  text: 凝固点降下、沸点上昇、浸透圧等から溶質の分子量を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 凝固点降下、沸点上昇、浸透圧等から溶質の分子量を計算できる。
+    id: null
+    reason: mcc2023:V-E-4 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-011
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-4 物理化学
+    id: mcc2023:V-E-4
+    method: code+name
+  text: 熱力学の第一、第二、第三法則が説明でき、関連する計算ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 熱力学の第一、第二、第三法則が説明でき、関連する計算ができる。
+    id: null
+    reason: mcc2023:V-E-4 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-012
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-4 物理化学
+    id: mcc2023:V-E-4
+    method: code+name
+  text: 化学平衡が説明でき、関連する計算ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 化学平衡が説明でき、関連する計算ができる。
+    id: null
+    reason: mcc2023:V-E-4 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-013
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-4 物理化学
+    id: mcc2023:V-E-4
+    method: code+name
+  text: 反応速度が説明でき、関連する計算ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 反応速度が説明でき、関連する計算ができる。
+    id: null
+    reason: mcc2023:V-E-4 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-014
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-4 物理化学
+    id: mcc2023:V-E-4
+    method: code+name
+  text: 代表的な化学電池について説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 代表的な化学電池について説明できる。
+    id: null
+    reason: mcc2023:V-E-4 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-015
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-4 物理化学
+    id: mcc2023:V-E-4
+    method: code+name
+  text: 量子化学の意義を理解し、役割を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 量子化学の意義を理解し、役割を説明できる。
+    id: null
+    reason: mcc2023:V-E-4 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-016
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-5 化学工学
+    id: mcc2023:V-E-5
+    method: code+name
+  text: 化学工学量論(単位、物質収支等)、及び単位操作の基本的内容について理解し、各種の計算ができる。
+  consideration: 生物系学科において、必須としない。
+  consideration_shared: false
+  targets:
+  - raw: 化学工学量論(単位、物質収支等)、及び単位操作の基本的内容について理解し、各種の計算ができる。
+    id: null
+    reason: mcc2023:V-E-5 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-017
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-5 化学工学
+    id: mcc2023:V-E-5
+    method: code+name
+  text: 流体輸送や反応器など、化学プラントにおける基本的な装置や単位操作を理解するための基礎を説明できる。
+  consideration: 生物系学科において、必須としない。
+  consideration_shared: true
+  targets:
+  - raw: 流体輸送や反応器など、化学プラントにおける基本的な装置や単位操作を理解するための基礎を説明できる。
+    id: null
+    reason: mcc2023:V-E-5 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-018
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-6生物化学
+    id: mcc2023:V-E-6
+    method: code+name
+  text: 炭水化物、タンパク質、核酸、脂質について、生体内での機能と化学構造・性質を結びつけて説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 炭水化物、タンパク質、核酸、脂質について、生体内での機能と化学構造・性質を結びつけて説明できる。
+    id: null
+    reason: mcc2023:V-E-6 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-019
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-6生物化学
+    id: mcc2023:V-E-6
+    method: code+name
+  text: 酵素の役割・性質、生体内における役割を理解するとともに、酵素反応速度論を基にKmとVmaxを求めることができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 酵素の役割・性質、生体内における役割を理解するとともに、酵素反応速度論を基にKmとVmaxを求めることができる。
+    id: null
+    reason: mcc2023:V-E-6 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-020
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-6生物化学
+    id: mcc2023:V-E-6
+    method: code+name
+  text: 代謝における物質の変化とエネルギーの出入りを結びつけて説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 代謝における物質の変化とエネルギーの出入りを結びつけて説明できる。
+    id: null
+    reason: mcc2023:V-E-6 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-021
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-7 生物工学
+    id: mcc2023:V-E-7
+    method: code+name
+  text: 細胞小器官の種類と特徴を理解し、細胞の構造を説明できる。
+  consideration: 化学系学科において、必須としない。
+  consideration_shared: false
+  targets:
+  - raw: 細胞小器官の種類と特徴を理解し、細胞の構造を説明できる。
+    id: null
+    reason: mcc2023:V-E-7 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-022
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-7 生物工学
+    id: mcc2023:V-E-7
+    method: code+name
+  text: 生体の恒常性を維持するための仕組みを理解し、その応用技術について説明できる。
+  consideration: 化学系学科において、必須としない。
+  consideration_shared: true
+  targets:
+  - raw: 生体の恒常性を維持するための仕組みを理解し、その応用技術について説明できる。
+    id: null
+    reason: mcc2023:V-E-7 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-023
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-7 生物工学
+    id: mcc2023:V-E-7
+    method: code+name
+  text: 微生物の生育について理解し、培養方法について説明できる。
+  consideration: 化学系学科において、必須としない。
+  consideration_shared: true
+  targets:
+  - raw: 微生物の生育について理解し、培養方法について説明できる。
+    id: null
+    reason: mcc2023:V-E-7 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-024
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-7 生物工学
+    id: mcc2023:V-E-7
+    method: code+name
+  text: 微生物や動植物細胞等の利用方法について説明できる。
+  consideration: 化学系学科において、必須としない。
+  consideration_shared: true
+  targets:
+  - raw: 微生物や動植物細胞等の利用方法について説明できる。
+    id: null
+    reason: mcc2023:V-E-7 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-025
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: V-E-7 生物工学
+    id: mcc2023:V-E-7
+    method: code+name
+  text: 遺伝子工学技術の原理について理解し、その応用方法について説明できる。
+  consideration: 化学系学科において、必須としない。
+  consideration_shared: true
+  targets:
+  - raw: 遺伝子工学技術の原理について理解し、その応用方法について説明できる。
+    id: null
+    reason: mcc2023:V-E-7 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-026
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: Ⅵ-E 化学・生物系（実験・実習能力）
+    id: null
+    reason: コード VI-E の名称は「化学・生物系分野」で、参照の名称「化学・生物系」と食い違う
+  text: 実験内容を理解し、安全に配慮して実験ができる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 実験内容を理解し、安全に配慮して実験ができる。
+    id: null
+    reason: 同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-027
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: Ⅵ-E 化学・生物系（実験・実習能力）
+    id: null
+    reason: コード VI-E の名称は「化学・生物系分野」で、参照の名称「化学・生物系」と食い違う
+  text: 実験操作を理解し、適切なガラス器具等を用いて合成実験ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 実験操作を理解し、適切なガラス器具等を用いて合成実験ができる。
+    id: null
+    reason: 同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-028
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: Ⅵ-E 化学・生物系（実験・実習能力）
+    id: null
+    reason: コード VI-E の名称は「化学・生物系分野」で、参照の名称「化学・生物系」と食い違う
+  text: 微生物、生物試料、酵素の取扱方法を習得する。
+  consideration: 化学系学科において、必須としない。
+  consideration_shared: false
+  targets:
+  - raw: 微生物、生物試料、酵素の取扱方法を習得する。
+    id: null
+    reason: 同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:5-029
+  type: composite-required
+  section: 化学・生物系分野
+  area:
+    raw: Ⅵ-E 化学・生物系（実験・実習能力）
+    id: null
+    reason: コード VI-E の名称は「化学・生物系分野」で、参照の名称「化学・生物系」と食い違う
+  text: 実験装置の仕組みを理解し、取扱方法を習得するとともに得られたデータを解析できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 実験装置の仕組みを理解し、取扱方法を習得するとともに得られたデータを解析できる。
+    id: null
+    reason: 同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:6-001
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-1 測量
+    id: mcc2023:V-F-1
+    method: code+name
+  text: 角測量の方法を説明でき、測量結果から計算ができる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 角測量の方法を説明でき、測量結果から計算ができる。
+    id: null
+    reason: mcc2023:V-F-1 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:6-002
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-1 測量
+    id: mcc2023:V-F-1
+    method: code+name
+  text: 距離測量の方法を説明でき、測量結果から計算ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 距離測量の方法を説明でき、測量結果から計算ができる。
+    id: null
+    reason: mcc2023:V-F-1 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:6-003
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-1 測量
+    id: mcc2023:V-F-1
+    method: code+name
+  text: 水準測量の方法を説明でき、測量結果から計算ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 水準測量の方法を説明でき、測量結果から計算ができる。
+    id: null
+    reason: mcc2023:V-F-1 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 140
+    page_printed: 126
+  verification: machine
+- id: mcc2023:rel:composite:6-004
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: 材料に要求される力学的性質及び物理的性質に関する用語、定義を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 材料に要求される力学的性質及び物理的性質に関する用語、定義を説明できる。
+    id: mcc2023:V-F-2:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:composite:6-005
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: 鋼材の種類、形状を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 鋼材の種類、形状を説明できる。
+    id: mcc2023:V-F-2:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-006
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: 応力－ひずみ関係、降伏応力、引張強度、弾性係数に関する鋼材の力学的性質を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 応力－ひずみ関係、降伏応力、引張強度、弾性係数に関する鋼材の力学的性質を説明できる。
+    id: mcc2023:V-F-2:02.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-007
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: セメントの物理的性質、化学的性質を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: セメントの物理的性質、化学的性質を説明できる。
+    id: mcc2023:V-F-2:03.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-008
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: 各種セメントの特徴、用途を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 各種セメントの特徴、用途を説明できる。
+    id: mcc2023:V-F-2:03.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-009
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: 骨材の含水状態、密度、粒度、実積率を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 骨材の含水状態、密度、粒度、実積率を説明できる。
+    id: mcc2023:V-F-2:03.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-010
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: 骨材の種類、特徴を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 骨材の種類、特徴を説明できる。
+    id: mcc2023:V-F-2:03.04
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-011
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: 混和剤と混和材の種類、特徴を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 混和剤と混和材の種類、特徴を説明できる。
+    id: mcc2023:V-F-2:03.05
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-012
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: コンクリートの長所、短所を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: コンクリートの長所、短所を説明できる。
+    id: mcc2023:V-F-2:04.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-013
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: フレッシュコンクリートのワーカビリティー、スランプ、空気量を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: フレッシュコンクリートのワーカビリティー、スランプ、空気量を説明できる。
+    id: mcc2023:V-F-2:04.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-014
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: 硬化コンクリートの圧縮強度、応力－ひずみ曲線、弾性係数、乾燥収縮を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 硬化コンクリートの圧縮強度、応力－ひずみ曲線、弾性係数、乾燥収縮を説明できる。
+    id: mcc2023:V-F-2:04.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-015
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: 硬化コンクリートの耐久性に関して、凍害、アルカリシリカ反応、中性化、塩害を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 硬化コンクリートの耐久性に関して、凍害、アルカリシリカ反応、中性化、塩害を説明できる。
+    id: mcc2023:V-F-2:04.04
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-016
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: 配合設計の手順を理解し、計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 配合設計の手順を理解し、計算できる。
+    id: mcc2023:V-F-2:04.05
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-017
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: 鉄筋コンクリート、プレストレストコンクリートに関して、構造と特徴を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 鉄筋コンクリート、プレストレストコンクリートに関して、構造と特徴を説明できる。
+    id: mcc2023:V-F-2:05.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-018
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: コンクリート構造の代表的な設計法である許容応力度設計法、限界状態設計法を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: コンクリート構造の代表的な設計法である許容応力度設計法、限界状態設計法を説明できる。
+    id: mcc2023:V-F-2:05.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-019
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: 曲げモーメントを受ける部材の破壊形式を説明でき、断面破壊に対する安全性を検討できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 曲げモーメントを受ける部材の破壊形式を説明でき、断面破壊に対する安全性を検討できる。
+    id: mcc2023:V-F-2:05.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-020
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: 曲げモーメントを受ける部材の断面応力度の算定、ひび割れに対する安全性を検討できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 曲げモーメントを受ける部材の断面応力度の算定、ひび割れに対する安全性を検討できる。
+    id: mcc2023:V-F-2:05.04
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-021
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: せん断力を受ける部材の破壊形式を説明でき、せん断力に対する安全性を検討できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: せん断力を受ける部材の破壊形式を説明でき、せん断力に対する安全性を検討できる。
+    id: mcc2023:V-F-2:05.05
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-022
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-2 材料
+    id: mcc2023:V-F-2
+    method: code+name
+  text: コンクリート構造物の維持管理、非破壊検査、補修、補強の基礎を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: コンクリート構造物の維持管理、非破壊検査、補修、補強の基礎を説明できる。
+    id: mcc2023:V-F-2:06.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-023
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-3 構造
+    id: mcc2023:V-F-3
+    method: code+name
+  text: 断面諸量(断面一次モーメント、図心、断面二次モーメントなど)の定義を説明でき、それを計算できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 断面諸量(断面一次モーメント、図心、断面二次モーメントなど)の定義を説明でき、それを計算できる。
+    id: null
+    reason: mcc2023:V-F-3 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-024
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-3 構造
+    id: mcc2023:V-F-3
+    method: code+name
+  text: 単純ばり、片持ちばり、張出しばり、ゲルバーばりなどの支点反力を計算でき、そのはりに生じる断面力を計算して図化できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 単純ばり、片持ちばり、張出しばり、ゲルバーばりなどの支点反力を計算でき、そのはりに生じる断面力を計算して図化できる。
+    id: null
+    reason: mcc2023:V-F-3 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-025
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-3 構造
+    id: mcc2023:V-F-3
+    method: code+name
+  text: トラスとその部材の種類を説明でき、部材力を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: トラスとその部材の種類を説明でき、部材力を計算できる。
+    id: null
+    reason: mcc2023:V-F-3 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-026
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-3 構造
+    id: mcc2023:V-F-3
+    method: code+name
+  text: たわみの微分方程式を説明でき、たわみやたわみ角を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: たわみの微分方程式を説明でき、たわみやたわみ角を計算できる。
+    id: null
+    reason: mcc2023:V-F-3 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-027
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-4 地盤
+    id: mcc2023:V-F-4
+    method: code+name
+  text: 土の生成、基本的物理量、構造などを説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 土の生成、基本的物理量、構造などを説明できる。
+    id: mcc2023:V-F-4:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-028
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-4 地盤
+    id: mcc2023:V-F-4
+    method: code+name
+  text: 基礎の種類とそれらの支持力公式を説明でき、土の構造物の支持力算定に適用できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 基礎の種類とそれらの支持力公式を説明でき、土の構造物の支持力算定に適用できる。
+    id: mcc2023:V-F-4:05.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-029
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-4 地盤
+    id: mcc2023:V-F-4
+    method: code+name
+  text: 地盤調査の分類と内容を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 地盤調査の分類と内容を説明できる。
+    id: mcc2023:V-F-4:07.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-030
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-5 水理
+    id: mcc2023:V-F-5
+    method: code+name
+  text: 水理学で用いる単位系を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 水理学で用いる単位系を説明できる。
+    id: mcc2023:V-F-5:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-031
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-5 水理
+    id: mcc2023:V-F-5
+    method: code+name
+  text: 静水圧と全水圧を説明でき、平面と曲面に作用する全水圧の大きさと作用点を計算できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 静水圧と全水圧を説明でき、平面と曲面に作用する全水圧の大きさと作用点を計算できる。
+    id: mcc2023:V-F-5:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-032
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-5 水理
+    id: mcc2023:V-F-5
+    method: code+name
+  text: ベルヌーイの定理（全水頭と各水頭）を説明でき、これを応用した計算（トリチェリの定理、ピトー管、ベンチュリーメータ）ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: ベルヌーイの定理（全水頭と各水頭）を説明でき、これを応用した計算（トリチェリの定理、ピトー管、ベンチュリーメータ）ができる。
+    id: null
+    reason: mcc2023:V-F-5 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 141
+    page_printed: 127
+  verification: machine
+- id: mcc2023:rel:composite:6-033
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-5 水理
+    id: mcc2023:V-F-5
+    method: code+name
+  text: 運動量保存則を説明でき、これを応用した計算（流体から作用する力）ができる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 運動量保存則を説明でき、これを応用した計算（流体から作用する力）ができる。
+    id: null
+    reason: mcc2023:V-F-5 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:composite:6-034
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-6 環境
+    id: mcc2023:V-F-6
+    method: code+name
+  text: 公害と人の健康、環境と人の健康、それぞれの関わりを説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 公害と人の健康、環境と人の健康、それぞれの関わりを説明できる。
+    id: mcc2023:V-F-6:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-035
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-6 環境
+    id: mcc2023:V-F-6
+    method: code+name
+  text: 水質汚濁を負荷で表せる計算ができ、移動過程と水質変換過程を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 水質汚濁を負荷で表せる計算ができ、移動過程と水質変換過程を説明できる。
+    id: null
+    reason: mcc2023:V-F-6 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-036
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-6 環境
+    id: mcc2023:V-F-6
+    method: code+name
+  text: 水道計画、浄水の単位操作を理解でき、これらに関する計算ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 水道計画、浄水の単位操作を理解でき、これらに関する計算ができる。
+    id: null
+    reason: mcc2023:V-F-6 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-037
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-6 環境
+    id: mcc2023:V-F-6
+    method: code+name
+  text: 下水道計画、下水道の構成を説明でき、これらに関する計算ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 下水道計画、下水道の構成を説明でき、これらに関する計算ができる。
+    id: null
+    reason: mcc2023:V-F-6 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-038
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-7 計画
+    id: mcc2023:V-F-7
+    method: code+name
+  text: 日本と世界の都市計画の歴史的変遷を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 日本と世界の都市計画の歴史的変遷を説明できる。
+    id: mcc2023:V-F-7:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-039
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-7 計画
+    id: mcc2023:V-F-7
+    method: code+name
+  text: 都市計画区域、区域区分、用途地域を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 都市計画区域、区域区分、用途地域を説明できる。
+    id: mcc2023:V-F-7:05.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-040
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-7 計画
+    id: mcc2023:V-F-7
+    method: code+name
+  text: 都市整備の手法としての土地区画整理事業、市街地再開発事業の考え方を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 都市整備の手法としての土地区画整理事業、市街地再開発事業の考え方を説明できる。
+    id: null
+    reason: mcc2023:V-F-7 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-041
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-8 施工・法規
+    id: mcc2023:V-F-8
+    method: code+name
+  text: 工事執行までの各プロセスを説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 工事執行までの各プロセスを説明できる。
+    id: mcc2023:V-F-8:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-042
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-8 施工・法規
+    id: mcc2023:V-F-8
+    method: code+name
+  text: 施工計画の基本事項、管理項目を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 施工計画の基本事項、管理項目を説明できる。
+    id: null
+    reason: mcc2023:V-F-8 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-043
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-8 施工・法規
+    id: mcc2023:V-F-8
+    method: code+name
+  text: 土工の目的と施工法について、説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 土工の目的と施工法について、説明できる。
+    id: null
+    reason: mcc2023:V-F-8 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-044
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-8 施工・法規
+    id: mcc2023:V-F-8
+    method: code+name
+  text: 基礎工の種類別に目的と施工法を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 基礎工の種類別に目的と施工法を説明できる。
+    id: mcc2023:V-F-8:05.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-045
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-9 製図
+    id: mcc2023:V-F-9
+    method: code+name
+  text: 線種、文字、図面内容、図法を説明できる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 線種、文字、図面内容、図法を説明できる。
+    id: mcc2023:V-F-9:01.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-046
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-9 製図
+    id: mcc2023:V-F-9
+    method: code+name
+  text: CADソフトウェアの機能、使用方法を説明できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: CADソフトウェアの機能、使用方法を説明できる。
+    id: mcc2023:V-F-9:02.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-047
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅴ-F-9 製図
+    id: mcc2023:V-F-9
+    method: code+name
+  text: 設計したものをCADソフトウェアで描き利用できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 設計したものをCADソフトウェアで描き利用できる。
+    id: null
+    reason: mcc2023:V-F-9 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-048
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅵ-F 建設系(実験・実習能力)
+    id: null
+    reason: コード VI-F の名称は「建設系分野」で、参照の名称「建設系」と食い違う
+  text: 建設現場における測量で用いる機器の取扱いができる。
+  consideration: ''
+  consideration_shared: false
+  targets:
+  - raw: 建設現場における測量で用いる機器の取扱いができる。
+    id: null
+    reason: 同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-049
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅵ-F 建設系(実験・実習能力)
+    id: null
+    reason: コード VI-F の名称は「建設系分野」で、参照の名称「建設系」と食い違う
+  text: コンクリートのスランプ、空気量、強度の試験について理解し、器具を使って実験できる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: コンクリートのスランプ、空気量、強度の試験について理解し、器具を使って実験できる。
+    id: null
+    reason: 同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:6-050
+  type: composite-required
+  section: 建設系分野
+  area:
+    raw: Ⅵ-F 建設系(実験・実習能力)
+    id: null
+    reason: コード VI-F の名称は「建設系分野」で、参照の名称「建設系」と食い違う
+  text: 土の物理的あるいは力学的特性を評価する公的試験（JIS）ができる。
+  consideration: ''
+  consideration_shared: true
+  targets:
+  - raw: 土の物理的あるいは力学的特性を評価する公的試験（JIS）ができる。
+    id: null
+    reason: 同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:7-001
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-1 材料
+    id: mcc2023:V-G-1
+    method: code+name
+  text: 構造材料の種類とその特質（力学的特性、耐久性など）について説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。構造材料については、他分野の学習内容に含めても良い。
+  consideration_shared: false
+  targets:
+  - raw: 構造材料の種類とその特質（力学的特性、耐久性など）について説明できる。
+    id: null
+    reason: mcc2023:V-G-1 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:7-002
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-1 材料
+    id: mcc2023:V-G-1
+    method: code+name
+  text: 仕上げ材料の種類・性質・使用上の注意について説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。構造材料については、他分野の学習内容に含めても良い。
+  consideration_shared: true
+  targets:
+  - raw: 仕上げ材料の種類・性質・使用上の注意について説明できる。
+    id: null
+    reason: mcc2023:V-G-1 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:7-003
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-2 構造
+    id: mcc2023:V-G-2
+    method: code+name
+  text: 静定ラーメンの応力、静定トラスの応力を計算できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。応力計算は、他分野の学習内容に含めても良い。
+  consideration_shared: false
+  targets:
+  - raw: 静定ラーメンの応力、静定トラスの応力を計算できる。
+    id: null
+    reason: mcc2023:V-G-2 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:7-004
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-2 構造
+    id: mcc2023:V-G-2
+    method: code+name
+  text: 断面諸量を計算できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。応力計算は、他分野の学習内容に含めても良い。
+  consideration_shared: true
+  targets:
+  - raw: 断面諸量を計算できる。
+    id: null
+    reason: mcc2023:V-G-2 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:7-005
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-2 構造
+    id: mcc2023:V-G-2
+    method: code+name
+  text: 木質構造、鋼構造、鉄筋コンクリート構造の概要や特徴・構造形式を説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。応力計算は、他分野の学習内容に含めても良い。
+  consideration_shared: true
+  targets:
+  - raw: 木質構造、鋼構造、鉄筋コンクリート構造の概要や特徴・構造形式を説明できる。
+    id: null
+    reason: mcc2023:V-G-2 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:7-006
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-3 環境・設備
+    id: mcc2023:V-G-3
+    method: code+name
+  text: 日射・光環境・温熱環境・空気環境・音環境について説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算におい
+  consideration_shared: false
+  targets:
+  - raw: 日射・光環境・温熱環境・空気環境・音環境について説明できる。
+    id: null
+    reason: mcc2023:V-G-3 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+  verification: machine
+- id: mcc2023:rel:composite:7-007
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-3 環境・設備
+    id: mcc2023:V-G-3
+    method: code+name
+  text: 給排水方式、空気調和方式、電気設備について説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。
+  consideration_shared: true
+  targets:
+  - raw: 給排水方式、空気調和方式、電気設備について説明できる。
+    id: null
+    reason: mcc2023:V-G-3 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 142
+    page_printed: 128
+    pages_pdf:
+    - 142
+    - 143
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:composite:7-008
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-4 計画・歴史
+    id: mcc2023:V-G-4
+    method: code+name
+  text: 動線、モデュールについて説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。
+  consideration_shared: false
+  targets:
+  - raw: 動線、モデュールについて説明できる。
+    id: mcc2023:V-G-4:03.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-009
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-4 計画・歴史
+    id: mcc2023:V-G-4
+    method: code+name
+  text: 建築設計に関わる基本的な寸法を説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。
+  consideration_shared: true
+  targets:
+  - raw: 建築設計に関わる基本的な寸法を説明できる。
+    id: null
+    reason: mcc2023:V-G-4 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-010
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-4 計画・歴史
+    id: mcc2023:V-G-4
+    method: code+name
+  text: 居住系施設、教育・福祉系施設、文化・交流系施設、医療施設、業務系施設の計画について説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。
+  consideration_shared: true
+  targets:
+  - raw: 居住系施設、教育・福祉系施設、文化・交流系施設、医療施設、業務系施設の計画について説明できる。
+    id: null
+    reason: mcc2023:V-G-4 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-011
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-4 計画・歴史
+    id: mcc2023:V-G-4
+    method: code+name
+  text: 古代～近世の建築様式の特徴について説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。
+  consideration_shared: true
+  targets:
+  - raw: 古代～近世の建築様式の特徴について説明できる。
+    id: null
+    reason: mcc2023:V-G-4 の中に同じ文の到達目標が 2 件ある
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-012
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-5 施工・法規
+    id: mcc2023:V-G-5
+    method: code+name
+  text: 工事の流れについて説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。五大管理項目については、他分野の学習内容に含めても良い。
+  consideration_shared: false
+  targets:
+  - raw: 工事の流れについて説明できる。
+    id: null
+    reason: mcc2023:V-G-5 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-013
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-5 施工・法規
+    id: mcc2023:V-G-5
+    method: code+name
+  text: 五大管理項目（品質、原価、工程、安全、環境）の特徴について説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。五大管理項目については、他分野の学習内容に含めても良い。
+  consideration_shared: true
+  targets:
+  - raw: 五大管理項目（品質、原価、工程、安全、環境）の特徴について説明できる。
+    id: mcc2023:V-G-5:01.05
+    method: text-exact-in-scope
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-014
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-5 施工・法規
+    id: mcc2023:V-G-5
+    method: code+name
+  text: 各種工事の概要を説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。五大管理項目については、他分野の学習内容に含めても良い。
+  consideration_shared: true
+  targets:
+  - raw: 各種工事の概要を説明できる。
+    id: null
+    reason: mcc2023:V-G-5 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-015
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-5 施工・法規
+    id: mcc2023:V-G-5
+    method: code+name
+  text: 法の体系について説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。五大管理項目については、他分野の学習内容に含めても良い。
+  consideration_shared: true
+  targets:
+  - raw: 法の体系について説明できる。
+    id: mcc2023:V-G-5:03.01
+    method: text-exact-in-scope
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-016
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-5 施工・法規
+    id: mcc2023:V-G-5
+    method: code+name
+  text: 単体規定の内容を説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。五大管理項目については、他分野の学習内容に含めても良い。
+  consideration_shared: true
+  targets:
+  - raw: 単体規定の内容を説明できる。
+    id: null
+    reason: mcc2023:V-G-5 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-017
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-5 施工・法規
+    id: mcc2023:V-G-5
+    method: code+name
+  text: 集団規定の内容を説明できる。
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。五大管理項目については、他分野の学習内容に含めても良い。
+  consideration_shared: true
+  targets:
+  - raw: 集団規定の内容を説明できる。
+    id: null
+    reason: mcc2023:V-G-5 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-018
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-6 設計・製図
+    id: mcc2023:V-G-6
+    method: code+name
+  text: 建築の各種図面と図面の尺度・縮尺について理解し、図面の作図に反映できる。
+  consideration: 課題は、住宅を含むこと。
+  consideration_shared: false
+  targets:
+  - raw: 建築の各種図面と図面の尺度・縮尺について理解し、図面の作図に反映できる。
+    id: mcc2023:V-G-6:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-019
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-6 設計・製図
+    id: mcc2023:V-G-6
+    method: code+name
+  text: 与えられた条件をもとに、動線・ゾーニングを踏まえ、コンセプトに基づき空間構成をまとめることができる。
+  consideration: 課題は、住宅を含むこと。
+  consideration_shared: true
+  targets:
+  - raw: 与えられた条件をもとに、動線・ゾーニングを踏まえ、コンセプトに基づき空間構成をまとめることができる。
+    id: null
+    reason: mcc2023:V-G-6 の中に同じ文の到達目標がない
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-020
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅴ-G-6 設計・製図
+    id: mcc2023:V-G-6
+    method: code+name
+  text: 要求された図面（配置図、各階平面図など）を作成できる。
+  consideration: 課題は、住宅を含むこと。
+  consideration_shared: true
+  targets:
+  - raw: 要求された図面（配置図、各階平面図など）を作成できる。
+    id: mcc2023:V-G-6:04.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-021
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅵ-G 建築系(実験・実習能力)
+    id: null
+    reason: コード VI-G の名称は「建築系分野」で、参照の名称「建築系」と食い違う
+  text: 建築に用いる構造材料の物理的特性若しくは建築を取巻く環境の物理特性を実験により明らかにできる。
+  consideration: 建築系の実験を行うための基本知識を有すること。
+  consideration_shared: false
+  targets:
+  - raw: 建築に用いる構造材料の物理的特性若しくは建築を取巻く環境の物理特性を実験により明らかにできる。
+    id: null
+    reason: 同じ文の到達目標がない
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine
+- id: mcc2023:rel:composite:7-022
+  type: composite-required
+  section: 建築系分野
+  area:
+    raw: Ⅵ-G 建築系(実験・実習能力)
+    id: null
+    reason: コード VI-G の名称は「建築系分野」で、参照の名称「建築系」と食い違う
+  text: 測量機器の取扱いができる。
+  consideration: 建築系の実験を行うための基本知識を有すること。
+  consideration_shared: true
+  targets:
+  - raw: 測量機器の取扱いができる。
+    id: null
+    reason: 同じ文の到達目標がない
+  source:
+    page_pdf: 143
+    page_printed: 129
+  verification: machine

@@ -1,0 +1,1317 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: mccplus/SEC
+  note: MCC plus の分野コード（AI、SEC、ROBOT、IOT）は原本にないため、このリポジトリで定めた（config/extract.yaml の plus_fields）。原本の見出しは分野ノードの heading_raw にある
+nodes:
+- id: mccplus2023:SEC
+  type: field
+  parent: null
+  code: SEC
+  code_defined_by: this-repository
+  name: サイバーセキュリティ
+  heading_raw: 2-2.2 COMPASS 5.0：サイバーセキュリティ
+  description:
+    lines:
+    - 【事業概要】
+    - 個人の活動や企業活動、行政サービスなどあらゆる分野の基盤となるのがIT（インターネット・
+    - テクノロジー）である。一方でこの社会基盤に対するサイバー攻撃は多様に進化し、その影響は
+    - 極めて深刻な状況となっている。社会基盤であるITを悪質な攻撃や脅威から守るために、サイバ
+    - ーセキュリティの高度なスキルを持つ人材が求められている。このような人財育成のために教育
+    - 内容、教育方法の開発を行っている。
+    - 【育成する人財像及び到達目標（スキルセット）】
+    - あらゆる分野における人財がセキュリティ意識や基本的技術を修得しているということを基盤
+    - として、それぞれの専門分野でセキュリティ技術を応用できる人財、社会で必要とされるサイバ
+    - ーセキュリティ技術を修得した情報系技術者、さらにトップ人財としてのセキュリティ専門技術
+    - 者に必要な到達目標群（スキルセット）を定めている。
+    - 【詳細情報】
+    - 独立行政法人国立高等専門学校機構サイバーセキュリティ人材育成事業
+    - https://k-sec.kochi-ct.ac.jp/index.html
+    - 【サイバーセキュリティ分野の到達目標群（スキルセット）】
+    pages_pdf:
+    - 163
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mccplus2023:SEC:01
+  type: content
+  parent: mccplus2023:SEC
+  name: 情報基礎
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mccplus2023:SEC:01.01
+  type: goal
+  parent: mccplus2023:SEC:01
+  text: 情報技術は進展が速いということを理解し、それに伴う社会の変化と課題について知っている。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: Society 5.0、情報化、ネット依存、ゲーム中毒、ネットいじめ、システムダウンによる影響、技術の陳腐化
+    items:
+    - Society 5.0
+    - 情報化
+    - ネット依存
+    - ゲーム中毒
+    - ネットいじめ
+    - システムダウンによる影響
+    - 技術の陳腐化
+  note: null
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mccplus2023:SEC:01.02
+  type: goal
+  parent: mccplus2023:SEC:01
+  text: 代表的な情報システムとその利用形態について知っている。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 情報端末、グループウェア、クラウド（SaaS、IaaS、PaaS）、オンプレミス、公共システム・サービス（金融、気象、防災）、仮想化
+    items:
+    - 情報端末
+    - グループウェア
+    - クラウド（SaaS、IaaS、PaaS）
+    - オンプレミス
+    - 公共システム・サービス（金融、気象、防災）
+    - 仮想化
+  note: null
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mccplus2023:SEC:01.03
+  type: goal
+  parent: mccplus2023:SEC:01
+  text: コンピュータの構成とオペレーティングシステム（OS）の役割を理解し、基本的な取り扱いができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: データ、ファイル管理、アカウント（ID、パスワード）、記録媒体（外部記憶装置、クラウドなど）、OS、応用ソフトウェア、コンピュータの構成要素
+    items:
+    - データ
+    - ファイル管理
+    - アカウント（ID、パスワード）
+    - 記録媒体（外部記憶装置、クラウドなど）
+    - OS
+    - 応用ソフトウェア
+    - コンピュータの構成要素
+  note: null
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mccplus2023:SEC:01.04
+  type: goal
+  parent: mccplus2023:SEC:01
+  text: オフィスアプリケーション（文書作成、表計算、プレゼンテーション等）を操作できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: オフィスアプリケーション、表形式データ、表計算ソフトの関数（SUM、AVERAGEなど）
+    items:
+    - オフィスアプリケーション
+    - 表形式データ
+    - 表計算ソフトの関数（SUM、AVERAGEなど）
+  note: null
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mccplus2023:SEC:01.05
+  type: goal
+  parent: mccplus2023:SEC:01
+  text: アナログ情報とデジタル情報の違いと、コンピュータ内におけるデータ（数値、文字等）の表現方法について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 連続値、離散値、A/D変換、D/A変換、標本化、量子化、標本化定理、量子化誤差、2進数、16進数、基数変換、有効数値、整数表現と小数表現、ビット、バイト、文字コード
+    items:
+    - 連続値
+    - 離散値
+    - A/D変換
+    - D/A変換
+    - 標本化
+    - 量子化
+    - 標本化定理
+    - 量子化誤差
+    - 2進数
+    - 16進数
+    - 基数変換
+    - 有効数値
+    - 整数表現と小数表現
+    - ビット
+    - バイト
+    - 文字コード
+  note: null
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mccplus2023:SEC:01.06
+  type: goal
+  parent: mccplus2023:SEC:01
+  text: 情報を適切に収集・取得するための基礎的な知識を活用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: データの取得、オープンデータ、統計ポータルサイト、ビッグデータ、センサ
+    items:
+    - データの取得
+    - オープンデータ
+    - 統計ポータルサイト
+    - ビッグデータ
+    - センサ
+  note: null
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mccplus2023:SEC:01.07
+  type: goal
+  parent: mccplus2023:SEC:01
+  text: データベースの意義と概要について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: リレーショナル・データベース、データベース管理システム（DBMS）、データベース操作（SQLなど）
+    items:
+    - リレーショナル・データベース
+    - データベース管理システム（DBMS）
+    - データベース操作（SQLなど）
+  note: null
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mccplus2023:SEC:01.08
+  type: goal
+  parent: mccplus2023:SEC:01
+  text: 構築したいシステムの概要を第三者に説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 問題・課題の分析、システムによる解決法の検討と表現
+    items:
+    - 問題・課題の分析
+    - システムによる解決法の検討と表現
+  note: null
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mccplus2023:SEC:02
+  type: content
+  parent: mccplus2023:SEC
+  name: プログラミングとアルゴリズム
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mccplus2023:SEC:02.01
+  type: goal
+  parent: mccplus2023:SEC:02
+  text: 基礎的なプログラムを作成することができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: プログラミング、変数、制御構文、効率的なプログラミング（ライブラリもしくはAPI等の利用）
+    items:
+    - プログラミング
+    - 変数
+    - 制御構文
+    - 効率的なプログラミング（ライブラリもしくはAPI等の利用）
+  note: null
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mccplus2023:SEC:02.02
+  type: goal
+  parent: mccplus2023:SEC:02
+  text: 計算機を用いて数学的な処理を行うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 表計算ソフトもしくはプログラミング言語等による処理、数値計算、数式処理、関数（2次関数、三角関数、指数関数、対数関数など）
+    items:
+    - 表計算ソフトもしくはプログラミング言語等による処理
+    - 数値計算
+    - 数式処理
+    - 関数（2次関数、三角関数、指数関数、対数関数など）
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+    page_top: true
+  verification: machine
+- id: mccplus2023:SEC:02.03
+  type: goal
+  parent: mccplus2023:SEC:02
+  text: 基礎的なアルゴリズムについて理解し、任意のプログラミング言語を用いて実装できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: フローチャートもしくは疑似コード等による表現、ソートアルゴリズム、探索アルゴリズム
+    items:
+    - フローチャートもしくは疑似コード等による表現
+    - ソートアルゴリズム
+    - 探索アルゴリズム
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:02.04
+  type: goal
+  parent: mccplus2023:SEC:02
+  text: 同一の問題に対し、それを解決できる複数のアルゴリズムが存在しうることを知っている。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: アルゴリズムによる効率（計算時間など）の違い
+    items:
+    - アルゴリズムによる効率（計算時間など）の違い
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:03
+  type: content
+  parent: mccplus2023:SEC
+  name: メディア
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:03.01
+  type: goal
+  parent: mccplus2023:SEC:03
+  text: 情報の真偽について、根拠に基づいて検討する方法を知っている。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: データの発信元・信頼性・信憑性、フェイク（デマ、情報操作、情報拡散）、科学的根拠、論理的判断、クロスチェック
+    items:
+    - データの発信元・信頼性・信憑性
+    - フェイク（デマ、情報操作、情報拡散）
+    - 科学的根拠
+    - 論理的判断
+    - クロスチェック
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:03.02
+  type: goal
+  parent: mccplus2023:SEC:03
+  text: 情報の適切な表現方法と伝達手段を選択することができ、適切に情報の送受信を行うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 抽象化、可視化、表、図解、グラフ、適切なソフトウェアの選択（Word、Excel、PowerPointなど）、コミュニケーションツール（メール、SNSなど）、メディアリテラシー、コンテンツ（文字、画像など）
+    items:
+    - 抽象化
+    - 可視化
+    - 表
+    - 図解
+    - グラフ
+    - 適切なソフトウェアの選択（Word、Excel、PowerPointなど）
+    - コミュニケーションツール（メール、SNSなど）
+    - メディアリテラシー
+    - コンテンツ（文字、画像など）
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:04
+  type: content
+  parent: mccplus2023:SEC
+  name: ネットワーク
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:04.01
+  type: goal
+  parent: mccplus2023:SEC:04
+  text: 社会における情報通信ネットワークの役割を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 光ファイバ網、海底ケーブル、移動体通信（4G、5G）、インターネット
+    items:
+    - 光ファイバ網
+    - 海底ケーブル
+    - 移動体通信（4G、5G）
+    - インターネット
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:04.02
+  type: goal
+  parent: mccplus2023:SEC:04
+  text: 情報通信ネットワークの仕組みや構成および構成要素、プロトコルの役割や技術（OSI参照モデル）について知っている。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: サーバ、クライアント、プロトコル（HTTP、 HTTPSなど）、IPアドレス、ルータ、ハブ、Wi-Fi、LAN、URI、DNS、DHCP、OSI参照モデル
+    items:
+    - サーバ
+    - クライアント
+    - プロトコル（HTTP、 HTTPSなど）
+    - IPアドレス
+    - ルータ
+    - ハブ
+    - Wi-Fi
+    - LAN
+    - URI
+    - DNS
+    - DHCP
+    - OSI参照モデル
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:04.03
+  type: goal
+  parent: mccplus2023:SEC:04
+  text: 一般的なネットワークデバイス（パソコン、家庭用レベルのルーター等）の設定ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 個人向けデバイスのネットワーク設定
+    items:
+    - 個人向けデバイスのネットワーク設定
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:05
+  type: content
+  parent: mccplus2023:SEC
+  name: 情報セキュリティ基礎
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:05.01
+  type: goal
+  parent: mccplus2023:SEC:05
+  text: 情報セキュリティの必要性と対策について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: サイバー犯罪、サイバー攻撃、個人情報保護、情報漏洩、セキュリティ対策ソフト、OS・アプリのアップデート
+    items:
+    - サイバー犯罪
+    - サイバー攻撃
+    - 個人情報保護
+    - 情報漏洩
+    - セキュリティ対策ソフト
+    - OS・アプリのアップデート
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:06
+  type: content
+  parent: mccplus2023:SEC
+  name: 情報セキュリティの要素
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:06.01
+  type: goal
+  parent: mccplus2023:SEC:06
+  text: 情報セキュリティの３要素（機密性、完全性、可用性）について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: CIA（機密性、完全性、可用性）
+    items:
+    - CIA（機密性、完全性、可用性）
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:06.02
+  type: goal
+  parent: mccplus2023:SEC:06
+  text: 情報へのアクセス制限や認証方式について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: アクセス制御、パスワード、IC カード、多要素認証
+    items:
+    - アクセス制御
+    - パスワード
+    - IC カード
+    - 多要素認証
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:06.03
+  type: goal
+  parent: mccplus2023:SEC:06
+  text: 基礎的な暗号技術とその必要性（HTTPS、VPN 等）について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: HTTPS、VPN、暗号（暗号化）、復号
+    items:
+    - HTTPS
+    - VPN
+    - 暗号（暗号化）
+    - 復号
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:07
+  type: content
+  parent: mccplus2023:SEC
+  name: サイバー攻撃と防御
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:07.01
+  type: goal
+  parent: mccplus2023:SEC:07
+  text: 主要なサイバー攻撃の形態や実例について説明でき、攻撃に対する防御方法を知っている。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: フィッシング詐欺、マルウェア、ランサムウェア、標的型攻撃、不正侵入、セキュリティ対策ソフト
+    items:
+    - フィッシング詐欺
+    - マルウェア
+    - ランサムウェア
+    - 標的型攻撃
+    - 不正侵入
+    - セキュリティ対策ソフト
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:08
+  type: content
+  parent: mccplus2023:SEC
+  name: 法規、規則、ポリシー
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:08.01
+  type: goal
+  parent: mccplus2023:SEC:08
+  text: 情報や通信に関連する公的な規則（法律、ガイドライン等）および所属する組織における規則と、その必要性について理解できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: サイバーセキュリティ基本法、不正アクセス禁止法、個人情報保護法、著作権法、セキュリティポリシー（基本方針、対策基準、実施内容、運用規定）
+    items:
+    - サイバーセキュリティ基本法
+    - 不正アクセス禁止法
+    - 個人情報保護法
+    - 著作権法
+    - セキュリティポリシー（基本方針、対策基準、実施内容、運用規定）
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:08.02
+  type: goal
+  parent: mccplus2023:SEC:08
+  text: 取り扱う情報の分類（格付け）によって、それぞれ適切な取り扱いをする必要があることを理解できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 格付け（機密、部外秘、関係者外秘、公開、要保護情報等）
+    items:
+    - 格付け（機密、部外秘、関係者外秘、公開、要保護情報等）
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:08.03
+  type: goal
+  parent: mccplus2023:SEC:08
+  text: 情報社会で生活する上でのマナー、モラル（道徳、倫理）の重要性について理解できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 情報倫理、情報モラル、ネチケット
+    items:
+    - 情報倫理
+    - 情報モラル
+    - ネチケット
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:09
+  type: content
+  parent: mccplus2023:SEC
+  name: リスク管理とセキュリティマネジメント
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:09.01
+  type: goal
+  parent: mccplus2023:SEC:09
+  text: 情報を取り扱う上での脅威（意図的脅威、偶発的脅威）とリスクを理解し、それらの危険度と対策・対応方法を知っている。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 情報セキュリティ10大脅威、リスク（改ざん、紛失、漏洩、ヒューマンエラー）、リスク・危険度評価
+    items:
+    - 情報セキュリティ10大脅威
+    - リスク（改ざん、紛失、漏洩、ヒューマンエラー）
+    - リスク・危険度評価
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:09.02
+  type: goal
+  parent: mccplus2023:SEC:09
+  text: インシデント発生時にとるべき行動を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 初動対応（報告、保全）
+    items:
+    - 初動対応（報告、保全）
+  note: null
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mccplus2023:SEC:10
+  type: content
+  parent: mccplus2023:SEC
+  name: データサイエンス・AI
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mccplus2023:SEC:10.01
+  type: goal
+  parent: mccplus2023:SEC:10
+  text: データサイエンス・AI技術は、社会や日常生活の変化に深く関与しており、自らの生活に密接に結びついていることを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ビッグデータ、IoT、AI、人間の知的活動とAI技術
+    items:
+    - ビッグデータ
+    - IoT
+    - AI
+    - 人間の知的活動とAI技術
+  note: null
+  source:
+    page_pdf: 165
+    page_printed: 149
+    page_top: true
+  verification: machine
+- id: mccplus2023:SEC:10.02
+  type: goal
+  parent: mccplus2023:SEC:10
+  text: データサイエンス・AI技術が社会や日常生活における課題解決の有用なツールであり、様々な専門領域の知見と組み合わせることによって価値を創造するものであることを、活用事例をもとに説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: オープンデータ、データサイエンス・AI活用領域の広がり、データサイエンス・AIによる利活用や課題解決事例
+    items:
+    - オープンデータ
+    - データサイエンス・AI活用領域の広がり
+    - データサイエンス・AIによる利活用や課題解決事例
+  note: null
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mccplus2023:SEC:10.03
+  type: goal
+  parent: mccplus2023:SEC:10
+  text: データサイエンス・AI技術を利活用する際に求められるモラルや倫理について理解し、データを守るために必要な事項を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 個人情報保護法、データ倫理（捏造、改ざん、盗用）、データバイアス
+    items:
+    - 個人情報保護法
+    - データ倫理（捏造、改ざん、盗用）
+    - データバイアス
+  note: null
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mccplus2023:SEC:10.04
+  type: goal
+  parent: mccplus2023:SEC:10
+  text: データサイエンス・AI技術の利活用に必要な基本的スキル（データの取得、可視化、分析）を使うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: データの図表表現（棒グラフ、折れ線グラフ、散布図）、データの分布（ヒストグラム）と代表値（平均値、中央値、最頻値）、データのばらつき（分散、標準偏差）、データ解析（基本統計量、相関と因果、回帰分析）
+    items:
+    - データの図表表現（棒グラフ、折れ線グラフ、散布図）
+    - データの分布（ヒストグラム）と代表値（平均値、中央値、最頻値）
+    - データのばらつき（分散、標準偏差）
+    - データ解析（基本統計量、相関と因果、回帰分析）
+  note: null
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mccplus2023:SEC:10.05
+  type: goal
+  parent: mccplus2023:SEC:10
+  text: データサイエンス・AI技術の基礎的な手法の概要を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 機械学習、教師あり学習、教師なし学習、深層学習、ニューラルネットワーク
+    items:
+    - 機械学習
+    - 教師あり学習
+    - 教師なし学習
+    - 深層学習
+    - ニューラルネットワーク
+  note: null
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mccplus2023:SEC:10.06
+  type: goal
+  parent: mccplus2023:SEC:10
+  text: 自らの専門分野において、データサイエンス・AI技術と社会や日常生活との関わり、分析手法について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: データ駆動型社会、PDCA サイクル、AI技術の活用例
+    items:
+    - データ駆動型社会
+    - PDCA サイクル
+    - AI技術の活用例
+  note: null
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mccplus2023:SEC:11
+  type: content
+  parent: mccplus2023:SEC
+  name: サイバーセキュリティ
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mccplus2023:SEC:11.01
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: ネットワーク層における一般的な攻撃手法について知っている
+  supplement:
+    kind: 学習の目安となる項目
+    raw: DoS（Denial of Services）攻撃、DNSリフレクション攻撃
+    items:
+    - DoS（Denial of Services）攻撃
+    - DNSリフレクション攻撃
+  note: null
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mccplus2023:SEC:11.02
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: ディジタルフォレンジックに関する調査技法（ツール、実施方法など）について知っている
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ハードウェア、OS、ネットワーク、フォレンジック、フォレンジックサポートツール（VMWare、Wireshark など）、デジタルフォレンジクスにおけるフットプリント、バイナリ解析、不揮発のデータの種類と収集
+    items:
+    - ハードウェア
+    - OS
+    - ネットワーク
+    - フォレンジック
+    - フォレンジックサポートツール（VMWare、Wireshark など）
+    - デジタルフォレンジクスにおけるフットプリント
+    - バイナリ解析
+    - 不揮発のデータの種類と収集
+  note: null
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mccplus2023:SEC:11.03
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: 主要ベンダが提供しているセキュリティ対策に関する製品の役割について知っている
+  supplement:
+    kind: 学習の目安となる項目
+    raw: セキュリティスイート（ウイルス対策ソフト、ファイヤウォールソフトなど）
+    items:
+    - セキュリティスイート（ウイルス対策ソフト、ファイヤウォールソフトなど）
+  note: null
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mccplus2023:SEC:11.04
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: ファイアウォールや、侵入検知システム（IDS/IPS）の役割について説明・運用できる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ファイアウォール、ルータ、IDS/IPS、非武装地帯（DMZ）、単一認証ポイント・監査・ポリシー実施、悪意のあるコンテンツのメッセージスキャン、PCI/PII準拠のデータ匿名化、データ損失保護スキャン、暗号化処理の高速化、SSL セキュリティ、REST・JSON処理、
+    items:
+    - ファイアウォール
+    - ルータ
+    - IDS/IPS
+    - 非武装地帯（DMZ）
+    - 単一認証ポイント・監査・ポリシー実施
+    - 悪意のあるコンテンツのメッセージスキャン
+    - PCI/PII準拠のデータ匿名化
+    - データ損失保護スキャン
+    - 暗号化処理の高速化
+    - SSL セキュリティ
+    - REST・JSON処理
+  note: null
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mccplus2023:SEC:11.05
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: セキュリティインシデントが発生した際に、ログなどの様々な情報を用いて、インシデントの原因を解明する方法について説明できる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: システムログ、相関ツール、状況の把握・分類、解決策検討、インシデント検知
+    items:
+    - システムログ
+    - 相関ツール
+    - 状況の把握・分類
+    - 解決策検討
+    - インシデント検知
+  note: null
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mccplus2023:SEC:11.06
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: セキュリティインシデントの発生報告があった場合に、組織として取るべき対応について説明できる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: CSIRT、レポート、PoC、情報提供、注意喚起、トリアージ
+    items:
+    - CSIRT
+    - レポート
+    - PoC
+    - 情報提供
+    - 注意喚起
+    - トリアージ
+  note: null
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mccplus2023:SEC:11.07
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: システムに求められるセキュリティ対策について考慮して、システム開発を実施する方法について知っている
+  supplement:
+    kind: 学習の目安となる項目
+    raw: セキュリティアーキテクチャ、エンタープライズアーキテクチャ、セキュリティ対策を考慮したシステム開発プロセスの実施（要件定義、設計、セキュリティテストなど）、セキュリティ目標、運用目標及びトレードオフ、ネットワーク設計プロセス
+    items:
+    - セキュリティアーキテクチャ
+    - エンタープライズアーキテクチャ
+    - セキュリティ対策を考慮したシステム開発プロセスの実施（要件定義、設計、セキュリティテストなど）
+    - セキュリティ目標
+    - 運用目標及びトレードオフ
+    - ネットワーク設計プロセス
+  note: null
+  source:
+    page_pdf: 166
+    page_printed: 150
+    page_top: true
+  verification: machine
+- id: mccplus2023:SEC:11.08
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: セキュアなシステム構築を実現するために提唱されている、体系的な方法について説明できる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: セキュリティテクニカル実装ガイド（STIG）、各社のセキュリティアドバイサリ、Bell-LaPadulaモデル、Biba完全性モデル、Clark-Wilson完全性モデル
+    items:
+    - セキュリティテクニカル実装ガイド（STIG）
+    - 各社のセキュリティアドバイサリ
+    - Bell-LaPadulaモデル
+    - Biba完全性モデル
+    - Clark-Wilson完全性モデル
+  note: null
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mccplus2023:SEC:11.09
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: セキュリティ上の脅威と、その原理・内容に基づいた適切な分析と対策を行う方法について知っている
+  supplement:
+    kind: 学習の目安となる項目
+    raw: マルウェア、マルウェア解析、フィッシング、ベイティング、テールゲート、倫理的なハッキング
+    items:
+    - マルウェア
+    - マルウェア解析
+    - フィッシング
+    - ベイティング
+    - テールゲート
+    - 倫理的なハッキング
+  note: null
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mccplus2023:SEC:11.10
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: ネットワークにおける脆弱性について知っている
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ジャミング技術、無線アプリケーションの脆弱性、ネットワーク機器やアプリケーション及び潜在的な脆弱性
+    items:
+    - ジャミング技術
+    - 無線アプリケーションの脆弱性
+    - ネットワーク機器やアプリケーション及び潜在的な脆弱性
+  note: null
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mccplus2023:SEC:11.11
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: 組織における適切なセキュリティポリシーを作成するために考慮すべき事項について説明できる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 個人識別情報データセキュリティ基準（PII DSS）、クレジットカード情報データセキュリティ基準（PCI DSS）
+    items:
+    - 個人識別情報データセキュリティ基準（PII DSS）
+    - クレジットカード情報データセキュリティ基準（PCI DSS）
+  note: null
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mccplus2023:SEC:11.12
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: 暗号化アルゴリズムや、セキュアなコーディング技術について知っている
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 無線LANの暗号化アルゴリズム （WEP、WPAなど）、セキュアコーディング（セキュアプログラミング）、データの秘匿 （ステガノグラフィなど）、暗号化アルゴリズム （AES、RSA暗号、ElGamal暗号、楕円曲線暗号など）
+    items:
+    - 無線LANの暗号化アルゴリズム （WEP、WPAなど）
+    - セキュアコーディング（セキュアプログラミング）
+    - データの秘匿 （ステガノグラフィなど）
+    - 暗号化アルゴリズム （AES、RSA暗号、ElGamal暗号、楕円曲線暗号など）
+  note: null
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mccplus2023:SEC:11.13
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: ネットワークやシステムのアクセス制御ができる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: アクセス制御（認証、認可、監査）、アクセス制御方式の種類・モデル（任意アクセス制御、強制アクセス制御、役割ベースアクセス制御）
+    items:
+    - アクセス制御（認証、認可、監査）
+    - アクセス制御方式の種類・モデル（任意アクセス制御、強制アクセス制御、役割ベースアクセス制御）
+  note: null
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mccplus2023:SEC:11.14
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: システムの脆弱性を減らしセキュリティを強化する、堅牢化（ハードニング）技術について説明できる．
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 堅牢化、SELinux、最小特権、パスワードポリシー、ネットワークセグメンテーション、不要なサービスの削除、ロギングの有効化
+    items:
+    - 堅牢化
+    - SELinux
+    - 最小特権
+    - パスワードポリシー
+    - ネットワークセグメンテーション
+    - 不要なサービスの削除
+    - ロギングの有効化
+  note: null
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mccplus2023:SEC:11.15
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: セキュリティに関して、自組織の構成員を対象とした教育の必要性とその方法について、説明できる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: シミュレートされた現実の状況で実践的な体験、スキルを開発する方法としてのサイバー競技、サイバー問題に関する外部機関で学んだベストプラクティス、サイバーセキュリティのカリキュラム・トレーニング、研究開発・教育・啓発に関する説明とデリバリを行う能力
+    items:
+    - シミュレートされた現実の状況で実践的な体験
+    - スキルを開発する方法としてのサイバー競技
+    - サイバー問題に関する外部機関で学んだベストプラクティス
+    - サイバーセキュリティのカリキュラム・トレーニング
+    - 研究開発・教育・啓発に関する説明とデリバリを行う能力
+  note: null
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mccplus2023:SEC:11.16
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: セキュリティ対策に関する各業界における「標準」の存在とその内容について知っている
+  supplement:
+    kind: 学習の目安となる項目
+    raw: IT セキュリティ評価、監視、検出、修復ツール、手順の評価、実装、普及のための現在の産業界における手法、業界標準のセキュリティモデル
+    items:
+    - IT セキュリティ評価
+    - 監視
+    - 検出
+    - 修復ツール
+    - 手順の評価
+    - 実装
+    - 普及のための現在の産業界における手法
+    - 業界標準のセキュリティモデル
+  note: null
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mccplus2023:SEC:11.17
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: 組織において定められているセキュリティ対策や情報の取り扱いに関する規則に則って、運用をすることができる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 運用情報統制（利用者問合せ対応、監視アラート対応、改善要望、インシデント管理、問題管理、変更管理、リリース管理、構成管理、知見の管理）、運用維持管理（サービスレベル管理、キャパシティ管理、可用性管理、情報セキュリティ管理、IT サービス継続性管理、運用要員教育）
+    items:
+    - 運用情報統制（利用者問合せ対応、監視アラート対応、改善要望、インシデント管理、問題管理、変更管理、リリース管理、構成管理、知見の管理）
+    - 運用維持管理（サービスレベル管理、キャパシティ管理、可用性管理、情報セキュリティ管理、IT サービス継続性管理、運用要員教育）
+  note: null
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mccplus2023:SEC:11.18
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: セキュリティインシデントが発生した際のリスクと、インシデント発生時の情報システムへの変化や影響について知っている
+  supplement:
+    kind: 学習の目安となる項目
+    raw: サイバーレジリエンス、ディペンダビリティ、システム運用における影響
+    items:
+    - サイバーレジリエンス
+    - ディペンダビリティ
+    - システム運用における影響
+  note: null
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mccplus2023:SEC:11.19
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: サイバーセキュリティ人材フレームワーク、求められている仕事上の役割分担と関連するタスク、知識とスキルに関して知っている
+  supplement:
+    kind: 学習の目安となる項目
+    raw: SecBok、iコンピテンシ・ディクショナリ、NICEフレームワーク
+    items:
+    - SecBok
+    - iコンピテンシ・ディクショナリ
+    - NICEフレームワーク
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+    page_top: true
+  verification: machine
+- id: mccplus2023:SEC:11.20
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: サイバーセキュリティの重要性を理解し、技術や社会情勢の変化に応じた適切な対応や、情報セキュリティポリシー等の遵守が必要であることを説明できる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 脅威・攻撃手法の多様化、情報セキュリティ10大脅威、サイバーテロ、暗号・セキュリティ技術の輸出入規制、インシデント対応（復旧、再発防止策）
+    items:
+    - 脅威・攻撃手法の多様化
+    - 情報セキュリティ10大脅威
+    - サイバーテロ
+    - 暗号・セキュリティ技術の輸出入規制
+    - インシデント対応（復旧、再発防止策）
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:11.21
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: 安全な通信方法とそのための手段を理解し、基礎的な環境を構築することができる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 暗号化プロトコル（TLS、HTTPS等）、証明書の発行・作成・利用・正当性の確認、ファイアウォール、WAF
+    items:
+    - 暗号化プロトコル（TLS、HTTPS等）
+    - 証明書の発行・作成・利用・正当性の確認
+    - ファイアウォール
+    - WAF
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:11.22
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: ネットワークの稼働状況や通信の証跡について理解し、基礎的な方法で取得・分析することができる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ネットワークトラフィック解析、パケット解析、不審なアクセスの検出、セキュリティイベントの解析・原因究明、ポートスキャン
+    items:
+    - ネットワークトラフィック解析
+    - パケット解析
+    - 不審なアクセスの検出
+    - セキュリティイベントの解析・原因究明
+    - ポートスキャン
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:11.23
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: ネットワークに接続したシステムで発生しうる脆弱性を理解し、診断・対策を実施することができる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 脆弱性診断（ペネトレーションテスト等）、システムの脆弱性（バッファオーバーフロー、XSS、SQLインジェクションなど）
+    items:
+    - 脆弱性診断（ペネトレーションテスト等）
+    - システムの脆弱性（バッファオーバーフロー、XSS、SQLインジェクションなど）
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:11.24
+  type: goal
+  parent: mccplus2023:SEC:11
+  text: ソフトウェアのリバースエンジニアリングの概要について説明できる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: リバースエンジニアリング、逆コンパイル
+    items:
+    - リバースエンジニアリング
+    - 逆コンパイル
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:12
+  type: content
+  parent: mccplus2023:SEC
+  name: ソフトウェア工学
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:12.01
+  type: goal
+  parent: mccplus2023:SEC:12
+  text: ソフトウェアを中心としたシステム開発のプロセス（セキュリティに関する内容を含む）を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 構成管理、プロジェクト管理、セキュリティに関するテスト
+    items:
+    - 構成管理
+    - プロジェクト管理
+    - セキュリティに関するテスト
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:13
+  type: content
+  parent: mccplus2023:SEC
+  name: コンピュータシステム
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:13.01
+  type: goal
+  parent: mccplus2023:SEC:13
+  text: コンピュータシステムの信頼性や機能を向上させるための代表的なシステム構成や、セキュアかつ安定な稼働を目的とした運用・保守について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: マルチサーバ構成 （冗長性、ロードバランサなど）、システムの信頼性、バックアップ、復元、電源 （予備電源、非常電源、UPSなど）、セキュアな運用・保守
+    items:
+    - マルチサーバ構成 （冗長性、ロードバランサなど）
+    - システムの信頼性
+    - バックアップ
+    - 復元
+    - 電源 （予備電源、非常電源、UPSなど）
+    - セキュアな運用・保守
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:14
+  type: content
+  parent: mccplus2023:SEC
+  name: システム設計
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:14.01
+  type: goal
+  parent: mccplus2023:SEC:14
+  text: システム設計には、要求される機能をハードウェアとソフトウェアでどのように実現するかなどの、要求の振り分けやシステム構成の決定が含まれることを説明でき、そのパフォーマンスや可用性の測定方法や指標について知っている。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 要求の振り分け、システム構成、システムのパフォーマンス （同時アクセス数、スループット、データベースのアクセス速度など）、可用性の測定 （稼働率の計算など）
+    items:
+    - 要求の振り分け
+    - システム構成
+    - システムのパフォーマンス （同時アクセス数、スループット、データベースのアクセス速度など）
+    - 可用性の測定 （稼働率の計算など）
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:15
+  type: content
+  parent: mccplus2023:SEC
+  name: オペレーティングシステムの基礎
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:15.01
+  type: goal
+  parent: mccplus2023:SEC:15
+  text: 記憶管理の基本的な考え方について説明でき、代表的なファイルシステムについて知っている。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: FAT、NTFS、EXT等
+    items:
+    - FAT
+    - NTFS
+    - EXT等
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:15.02
+  type: goal
+  parent: mccplus2023:SEC:15
+  text: コマンドラインツールを扱うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: コマンドラインツール
+    items:
+    - コマンドラインツール
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:15.03
+  type: goal
+  parent: mccplus2023:SEC:15
+  text: システムファイルの概要について知っている。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ログファイル、レジストリファイル、設定ファイル等
+    items:
+    - ログファイル
+    - レジストリファイル
+    - 設定ファイル等
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:16
+  type: content
+  parent: mccplus2023:SEC
+  name: ローカルエリアネットワークとインターネット
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:16.01
+  type: goal
+  parent: mccplus2023:SEC:16
+  text: ローカルエリアネットワークの概念を説明でき、物理的もしくは論理的な分離について知っている。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: LAN、VLAN
+    items:
+    - LAN
+    - VLAN
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:17
+  type: content
+  parent: mccplus2023:SEC
+  name: ネットワーク応用
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:17.01
+  type: goal
+  parent: mccplus2023:SEC:17
+  text: 通信（無線通信・有線通信）の仕組みと規格について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 無線通信の規格（IEEE 802.11x）、有線通信の規格（IEEE802.3x）
+    items:
+    - 無線通信の規格（IEEE 802.11x）
+    - 有線通信の規格（IEEE802.3x）
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mccplus2023:SEC:17.02
+  type: goal
+  parent: mccplus2023:SEC:17
+  text: ネットワークに関する基本的なツールを用いて、通信状況を調査することができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ping、traceroute、nslookup等
+    items:
+    - ping
+    - traceroute
+    - nslookup等
+  note: null
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine

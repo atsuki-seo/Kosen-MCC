@@ -1,0 +1,2859 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: relations
+  file: relations/mccplus-correspondence
+relations:
+- id: mcc2023:rel:mccplus:AI:01.01
+  type: mccplus-correspondence
+  from: mccplus2023:AI:01.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 158
+    page_printed: 142
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:01.02
+  type: mccplus-correspondence
+  from: mccplus2023:AI:01.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 158
+    page_printed: 142
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:01.03
+  type: mccplus-correspondence
+  from: mccplus2023:AI:01.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 158
+    page_printed: 142
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:01.04
+  type: mccplus-correspondence
+  from: mccplus2023:AI:01.04
+  raw: －
+  targets: []
+  source:
+    page_pdf: 158
+    page_printed: 142
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:01.05
+  type: mccplus-correspondence
+  from: mccplus2023:AI:01.05
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 158
+    page_printed: 142
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:01.06
+  type: mccplus-correspondence
+  from: mccplus2023:AI:01.06
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 158
+    page_printed: 142
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:01.07
+  type: mccplus-correspondence
+  from: mccplus2023:AI:01.07
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 158
+    page_printed: 142
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:01.08
+  type: mccplus-correspondence
+  from: mccplus2023:AI:01.08
+  raw: －
+  targets: []
+  source:
+    page_pdf: 158
+    page_printed: 142
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:02.01
+  type: mccplus-correspondence
+  from: mccplus2023:AI:02.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 158
+    page_printed: 142
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:02.02
+  type: mccplus-correspondence
+  from: mccplus2023:AI:02.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 158
+    page_printed: 142
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:02.03
+  type: mccplus-correspondence
+  from: mccplus2023:AI:02.03
+  raw: |-
+    V-D-1
+    V-D-2
+  targets:
+  - raw: V-D-1
+    id: mcc2023:V-D-1
+    method: code-only
+  - raw: V-D-2
+    id: mcc2023:V-D-2
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:02.04
+  type: mccplus-correspondence
+  from: mccplus2023:AI:02.04
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:03.01
+  type: mccplus-correspondence
+  from: mccplus2023:AI:03.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:03.02
+  type: mccplus-correspondence
+  from: mccplus2023:AI:03.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:04.01
+  type: mccplus-correspondence
+  from: mccplus2023:AI:04.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:04.02
+  type: mccplus-correspondence
+  from: mccplus2023:AI:04.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:04.03
+  type: mccplus-correspondence
+  from: mccplus2023:AI:04.03
+  raw: －
+  targets: []
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:05.01
+  type: mccplus-correspondence
+  from: mccplus2023:AI:05.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:06.01
+  type: mccplus-correspondence
+  from: mccplus2023:AI:06.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:06.02
+  type: mccplus-correspondence
+  from: mccplus2023:AI:06.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:06.03
+  type: mccplus-correspondence
+  from: mccplus2023:AI:06.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:07.01
+  type: mccplus-correspondence
+  from: mccplus2023:AI:07.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:08.01
+  type: mccplus-correspondence
+  from: mccplus2023:AI:08.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:08.02
+  type: mccplus-correspondence
+  from: mccplus2023:AI:08.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:08.03
+  type: mccplus-correspondence
+  from: mccplus2023:AI:08.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:09.01
+  type: mccplus-correspondence
+  from: mccplus2023:AI:09.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:09.02
+  type: mccplus-correspondence
+  from: mccplus2023:AI:09.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:10.01
+  type: mccplus-correspondence
+  from: mccplus2023:AI:10.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 159
+    page_printed: 143
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:10.02
+  type: mccplus-correspondence
+  from: mccplus2023:AI:10.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 160
+    page_printed: 144
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:10.03
+  type: mccplus-correspondence
+  from: mccplus2023:AI:10.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:10.04
+  type: mccplus-correspondence
+  from: mccplus2023:AI:10.04
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:10.05
+  type: mccplus-correspondence
+  from: mccplus2023:AI:10.05
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:10.06
+  type: mccplus-correspondence
+  from: mccplus2023:AI:10.06
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:11.01
+  type: mccplus-correspondence
+  from: mccplus2023:AI:11.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:11.02
+  type: mccplus-correspondence
+  from: mccplus2023:AI:11.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:11.03
+  type: mccplus-correspondence
+  from: mccplus2023:AI:11.03
+  raw: －
+  targets: []
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:11.04
+  type: mccplus-correspondence
+  from: mccplus2023:AI:11.04
+  raw: －
+  targets: []
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:11.05
+  type: mccplus-correspondence
+  from: mccplus2023:AI:11.05
+  raw: －
+  targets: []
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:11.06
+  type: mccplus-correspondence
+  from: mccplus2023:AI:11.06
+  raw: －
+  targets: []
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:11.07
+  type: mccplus-correspondence
+  from: mccplus2023:AI:11.07
+  raw: －
+  targets: []
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:11.08
+  type: mccplus-correspondence
+  from: mccplus2023:AI:11.08
+  raw: －
+  targets: []
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:11.09
+  type: mccplus-correspondence
+  from: mccplus2023:AI:11.09
+  raw: －
+  targets: []
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:12.01
+  type: mccplus-correspondence
+  from: mccplus2023:AI:12.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:12.02
+  type: mccplus-correspondence
+  from: mccplus2023:AI:12.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:12.03
+  type: mccplus-correspondence
+  from: mccplus2023:AI:12.03
+  raw: －
+  targets: []
+  source:
+    page_pdf: 160
+    page_printed: 144
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:12.04
+  type: mccplus-correspondence
+  from: mccplus2023:AI:12.04
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:12.05
+  type: mccplus-correspondence
+  from: mccplus2023:AI:12.05
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:12.06
+  type: mccplus-correspondence
+  from: mccplus2023:AI:12.06
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:12.07
+  type: mccplus-correspondence
+  from: mccplus2023:AI:12.07
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.01
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.02
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.03
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.03
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.04
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.04
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.05
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.05
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.06
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.06
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.07
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.07
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.08
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.08
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.09
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.09
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.10
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.10
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.11
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.11
+  raw: －
+  targets: []
+  source:
+    page_pdf: 161
+    page_printed: 145
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.12
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.12
+  raw: －
+  targets: []
+  source:
+    page_pdf: 162
+    page_printed: 146
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.13
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.13
+  raw: －
+  targets: []
+  source:
+    page_pdf: 162
+    page_printed: 146
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.14
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.14
+  raw: －
+  targets: []
+  source:
+    page_pdf: 162
+    page_printed: 146
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.15
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.15
+  raw: －
+  targets: []
+  source:
+    page_pdf: 162
+    page_printed: 146
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.16
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.16
+  raw: －
+  targets: []
+  source:
+    page_pdf: 162
+    page_printed: 146
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.17
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.17
+  raw: －
+  targets: []
+  source:
+    page_pdf: 162
+    page_printed: 146
+  verification: machine
+- id: mcc2023:rel:mccplus:AI:13.18
+  type: mccplus-correspondence
+  from: mccplus2023:AI:13.18
+  raw: －
+  targets: []
+  source:
+    page_pdf: 162
+    page_printed: 146
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:01.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:01.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:01.02
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:01.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:01.03
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:01.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:01.04
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:01.04
+  raw: －
+  targets: []
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:01.05
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:01.05
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:01.06
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:01.06
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:01.07
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:01.07
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:01.08
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:01.08
+  raw: －
+  targets: []
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:02.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:02.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 163
+    page_printed: 147
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:02.02
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:02.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:02.03
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:02.03
+  raw: |-
+    V-D-1
+    V-D-2
+  targets:
+  - raw: V-D-1
+    id: mcc2023:V-D-1
+    method: code-only
+  - raw: V-D-2
+    id: mcc2023:V-D-2
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:02.04
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:02.04
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:03.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:03.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:03.02
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:03.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:04.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:04.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:04.02
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:04.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:04.03
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:04.03
+  raw: －
+  targets: []
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:05.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:05.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:06.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:06.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:06.02
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:06.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:06.03
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:06.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:07.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:07.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:08.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:08.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:08.02
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:08.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:08.03
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:08.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:09.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:09.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:09.02
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:09.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 164
+    page_printed: 148
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:10.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:10.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 165
+    page_printed: 149
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:10.02
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:10.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:10.03
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:10.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:10.04
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:10.04
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:10.05
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:10.05
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:10.06
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:10.06
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.02
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.03
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.03
+  raw: －
+  targets: []
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.04
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.04
+  raw: －
+  targets: []
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.05
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.05
+  raw: －
+  targets: []
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.06
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.06
+  raw: －
+  targets: []
+  source:
+    page_pdf: 165
+    page_printed: 149
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.07
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.07
+  raw: －
+  targets: []
+  source:
+    page_pdf: 166
+    page_printed: 150
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.08
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.08
+  raw: －
+  targets: []
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.09
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.09
+  raw: －
+  targets: []
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.10
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.10
+  raw: －
+  targets: []
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.11
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.11
+  raw: －
+  targets: []
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.12
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.12
+  raw: －
+  targets: []
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.13
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.13
+  raw: －
+  targets: []
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.14
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.14
+  raw: －
+  targets: []
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.15
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.15
+  raw: －
+  targets: []
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.16
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.16
+  raw: －
+  targets: []
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.17
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.17
+  raw: －
+  targets: []
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.18
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.18
+  raw: －
+  targets: []
+  source:
+    page_pdf: 166
+    page_printed: 150
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.19
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.19
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.20
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.20
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.21
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.21
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.22
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.22
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.23
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.23
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:11.24
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:11.24
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:12.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:12.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:13.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:13.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:14.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:14.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:15.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:15.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:15.02
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:15.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:15.03
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:15.03
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:16.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:16.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:17.01
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:17.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:SEC:17.02
+  type: mccplus-correspondence
+  from: mccplus2023:SEC:17.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 167
+    page_printed: 151
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:01.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:01.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 168
+    page_printed: 152
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:01.02
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:01.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 168
+    page_printed: 152
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:01.03
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:01.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 168
+    page_printed: 152
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:01.04
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:01.04
+  raw: －
+  targets: []
+  source:
+    page_pdf: 168
+    page_printed: 152
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:01.05
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:01.05
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 168
+    page_printed: 152
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:01.06
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:01.06
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 168
+    page_printed: 152
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:01.07
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:01.07
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 168
+    page_printed: 152
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:01.08
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:01.08
+  raw: －
+  targets: []
+  source:
+    page_pdf: 168
+    page_printed: 152
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:02.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:02.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 168
+    page_printed: 152
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:02.02
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:02.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 168
+    page_printed: 152
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:02.03
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:02.03
+  raw: |-
+    V-D-1
+    V-D-2
+  targets:
+  - raw: V-D-1
+    id: mcc2023:V-D-1
+    method: code-only
+  - raw: V-D-2
+    id: mcc2023:V-D-2
+    method: code-only
+  source:
+    page_pdf: 168
+    page_printed: 152
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:02.04
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:02.04
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:03.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:03.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:03.02
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:03.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:04.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:04.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:04.02
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:04.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:04.03
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:04.03
+  raw: －
+  targets: []
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:05.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:05.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:06.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:06.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:06.02
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:06.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:06.03
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:06.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:07.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:07.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:08.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:08.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:08.02
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:08.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:08.03
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:08.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:09.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:09.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:09.02
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:09.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:10.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:10.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 169
+    page_printed: 153
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:10.02
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:10.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 170
+    page_printed: 154
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:10.03
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:10.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 170
+    page_printed: 154
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:10.04
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:10.04
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 170
+    page_printed: 154
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:10.05
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:10.05
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 170
+    page_printed: 154
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:10.06
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:10.06
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 170
+    page_printed: 154
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:11.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:11.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 170
+    page_printed: 154
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:12.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:12.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 170
+    page_printed: 154
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:13.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:13.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 170
+    page_printed: 154
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:14.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:14.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 170
+    page_printed: 154
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:15.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:15.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 170
+    page_printed: 154
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:16.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:16.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 170
+    page_printed: 154
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:17.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:17.01
+  raw: V-A-1
+  targets:
+  - raw: V-A-1
+    id: mcc2023:V-A-1
+    method: code-only
+  source:
+    page_pdf: 170
+    page_printed: 154
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:18.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:18.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 170
+    page_printed: 154
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:19.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:19.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 171
+    page_printed: 155
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:20.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:20.01
+  raw: |-
+    V-A-3
+    V-A-6
+  targets:
+  - raw: V-A-3
+    id: mcc2023:V-A-3
+    method: code-only
+  - raw: V-A-6
+    id: mcc2023:V-A-6
+    method: code-only
+  source:
+    page_pdf: 171
+    page_printed: 155
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:21.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:21.01
+  raw: V-A-1
+  targets:
+  - raw: V-A-1
+    id: mcc2023:V-A-1
+    method: code-only
+  source:
+    page_pdf: 171
+    page_printed: 155
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:22.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:22.01
+  raw: V-A-3
+  targets:
+  - raw: V-A-3
+    id: mcc2023:V-A-3
+    method: code-only
+  source:
+    page_pdf: 171
+    page_printed: 155
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:23.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:23.01
+  raw: V-A-4
+  targets:
+  - raw: V-A-4
+    id: mcc2023:V-A-4
+    method: code-only
+  source:
+    page_pdf: 171
+    page_printed: 155
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:24.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:24.01
+  raw: |-
+    V-A-2
+    V-A-5
+  targets:
+  - raw: V-A-2
+    id: mcc2023:V-A-2
+    method: code-only
+  - raw: V-A-5
+    id: mcc2023:V-A-5
+    method: code-only
+  source:
+    page_pdf: 171
+    page_printed: 155
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:25.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:25.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 171
+    page_printed: 155
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:26.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:26.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 171
+    page_printed: 155
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:27.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:27.01
+  raw: V-A-1
+  targets:
+  - raw: V-A-1
+    id: mcc2023:V-A-1
+    method: code-only
+  source:
+    page_pdf: 171
+    page_printed: 155
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:28.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:28.01
+  raw: |-
+    V-A-3
+    V-A-6
+  targets:
+  - raw: V-A-3
+    id: mcc2023:V-A-3
+    method: code-only
+  - raw: V-A-6
+    id: mcc2023:V-A-6
+    method: code-only
+  source:
+    page_pdf: 171
+    page_printed: 155
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:29.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:29.01
+  raw: V-A-1
+  targets:
+  - raw: V-A-1
+    id: mcc2023:V-A-1
+    method: code-only
+  source:
+    page_pdf: 171
+    page_printed: 155
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:30.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:30.01
+  raw: V-A-3
+  targets:
+  - raw: V-A-3
+    id: mcc2023:V-A-3
+    method: code-only
+  source:
+    page_pdf: 171
+    page_printed: 155
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:31.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:31.01
+  raw: V-A-4
+  targets:
+  - raw: V-A-4
+    id: mcc2023:V-A-4
+    method: code-only
+  source:
+    page_pdf: 171
+    page_printed: 155
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:32.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:32.01
+  raw: |-
+    V-A-2
+    V-A-5
+  targets:
+  - raw: V-A-2
+    id: mcc2023:V-A-2
+    method: code-only
+  - raw: V-A-5
+    id: mcc2023:V-A-5
+    method: code-only
+  source:
+    page_pdf: 171
+    page_printed: 155
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:33.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:33.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 172
+    page_printed: 156
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:34.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:34.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 172
+    page_printed: 156
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:35.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:35.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 172
+    page_printed: 156
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:36.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:36.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 172
+    page_printed: 156
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:37.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:37.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 172
+    page_printed: 156
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:38.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:38.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 172
+    page_printed: 156
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:39.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:39.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 172
+    page_printed: 156
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:40.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:40.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 172
+    page_printed: 156
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:41.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:41.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 173
+    page_printed: 157
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:42.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:42.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 173
+    page_printed: 157
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:43.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:43.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 173
+    page_printed: 157
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:44.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:44.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 173
+    page_printed: 157
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:45.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:45.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 173
+    page_printed: 157
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:46.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:46.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 173
+    page_printed: 157
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:47.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:47.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 173
+    page_printed: 157
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:48.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:48.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 173
+    page_printed: 157
+  verification: machine
+- id: mcc2023:rel:mccplus:ROBOT:49.01
+  type: mccplus-correspondence
+  from: mccplus2023:ROBOT:49.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 173
+    page_printed: 157
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:01.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:01.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 174
+    page_printed: 158
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:01.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:01.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 174
+    page_printed: 158
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:01.03
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:01.03
+  raw: －
+  targets: []
+  source:
+    page_pdf: 174
+    page_printed: 158
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:01.04
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:01.04
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 174
+    page_printed: 158
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:01.05
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:01.05
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 174
+    page_printed: 158
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:01.06
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:01.06
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 174
+    page_printed: 158
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:01.07
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:01.07
+  raw: －
+  targets: []
+  source:
+    page_pdf: 174
+    page_printed: 158
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:02.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:02.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 174
+    page_printed: 158
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:02.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:02.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 174
+    page_printed: 158
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:02.03
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:02.03
+  raw: |-
+    V-D-1
+    V-D-2
+  targets:
+  - raw: V-D-1
+    id: mcc2023:V-D-1
+    method: code-only
+  - raw: V-D-2
+    id: mcc2023:V-D-2
+    method: code-only
+  source:
+    page_pdf: 174
+    page_printed: 158
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:02.04
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:02.04
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:03.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:03.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:03.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:03.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:04.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:04.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:04.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:04.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:04.03
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:04.03
+  raw: －
+  targets: []
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:05.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:05.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:06.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:06.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:06.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:06.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:06.03
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:06.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:07.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:07.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:08.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:08.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:08.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:08.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:08.03
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:08.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:09.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:09.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:09.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:09.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:10.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:10.01
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 175
+    page_printed: 159
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:10.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:10.02
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 176
+    page_printed: 160
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:10.03
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:10.03
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 176
+    page_printed: 160
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:10.04
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:10.04
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 176
+    page_printed: 160
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:10.05
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:10.05
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 176
+    page_printed: 160
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:10.06
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:10.06
+  raw: Ⅳ-C
+  targets:
+  - raw: Ⅳ-C
+    id: mcc2023:IV-C
+    method: code-only
+  source:
+    page_pdf: 176
+    page_printed: 160
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:11.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:11.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 176
+    page_printed: 160
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:11.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:11.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 176
+    page_printed: 160
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:11.03
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:11.03
+  raw: －
+  targets: []
+  source:
+    page_pdf: 176
+    page_printed: 160
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:11.04
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:11.04
+  raw: －
+  targets: []
+  source:
+    page_pdf: 176
+    page_printed: 160
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:11.05
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:11.05
+  raw: －
+  targets: []
+  source:
+    page_pdf: 176
+    page_printed: 160
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:12.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:12.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 176
+    page_printed: 160
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:12.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:12.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 176
+    page_printed: 160
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:12.03
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:12.03
+  raw: －
+  targets: []
+  source:
+    page_pdf: 176
+    page_printed: 160
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:12.04
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:12.04
+  raw: －
+  targets: []
+  source:
+    page_pdf: 177
+    page_printed: 161
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:13.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:13.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 177
+    page_printed: 161
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:13.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:13.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 177
+    page_printed: 161
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:14.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:14.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 177
+    page_printed: 161
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:14.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:14.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 177
+    page_printed: 161
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:15.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:15.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 177
+    page_printed: 161
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:15.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:15.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 177
+    page_printed: 161
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:16.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:16.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 177
+    page_printed: 161
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:17.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:17.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 177
+    page_printed: 161
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:18.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:18.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 177
+    page_printed: 161
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:19.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:19.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 177
+    page_printed: 161
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:19.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:19.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 177
+    page_printed: 161
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:20.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:20.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 178
+    page_printed: 162
+    page_top: true
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:20.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:20.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 178
+    page_printed: 162
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:21.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:21.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 178
+    page_printed: 162
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:21.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:21.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 178
+    page_printed: 162
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:22.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:22.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 178
+    page_printed: 162
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:22.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:22.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 178
+    page_printed: 162
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:23.01
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:23.01
+  raw: －
+  targets: []
+  source:
+    page_pdf: 178
+    page_printed: 162
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:23.02
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:23.02
+  raw: －
+  targets: []
+  source:
+    page_pdf: 178
+    page_printed: 162
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:23.03
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:23.03
+  raw: －
+  targets: []
+  source:
+    page_pdf: 178
+    page_printed: 162
+  verification: machine
+- id: mcc2023:rel:mccplus:IOT:23.04
+  type: mccplus-correspondence
+  from: mccplus2023:IOT:23.04
+  raw: －
+  targets: []
+  source:
+    page_pdf: 178
+    page_printed: 162
+  verification: machine
