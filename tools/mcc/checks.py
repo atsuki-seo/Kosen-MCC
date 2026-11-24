@@ -81,7 +81,7 @@ def unresolved_entries() -> list[tuple[str, str]]:
             if t["id"] is None:
                 out.append((f"{r['id']}#{i}", t.get("reason", "")))
         for key in ("area", "content"):
-            if key in r and r[key]["id"] is None:
+            if r.get(key) is not None and r[key]["id"] is None:
                 out.append((f"{r['id']}#{key}", r[key].get("reason", "")))
     for t in unclassified():
         out.append((t["id"], t["reason"]))

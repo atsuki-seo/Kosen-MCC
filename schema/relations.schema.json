@@ -4,89 +4,364 @@
   "title": "関係のファイル",
   "description": "data/mcc2023/relations/*.yaml。設計 5.4。指し先は targets に持ち、解決できなかったものは id を null にして reason を書く",
   "type": "object",
-  "required": ["meta", "relations"],
+  "required": [
+    "meta",
+    "relations"
+  ],
   "additionalProperties": false,
   "properties": {
-    "meta": {"$ref": "common.schema.json#/$defs/meta"},
-    "relations": {"type": "array", "items": {"$ref": "#/$defs/relation"}}
+    "meta": {
+      "allOf": [
+        {
+          "$ref": "common.schema.json#/$defs/meta"
+        }
+      ],
+      "properties": {
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "section",
+              "text",
+              "page"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "section": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "text": {
+                "type": "string"
+              },
+              "page": {
+                "$ref": "common.schema.json#/$defs/page"
+              }
+            }
+          }
+        },
+        "column_headers": {
+          "type": "object"
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/relation"
+      }
+    }
   },
   "$defs": {
     "item": {
       "type": "object",
-      "required": ["label", "text"],
+      "required": [
+        "label",
+        "text"
+      ],
       "additionalProperties": false,
-      "properties": {"label": {"type": ["string", "null"]}, "text": {"type": "string"}}
+      "properties": {
+        "label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "text": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string",
+          "description": "項目の見出し（IEA の Graduate Attribute の見出しなど）"
+        }
+      }
     },
     "relation": {
       "type": "object",
-      "required": ["id", "type", "targets", "source", "verification"],
+      "required": [
+        "id",
+        "type",
+        "targets",
+        "source",
+        "verification"
+      ],
       "properties": {
-        "id": {"type": "string", "pattern": "^mcc2023:rel:[a-z-]+:[A-Za-z0-9.:-]+$"},
-        "type": {"enum": ["composite-required", "mccplus-correspondence", "external-standard", "curriculum-guideline", "common-goal"]},
-        "from": {"oneOf": [{"$ref": "common.schema.json#/$defs/anyId"}, {"type": "null"}]},
-        "targets": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/target"}},
-        "source": {"$ref": "common.schema.json#/$defs/source"},
-        "verification": {"$ref": "common.schema.json#/$defs/verification"}
+        "id": {
+          "type": "string",
+          "pattern": "^mcc2023:rel:[a-z-]+:[A-Za-z0-9.:-]+$"
+        },
+        "type": {
+          "enum": [
+            "composite-required",
+            "mccplus-correspondence",
+            "external-standard",
+            "curriculum-guideline",
+            "common-goal"
+          ]
+        },
+        "from": {
+          "oneOf": [
+            {
+              "$ref": "common.schema.json#/$defs/anyId"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "targets": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/target"
+          }
+        },
+        "source": {
+          "$ref": "common.schema.json#/$defs/source"
+        },
+        "verification": {
+          "$ref": "common.schema.json#/$defs/verification"
+        }
       },
       "allOf": [
-        {"if": {"properties": {"type": {"const": "composite-required"}}}, "then": {
-          "description": "複合融合学科で必須: 配慮事項の行 → 到達目標",
-          "required": ["section", "area", "text", "consideration"],
-          "additionalProperties": false,
-          "properties": {
-            "id": true, "type": true, "from": true, "targets": true, "source": true, "verification": true,
-            "section": {"type": "string"},
-            "area": {"$ref": "common.schema.json#/$defs/target"},
-            "text": {"type": "string", "description": "再掲された原文"},
-            "consideration": {"type": "string", "description": "履修上の配慮（空欄は空文字）"},
-            "consideration_shared": {"type": "boolean", "description": "結合セルで上の行と共有している"}
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "composite-required"
+              }
+            }
+          },
+          "then": {
+            "description": "複合融合学科で必須: 配慮事項の行 → 到達目標",
+            "required": [
+              "section",
+              "area",
+              "text",
+              "consideration"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": true,
+              "type": true,
+              "from": true,
+              "targets": true,
+              "source": true,
+              "verification": true,
+              "section": {
+                "type": "string"
+              },
+              "area": {
+                "$ref": "common.schema.json#/$defs/target"
+              },
+              "text": {
+                "type": "string",
+                "description": "再掲された原文"
+              },
+              "consideration": {
+                "type": "string",
+                "description": "履修上の配慮（空欄は空文字）"
+              },
+              "consideration_shared": {
+                "type": "boolean",
+                "description": "結合セルで上の行と共有している"
+              }
+            }
           }
-        }},
-        {"if": {"properties": {"type": {"const": "mccplus-correspondence"}}}, "then": {
-          "description": "MCC plus の対応: MCC plus の到達目標 → 分野・領域",
-          "required": ["from", "raw"],
-          "additionalProperties": false,
-          "properties": {
-            "id": true, "type": true, "from": true, "targets": true, "source": true, "verification": true,
-            "raw": {"type": "string", "description": "MCC対応の列の原文。「－」は対応なし"}
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "mccplus-correspondence"
+              }
+            }
+          },
+          "then": {
+            "description": "MCC plus の対応: MCC plus の到達目標 → 分野・領域",
+            "required": [
+              "from",
+              "raw"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": true,
+              "type": true,
+              "from": true,
+              "targets": true,
+              "source": true,
+              "verification": true,
+              "raw": {
+                "type": "string",
+                "description": "MCC対応の列の原文。「－」は対応なし"
+              }
+            }
           }
-        }},
-        {"if": {"properties": {"type": {"const": "external-standard"}}}, "then": {
-          "description": "他基準との対応（ABET、JABEE、IEA、CDIO）: 外部基準の項目 → 大分類・分野・学習内容",
-          "required": ["standard", "items", "mcc_raw"],
-          "additionalProperties": false,
-          "properties": {
-            "id": true, "type": true, "from": true, "targets": true, "source": true, "verification": true,
-            "standard": {"enum": ["ABET-JABEE-IEA", "CDIO"]},
-            "row": {"type": "integer"},
-            "items": {
-              "type": "object",
-              "description": "外部基準側の原文。キーは基準の名前",
-              "additionalProperties": {"type": "array", "items": {"$ref": "#/$defs/item"}}
-            },
-            "mcc_raw": {"type": "array", "items": {"type": "string"}, "description": "MCC 側の原文"}
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "external-standard"
+              }
+            }
+          },
+          "then": {
+            "description": "他基準との対応（ABET、JABEE、IEA、CDIO）: 外部基準の項目 → 大分類・分野・学習内容",
+            "required": [
+              "standard",
+              "items",
+              "mcc_raw"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": true,
+              "type": true,
+              "from": true,
+              "targets": true,
+              "source": true,
+              "verification": true,
+              "standard": {
+                "enum": [
+                  "ABET-JABEE-IEA",
+                  "CDIO"
+                ]
+              },
+              "row": {
+                "type": "integer"
+              },
+              "items": {
+                "type": "object",
+                "description": "外部基準側の原文。キーは基準の名前",
+                "additionalProperties": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/item"
+                  }
+                }
+              },
+              "mcc_raw": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "MCC 側の原文"
+              }
+            }
           }
-        }},
-        {"if": {"properties": {"type": {"const": "curriculum-guideline"}}}, "then": {
-          "description": "学習指導要領との対応: 学習内容 → 指導要領の項目。targets は再掲された到達目標",
-          "required": ["section", "content", "guideline_raw"],
-          "additionalProperties": false,
-          "properties": {
-            "id": true, "type": true, "from": true, "targets": true, "source": true, "verification": true,
-            "section": {"type": "string"},
-            "content": {"$ref": "common.schema.json#/$defs/target"},
-            "guideline_raw": {"type": "string", "description": "高等学校学習指導要領の側の原文"}
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "curriculum-guideline"
+              }
+            }
+          },
+          "then": {
+            "description": "学習指導要領との対応: 学習内容（目標の行は大分類・分野）→ 指導要領の項目。targets は再掲された到達目標",
+            "required": [
+              "row_kind",
+              "section",
+              "content",
+              "mcc_raw",
+              "goals_shared",
+              "guideline_raw",
+              "guideline_shared"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": true,
+              "type": true,
+              "from": true,
+              "targets": true,
+              "source": true,
+              "verification": true,
+              "row_kind": {
+                "enum": [
+                  "objective",
+                  "content"
+                ],
+                "description": "objective は「目標」どうしの対照の行"
+              },
+              "section": {
+                "type": "string",
+                "description": "節の見出しの原文"
+              },
+              "group": {
+                "type": "string",
+                "description": "表の上の小見出し"
+              },
+              "content": {
+                "oneOf": [
+                  {
+                    "$ref": "common.schema.json#/$defs/target"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "指し元の学習内容（目標の行は節のノード）。原本で該当なしのときは null"
+              },
+              "content_raw": {
+                "type": "string",
+                "description": "content が null のときの学習内容の列の原文"
+              },
+              "mcc_raw": {
+                "type": "string",
+                "description": "モデルコアカリキュラム側の列の原文"
+              },
+              "goals_shared": {
+                "type": "boolean",
+                "description": "MCC 側のセルが結合セルで、上の行と共有している"
+              },
+              "guideline_raw": {
+                "type": "string",
+                "description": "高等学校学習指導要領の側の原文"
+              },
+              "guideline_shared": {
+                "type": "boolean",
+                "description": "指導要領側のセルが結合セルで、上の行と共有している"
+              }
+            }
           }
-        }},
-        {"if": {"properties": {"type": {"const": "common-goal"}}}, "then": {
-          "description": "共通の到達目標: 到達目標 ↔ 到達目標",
-          "required": ["from", "note_raw"],
-          "additionalProperties": false,
-          "properties": {
-            "id": true, "type": true, "from": true, "targets": true, "source": true, "verification": true,
-            "note_raw": {"type": "string"}
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "common-goal"
+              }
+            }
+          },
+          "then": {
+            "description": "共通の到達目標: 到達目標 ↔ 到達目標",
+            "required": [
+              "from",
+              "note_raw"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": true,
+              "type": true,
+              "from": true,
+              "targets": true,
+              "source": true,
+              "verification": true,
+              "note_raw": {
+                "type": "string"
+              }
+            }
           }
-        }}
+        }
       ]
     }
   }

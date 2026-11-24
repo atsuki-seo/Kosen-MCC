@@ -22,3 +22,27 @@ goals:
     - {number: 2, code: SEC, name: サイバーセキュリティ}
     - {number: 3, code: ROBOT, name: ロボット}
     - {number: 4, code: IOT, name: IoT}
+
+guideline:
+  # 第 4 部 1-2 高等学校学習指導要領（平成30年告示）との対照表
+  pages: [186, 221]
+  # ページ先頭の行の「学習内容」セルが、前ページ最後の学習内容の名称の続きであるページ
+  content_name_continues: [195]
+  # 表の上に置かれ、続く行のまとまりを示す小見出し
+  group_labels: [MCCが対応していない新指導要領学習内容]
+
+abet:
+  # 第 4 部 1-1.1 ABET・JABEE・IEA との対応表（表 1）
+  pages: [183, 184]
+  header_rows: 2
+  # 列の並び（左から）。x 座標はヘッダーの 2 行目から取る
+  columns: [ABET, JABEE, IEA-WK, IEA-WA, MCC]
+
+cdio:
+  # 第 4 部 1-1.2 CDIO Syllabus version 3 との対照表（表 2）。罫線から行の帯を求める
+  page: 185
+  split_x: 356     # 左列（CDIO）と右列（MCC）の境界
+  left: 72
+  right: 1113
+  top: 132         # ヘッダー行の下端
+  bottom: 701

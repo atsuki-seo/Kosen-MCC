@@ -1,0 +1,573 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: relations
+  file: relations/external-cdio
+relations:
+- id: mcc2023:rel:cdio:1
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '1'
+      text: FUNDAMENTAL KNOWLEDGE AND REASONING
+  mcc_raw: []
+  targets: []
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:1.1
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '1.1'
+      text: KNOWLEDGE OF UNDERLYING MATHEMATICS AND SCIENCES
+  mcc_raw:
+  - Ⅰ 数学
+  - Ⅱ 自然科学
+  - Ⅳ 工学基礎（Ⅳ-C 情報リテラシー）
+  targets:
+  - raw: Ⅰ 数学
+    id: mcc2023:I
+    method: code+name
+  - raw: Ⅱ 自然科学
+    id: mcc2023:II
+    method: code+name
+  - raw: Ⅳ 工学基礎（Ⅳ-C 情報リテラシー）
+    id: mcc2023:IV-C
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:1.2
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '1.2'
+      text: CORE ENGINEERING FUNDAMENTAL KNOWLEDGE
+  mcc_raw:
+  - Ⅳ 工学基礎
+  - Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+  targets:
+  - raw: Ⅳ 工学基礎
+    id: mcc2023:IV
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: null
+    reason: コード V の名称は「分野別の専門工学」で、参照の名称「分野別専門工学」と食い違う
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-A
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-B
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-C
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-D
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-E
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-F
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-G
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:1.3
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '1.3'
+      text: ADVANCED ENGINEERING FUNDAMENTAL KNOWLEDGE, METHODS AND TOOLS
+  mcc_raw:
+  - Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+  - Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+  targets:
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: null
+    reason: コード V の名称は「分野別の専門工学」で、参照の名称「分野別専門工学」と食い違う
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-A
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-B
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-C
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-D
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-E
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-F
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-G
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-A
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-B
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-C
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-D
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-E
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-F
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-G
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:1.4
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '1.4'
+      text: KNOWLEDGE OF SOCIAL SCIENCES AND HUMANITIES
+  mcc_raw:
+  - Ⅲ 人文社会科学
+  targets:
+  - raw: Ⅲ 人文社会科学
+    id: mcc2023:III
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:2
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '2'
+      text: PERSONAL AND PROFESSIONAL SKILLS AND ATTRIBUTES
+  mcc_raw: []
+  targets: []
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:2.1
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '2.1'
+      text: ANALYTIC REASONING AND PROBLEM SOLVING
+  mcc_raw:
+  - Ⅶ 汎用的技能（Ⅶ-D 思考力、Ⅶ-E 課題発見力・問題解決力）
+  - Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性）
+  targets:
+  - raw: Ⅶ 汎用的技能（Ⅶ-D 思考力、Ⅶ-E 課題発見力・問題解決力）
+    id: mcc2023:VII-D
+    method: code+name
+  - raw: Ⅶ 汎用的技能（Ⅶ-D 思考力、Ⅶ-E 課題発見力・問題解決力）
+    id: mcc2023:VII-E
+    method: code+name
+  - raw: Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性）
+    id: mcc2023:IX-A
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:2.2
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '2.2'
+      text: EXPERIMENTATION, INVESTIGATION AND KNOWLEDGE DISCOVERY
+  mcc_raw:
+  - Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+  - Ⅶ 汎用的技能（Ⅶ-C 情報収集・活用・発信力、Ⅶ-D 思考力）
+  targets:
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-A
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-B
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-C
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-D
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-E
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-F
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G 建築系分野）
+    id: mcc2023:VI-G
+    method: code+name
+  - raw: Ⅶ 汎用的技能（Ⅶ-C 情報収集・活用・発信力、Ⅶ-D 思考力）
+    id: mcc2023:VII-C
+    method: code+name
+  - raw: Ⅶ 汎用的技能（Ⅶ-C 情報収集・活用・発信力、Ⅶ-D 思考力）
+    id: mcc2023:VII-D
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:2.3
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '2.3'
+      text: SYSTEM THINKING
+  mcc_raw: []
+  targets: []
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:2.4
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '2.4'
+      text: ATTITUDES, THOUGHT AND LEARNING
+  mcc_raw:
+  - Ⅶ 汎用的技能（Ⅶ-D 思考力）
+  - Ⅷ 態度・志向性（Ⅷ-A 自己理解、Ⅷ-C 自己管理と責任ある行動、Ⅷ-F 継続的な学習と学びの目的）
+  - Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性）
+  targets:
+  - raw: Ⅶ 汎用的技能（Ⅶ-D 思考力）
+    id: mcc2023:VII-D
+    method: code+name
+  - raw: Ⅷ 態度・志向性（Ⅷ-A 自己理解、Ⅷ-C 自己管理と責任ある行動、Ⅷ-F 継続的な学習と学びの目的）
+    id: null
+    reason: コード VIII の名称は「基盤的資質・能力」で、参照の名称「態度・志向性」と食い違う
+  - raw: Ⅷ 態度・志向性（Ⅷ-A 自己理解、Ⅷ-C 自己管理と責任ある行動、Ⅷ-F 継続的な学習と学びの目的）
+    id: mcc2023:VIII-A
+    method: code+name
+  - raw: Ⅷ 態度・志向性（Ⅷ-A 自己理解、Ⅷ-C 自己管理と責任ある行動、Ⅷ-F 継続的な学習と学びの目的）
+    id: mcc2023:VIII-C
+    method: code+name
+  - raw: Ⅷ 態度・志向性（Ⅷ-A 自己理解、Ⅷ-C 自己管理と責任ある行動、Ⅷ-F 継続的な学習と学びの目的）
+    id: mcc2023:VIII-F
+    method: code+name
+  - raw: Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性）
+    id: mcc2023:IX-A
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:2.5
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '2.5'
+      text: ETHICS, EQUITY AND OTHER RESPONSIBILITIES
+  mcc_raw:
+  - Ⅳ 工学基礎（Ⅳ-B 技術者倫理）
+  - Ⅷ 態度・志向性（Ⅷ-C 自己管理と責任ある行動、Ⅷ-D 倫理観、Ⅷ-E キャリアデザイン、Ⅷ-F 継続的な学習と学びの目的）
+  targets:
+  - raw: Ⅳ 工学基礎（Ⅳ-B 技術者倫理）
+    id: mcc2023:IV-B
+    method: code+name
+  - raw: Ⅷ 態度・志向性（Ⅷ-C 自己管理と責任ある行動、Ⅷ-D 倫理観、Ⅷ-E キャリアデザイン、Ⅷ-F 継続的な学習と学びの目的）
+    id: null
+    reason: コード VIII の名称は「基盤的資質・能力」で、参照の名称「態度・志向性」と食い違う
+  - raw: Ⅷ 態度・志向性（Ⅷ-C 自己管理と責任ある行動、Ⅷ-D 倫理観、Ⅷ-E キャリアデザイン、Ⅷ-F 継続的な学習と学びの目的）
+    id: mcc2023:VIII-C
+    method: code+name
+  - raw: Ⅷ 態度・志向性（Ⅷ-C 自己管理と責任ある行動、Ⅷ-D 倫理観、Ⅷ-E キャリアデザイン、Ⅷ-F 継続的な学習と学びの目的）
+    id: mcc2023:VIII-D
+    method: code+name
+  - raw: Ⅷ 態度・志向性（Ⅷ-C 自己管理と責任ある行動、Ⅷ-D 倫理観、Ⅷ-E キャリアデザイン、Ⅷ-F 継続的な学習と学びの目的）
+    id: mcc2023:VIII-E
+    method: code+name
+  - raw: Ⅷ 態度・志向性（Ⅷ-C 自己管理と責任ある行動、Ⅷ-D 倫理観、Ⅷ-E キャリアデザイン、Ⅷ-F 継続的な学習と学びの目的）
+    id: mcc2023:VIII-F
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:3
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '3'
+      text: 'INTERPERSONAL SKILLS: COLLABORATION, TEAMWORK AND COMMUNICATION'
+  mcc_raw: []
+  targets: []
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:3.1
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '3.1'
+      text: TEAMWORK AND COLLABORATION
+  mcc_raw:
+  - Ⅶ 汎用的技能（Ⅶ-A コミュニケーションスキル、Ⅶ-B チームワークとリーダーシップ）
+  - Ⅸ 創造性・デザイン能力（Ⅸ-B エンジニアリングデザイン能力）
+  targets:
+  - raw: Ⅶ 汎用的技能（Ⅶ-A コミュニケーションスキル、Ⅶ-B チームワークとリーダーシップ）
+    id: mcc2023:VII-A
+    method: code+name
+  - raw: Ⅶ 汎用的技能（Ⅶ-A コミュニケーションスキル、Ⅶ-B チームワークとリーダーシップ）
+    id: mcc2023:VII-B
+    method: code+name
+  - raw: Ⅸ 創造性・デザイン能力（Ⅸ-B エンジニアリングデザイン能力）
+    id: mcc2023:IX-B
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:3.2
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '3.2'
+      text: COMMUNICATIONS
+  mcc_raw:
+  - Ⅲ 人文社会科学（Ⅲ-A 国語、Ⅲ-B 英語）
+  - Ⅳ 工学基礎（Ⅳ-C 情報リテラシー）
+  - Ⅶ 汎用的技能（Ⅶ-A コミュニケーションスキル）
+  targets:
+  - raw: Ⅲ 人文社会科学（Ⅲ-A 国語、Ⅲ-B 英語）
+    id: mcc2023:III-A
+    method: code+name
+  - raw: Ⅲ 人文社会科学（Ⅲ-A 国語、Ⅲ-B 英語）
+    id: mcc2023:III-B
+    method: code+name
+  - raw: Ⅳ 工学基礎（Ⅳ-C 情報リテラシー）
+    id: mcc2023:IV-C
+    method: code+name
+  - raw: Ⅶ 汎用的技能（Ⅶ-A コミュニケーションスキル）
+    id: mcc2023:VII-A
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:3.3
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '3.3'
+      text: COMMUNICATIONS IN FOREIGN LANGUAGES
+  mcc_raw:
+  - Ⅲ 人文社会科学（Ⅲ-B 英語）
+  - Ⅷ 態度・志向性（Ⅷ-E キャリアデザイン）
+  targets:
+  - raw: Ⅲ 人文社会科学（Ⅲ-B 英語）
+    id: mcc2023:III-B
+    method: code+name
+  - raw: Ⅷ 態度・志向性（Ⅷ-E キャリアデザイン）
+    id: null
+    reason: コード VIII の名称は「基盤的資質・能力」で、参照の名称「態度・志向性」と食い違う
+  - raw: Ⅷ 態度・志向性（Ⅷ-E キャリアデザイン）
+    id: mcc2023:VIII-E
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:4
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '4'
+      text: CONCEIVING, DESIGNING, IMPLEMENTING AND OPERATING SYSTEMS IN THE ENTERPRISE, SOCIETAL AND ENVIRONMENTAL CONTEXT ? THE INNOVATION PROCESS
+  mcc_raw: []
+  targets: []
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:4.1
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '4.1'
+      text: EXTERNAL, SOCIETAL AND ENVIRONMENTAL CONTEXT
+  mcc_raw:
+  - Ⅲ 人文社会科学（Ⅲ-C 社会）
+  - Ⅳ 工学基礎（Ⅳ-B 技術者倫理、Ⅳ-D グローバリゼーション・異文化多文化理解）
+  - Ⅷ 態度・志向性（Ⅷ-E キャリアデザイン）
+  targets:
+  - raw: Ⅲ 人文社会科学（Ⅲ-C 社会）
+    id: mcc2023:III-C
+    method: code+name
+  - raw: Ⅳ 工学基礎（Ⅳ-B 技術者倫理、Ⅳ-D グローバリゼーション・異文化多文化理解）
+    id: mcc2023:IV-B
+    method: code+name
+  - raw: Ⅳ 工学基礎（Ⅳ-B 技術者倫理、Ⅳ-D グローバリゼーション・異文化多文化理解）
+    id: mcc2023:IV-D
+    method: code+name
+  - raw: Ⅷ 態度・志向性（Ⅷ-E キャリアデザイン）
+    id: null
+    reason: コード VIII の名称は「基盤的資質・能力」で、参照の名称「態度・志向性」と食い違う
+  - raw: Ⅷ 態度・志向性（Ⅷ-E キャリアデザイン）
+    id: mcc2023:VIII-E
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:4.2
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '4.2'
+      text: ENTERPRISE AND BUSINESS CONTEXT
+  mcc_raw:
+  - Ⅷ 態度・志向性（Ⅷ-E キャリアデザイン）
+  targets:
+  - raw: Ⅷ 態度・志向性（Ⅷ-E キャリアデザイン）
+    id: null
+    reason: コード VIII の名称は「基盤的資質・能力」で、参照の名称「態度・志向性」と食い違う
+  - raw: Ⅷ 態度・志向性（Ⅷ-E キャリアデザイン）
+    id: mcc2023:VIII-E
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:4.3
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '4.3'
+      text: CONCEIVING, SYSTEM ENGINEERING AND MANAGEMENT
+  mcc_raw:
+  - Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+  targets:
+  - raw: Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+    id: mcc2023:IX-A
+    method: code+name
+  - raw: Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+    id: mcc2023:IX-B
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:4.4
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '4.4'
+      text: DESIGNING
+  mcc_raw:
+  - Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+  - Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+  targets:
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: null
+    reason: コード V の名称は「分野別の専門工学」で、参照の名称「分野別専門工学」と食い違う
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-A
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-B
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-C
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-D
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-E
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-F
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-G
+    method: code+name
+  - raw: Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+    id: mcc2023:IX-A
+    method: code+name
+  - raw: Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+    id: mcc2023:IX-B
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:4.5
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '4.5'
+      text: IMPLEMENTING
+  mcc_raw:
+  - Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+  targets:
+  - raw: Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+    id: mcc2023:IX-A
+    method: code+name
+  - raw: Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+    id: mcc2023:IX-B
+    method: code+name
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine
+- id: mcc2023:rel:cdio:4.6
+  type: external-standard
+  standard: CDIO
+  items:
+    CDIO:
+    - label: '4.6'
+      text: OPERATING
+  mcc_raw: []
+  targets: []
+  source:
+    page_pdf: 185
+    page_printed: 167
+  verification: machine

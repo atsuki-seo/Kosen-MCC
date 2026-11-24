@@ -10,7 +10,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from mcc import categories, emit, relations, yamlio  # noqa: E402
+from mcc import categories, emit, errata, part4, relations, yamlio  # noqa: E402
 from mcc.goals import GoalExtractor  # noqa: E402
 from mcc.paths import CONFIG, DATA  # noqa: E402
 from mcc.resolver import Resolver  # noqa: E402
@@ -113,13 +113,32 @@ def main() -> int:
     yamlio.write(DATA / "unclassified.yaml", {"meta": write_meta("goals", "unclassified"), "tables": unclassified},
                  header=emit.GENERATED)
 
+    # 第 4 部の対照表
+    gl, gl_notes, gl_title = part4.guideline(cfg["guideline"], R, status)
+    rel_files["curriculum-guideline"] = gl
+    abet_rows, abet_header = part4.abet(cfg["abet"], R, status)
+    rel_files["external-abet-jabee-iea"] = abet_rows
+    rel_files["external-cdio"] = part4.cdio(cfg["cdio"], R, status)
+    rel_meta = {
+        "curriculum-guideline": {"title": gl_title, "notes": gl_notes},
+        "external-abet-jabee-iea": {"column_headers": abet_header},
+    }
+
     rel_written = set()
     for key, recs in rel_files.items():
         path = DATA / "relations" / f"{key}.yaml"
-        yamlio.write(path, {"meta": write_meta("relations", f"relations/{key}"), "relations": recs}, header=emit.GENERATED)
+        meta = write_meta("relations", f"relations/{key}", **rel_meta.get(key, {}))
+        yamlio.write(path, {"meta": meta, "relations": recs}, header=emit.GENERATED)
         rel_written.add(path)
         unresolved = sum(1 for r in recs for t in r["targets"] if t["id"] is None)
         print(f"relations/{key}: {len(recs)} relations, {unresolved} unresolved targets")
+    clean(DATA / "relations", "*.yaml", rel_written)
+
+    # 誤記の記録
+    entries = errata.build(yamlio.load(CONFIG / "errata.yaml"))
+    yamlio.write(DATA / "errata.yaml", {"meta": write_meta("errata", "errata", note="config/errata.yaml の引用を照合して書き出す"),
+                                        "entries": entries}, header=emit.GENERATED)
+    print(f"errata: {len(entries)} entries")
     return 0
 
 

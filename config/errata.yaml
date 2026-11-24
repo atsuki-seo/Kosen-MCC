@@ -1,0 +1,93 @@
+# 原本の表記ゆれと誤記（設計 5.5）。正本の原文は直さず、ここに記録する。
+# tools/extract_all.py が、各 quote が該当ページの抽出テキストに含まれることを確かめてから
+# data/mcc2023/errata.yaml に書き出す。quote は原文のまま書く（空白と改行は照合で無視する）。
+entries:
+  - id: errata-001
+    kind: 表記ゆれ
+    summary: コードのローマ数字の表記がそろっていない。目次は全角のローマ数字（Ⅴ-D）、本文の見出しは半角の英字（V-D）や、ハイフンの前に空白のある形（II -C）、全角（Ⅴ-H）が混在する。このリポジトリの ID は半角に正規化する
+    occurrences:
+      - {page_pdf: 8, quote: 3-1.4 Ⅴ-D 情報系分野}
+      - {page_pdf: 90, quote: 3-1.4 V-D 情報系分野}
+      - {page_pdf: 55, quote: 2-2.3 II -C 化学}
+      - {page_pdf: 117, quote: 3-1.8 Ⅴ-H 商船系分野（航海）}
+  - id: errata-002
+    kind: 番号の重複
+    summary: 節番号 2-3.1 が、第 2 部の国語・英語・社会の 3 つに振られている（目次でも同じ）。第 1 部の「2-3.1 MCC(コア)」とも番号が同じである。散文の節の ID は原本の節番号を使わず、位置にもとづく番号にする（設計 5.2）
+    occurrences:
+      - {page_pdf: 59, quote: 2-3.1 III-A 国語}
+      - {page_pdf: 60, quote: 2-3.1 III-B 英語}
+      - {page_pdf: 61, quote: 2-3.1 III-C 社会}
+      - {page_pdf: 7, quote: 2-3.1 MCC(コア)}
+    related_ids: [mcc2023:III-A, mcc2023:III-B, mcc2023:III-C]
+  - id: errata-003
+    kind: 誤記の可能性
+    summary: CDIO 対照表の 4 番の見出しに「?」が入っている。文字化けか区切り記号の誤りの可能性があるが、原本から判定できない
+    occurrences:
+      - {page_pdf: 185, quote: "CONTEXT ? THE INNOVATION PROCESS"}
+    related_ids: [mcc2023:rel:cdio:4]
+  - id: errata-004
+    kind: 記載の食い違い
+    summary: 大分類 Ⅷ の名称が、目次と第 2 部の見出しでは「基盤的資質・能力」、表 3 と第 4 部の対照表では「態度・志向性」になっている。対照表の「Ⅷ 態度・志向性」は名称が食い違うため、参照の解決器は解決しない（設計 5.4）
+    occurrences:
+      - {page_pdf: 8, quote: 4-2 Ⅷ 基盤的資質・能力}
+      - {page_pdf: 146, quote: 4-2 VIII 基盤的資質・能力}
+      - {page_pdf: 25, quote: VIII 態度・志向性}
+      - {page_pdf: 184, quote: Ⅷ 態度・志向性（Ⅷ-A 自己理解}
+      - {page_pdf: 185, quote: Ⅷ 態度・志向性（Ⅷ-E キャリアデザイン）}
+    related_ids: [mcc2023:VIII]
+  - id: errata-005
+    kind: 記載の食い違い
+    summary: ABET 対照表に「Ⅳ-E グローバリゼーション」が 2 か所ある。目次と本文ではこの分野は Ⅳ-D で、Ⅳ-E は存在しない。参照の解決器は解決しない
+    occurrences:
+      - {page_pdf: 183, quote: Ⅳ-E グローバリゼーション、異文化多文化理解}
+      - {page_pdf: 184, quote: Ⅳ-E グローバリゼーション異文化多文化理解}
+      - {page_pdf: 8, quote: 2-4.4 Ⅳ-D グローバリゼーション・異文化多文化理解}
+    related_ids: [mcc2023:IV-D, mcc2023:rel:abet:02, mcc2023:rel:abet:04]
+  - id: errata-006
+    kind: 記載の食い違い
+    summary: 表 3（高専教育において習得すべき能力）の名称が、第 2 部の見出しと異なる。IV-B は本文では「技術者倫理」、VI-C は「電気・電子系分野」、VI-D は「情報系分野」、III は「人文社会科学」である。表 3 では VI-C と VI-D の名称が「電気・電子分野」「電気・電子系分野」になっている
+    occurrences:
+      - {page_pdf: 25, quote: IV-B 技術倫理}
+      - {page_pdf: 25, quote: VI-C 電気・電子分野}
+      - {page_pdf: 25, quote: VI-D 電気・電子系分野}
+      - {page_pdf: 25, quote: III 人文・社会科学}
+      - {page_pdf: 64, quote: 2-4.2 IV-B 技術者倫理}
+      - {page_pdf: 129, quote: 3-2.4 VI-D 情報系分野}
+    related_ids: [mcc2023:IV-B, mcc2023:VI-C, mcc2023:VI-D, mcc2023:III]
+  - id: errata-007
+    kind: 空欄
+    summary: V-C-7 制御の最初の到達目標の行は、学習内容のセルが空欄である。次のページの「伝達関数とブロック線図」が同じ学習内容を指すかは、原本から判定できない。名称が空の学習内容ノードとして持つ
+    occurrences:
+      - {page_pdf: 88, quote: 伝達関数を用いたシステムの入出力表現ができる。}
+      - {page_pdf: 89, quote: 伝達関数とブロック線図}
+    related_ids: [mcc2023:V-C-7:01, mcc2023:V-C-7:01.01, mcc2023:V-C-7:02]
+  - id: errata-008
+    kind: 表記ゆれ
+    summary: Ⅰ 数学の学習内容の名称が、第 2 部（間が空白）と第 4 部の学習指導要領との対照表（中黒）で異なる。対照表の学習内容は名称が一致しないため解決しない
+    occurrences:
+      - {page_pdf: 49, quote: 方程式 不等式}
+      - {page_pdf: 49, quote: 指数関数 対数関数}
+      - {page_pdf: 186, quote: 方程式・不等式}
+      - {page_pdf: 186, quote: 指数関数・対数関数}
+    related_ids: [mcc2023:I:02, mcc2023:I:04, mcc2023:rel:guideline:I-003, mcc2023:rel:guideline:I-005]
+  - id: errata-009
+    kind: 表記ゆれ
+    summary: 複合融合学科への配慮事項の学習領域で、Ⅵ の分野名が「機械系(実験・実習能力)」の形で書かれ、第 2 部の見出し（「機械系分野」など）と異なる。名称が食い違うため、学習領域の参照は解決しない
+    occurrences:
+      - {page_pdf: 136, quote: Ⅵ-A 機械系(実験・実習能力)}
+      - {page_pdf: 127, quote: 3-2.1 VI-A 機械系分野}
+    related_ids: [mcc2023:VI-A]
+  - id: errata-010
+    kind: 表記ゆれ
+    summary: 第 4 部の ABET・CDIO 対照表では大分類 Ⅴ を「分野別専門工学」と書き、第 2 部の見出し「分野別の専門工学」と異なる。名称が食い違うため Ⅴ そのものへの参照は解決せず、括弧内の分野だけを解決する
+    occurrences:
+      - {page_pdf: 183, quote: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野}
+      - {page_pdf: 70, quote: 3-1 V 分野別の専門工学}
+    related_ids: [mcc2023:V]
+  - id: errata-011
+    kind: 記載の食い違い
+    summary: ABET 対照表の 7 行目で、IEA の Knowledge and Attitude Profile の列に「WK11:」の項目があり、その文は Graduate Attribute Profiles の列の「WA11:」と同じ文である
+    occurrences:
+      - {page_pdf: 184, quote: "WK11: Recognize the need for, and have the preparation and"}
+      - {page_pdf: 184, quote: "WA11: Recognize the need for, and have the preparation and"}
+    related_ids: [mcc2023:rel:abet:07]

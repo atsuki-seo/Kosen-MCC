@@ -1,0 +1,430 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: relations
+  file: relations/external-abet-jabee-iea
+  column_headers:
+    ABET:
+    - ABET（Accreditation Board for Engineering and Technology）
+    - 2022-2023 Criteria for Accrediting Engineering Programs
+    JABEE:
+    - JABEE（日本技術者教育認定機構）
+    - 日本技術者教育認定基準共通基準（2019年度～）
+    IEA-WK:
+    - IEA （International Engineering Alliance）
+    - 'Knowledge and Attitude Profile A Washington Accord programme provides:'
+    IEA-WA:
+    - null
+    - Graduate Attribute Profiles… for Washington Accord Graduate
+    MCC:
+    - MCC到達目標（令和5年度版）
+    - null
+relations:
+- id: mcc2023:rel:abet:01
+  type: external-standard
+  standard: ABET-JABEE-IEA
+  row: 1
+  items:
+    ABET:
+    - label: '1.'
+      text: 1. an ability to identify, formulate, and solve complex engineering problems by applying principles of engineering, science, and mathematics.
+    JABEE:
+    - label: (c)
+      text: (c) 数学、自然科学及び情報技術に関する知識とそれらを応用する能力
+    - label: (d)
+      text: (d) 当該分野において必要とされる専門的知識とそれらを応用する能力
+    IEA-WK:
+    - label: WK1
+      text: 'WK1: A systematic, theory-based understanding of the natural sciences applicable to the discipline and awareness of relevant social sciences'
+    - label: WK2
+      text: 'WK2: Conceptually-based mathematics, numerical analysis, data analysis, statistics and formal aspects of computer and information science to support detailed analysis and modelling applicable to the discipline'
+    - label: WK3
+      text: 'WK3: A systematic, theory-based formulation of engineering fundamentals required in the engineering discipline'
+    - label: WK4
+      text: 'WK4: Engineering specialist knowledge that provides theoretical frameworks and bodies of knowledge for the accepted practice areas in the engineering discipline; much is at the forefront of the discipline.'
+    - label: WK5
+      text: 'WK5: Knowledge, including efficient resource use, environmental impacts, whole-life cost, re-use of resources, net zero carbon, and similar concepts, that supports engineering design and operations in a practice area'
+    - label: WK6
+      text: 'WK6: Knowledge of engineering practice (technology) in the practice areas in the engineering discipline'
+    IEA-WA:
+    - label: WA1
+      text: 'WA1: Apply knowledge of mathematics, natural science, computing and engineering fundamentals, and an engineering specialization as specified in WK1 to WK4 respectively to develop solutions to complex engineering problems'
+      title: Engineering Knowledge
+    - label: WA3
+      text: 'WA3: Design creative solutions for complex engineering problems and design systems, components or processes to meet identified needs with appropriate consideration for public health and safety, whole-life cost, net zero carbon as well as resource, cultural, societal, and environmental considerations as required (WK5)'
+      title: Design/development of solutions
+  mcc_raw:
+  - Ⅰ 数学
+  - Ⅱ 自然科学（Ⅱ-A 物理、Ⅱ-B 物理実験、Ⅱ-C 化学、Ⅱ-D 化学実験、Ⅱ-E ライフサイエンス・アースサイエンス）
+  - Ⅳ 工学基礎（Ⅳ-C 情報リテラシー）
+  - Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+  - Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+  targets:
+  - raw: Ⅰ 数学
+    id: mcc2023:I
+    method: code+name
+  - raw: Ⅱ 自然科学（Ⅱ-A 物理、Ⅱ-B 物理実験、Ⅱ-C 化学、Ⅱ-D 化学実験、Ⅱ-E ライフサイエンス・アースサイエンス）
+    id: mcc2023:II-A
+    method: code+name
+  - raw: Ⅱ 自然科学（Ⅱ-A 物理、Ⅱ-B 物理実験、Ⅱ-C 化学、Ⅱ-D 化学実験、Ⅱ-E ライフサイエンス・アースサイエンス）
+    id: mcc2023:II-B
+    method: code+name
+  - raw: Ⅱ 自然科学（Ⅱ-A 物理、Ⅱ-B 物理実験、Ⅱ-C 化学、Ⅱ-D 化学実験、Ⅱ-E ライフサイエンス・アースサイエンス）
+    id: mcc2023:II-C
+    method: code+name
+  - raw: Ⅱ 自然科学（Ⅱ-A 物理、Ⅱ-B 物理実験、Ⅱ-C 化学、Ⅱ-D 化学実験、Ⅱ-E ライフサイエンス・アースサイエンス）
+    id: mcc2023:II-D
+    method: code+name
+  - raw: Ⅱ 自然科学（Ⅱ-A 物理、Ⅱ-B 物理実験、Ⅱ-C 化学、Ⅱ-D 化学実験、Ⅱ-E ライフサイエンス・アースサイエンス）
+    id: mcc2023:II-E
+    method: code+name
+  - raw: Ⅳ 工学基礎（Ⅳ-C 情報リテラシー）
+    id: mcc2023:IV-C
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: null
+    reason: コード V の名称は「分野別の専門工学」で、参照の名称「分野別専門工学」と食い違う
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-A
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-B
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-C
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-D
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-E
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-F
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-G
+    method: code+name
+  - raw: Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+    id: mcc2023:IX-A
+    method: code+name
+  - raw: Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+    id: mcc2023:IX-B
+    method: code+name
+  source:
+    page_pdf: 183
+    page_printed: 165
+  verification: machine
+- id: mcc2023:rel:abet:02
+  type: external-standard
+  standard: ABET-JABEE-IEA
+  row: 2
+  items:
+    ABET:
+    - label: '2.'
+      text: 2. an ability to apply engineering design to produce solutions that meet specified needs with consideration of public health, safety, and welfare, as well as global, cultural, social, environmental, and economic factors.
+    JABEE:
+    - label: (e)
+      text: (e) 種々の科学、技術及び情報を活用して社会の要求を解決するためのデザイン能力
+    IEA-WK: []
+    IEA-WA:
+    - label: WA2
+      text: 'WA2: Identify, formulate, research literature and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences and engineering sciences with holistic considerations for sustainable development* (WK1 to WK4)'
+      title: Problem Analysis
+    - label: WA3
+      text: 'WA3: Design creative solutions for complex engineering problems and design systems, components or processes to meet identified needs with appropriate consideration for public health and safety, whole-life cost, net zero carbon as well as resource, cultural, societal, and environmental considerations as required (WK5)'
+      title: Design/development of solutions
+  mcc_raw:
+  - Ⅳ-B 工学基礎：技術者倫理
+  - Ⅳ-E グローバリゼーション、異文化多文化理解
+  - Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+  - Ⅶ 汎用的技能（Ⅶ-D 思考力、Ⅶ-E 課題発見力・問題解決力）
+  - Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+  targets:
+  - raw: Ⅳ-B 工学基礎：技術者倫理
+    id: mcc2023:IV-B
+    method: code+parent-name+name
+  - raw: Ⅳ-E グローバリゼーション、異文化多文化理解
+    id: null
+    reason: コード IV-E のノードがない
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: null
+    reason: コード V の名称は「分野別の専門工学」で、参照の名称「分野別専門工学」と食い違う
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-A
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-B
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-C
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-D
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-E
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-F
+    method: code+name
+  - raw: Ⅴ 分野別専門工学（Ⅴ-A 機械系分野、Ⅴ-B 材料系分野、Ⅴ-C 電気・電子系分野、Ⅴ-D 情報系分野、Ⅴ-E 化学・生物系分野、Ⅴ-F 建設系分野、Ⅴ-G 建築系分野）
+    id: mcc2023:V-G
+    method: code+name
+  - raw: Ⅶ 汎用的技能（Ⅶ-D 思考力、Ⅶ-E 課題発見力・問題解決力）
+    id: mcc2023:VII-D
+    method: code+name
+  - raw: Ⅶ 汎用的技能（Ⅶ-D 思考力、Ⅶ-E 課題発見力・問題解決力）
+    id: mcc2023:VII-E
+    method: code+name
+  - raw: Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+    id: mcc2023:IX-A
+    method: code+name
+  - raw: Ⅸ 創造性・デザイン能力（Ⅸ-A 創造性、Ⅸ-B エンジニアリングデザイン能力）
+    id: mcc2023:IX-B
+    method: code+name
+  source:
+    page_pdf: 183
+    page_printed: 165
+  verification: machine
+- id: mcc2023:rel:abet:03
+  type: external-standard
+  standard: ABET-JABEE-IEA
+  row: 3
+  items:
+    ABET:
+    - label: '3.'
+      text: 3. an ability to communicate effectively with a range of audiences.
+    JABEE:
+    - label: (f)
+      text: (f) 論理的な記述力、口頭発表力、討議等のコミュニケーション能力
+    IEA-WK: []
+    IEA-WA:
+    - label: WA9
+      text: 'WA9: Communicate effectively and inclusively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, taking into account cultural, language, and learning differences.'
+      title: Communication
+  mcc_raw:
+  - Ⅲ 人文社会科学（Ⅲ-A 国語、Ⅲ-B 英語）
+  - Ⅶ 汎用的技能（Ⅶ-A コミュニケーションスキル）
+  targets:
+  - raw: Ⅲ 人文社会科学（Ⅲ-A 国語、Ⅲ-B 英語）
+    id: mcc2023:III-A
+    method: code+name
+  - raw: Ⅲ 人文社会科学（Ⅲ-A 国語、Ⅲ-B 英語）
+    id: mcc2023:III-B
+    method: code+name
+  - raw: Ⅶ 汎用的技能（Ⅶ-A コミュニケーションスキル）
+    id: mcc2023:VII-A
+    method: code+name
+  source:
+    page_pdf: 183
+    page_printed: 165
+  verification: machine
+- id: mcc2023:rel:abet:04
+  type: external-standard
+  standard: ABET-JABEE-IEA
+  row: 4
+  items:
+    ABET:
+    - label: '4.'
+      text: 4. an ability to recognize ethical and professional responsibilities in engineering situations and make informed judgments, which must consider the impact of engineering solutions in global, economic, environmental, and societal contexts.
+    JABEE:
+    - label: (a)
+      text: (a) 地球的視点から多面的に物事を考える能力とその素養
+    - label: (b)
+      text: (b) 技術が社会や自然に及ぼす影響や効果、及び技術者の社会に対する貢献と責任に関する理解
+    - label: (h)
+      text: (h) 与えられた制約の下で計画的に仕事を進め、まとめる能力
+    IEA-WK:
+    - label: WK5
+      text: 'WK5: Knowledge, including efficient resource use, environmental impacts, whole-life cost, re-use of resources, net zero carbon, and similar concepts, that supports engineering design and operations in a practice area'
+    - label: WK7
+      text: 'WK7: Knowledge of the role of engineering in society and identified issues in engineering practice in the discipline, such as the professional responsibility of an engineer to public safety and sustainable development*'
+    - label: WK9
+      text: 'WK9: Ethics, inclusive behavior and conduct. Knowledge of professional ethics, responsibilities, and norms of engineering practice. Awareness of the need for diversity by reason of ethnicity, gender, age, physical ability etc. with mutual understanding and respect, and of inclusive attitudes'
+    IEA-WA:
+    - label: WA6
+      text: 'WA6: When solving complex engineering problems, analyze and evaluate sustainable development impacts* to: society, the economy, sustainability, health and safety, legal frameworks, and the environment (WK1, WK5, and WK7)'
+      title: The Engineer and the World
+    - label: WA7
+      text: 'WA7: Apply ethical principles and commit to professional ethics and norms of engineering practice and adhere to relevant national and international laws. Demonstrate an understanding of the need for diversity and inclusion (WK9)'
+      title: Ethics
+  mcc_raw:
+  - Ⅱ 自然科学（Ⅱ-E ライフサイエンス・アースサイエンス）
+  - Ⅲ 人文社会科学（Ⅲ-C 社会）
+  - Ⅳ 工学基礎（Ⅳ-B 技術者倫理、Ⅳ-E グローバリゼーション異文化多文化理解）
+  targets:
+  - raw: Ⅱ 自然科学（Ⅱ-E ライフサイエンス・アースサイエンス）
+    id: mcc2023:II-E
+    method: code+name
+  - raw: Ⅲ 人文社会科学（Ⅲ-C 社会）
+    id: mcc2023:III-C
+    method: code+name
+  - raw: Ⅳ 工学基礎（Ⅳ-B 技術者倫理、Ⅳ-E グローバリゼーション異文化多文化理解）
+    id: mcc2023:IV-B
+    method: code+name
+  - raw: Ⅳ 工学基礎（Ⅳ-B 技術者倫理、Ⅳ-E グローバリゼーション異文化多文化理解）
+    id: null
+    reason: コード IV-E のノードがない
+  source:
+    page_pdf: 184
+    page_printed: 166
+  verification: machine
+- id: mcc2023:rel:abet:05
+  type: external-standard
+  standard: ABET-JABEE-IEA
+  row: 5
+  items:
+    ABET:
+    - label: '5.'
+      text: 5. an ability to function effectively on a team whose members together provide leadership, create a collaborative and inclusive environment, establish goals, plan tasks, and meet objectives.
+    JABEE:
+    - label: (i)
+      text: (i) チームで仕事をするための能力
+    IEA-WK:
+    - label: WK10
+      text: 'WK10: Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments.'
+    IEA-WA:
+    - label: WA8
+      text: 'WA8: Function effectively as an individual, and as a member or leader in diverse and inclusive teams and in multi-disciplinary, face-to-face, remote and distributed settings (WK9)'
+      title: Individual and Collaborative Team work
+    - label: WA10
+      text: 'WA10: Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments.'
+      title: Project Management and Finance
+  mcc_raw:
+  - Ⅶ 汎用的技能（Ⅶ-A コミュニケーションスキル、Ⅶ-B チームワークとリーダーシップ、Ⅶ-C 情報収集・活用・発信力、Ⅶ-D 思考力、Ⅶ-E 課題発見力・問題解決力）
+  targets:
+  - raw: Ⅶ 汎用的技能（Ⅶ-A コミュニケーションスキル、Ⅶ-B チームワークとリーダーシップ、Ⅶ-C 情報収集・活用・発信力、Ⅶ-D 思考力、Ⅶ-E 課題発見力・問題解決力）
+    id: mcc2023:VII-A
+    method: code+name
+  - raw: Ⅶ 汎用的技能（Ⅶ-A コミュニケーションスキル、Ⅶ-B チームワークとリーダーシップ、Ⅶ-C 情報収集・活用・発信力、Ⅶ-D 思考力、Ⅶ-E 課題発見力・問題解決力）
+    id: mcc2023:VII-B
+    method: code+name
+  - raw: Ⅶ 汎用的技能（Ⅶ-A コミュニケーションスキル、Ⅶ-B チームワークとリーダーシップ、Ⅶ-C 情報収集・活用・発信力、Ⅶ-D 思考力、Ⅶ-E 課題発見力・問題解決力）
+    id: mcc2023:VII-C
+    method: code+name
+  - raw: Ⅶ 汎用的技能（Ⅶ-A コミュニケーションスキル、Ⅶ-B チームワークとリーダーシップ、Ⅶ-C 情報収集・活用・発信力、Ⅶ-D 思考力、Ⅶ-E 課題発見力・問題解決力）
+    id: mcc2023:VII-D
+    method: code+name
+  - raw: Ⅶ 汎用的技能（Ⅶ-A コミュニケーションスキル、Ⅶ-B チームワークとリーダーシップ、Ⅶ-C 情報収集・活用・発信力、Ⅶ-D 思考力、Ⅶ-E 課題発見力・問題解決力）
+    id: mcc2023:VII-E
+    method: code+name
+  source:
+    page_pdf: 184
+    page_printed: 166
+  verification: machine
+- id: mcc2023:rel:abet:06
+  type: external-standard
+  standard: ABET-JABEE-IEA
+  row: 6
+  items:
+    ABET:
+    - label: '6.'
+      text: 6. an ability to develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions.
+    JABEE:
+    - label: (d)
+      text: (d) 当該分野において必要とされる専門的知識とそれらを応用する能力
+    IEA-WK:
+    - label: WK2
+      text: 'WK2: Conceptually-based mathematics, numerical analysis, data analysis, statistics and formal aspects of computer and information science to support detailed analysis and modelling applicable to the discipline'
+    IEA-WA:
+    - label: WA4
+      text: 'WA4: Conduct investigations of complex engineering problems using research methods including research-based knowledge, design of experiments, analysis and interpretation of data, and synthesis of information to provide valid conclusions (WK8)'
+      title: Investigation
+    - label: WA5
+      text: 'WA5: Create, select and apply, and recognize limitations of appropriate techniques, resources, and modern engineering and IT tools, including prediction and modelling, to complex engineering problems (WK2 and WK6)'
+      title: Tool Usage
+  mcc_raw:
+  - Ⅰ 数学（確率、統計）
+  - Ⅱ 自然科学（Ⅱ-B 物理実験、Ⅱ-D 化学実験）
+  - Ⅳ 工学基礎（Ⅳ-A 工学実験技術、Ⅳ-C情報リテラシー）
+  - Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G建築系分野）
+  targets:
+  - raw: Ⅰ 数学（確率、統計）
+    id: mcc2023:I:20
+    method: content-name
+  - raw: Ⅰ 数学（確率、統計）
+    id: mcc2023:I:21
+    method: content-name
+  - raw: Ⅱ 自然科学（Ⅱ-B 物理実験、Ⅱ-D 化学実験）
+    id: mcc2023:II-B
+    method: code+name
+  - raw: Ⅱ 自然科学（Ⅱ-B 物理実験、Ⅱ-D 化学実験）
+    id: mcc2023:II-D
+    method: code+name
+  - raw: Ⅳ 工学基礎（Ⅳ-A 工学実験技術、Ⅳ-C情報リテラシー）
+    id: mcc2023:IV-A
+    method: code+name
+  - raw: Ⅳ 工学基礎（Ⅳ-A 工学実験技術、Ⅳ-C情報リテラシー）
+    id: mcc2023:IV-C
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G建築系分野）
+    id: mcc2023:VI-A
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G建築系分野）
+    id: mcc2023:VI-B
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G建築系分野）
+    id: mcc2023:VI-C
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G建築系分野）
+    id: mcc2023:VI-D
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G建築系分野）
+    id: mcc2023:VI-E
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G建築系分野）
+    id: mcc2023:VI-F
+    method: code+name
+  - raw: Ⅵ 分野別の工学実験・実習能力（Ⅵ-A 機械系分野、Ⅵ-B 材料系分野、Ⅵ-C 電気・電子系分野、Ⅵ-D 情報系分野、Ⅵ-E 化学・生物系分野、Ⅵ-F 建設系分野、Ⅵ-G建築系分野）
+    id: mcc2023:VI-G
+    method: code+name
+  source:
+    page_pdf: 184
+    page_printed: 166
+  verification: machine
+- id: mcc2023:rel:abet:07
+  type: external-standard
+  standard: ABET-JABEE-IEA
+  row: 7
+  items:
+    ABET:
+    - label: '7.'
+      text: 7. an ability to acquire and apply new knowledge as needed, using appropriate learning strategies.
+    JABEE:
+    - label: (g)
+      text: (g) 自主的、継続的に学習する能力
+    IEA-WK:
+    - label: WK8
+      text: 'WK8: Engagement with selected knowledge in the current research literature of the discipline, awareness of the power of critical thinking and creative approaches to evaluate emerging issues'
+    - label: WK11
+      text: 'WK11: Recognize the need for, and have the preparation and ability for i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change (WK8)'
+    IEA-WA:
+    - label: WA11
+      text: 'WA11: Recognize the need for, and have the preparation and ability for i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change (WK8)'
+      title: Lifelong learning
+  mcc_raw:
+  - Ⅷ 態度・志向性（Ⅷ-A 自己理解、Ⅷ-B主体性、Ⅷ-C 自己管理と責任ある行動、Ⅷ-E キャリアデザイン、Ⅷ-F 継続的な学習と学びの目的）
+  targets:
+  - raw: Ⅷ 態度・志向性（Ⅷ-A 自己理解、Ⅷ-B主体性、Ⅷ-C 自己管理と責任ある行動、Ⅷ-E キャリアデザイン、Ⅷ-F 継続的な学習と学びの目的）
+    id: null
+    reason: コード VIII の名称は「基盤的資質・能力」で、参照の名称「態度・志向性」と食い違う
+  - raw: Ⅷ 態度・志向性（Ⅷ-A 自己理解、Ⅷ-B主体性、Ⅷ-C 自己管理と責任ある行動、Ⅷ-E キャリアデザイン、Ⅷ-F 継続的な学習と学びの目的）
+    id: mcc2023:VIII-A
+    method: code+name
+  - raw: Ⅷ 態度・志向性（Ⅷ-A 自己理解、Ⅷ-B主体性、Ⅷ-C 自己管理と責任ある行動、Ⅷ-E キャリアデザイン、Ⅷ-F 継続的な学習と学びの目的）
+    id: mcc2023:VIII-B
+    method: code+name
+  - raw: Ⅷ 態度・志向性（Ⅷ-A 自己理解、Ⅷ-B主体性、Ⅷ-C 自己管理と責任ある行動、Ⅷ-E キャリアデザイン、Ⅷ-F 継続的な学習と学びの目的）
+    id: mcc2023:VIII-C
+    method: code+name
+  - raw: Ⅷ 態度・志向性（Ⅷ-A 自己理解、Ⅷ-B主体性、Ⅷ-C 自己管理と責任ある行動、Ⅷ-E キャリアデザイン、Ⅷ-F 継続的な学習と学びの目的）
+    id: mcc2023:VIII-E
+    method: code+name
+  - raw: Ⅷ 態度・志向性（Ⅷ-A 自己理解、Ⅷ-B主体性、Ⅷ-C 自己管理と責任ある行動、Ⅷ-E キャリアデザイン、Ⅷ-F 継続的な学習と学びの目的）
+    id: mcc2023:VIII-F
+    method: code+name
+  source:
+    page_pdf: 184
+    page_printed: 166
+  verification: machine
