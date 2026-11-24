@@ -1,0 +1,79 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VII-B
+nodes:
+- id: mcc2023:VII-B
+  type: field
+  parent: mcc2023:VII
+  code: VII-B
+  name: チームワークとリーダーシップ
+  heading_raw: 4-1.2 VII-B チームワークとリーダーシップ
+  source:
+    page_pdf: 144
+    page_printed: 130
+  verification: machine
+- id: mcc2023:VII-B:01
+  type: content
+  parent: mcc2023:VII-B
+  name: チームワークとリーダーシップ
+  source:
+    page_pdf: 144
+    page_printed: 130
+  verification: machine
+- id: mcc2023:VII-B:01.01
+  type: goal
+  parent: mcc2023:VII-B:01
+  text: チーム活動において意見の相違や対立を踏まえて合意形成に向けて行動できる。
+  supplement:
+    kind: キーワード
+    raw: 異なる意見や考え方の尊重、議論や作業の背景と目的の理解・共有、論点の整理、交渉など
+    items:
+    - 異なる意見や考え方の尊重
+    - 議論や作業の背景と目的の理解・共有
+    - 論点の整理
+    - 交渉など
+  note: null
+  source:
+    page_pdf: 144
+    page_printed: 130
+  verification: machine
+- id: mcc2023:VII-B:01.02
+  type: goal
+  parent: mcc2023:VII-B:01
+  text: チームの協働関係の形成、維持、向上を促すための行動ができる。
+  supplement:
+    kind: キーワード
+    raw: チームビルディング、多様性の理解や尊重、信頼関係の構築、メンバーの特性や強みの理解など
+    items:
+    - チームビルディング
+    - 多様性の理解や尊重
+    - 信頼関係の構築
+    - メンバーの特性や強みの理解など
+  note: null
+  source:
+    page_pdf: 144
+    page_printed: 130
+  verification: machine
+- id: mcc2023:VII-B:01.03
+  type: goal
+  parent: mcc2023:VII-B:01
+  text: チーム活動の目標共有を図り、目標達成に向けた行動を実践し、また、チームの協働を促進するための行動ができる。
+  supplement:
+    kind: キーワード
+    raw: チームの目標・理念の理解・共有、チーム内での役割の理解、目標達成に向けた効果的な協働促進、（チームの目標・理念・方向性の提示）など
+    items:
+    - チームの目標・理念の理解・共有
+    - チーム内での役割の理解
+    - 目標達成に向けた効果的な協働促進
+    - （チームの目標・理念・方向性の提示）など
+  note: null
+  source:
+    page_pdf: 144
+    page_printed: 130
+    pages_pdf:
+    - 144
+    - 145
+    page_top: true
+  verification: machine

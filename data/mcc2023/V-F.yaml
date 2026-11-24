@@ -1,0 +1,3024 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: V-F
+nodes:
+- id: mcc2023:V-F
+  type: field
+  parent: mcc2023:V
+  code: V-F
+  name: 建設系分野
+  heading_raw: 3-1.6 V-F 建設系分野
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1
+  type: area
+  parent: mcc2023:V-F
+  code: V-F-1
+  name: 測量
+  heading_raw: V-F-1 測量
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 測量系領域は、各種測量器械、器具の構造、調整方法及び使用方法を理解し、基礎的な各種測量の学習により
+    - 測量の基礎的な知識、技能を習得するとともに、工事の設計、施工に応用できる能力を養う。
+    - (1) 測量分野では、主に平面測量で用いられる各種測量方法に関して、上に示した能力を持つこと。
+    - (2) 応用測量分野では、主に測地学的測量で用いられる各種測量方法に関して、上に示した能力を持つこと。
+    - 2 一般的な科目名
+    - 測量学、応用測量学、空間情報工学、リモートセンシング、応用数学
+    pages_pdf:
+    - 102
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:01
+  type: content
+  parent: mcc2023:V-F-1
+  name: 測量の分類、法規
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:01.01
+  type: goal
+  parent: mcc2023:V-F-1:01
+  text: 測量の目的、測量地域の大小による分類、測量の方法による分類、法律による測量の分類を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 基準点、基本測量、公共測量、測量法
+    items:
+    - 基準点
+    - 基本測量
+    - 公共測量
+    - 測量法
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:01.02
+  type: goal
+  parent: mcc2023:V-F-1:01
+  text: 測量体系（国家基準点等）を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 三角点、水準点、平面直角座標系
+    items:
+    - 三角点
+    - 水準点
+    - 平面直角座標系
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:02
+  type: content
+  parent: mcc2023:V-F-1
+  name: 距離測量
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:02.01
+  type: goal
+  parent: mcc2023:V-F-1:02
+  text: 巻尺による測量で生じる誤差を説明でき、測量結果から計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 読取誤差、特性値補正、温度補正、張力補正
+    items:
+    - 読取誤差
+    - 特性値補正
+    - 温度補正
+    - 張力補正
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:02.02
+  type: goal
+  parent: mcc2023:V-F-1:02
+  text: 光波・電波による距離測量を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 位相差
+    items:
+    - 位相差
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:03
+  type: content
+  parent: mcc2023:V-F-1
+  name: 角測量
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:03.01
+  type: goal
+  parent: mcc2023:V-F-1:03
+  text: 角測量の方法、測定に伴う誤差の取扱いを説明でき、測量結果から計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 単測法、倍角法
+    items:
+    - 単測法
+    - 倍角法
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:04
+  type: content
+  parent: mcc2023:V-F-1
+  name: トラバース測量
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:04.01
+  type: goal
+  parent: mcc2023:V-F-1:04
+  text: トラバース測量の種類、計算方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 閉合トラバース、結合トラバース、閉合差、閉合比
+    items:
+    - 閉合トラバース
+    - 結合トラバース
+    - 閉合差
+    - 閉合比
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:05
+  type: content
+  parent: mcc2023:V-F-1
+  name: 水準測量
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:05.01
+  type: goal
+  parent: mcc2023:V-F-1:05
+  text: 昇降式や器高式による直接水準測量の方法と生じる誤差の取扱いを説明でき、測量結果から計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 昇降式、器高式
+    items:
+    - 昇降式
+    - 器高式
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:06
+  type: content
+  parent: mcc2023:V-F-1
+  name: 面積と体積の計算
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:06.01
+  type: goal
+  parent: mcc2023:V-F-1:06
+  text: 測定結果から面積や体積の計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 座標法、支距法、断面法、点高法
+    items:
+    - 座標法
+    - 支距法
+    - 断面法
+    - 点高法
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:07
+  type: content
+  parent: mcc2023:V-F-1
+  name: 地形測量
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:07.01
+  type: goal
+  parent: mcc2023:V-F-1:07
+  text: 地形測量の方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 骨組測量、細部測量
+    items:
+    - 骨組測量
+    - 細部測量
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:07.02
+  type: goal
+  parent: mcc2023:V-F-1:07
+  text: 等高線の性質とその利用方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 主曲線、計曲線
+    items:
+    - 主曲線
+    - 計曲線
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:08
+  type: content
+  parent: mcc2023:V-F-1
+  name: 路線測量
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:08.01
+  type: goal
+  parent: mcc2023:V-F-1:08
+  text: 単心曲線、緩和曲線、縦断曲線を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 単心曲線、緩和曲線、縦断曲線
+    items:
+    - 単心曲線
+    - 緩和曲線
+    - 縦断曲線
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:09
+  type: content
+  parent: mcc2023:V-F-1
+  name: 写真測量
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:09.01
+  type: goal
+  parent: mcc2023:V-F-1:09
+  text: 写真測量の原理、方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: オーバーラップ、サイドラップ、相互標定、絶対標定
+    items:
+    - オーバーラップ
+    - サイドラップ
+    - 相互標定
+    - 絶対標定
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:10
+  type: content
+  parent: mcc2023:V-F-1
+  name: GNSS測量
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:10.01
+  type: goal
+  parent: mcc2023:V-F-1:10
+  text: GNSS測量の原理を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 単独測位法、相対測位法
+    items:
+    - 単独測位法
+    - 相対測位法
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:11
+  type: content
+  parent: mcc2023:V-F-1
+  name: 誤差論、測量で使う数学
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:11.01
+  type: goal
+  parent: mcc2023:V-F-1:11
+  text: 有効数字、数値の丸め方を説明でき、これを考慮した計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 有効数字、数値の丸め方
+    items:
+    - 有効数字
+    - 数値の丸め方
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-1:11.02
+  type: goal
+  parent: mcc2023:V-F-1:11
+  text: 最小二乗法の原理を説明でき、これを考慮した計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 誤差論、誤差伝播
+    items:
+    - 誤差論
+    - 誤差伝播
+  note: null
+  source:
+    page_pdf: 102
+    page_printed: 88
+  verification: machine
+- id: mcc2023:V-F-2
+  type: area
+  parent: mcc2023:V-F
+  code: V-F-2
+  name: 材料
+  heading_raw: V-F-2 材料
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 材料系領域は、土木工学に使用されるおもな材料の製造方法、組成、性質などを理解し、使用目的に応じて適
+    - 切に材料を選定し、計画的、経済的に材料を活用することができる能力を養う。
+    - (1) 材料分野では、建設工事に使用される主な材料全般に関して、上に示した能力を持つこと。
+    - (2) コンクリート分野では、特にコンクリートに関して、より深く上の目標を達成することに加えて、コンク
+    - リート構造物の設計計算ができること。
+    - 2 一般的な科目名
+    - 建設材料学、コンクリート工学、建設複合材料、コンクリート構造学、鉄筋コンクリート
+    pages_pdf:
+    - 103
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:01
+  type: content
+  parent: mcc2023:V-F-2
+  name: 材料の基本的性質
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:01.01
+  type: goal
+  parent: mcc2023:V-F-2:01
+  text: 材料に要求される力学的性質及び物理的性質に関する用語、定義を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 強度、重量、熱
+    items:
+    - 強度
+    - 重量
+    - 熱
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:02
+  type: content
+  parent: mcc2023:V-F-2
+  name: 金属材料
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:02.01
+  type: goal
+  parent: mcc2023:V-F-2:02
+  text: 鋼材の種類、形状を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: JIS規格
+    items:
+    - JIS規格
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:02.02
+  type: goal
+  parent: mcc2023:V-F-2:02
+  text: 応力－ひずみ関係、降伏応力、引張強度、弾性係数に関する鋼材の力学的性質を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 応力－ひずみ関係、降伏応力、引張強度、弾性係数
+    items:
+    - 応力－ひずみ関係
+    - 降伏応力
+    - 引張強度
+    - 弾性係数
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:03
+  type: content
+  parent: mcc2023:V-F-2
+  name: セメント、骨材、混和材料
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:03.01
+  type: goal
+  parent: mcc2023:V-F-2:03
+  text: セメントの物理的性質、化学的性質を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 凝結と硬化、風化、水和反応、水和熱
+    items:
+    - 凝結と硬化
+    - 風化
+    - 水和反応
+    - 水和熱
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:03.02
+  type: goal
+  parent: mcc2023:V-F-2:03
+  text: 各種セメントの特徴、用途を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ポルトランドセメント、混合セメント
+    items:
+    - ポルトランドセメント
+    - 混合セメント
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:03.03
+  type: goal
+  parent: mcc2023:V-F-2:03
+  text: 骨材の含水状態、密度、粒度、実積率を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 吸水率、単位容積質量
+    items:
+    - 吸水率
+    - 単位容積質量
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:03.04
+  type: goal
+  parent: mcc2023:V-F-2:03
+  text: 骨材の種類、特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 砕石、スラグ骨材
+    items:
+    - 砕石
+    - スラグ骨材
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:03.05
+  type: goal
+  parent: mcc2023:V-F-2:03
+  text: 混和剤と混和材の種類、特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: AE剤、フライアッシュ
+    items:
+    - AE剤
+    - フライアッシュ
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:04
+  type: content
+  parent: mcc2023:V-F-2
+  name: コンクリート
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:04.01
+  type: goal
+  parent: mcc2023:V-F-2:04
+  text: コンクリートの長所、短所を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 強度特性、経済性、品質管理
+    items:
+    - 強度特性
+    - 経済性
+    - 品質管理
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:04.02
+  type: goal
+  parent: mcc2023:V-F-2:04
+  text: フレッシュコンクリートのワーカビリティー、スランプ、空気量を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: コンシステンシー、プラスティシティー、フィニッシャビリティー
+    items:
+    - コンシステンシー
+    - プラスティシティー
+    - フィニッシャビリティー
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:04.03
+  type: goal
+  parent: mcc2023:V-F-2:04
+  text: 硬化コンクリートの圧縮強度、応力－ひずみ曲線、弾性係数、乾燥収縮を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 硬化コンクリートの圧縮強度、応力－ひずみ曲線、弾性係数、乾燥収縮クリープ
+    items:
+    - 硬化コンクリートの圧縮強度
+    - 応力－ひずみ曲線
+    - 弾性係数
+    - 乾燥収縮クリープ
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:04.04
+  type: goal
+  parent: mcc2023:V-F-2:04
+  text: 硬化コンクリートの耐久性に関して、凍害、アルカリシリカ反応、中性化、塩害を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 凍害、アルカリシリカ反応、中性化、塩害
+    items:
+    - 凍害
+    - アルカリシリカ反応
+    - 中性化
+    - 塩害
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:04.05
+  type: goal
+  parent: mcc2023:V-F-2:04
+  text: 配合設計の手順を理解し、計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 示方配合、現場配合
+    items:
+    - 示方配合
+    - 現場配合
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:05
+  type: content
+  parent: mcc2023:V-F-2
+  name: コンクリート構造
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:05.01
+  type: goal
+  parent: mcc2023:V-F-2:05
+  text: 鉄筋コンクリート、プレストレストコンクリートに関して、構造と特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 鉄筋コンクリート構造、プレストレスの導入方式、構造細目
+    items:
+    - 鉄筋コンクリート構造
+    - プレストレスの導入方式
+    - 構造細目
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:05.02
+  type: goal
+  parent: mcc2023:V-F-2:05
+  text: コンクリート構造の代表的な設計法である許容応力度設計法、限界状態設計法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 照査、安全性、使用性、耐久性
+    items:
+    - 照査
+    - 安全性
+    - 使用性
+    - 耐久性
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:05.03
+  type: goal
+  parent: mcc2023:V-F-2:05
+  text: 曲げモーメントを受ける部材の破壊形式を説明でき、断面破壊に対する安全性を検討できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 釣合い鉄筋比、曲げ破壊の種類、等価応力ブロック、曲げ耐力
+    items:
+    - 釣合い鉄筋比
+    - 曲げ破壊の種類
+    - 等価応力ブロック
+    - 曲げ耐力
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:05.04
+  type: goal
+  parent: mcc2023:V-F-2:05
+  text: 曲げモーメントを受ける部材の断面応力度の算定、ひび割れに対する安全性を検討できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 換算断面、曲げ応力度、許容ひび割れ幅
+    items:
+    - 換算断面
+    - 曲げ応力度
+    - 許容ひび割れ幅
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:05.05
+  type: goal
+  parent: mcc2023:V-F-2:05
+  text: せん断力を受ける部材の破壊形式を説明でき、せん断力に対する安全性を検討できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: せん断補強材、せん断破壊の種類、せん断耐力
+    items:
+    - せん断補強材
+    - せん断破壊の種類
+    - せん断耐力
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:06
+  type: content
+  parent: mcc2023:V-F-2
+  name: 維持管理
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-2:06.01
+  type: goal
+  parent: mcc2023:V-F-2:06
+  text: コンクリート構造物の維持管理、非破壊検査、補修、補強の基礎を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 維持管理のための要求性能、補修工法、補強工法
+    items:
+    - 維持管理のための要求性能
+    - 補修工法
+    - 補強工法
+  note: null
+  source:
+    page_pdf: 103
+    page_printed: 89
+  verification: machine
+- id: mcc2023:V-F-3
+  type: area
+  parent: mcc2023:V-F
+  code: V-F-3
+  name: 構造
+  heading_raw: V-F-3 構造
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 構造系領域は、力学に関する基礎的な理論などを理解し、構造物に働く応力と変形などの計算方法を習得し、
+    - その知識を各種構造物の設計に応用できる能力を養う。
+    - (1) 力学分野では、建設・建築構造物に作用する外力に対し、反力や構造物内部に生じる応力及び変形を計算
+    - できること。
+    - (2) 各種構造分野では、基本的な構造物の仕組み、設計手順について、説明できること。
+    - 2 一般的な科目名
+    - 構造力学、基礎力学、応用力学、橋梁工学、鋼構造工学
+    pages_pdf:
+    - 104
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:01
+  type: content
+  parent: mcc2023:V-F-3
+  name: 断面諸量
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:01.01
+  type: goal
+  parent: mcc2023:V-F-3:01
+  text: 断面一次モーメントの定義を理解し、図心を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 断面一次モーメント、図心、断面二次モーメント、断面係数、断面二次半径
+    items:
+    - 断面一次モーメント
+    - 図心
+    - 断面二次モーメント
+    - 断面係数
+    - 断面二次半径
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:01.02
+  type: goal
+  parent: mcc2023:V-F-3:01
+  text: 断面二次モーメント、断面係数、断面二次半径の定義を理解し、それらを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ''
+    items: []
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:02
+  type: content
+  parent: mcc2023:V-F-3
+  name: 静定ばり
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:02.01
+  type: goal
+  parent: mcc2023:V-F-3:02
+  text: 各種静定ばりの支点に生じる反力を計算でき、断面に生じている断面力（軸力、せん断力、曲げモーメント）を計算し、その断面力図（軸力図、せん断力図、曲げモーメント図）を描くことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 単純ばり、片持ちばり、張出しばり、ゲルバーばり、集中荷重、分布荷重、モーメント荷重、軸力、せん断力、曲げモーメント
+    items:
+    - 単純ばり
+    - 片持ちばり
+    - 張出しばり
+    - ゲルバーばり
+    - 集中荷重
+    - 分布荷重
+    - モーメント荷重
+    - 軸力
+    - せん断力
+    - 曲げモーメント
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:03
+  type: content
+  parent: mcc2023:V-F-3
+  name: トラス
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:03.01
+  type: goal
+  parent: mcc2023:V-F-3:03
+  text: トラスとその部材の種類、安定性について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 節点法（格点法）、断面法
+    items:
+    - 節点法（格点法）
+    - 断面法
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:03.02
+  type: goal
+  parent: mcc2023:V-F-3:03
+  text: 節点法や断面法を用いて、トラスの部材力を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ''
+    items: []
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:04
+  type: content
+  parent: mcc2023:V-F-3
+  name: 影響線
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:04.01
+  type: goal
+  parent: mcc2023:V-F-3:04
+  text: 支点反力、曲げモーメントやせん断力の影響線を描き、これを利用して、支点反力や断面力を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 支点反力、せん断力、曲げモーメント、トラスの軸力、連行荷重
+    items:
+    - 支点反力
+    - せん断力
+    - 曲げモーメント
+    - トラスの軸力
+    - 連行荷重
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:05
+  type: content
+  parent: mcc2023:V-F-3
+  name: 静定ラーメン
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:05.01
+  type: goal
+  parent: mcc2023:V-F-3:05
+  text: ラーメンの支点反力、断面力（軸力、せん断力、曲げモーメント）を計算し、その断面力図（軸力図、せん断力図、曲げモーメント図）を描くことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 軸力、せん断力、曲げモーメント
+    items:
+    - 軸力
+    - せん断力
+    - 曲げモーメント
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:06
+  type: content
+  parent: mcc2023:V-F-3
+  name: 応力とひずみ
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:06.01
+  type: goal
+  parent: mcc2023:V-F-3:06
+  text: 応力とひずみの定義や関係を理解し、軸方向力を受ける部材に生じる応力とひずみを計算できる。弾性係数、ポアソン比、フックの法則の定義を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 応力、ひずみ、弾性係数、ポアソン比、フックの法則、せん断弾性係数
+    items:
+    - 応力
+    - ひずみ
+    - 弾性係数
+    - ポアソン比
+    - フックの法則
+    - せん断弾性係数
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:06.02
+  type: goal
+  parent: mcc2023:V-F-3:06
+  text: 曲げ変形を受ける部材の断面に生じる曲げ応力とせん断応力を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 中立面、中立軸、曲率半径、縁端応力
+    items:
+    - 中立面
+    - 中立軸
+    - 曲率半径
+    - 縁端応力
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:07
+  type: content
+  parent: mcc2023:V-F-3
+  name: はりのたわみ
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:07.01
+  type: goal
+  parent: mcc2023:V-F-3:07
+  text: はりのたわみに関する微分方程式と境界条件から、はりのたわみやたわみ角を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 曲率、二階の微分方程式による解法、四階の微分方程式による解法、弾性荷重法、共役ばり
+    items:
+    - 曲率
+    - 二階の微分方程式による解法
+    - 四階の微分方程式による解法
+    - 弾性荷重法
+    - 共役ばり
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:08
+  type: content
+  parent: mcc2023:V-F-3
+  name: 柱
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:08.01
+  type: goal
+  parent: mcc2023:V-F-3:08
+  text: 圧縮力を受ける長柱の支持条件に基づく座屈モードを説明でき、オイラーの座屈荷重を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 細長比、有効座屈長
+    items:
+    - 細長比
+    - 有効座屈長
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:08.02
+  type: goal
+  parent: mcc2023:V-F-3:08
+  text: 偏心荷重を受ける短柱に生じる応力を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 偏心距離、核
+    items:
+    - 偏心距離
+    - 核
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:09
+  type: content
+  parent: mcc2023:V-F-3
+  name: 仕事とエネルギー法
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:09.01
+  type: goal
+  parent: mcc2023:V-F-3:09
+  text: 仮想仕事の原理を用いた静定構造の変形を求める方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 仮想仕事の原理、ひずみエネルギー、単位荷重法、カスティリアノの定理
+    items:
+    - 仮想仕事の原理
+    - ひずみエネルギー
+    - 単位荷重法
+    - カスティリアノの定理
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:10
+  type: content
+  parent: mcc2023:V-F-3
+  name: 不静定構造
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:10.01
+  type: goal
+  parent: mcc2023:V-F-3:10
+  text: 構造物の安定と不安定、静定と不静定を判別でき、不静定次数を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 不静定次数
+    items:
+    - 不静定次数
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:10.02
+  type: goal
+  parent: mcc2023:V-F-3:10
+  text: 応力法や変位法による不静定構造の解法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 余力法、三連モーメント法、たわみ角法、マトリクス法
+    items:
+    - 余力法
+    - 三連モーメント法
+    - たわみ角法
+    - マトリクス法
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:11
+  type: content
+  parent: mcc2023:V-F-3
+  name: 橋梁工学
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:11.01
+  type: goal
+  parent: mcc2023:V-F-3:11
+  text: 橋の種類、構成している部材の種類、設計で考慮すべき荷重を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: プレートガーダー橋、合成桁橋、トラス橋、死荷重、活荷重
+    items:
+    - プレートガーダー橋
+    - 合成桁橋
+    - トラス橋
+    - 死荷重
+    - 活荷重
+  note: null
+  source:
+    page_pdf: 104
+    page_printed: 90
+  verification: machine
+- id: mcc2023:V-F-3:11.02
+  type: goal
+  parent: mcc2023:V-F-3:11
+  text: 道路橋示方書で用いられる設計法の概要を説明でき、様々な力を受ける部材の設計計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 限界状態設計法
+    items:
+    - 限界状態設計法
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+    page_top: true
+  verification: machine
+- id: mcc2023:V-F-3:11.03
+  type: goal
+  parent: mcc2023:V-F-3:11
+  text: 軸力又は曲げを受ける部材、軸力と曲げを受ける部材の設計法を説明でき、簡単な例に対し計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ''
+    items: []
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-3:11.04
+  type: goal
+  parent: mcc2023:V-F-3:11
+  text: 鋼材の接合の種類と原理を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 溶接接合、高力ボルト接合
+    items:
+    - 溶接接合
+    - 高力ボルト接合
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4
+  type: area
+  parent: mcc2023:V-F
+  code: V-F-4
+  name: 地盤
+  heading_raw: V-F-4 地盤
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 地盤系領域は、土の工学的性質に関する基礎知識と土質力学の理論を理解し、地盤の応力と変形・安定計算の
+    - 計算方法を習得し、その知識を建設工事の設計施工に応用できる能力を養う。
+    - (1) 土質力学分野では、地盤材料の基本的性質、地盤内の水理特性、土の力学的性質を使って、地盤の変形が理
+    - 解でき、地盤の安定解析に適用できること。
+    - 2 一般的な科目名
+    - 土質力学、地盤力学、地盤工学
+    pages_pdf:
+    - 105
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:01
+  type: content
+  parent: mcc2023:V-F-4
+  name: 地盤材料の基本的性質
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:01.01
+  type: goal
+  parent: mcc2023:V-F-4:01
+  text: 土の生成、基本的物理量、構造などを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 間隙量と水分量の指標、密度の指標
+    items:
+    - 間隙量と水分量の指標
+    - 密度の指標
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:01.02
+  type: goal
+  parent: mcc2023:V-F-4:01
+  text: 土の粒径、粒度分布、コンシステンシーを理解し、地盤材料の工学的分類に適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 粒径加積曲線、液性限界、塑性限界
+    items:
+    - 粒径加積曲線
+    - 液性限界
+    - 塑性限界
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:01.03
+  type: goal
+  parent: mcc2023:V-F-4:01
+  text: 土の締固め特性を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 締固め曲線、最適含水比
+    items:
+    - 締固め曲線
+    - 最適含水比
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:02
+  type: content
+  parent: mcc2023:V-F-4
+  name: 地盤内の水理
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:02.01
+  type: goal
+  parent: mcc2023:V-F-4:02
+  text: ダルシーの法則、透水係数、透水試験を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 室内透水試験、現場透水試験
+    items:
+    - 室内透水試験
+    - 現場透水試験
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:02.02
+  type: goal
+  parent: mcc2023:V-F-4:02
+  text: 透水力による浸透破壊現象を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ボイリング
+    items:
+    - ボイリング
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:03
+  type: content
+  parent: mcc2023:V-F-4
+  name: 土の力学的性質
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:03.01
+  type: goal
+  parent: mcc2023:V-F-4:03
+  text: 土のせん断試験を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 一面せん断試験、三軸圧縮試験、一軸圧縮試験
+    items:
+    - 一面せん断試験
+    - 三軸圧縮試験
+    - 一軸圧縮試験
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:03.02
+  type: goal
+  parent: mcc2023:V-F-4:03
+  text: 土のせん断特性を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 粘土、砂のせん断特性
+    items:
+    - 粘土
+    - 砂のせん断特性
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:03.03
+  type: goal
+  parent: mcc2023:V-F-4:03
+  text: 土の破壊規準を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: モール・クーロンの破壊規準
+    items:
+    - モール・クーロンの破壊規準
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:04
+  type: content
+  parent: mcc2023:V-F-4
+  name: 地盤の変形
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:04.01
+  type: goal
+  parent: mcc2023:V-F-4:04
+  text: 地盤内応力を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ブーシネスクの解
+    items:
+    - ブーシネスクの解
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:04.02
+  type: goal
+  parent: mcc2023:V-F-4:04
+  text: 有効応力の原理を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 有効応力
+    items:
+    - 有効応力
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:04.03
+  type: goal
+  parent: mcc2023:V-F-4:04
+  text: 土の圧密現象、一次元圧密理論を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: テルツァーギの圧密理論
+    items:
+    - テルツァーギの圧密理論
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:04.04
+  type: goal
+  parent: mcc2023:V-F-4:04
+  text: 圧密沈下量と時間を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 粘土の圧縮特性
+    items:
+    - 粘土の圧縮特性
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:05
+  type: content
+  parent: mcc2023:V-F-4
+  name: 地盤の安定解析
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:05.01
+  type: goal
+  parent: mcc2023:V-F-4:05
+  text: ランキン土圧、クーロン土圧を説明でき、土圧算定に適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 主働土圧係数、受働土圧係数
+    items:
+    - 主働土圧係数
+    - 受働土圧係数
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:05.02
+  type: goal
+  parent: mcc2023:V-F-4:05
+  text: 基礎の種類とそれらの支持力公式を説明でき、土の構造物の支持力算定に適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 支持力
+    items:
+    - 支持力
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:05.03
+  type: goal
+  parent: mcc2023:V-F-4:05
+  text: 斜面の安定計算手法を説明でき、安全率等の算定に適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 安全率
+    items:
+    - 安全率
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:06
+  type: content
+  parent: mcc2023:V-F-4
+  name: 土の動的性質
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:06.01
+  type: goal
+  parent: mcc2023:V-F-4:06
+  text: 飽和砂の液状化メカニズムを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 液状化
+    items:
+    - 液状化
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:07
+  type: content
+  parent: mcc2023:V-F-4
+  name: 地盤調査
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-4:07.01
+  type: goal
+  parent: mcc2023:V-F-4:07
+  text: 地盤調査の分類と内容を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ボーリング、サウンディング
+    items:
+    - ボーリング
+    - サウンディング
+  note: null
+  source:
+    page_pdf: 105
+    page_printed: 91
+  verification: machine
+- id: mcc2023:V-F-5
+  type: area
+  parent: mcc2023:V-F
+  code: V-F-5
+  name: 水理
+  heading_raw: V-F-5 水理
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 水理系領域は、水の物理的性質及び静水力学と流体力学の基礎理論と計算理論を理解し、流れの計算方法を習
+    - 得し、その知識を治水・利水・環境に関する課題に使うことができる能力を養う。
+    - (1) 水理分野は、静水圧及び管水路と開水路の流れの理論について、説明できること。
+    - (2) 河川分野は、川の流れの基本的性質を理解し、流出量や水文量が計算でき、治水・利水・環境に関する河川
+    - の諸問題について、説明できること。
+    - (3) 海岸分野は、波の基本的性質について、説明できること。
+    - 2 一般的な科目名
+    - 水理学、河川工学、水文学、水資源工学、海岸工学
+    pages_pdf:
+    - 106
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:01
+  type: content
+  parent: mcc2023:V-F-5
+  name: 水の性質
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:01.01
+  type: goal
+  parent: mcc2023:V-F-5:01
+  text: 水理学で用いる単位系を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 比重、粘性係数、動粘性係数
+    items:
+    - 比重
+    - 粘性係数
+    - 動粘性係数
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:02
+  type: content
+  parent: mcc2023:V-F-5
+  name: 静水力学
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:02.01
+  type: goal
+  parent: mcc2023:V-F-5:02
+  text: 静水圧と全水圧を説明でき、平面と曲面に作用する全水圧の大きさと作用点を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 水圧、全水圧、マノメータ、差圧計
+    items:
+    - 水圧
+    - 全水圧
+    - マノメータ
+    - 差圧計
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:02.02
+  type: goal
+  parent: mcc2023:V-F-5:02
+  text: 浮力と浮体の安定を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 浮心、喫水、傾心
+    items:
+    - 浮心
+    - 喫水
+    - 傾心
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:03
+  type: content
+  parent: mcc2023:V-F-5
+  name: 流れの基礎理論
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:03.01
+  type: goal
+  parent: mcc2023:V-F-5:03
+  text: 連続の式を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 定常流と非定常流、流積、断面平均流速
+    items:
+    - 定常流と非定常流
+    - 流積
+    - 断面平均流速
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:03.02
+  type: goal
+  parent: mcc2023:V-F-5:03
+  text: ベルヌーイの定理を説明でき、これを応用した計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 全水頭と各水頭、トリチェリの定理、ピトー管、ベンチュリーメータ
+    items:
+    - 全水頭と各水頭
+    - トリチェリの定理
+    - ピトー管
+    - ベンチュリーメータ
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:03.03
+  type: goal
+  parent: mcc2023:V-F-5:03
+  text: 運動量保存則を説明でき、これを応用した計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 流体から作用する力
+    items:
+    - 流体から作用する力
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:04
+  type: content
+  parent: mcc2023:V-F-5
+  name: 常流と射流
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:04.01
+  type: goal
+  parent: mcc2023:V-F-5:04
+  text: 比エネルギー、フルード数、常流と射流、限界水深、跳水現象を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 比エネルギー、フルード数、限界水深、比力
+    items:
+    - 比エネルギー
+    - フルード数
+    - 限界水深
+    - 比力
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:05
+  type: content
+  parent: mcc2023:V-F-5
+  name: 層流と乱流
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:05.01
+  type: goal
+  parent: mcc2023:V-F-5:05
+  text: 層流と乱流、流体摩擦による損失を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: レイノルズ数、限界レイノルズ数、摩擦損失係数、ダルシー・ワイスバッハの式
+    items:
+    - レイノルズ数
+    - 限界レイノルズ数
+    - 摩擦損失係数
+    - ダルシー・ワイスバッハの式
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:06
+  type: content
+  parent: mcc2023:V-F-5
+  name: 管水路の定常流れ
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:06.01
+  type: goal
+  parent: mcc2023:V-F-5:06
+  text: 管水路の摩擦以外の各種の損失係数を説明でき、管水路の流れを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 各種損失水頭、単線管水路、サイフォン
+    items:
+    - 各種損失水頭
+    - 単線管水路
+    - サイフォン
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:07
+  type: content
+  parent: mcc2023:V-F-5
+  name: 開水路の定常流れ
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:07.01
+  type: goal
+  parent: mcc2023:V-F-5:07
+  text: 開水路の等流と不等流を説明でき、等流の流れ（平均流速公式、等流水深）を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 平均流速公式、等流水深、不等流の水面形
+    items:
+    - 平均流速公式
+    - 等流水深
+    - 不等流の水面形
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:08
+  type: content
+  parent: mcc2023:V-F-5
+  name: 河川の地形学
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:08.01
+  type: goal
+  parent: mcc2023:V-F-5:08
+  text: 河川の管理と整備、河川の分類と流域を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 河川法の変遷、河川法による水系の定義、河川の作用と地形
+    items:
+    - 河川法の変遷
+    - 河川法による水系の定義
+    - 河川の作用と地形
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:09
+  type: content
+  parent: mcc2023:V-F-5
+  name: 河川の水文学
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:09.01
+  type: goal
+  parent: mcc2023:V-F-5:09
+  text: 水の循環、我が国の降雨特性、水文量を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 水文循環、地球温暖化の問題、流出現象、流域平均雨量
+    items:
+    - 水文循環
+    - 地球温暖化の問題
+    - 流出現象
+    - 流域平均雨量
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:10
+  type: content
+  parent: mcc2023:V-F-5
+  name: 河川と治水
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:10.01
+  type: goal
+  parent: mcc2023:V-F-5:10
+  text: 河道とダムによる洪水の対策、都市型水害の対策を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 計画降雨、確率年、内水処理、流域治水
+    items:
+    - 計画降雨
+    - 確率年
+    - 内水処理
+    - 流域治水
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:11
+  type: content
+  parent: mcc2023:V-F-5
+  name: 河川と利水
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:11.01
+  type: goal
+  parent: mcc2023:V-F-5:11
+  text: 日本の水資源の現況を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 利水計画の変遷、水質の保全
+    items:
+    - 利水計画の変遷
+    - 水質の保全
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:12
+  type: content
+  parent: mcc2023:V-F-5
+  name: 河川構造物
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:12.01
+  type: goal
+  parent: mcc2023:V-F-5:12
+  text: 河川堤防、護岸、水制の役割を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 河川構造物、堤防の種類と機能、堤防断面各部の名称
+    items:
+    - 河川構造物
+    - 堤防の種類と機能
+    - 堤防断面各部の名称
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:13
+  type: content
+  parent: mcc2023:V-F-5
+  name: 海岸防災
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-5:13.01
+  type: goal
+  parent: mcc2023:V-F-5:13
+  text: 波の基本的性質、津波と高潮の特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 波長、波速、津波の伝播、高潮発生のメカニズム
+    items:
+    - 波長
+    - 波速
+    - 津波の伝播
+    - 高潮発生のメカニズム
+  note: null
+  source:
+    page_pdf: 106
+    page_printed: 92
+  verification: machine
+- id: mcc2023:V-F-6
+  type: area
+  parent: mcc2023:V-F
+  code: V-F-6
+  name: 環境
+  heading_raw: V-F-6 環境
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 環境系領域は、地球環境問題、公害に関する基礎知識を理解し、これらを解消・予防するための社会基盤整備
+    - 事業の方法を習得し、その知識を水質汚濁、浄水、廃棄物などの課題に使うことができる能力を養う。
+    - 2一般的な科目名
+    - 環境工学、衛生工学、上下水道工学、環境アセスメント、地球環境学、環境衛生工学、環境保全工学
+    pages_pdf:
+    - 107
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:01
+  type: content
+  parent: mcc2023:V-F-6
+  name: 地球環境問題
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:01.01
+  type: goal
+  parent: mcc2023:V-F-6:01
+  text: 地球規模の環境問題を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 地球温暖化、開発途上国、資源問題
+    items:
+    - 地球温暖化
+    - 開発途上国
+    - 資源問題
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:02
+  type: content
+  parent: mcc2023:V-F-6
+  name: 環境と人の健康
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:02.01
+  type: goal
+  parent: mcc2023:V-F-6:02
+  text: 公害と人の健康、環境と人の健康、それぞれの関わりを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 環境要因と疾病、実例
+    items:
+    - 環境要因と疾病
+    - 実例
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:03
+  type: content
+  parent: mcc2023:V-F-6
+  name: 水質汚濁
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:03.01
+  type: goal
+  parent: mcc2023:V-F-6:03
+  text: 水質汚濁の指標を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: DO、SS、BOD、窒素
+    items:
+    - DO
+    - SS
+    - BOD
+    - 窒素
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:03.02
+  type: goal
+  parent: mcc2023:V-F-6:03
+  text: 水質汚濁物の発生源、移動過程を説明でき、原単位、発生負荷を含めた計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 点源、面源、各種負荷
+    items:
+    - 点源
+    - 面源
+    - 各種負荷
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:03.03
+  type: goal
+  parent: mcc2023:V-F-6:03
+  text: 水域生態系と自浄作用、富栄養化、生物濃縮に関する水質変換過程を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 独立栄養性、従属栄養性、ストリーターフェルペスの式
+    items:
+    - 独立栄養性
+    - 従属栄養性
+    - ストリーターフェルペスの式
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:03.04
+  type: goal
+  parent: mcc2023:V-F-6:03
+  text: 水質汚濁の現状、防止対策を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 環境基準、水質汚濁防止法
+    items:
+    - 環境基準
+    - 水質汚濁防止法
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:04
+  type: content
+  parent: mcc2023:V-F-6
+  name: 上水道
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:04.01
+  type: goal
+  parent: mcc2023:V-F-6:04
+  text: 日本における水道の役割、種類を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 水道法
+    items:
+    - 水道法
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:04.02
+  type: goal
+  parent: mcc2023:V-F-6:04
+  text: 基本計画、給水量、水質、水圧に関する水道計画を理解でき、計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 計画一日平均給水量、水道水質基準、各種施設
+    items:
+    - 計画一日平均給水量
+    - 水道水質基準
+    - 各種施設
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:04.03
+  type: goal
+  parent: mcc2023:V-F-6:04
+  text: 凝集、沈澱、濾過、殺菌に関する浄水の単位操作を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ストークスの式、凝集剤、急速濾過、塩素
+    items:
+    - ストークスの式
+    - 凝集剤
+    - 急速濾過
+    - 塩素
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:05
+  type: content
+  parent: mcc2023:V-F-6
+  name: 下水道
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:05.01
+  type: goal
+  parent: mcc2023:V-F-6:05
+  text: 下水道の役割、現状、汚水処理整備の種類を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 下水道法、下水道類似施設
+    items:
+    - 下水道法
+    - 下水道類似施設
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:05.02
+  type: goal
+  parent: mcc2023:V-F-6:05
+  text: 下水道の基本計画と施設計画、下水道の構成を説明でき、これに関する計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 汚水量、雨水量、流入負荷
+    items:
+    - 汚水量
+    - 雨水量
+    - 流入負荷
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:05.03
+  type: goal
+  parent: mcc2023:V-F-6:05
+  text: 好気性の生物学的排水処理の基礎を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 活性汚泥法、操作因子
+    items:
+    - 活性汚泥法
+    - 操作因子
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:05.04
+  type: goal
+  parent: mcc2023:V-F-6:05
+  text: 汚泥の処理、処分を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 物理処理、生物処理、VSS/SS、有効利用
+    items:
+    - 物理処理
+    - 生物処理
+    - VSS/SS
+    - 有効利用
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:06
+  type: content
+  parent: mcc2023:V-F-6
+  name: 大気汚染
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:06.01
+  type: goal
+  parent: mcc2023:V-F-6:06
+  text: 大気汚染の現状、発生源を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 環境基準
+    items:
+    - 環境基準
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:07
+  type: content
+  parent: mcc2023:V-F-6
+  name: 騒音・振動
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:07.01
+  type: goal
+  parent: mcc2023:V-F-6:07
+  text: 騒音の現状、発生源を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 環境基準、感覚公害
+    items:
+    - 環境基準
+    - 感覚公害
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:08
+  type: content
+  parent: mcc2023:V-F-6
+  name: 廃棄物
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:08.01
+  type: goal
+  parent: mcc2023:V-F-6:08
+  text: 廃棄物の現状、発生源を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 廃掃法による廃棄物の定義
+    items:
+    - 廃掃法による廃棄物の定義
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:08.02
+  type: goal
+  parent: mcc2023:V-F-6:08
+  text: 廃棄物の収集、処理、処分を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 分別、再生、再資源化、埋立
+    items:
+    - 分別
+    - 再生
+    - 再資源化
+    - 埋立
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:08.03
+  type: goal
+  parent: mcc2023:V-F-6:08
+  text: 不法投棄防止、減量化、再資源化に関して、施策による廃棄物対策を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: マニフェスト制度、循環型社会形成推進基本法
+    items:
+    - マニフェスト制度
+    - 循環型社会形成推進基本法
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:09
+  type: content
+  parent: mcc2023:V-F-6
+  name: 環境影響評価
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:09.01
+  type: goal
+  parent: mcc2023:V-F-6:09
+  text: 環境影響評価の目的、指標、一連の流れ、実例を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 環境影響評価法
+    items:
+    - 環境影響評価法
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:09.02
+  type: goal
+  parent: mcc2023:V-F-6:09
+  text: リスクアセスメントを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ハザード管理
+    items:
+    - ハザード管理
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:09.03
+  type: goal
+  parent: mcc2023:V-F-6:09
+  text: ライフサイクルアセスメントを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 環境負荷
+    items:
+    - 環境負荷
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:10
+  type: content
+  parent: mcc2023:V-F-6
+  name: 生態工学
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:10.01
+  type: goal
+  parent: mcc2023:V-F-6:10
+  text: 生物多様性の現状、危機を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: レッドリスト、劣化の原因
+    items:
+    - レッドリスト
+    - 劣化の原因
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:10.02
+  type: goal
+  parent: mcc2023:V-F-6:10
+  text: 物質循環と生物の関係を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 炭素、窒素
+    items:
+    - 炭素
+    - 窒素
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:10.03
+  type: goal
+  parent: mcc2023:V-F-6:10
+  text: 生態系の保全手法、施策による保全対策を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 生物多様性基本法
+    items:
+    - 生物多様性基本法
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:11
+  type: content
+  parent: mcc2023:V-F-6
+  name: 土壌汚染
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-6:11.01
+  type: goal
+  parent: mcc2023:V-F-6:11
+  text: 土壌汚染の現状を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 環境基準、有害物質の存在形態
+    items:
+    - 環境基準
+    - 有害物質の存在形態
+  note: null
+  source:
+    page_pdf: 107
+    page_printed: 93
+  verification: machine
+- id: mcc2023:V-F-7
+  type: area
+  parent: mcc2023:V-F
+  code: V-F-7
+  name: 計画
+  heading_raw: V-F-7 計画
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 計画系領域は、国土・地域・都市の成り立ちを理解し、都市と交通の計画を立案するための方法論と統計的計
+    - 算手法を習得し、その知識を社会基盤の整備計画に使うことができる能力を養う。
+    - (1) 計画分野は、国土・地域・都市の各計画の歴史を理解し、今後の土地利用・交通・防災の各計画を立案す
+    - る方法について、説明できること。
+    - (2) 道路分野は、交通の特性を理解し、道路設計に必要な基準について、説明できること。
+    - (3) 数理計画分野は、都市計画と交通計画に必要な統計的計算手法について、説明できること。
+    - 2 一般的な科目名
+    - 都市計画、地域計画、計画数理学、道路工学、交通計画、舗装工学
+    pages_pdf:
+    - 108
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:01
+  type: content
+  parent: mcc2023:V-F-7
+  name: 国土・地域・都市の考え方
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:01.01
+  type: goal
+  parent: mcc2023:V-F-7:01
+  text: 国土（形成）計画、地域計画、都市計画の位置づけを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 国土形成計画、地域計画、都市計画
+    items:
+    - 国土形成計画
+    - 地域計画
+    - 都市計画
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:02
+  type: content
+  parent: mcc2023:V-F-7
+  name: 都市・環境都市の計画の変遷
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:02.01
+  type: goal
+  parent: mcc2023:V-F-7:02
+  text: 日本と世界の都市計画の歴史的変遷を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 古代の都市計画、中世の都市計画、現代の都市計画
+    items:
+    - 古代の都市計画
+    - 中世の都市計画
+    - 現代の都市計画
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:03
+  type: content
+  parent: mcc2023:V-F-7
+  name: 日本の国土・地域・都市計画の関連法規
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:03.01
+  type: goal
+  parent: mcc2023:V-F-7:03
+  text: 都市計画に係わる法律を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 都市計画法、都市計画関連法
+    items:
+    - 都市計画法
+    - 都市計画関連法
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:04
+  type: content
+  parent: mcc2023:V-F-7
+  name: 地域・都市計画の手続き（策定）
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:04.01
+  type: goal
+  parent: mcc2023:V-F-7:04
+  text: マスタープランを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 総合計画、都市計画マスタープラン、都市計画区域マスタープラン
+    items:
+    - 総合計画
+    - 都市計画マスタープラン
+    - 都市計画区域マスタープラン
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:05
+  type: content
+  parent: mcc2023:V-F-7
+  name: 土地利用計画
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:05.01
+  type: goal
+  parent: mcc2023:V-F-7:05
+  text: 都市計画区域、区域区分、用途地域を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 都市計画区域、市街化区域、市街化調整区域、用途地域
+    items:
+    - 都市計画区域
+    - 市街化区域
+    - 市街化調整区域
+    - 用途地域
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:06
+  type: content
+  parent: mcc2023:V-F-7
+  name: 交通と交通施設の計画
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:06.01
+  type: goal
+  parent: mcc2023:V-F-7:06
+  text: 交通流調査、交通流動調査、交通需要推計の方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 交通量調査、速度調査、パーソントリップ調査、自動車OD調査、四段階推計法
+    items:
+    - 交通量調査
+    - 速度調査
+    - パーソントリップ調査
+    - 自動車OD調査
+    - 四段階推計法
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:07
+  type: content
+  parent: mcc2023:V-F-7
+  name: 公園緑地の計画
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:07.01
+  type: goal
+  parent: mcc2023:V-F-7:07
+  text: 公園緑地の計画を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 都市公園、緑地、緑の基本計画
+    items:
+    - 都市公園
+    - 緑地
+    - 緑の基本計画
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:08
+  type: content
+  parent: mcc2023:V-F-7
+  name: 防災と景観整備の計画
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:08.01
+  type: goal
+  parent: mcc2023:V-F-7:08
+  text: 景観計画の考え方を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 景観要素
+    items:
+    - 景観要素
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:08.02
+  type: goal
+  parent: mcc2023:V-F-7:08
+  text: 都市の防災構造化を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 防火地域、地域防災計画
+    items:
+    - 防火地域
+    - 地域防災計画
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:09
+  type: content
+  parent: mcc2023:V-F-7
+  name: 都市整備の手法
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:09.01
+  type: goal
+  parent: mcc2023:V-F-7:09
+  text: 土地区画整理事業を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 減歩、換地、保留地
+    items:
+    - 減歩
+    - 換地
+    - 保留地
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:09.02
+  type: goal
+  parent: mcc2023:V-F-7:09
+  text: 市街地再開発事業を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 権利変換、権利床、保留床
+    items:
+    - 権利変換
+    - 権利床
+    - 保留床
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:10
+  type: content
+  parent: mcc2023:V-F-7
+  name: 道路計画
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:10.01
+  type: goal
+  parent: mcc2023:V-F-7:10
+  text: 交通流の特性を表す諸量としての交通量、交通容量を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 交通量、交通容量
+    items:
+    - 交通量
+    - 交通容量
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:11
+  type: content
+  parent: mcc2023:V-F-7
+  name: 確率統計と統計的処理
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:11.01
+  type: goal
+  parent: mcc2023:V-F-7:11
+  text: 都市計画と交通計画に必要な確率分布、確率分布を用いた統計的仮説検定の考え方を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 二項分布、ポアソン分布、正規分布、ガンベル分布、同時確率密度関数
+    items:
+    - 二項分布
+    - ポアソン分布
+    - 正規分布
+    - ガンベル分布
+    - 同時確率密度関数
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:12
+  type: content
+  parent: mcc2023:V-F-7
+  name: 最適化手法
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:12.01
+  type: goal
+  parent: mcc2023:V-F-7:12
+  text: 線形計画法としての図解法、シンプレックス法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 線形計画法における図解法、シンプレックス法
+    items:
+    - 線形計画法における図解法
+    - シンプレックス法
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:13
+  type: content
+  parent: mcc2023:V-F-7
+  name: 評価
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-7:13.01
+  type: goal
+  parent: mcc2023:V-F-7:13
+  text: 費用便益分析の考え方を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 現在価値、社会的割引率
+    items:
+    - 現在価値
+    - 社会的割引率
+  note: null
+  source:
+    page_pdf: 108
+    page_printed: 94
+  verification: machine
+- id: mcc2023:V-F-8
+  type: area
+  parent: mcc2023:V-F
+  code: V-F-8
+  name: 施工・法規
+  heading_raw: V-F-8 施工・法規
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 施工系領域は、土木工事における各種の建設機械や材料及び施工法や法規を理解し、品質、原価、工程、安全
+    - 衛生、環境の管理方法を習得し、工事施工の指導・監督に使うことができる能力を養う。
+    - (1) 管理分野は、品質、原価、工程、安全衛生、環境の管理方法について、説明できること。
+    - (2) 施工分野は、土工、基礎工、コンクリート工、トンネル工の概要について、説明できること。
+    - 2 一般的な科目名
+    - 施工管理、土木施工、施工管理学
+    pages_pdf:
+    - 109
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:01
+  type: content
+  parent: mcc2023:V-F-8
+  name: 総論
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:01.01
+  type: goal
+  parent: mcc2023:V-F-8:01
+  text: 工事執行までの各プロセスを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 入札、法規
+    items:
+    - 入札
+    - 法規
+  note: null
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:02
+  type: content
+  parent: mcc2023:V-F-8
+  name: 施工管理
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:02.01
+  type: goal
+  parent: mcc2023:V-F-8:02
+  text: 施工計画の基本事項、品質管理、原価管理、工程管理、安全衛生管理、環境管理を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 予算、積算、工程表、騒音
+    items:
+    - 予算
+    - 積算
+    - 工程表
+    - 騒音
+  note: null
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:03
+  type: content
+  parent: mcc2023:V-F-8
+  name: 建設機械
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:03.01
+  type: goal
+  parent: mcc2023:V-F-8:03
+  text: 建設機械の概要、作業能力算定法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ブルドーザー、バックホウ、作業能力算定法
+    items:
+    - ブルドーザー
+    - バックホウ
+    - 作業能力算定法
+  note: null
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:04
+  type: content
+  parent: mcc2023:V-F-8
+  name: 土工
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:04.01
+  type: goal
+  parent: mcc2023:V-F-8:04
+  text: 土工に関して、目的、切土工の方法、盛土工を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 掘削、運搬、盛土、締固め
+    items:
+    - 掘削
+    - 運搬
+    - 盛土
+    - 締固め
+  note: null
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:05
+  type: content
+  parent: mcc2023:V-F-8
+  name: 基礎工
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:05.01
+  type: goal
+  parent: mcc2023:V-F-8:05
+  text: 基礎工の種類別に目的と施工法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 直接基礎、杭基礎
+    items:
+    - 直接基礎
+    - 杭基礎
+  note: null
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:06
+  type: content
+  parent: mcc2023:V-F-8
+  name: コンクリート工
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:06.01
+  type: goal
+  parent: mcc2023:V-F-8:06
+  text: コンクリート工に関して、目的、型枠工、鉄筋工、足場支保工、打設工を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 品質管理、締固め、養生
+    items:
+    - 品質管理
+    - 締固め
+    - 養生
+  note: null
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:07
+  type: content
+  parent: mcc2023:V-F-8
+  name: トンネル工
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-8:07.01
+  type: goal
+  parent: mcc2023:V-F-8:07
+  text: トンネル工の目的と施工法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 山岳トンネル工法、シールド工法
+    items:
+    - 山岳トンネル工法
+    - シールド工法
+  note: null
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-9
+  type: area
+  parent: mcc2023:V-F
+  code: V-F-9
+  name: 製図
+  heading_raw: V-F-9 製図
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 製図系領域は、製図の基礎知識と土木規約を理解し、図面の描き方と設計計算法を習得し、その知識・技術を
+    - 構造物の設計・製図に使うことができる能力を養う。
+    - (1) 図学・製図分野は、製図用具又はCADを使用し、線の描き分け、寸法・文字の記入方法、構造物の表
+    - 現・投影方法について、説明できること。
+    - (2) CAD分野は、ソフトウェアの基本的な操作方法を理解し、二次元の図面の作成、修正、印刷ができるこ
+    - と。
+    - (3) 設計製図分野では、土木製図の規約を理解し、構造物の設計製図を指針を基に表現できること。
+    - 2 一般的な科目名
+    - 図学、製図
+    pages_pdf:
+    - 109
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-9:01
+  type: content
+  parent: mcc2023:V-F-9
+  name: 図の描き方
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-9:01.01
+  type: goal
+  parent: mcc2023:V-F-9:01
+  text: 線種、文字、図面内容、図法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 寸法、縮尺、レイアウト、各図面と図法
+    items:
+    - 寸法
+    - 縮尺
+    - レイアウト
+    - 各図面と図法
+  note: null
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-9:02
+  type: content
+  parent: mcc2023:V-F-9
+  name: CAD
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-9:02.01
+  type: goal
+  parent: mcc2023:V-F-9:02
+  text: CADソフトウェアの機能、使用方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ツール
+    items:
+    - ツール
+  note: null
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-9:02.02
+  type: goal
+  parent: mcc2023:V-F-9:02
+  text: 設計したものをCADソフトウェアで描き利用することができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 作図、図形要素の修正、レイヤ管理
+    items:
+    - 作図
+    - 図形要素の修正
+    - レイヤ管理
+  note: null
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-9:03
+  type: content
+  parent: mcc2023:V-F-9
+  name: 設計製図
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine
+- id: mcc2023:V-F-9:03.01
+  type: goal
+  parent: mcc2023:V-F-9:03
+  text: 与えられた条件を基に設計製図ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 設計計算
+    items:
+    - 設計計算
+  note: null
+  source:
+    page_pdf: 109
+    page_printed: 95
+  verification: machine

@@ -1,0 +1,213 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: III-A
+nodes:
+- id: mcc2023:III-A
+  type: field
+  parent: mcc2023:III
+  code: III-A
+  name: 国語
+  heading_raw: 2-3.1 III-A 国語
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 人間性の基盤となる言語的・文化的教養を身に付け、自ら進んで効果的かつ対話的なコミュニケーションを実
+    - 践することで、多様な他者を深く理解し、変化する状況にも柔軟に対応する言語能力や専門分野に関わる日本
+    - 語の運用能力の向上を目指す。
+    - (1) 論理的な文章（論説や評論）に表された考えに対して、その論拠の妥当性の判断を踏まえて自分の意見を
+    - 述べることができる。
+    - (2) 専門の分野に関する用語を思考や表現に活用できる。
+    - (3) 言語的・文化的教養に広く関心を持ち、そこで得られた知識や考え方を効果的な表現に活用できる。
+    - (4) 文学作品（小説・随筆・詩歌・古典等）を文脈に沿って鑑賞し、そこに描かれた人物やものの見方への理
+    - 解をもとに、自己を客観的に捉えたり自分の意見を述べたりすることができる。
+    - (5) 情報を収集して分析整理し、構成を工夫して報告・論文を作成し、口頭発表できる。
+    - (6) 根拠に基づいて議論し、新たな発想や他者の視点の理解に努め、集団としての思いや考えをまとめること
+    - ができる。
+    - 2 学習内容の取扱い
+    - (1) ここに掲げる「教育領域の到達目標」は、「国語」の授業科目のみで達成されるものではない。これは、
+    - 「国語」の授業科目で育むべき言語能力の向上が、他の授業科目においても言語活動の充実の取組みにより図
+    - られているためである。
+    - しかし、すべての学習の基盤である言語能力の向上において、「国語」はその中心を担っている。そのため、
+    - 「到達目標」の大部分は「国語」の授業科目が「中心」となって、他の授業科目と連携しながら達成すべきも
+    - のとして掲げている。
+    - なお、一部の到達目標（論文や専門の分野に関する用語、インターネットからの情報収集に関わるもの）につ
+    - いては、その達成自体は他の授業科目が中心となるが、その達成に至るまでに備えるべき知識・能力は「国
+    - 語」の授業科目が中心となって育む。
+    - (2) 言語能力の向上のためには、「国語」と「国語」以外の授業科目との連携が重要である。なかでも、「報告
+    - や論文に関すること、文字以外のものを含む情報の取扱い全般、論理の構成と展開、口頭発表、議論、新たな
+    - 発想や視点の獲得、自分の思いや考えの整理と深化」については、他の授業科目との密接な連携、言語能力向
+    - 上の観点に立つ学校の教育活動全体を通じたカリキュラムマネジメントが欠かせない。
+    - 3 一般的な科目名
+    - 国語、現代文、古典、言語文化、日本文学、日本文化、国語表現、日本語コミュニケーション
+    pages_pdf:
+    - 59
+  source:
+    page_pdf: 59
+    page_printed: 45
+  verification: machine
+- id: mcc2023:III-A:01
+  type: content
+  parent: mcc2023:III-A
+  name: 論理的文章
+  source:
+    page_pdf: 59
+    page_printed: 45
+  verification: machine
+- id: mcc2023:III-A:01.01
+  type: goal
+  parent: mcc2023:III-A:01
+  text: 論理的な文章（論説や評論）の構成や展開を的確にとらえ、要旨・要点をまとめることができる。
+  note: null
+  source:
+    page_pdf: 59
+    page_printed: 45
+  verification: machine
+- id: mcc2023:III-A:01.02
+  type: goal
+  parent: mcc2023:III-A:01
+  text: 論理的な文章（論説や評論）に表された考えに対して、その論拠の妥当性の判断を踏まえて自分の意見を述べることができる。
+  note: null
+  source:
+    page_pdf: 59
+    page_printed: 45
+  verification: machine
+- id: mcc2023:III-A:01.03
+  type: goal
+  parent: mcc2023:III-A:01
+  text: 社会生活で使われる語彙（故事成語・慣用句等を含む）を増やし、思考・表現に活用できる。
+  note: null
+  source:
+    page_pdf: 59
+    page_printed: 45
+  verification: machine
+- id: mcc2023:III-A:01.04
+  type: goal
+  parent: mcc2023:III-A:01
+  text: 専門の分野に関する用語を論理的思考・表現に活用できる。
+  note: null
+  source:
+    page_pdf: 59
+    page_printed: 45
+  verification: machine
+- id: mcc2023:III-A:02
+  type: content
+  parent: mcc2023:III-A
+  name: 言語・文化
+  source:
+    page_pdf: 59
+    page_printed: 45
+  verification: machine
+- id: mcc2023:III-A:02.01
+  type: goal
+  parent: mcc2023:III-A:02
+  text: 文学作品（小説・随筆・詩歌・古典等）を文脈に即して鑑賞し、そこに描かれたものの見方や登場人物の心情を説明できる。
+  note: null
+  source:
+    page_pdf: 59
+    page_printed: 45
+  verification: machine
+- id: mcc2023:III-A:02.02
+  type: goal
+  parent: mcc2023:III-A:02
+  text: 言語的・文化的教養（語彙・知識等）に広く関心を持ち、そこで得られた知識や考え方を効果的な表現に活用できる。
+  note: null
+  source:
+    page_pdf: 59
+    page_printed: 45
+  verification: machine
+- id: mcc2023:III-A:02.03
+  type: goal
+  parent: mcc2023:III-A:02
+  text: 言語作品の読解を通して、人間や社会の多様な在り方についての考えを深め、自己を客観的に捉えたり自分の意見を述べることができる。
+  note: null
+  source:
+    page_pdf: 59
+    page_printed: 45
+  verification: machine
+- id: mcc2023:III-A:02.04
+  type: goal
+  parent: mcc2023:III-A:02
+  text: 常用漢字を中心に、日本語を正しく読み、表記できる。
+  note: null
+  source:
+    page_pdf: 59
+    page_printed: 45
+  verification: machine
+- id: mcc2023:III-A:03
+  type: content
+  parent: mcc2023:III-A
+  name: 表現・コミュニケーション
+  source:
+    page_pdf: 59
+    page_printed: 45
+    pages_pdf:
+    - 59
+    - 60
+  verification: machine
+- id: mcc2023:III-A:03.01
+  type: goal
+  parent: mcc2023:III-A:03
+  text: 実用的な文章（手紙・メール等）を、相手や目的に応じた体裁や語句を用いて作成できる。
+  note: null
+  source:
+    page_pdf: 59
+    page_printed: 45
+  verification: machine
+- id: mcc2023:III-A:03.02
+  type: goal
+  parent: mcc2023:III-A:03
+  text: 報告・論文の目的に応じて、印刷物、インターネットから適切な情報を収集し、それを整理、分析できる。
+  note: null
+  source:
+    page_pdf: 60
+    page_printed: 46
+    page_top: true
+  verification: machine
+- id: mcc2023:III-A:03.03
+  type: goal
+  parent: mcc2023:III-A:03
+  text: 整理した情報を基にして、主張が効果的に伝わるように論理の構成や展開、表現方法を工夫し、報告・論文を作成できる。
+  note: null
+  source:
+    page_pdf: 60
+    page_printed: 46
+  verification: machine
+- id: mcc2023:III-A:03.04
+  type: goal
+  parent: mcc2023:III-A:03
+  text: 作成した報告・論文の内容及び自分の思考や考察を資料（図解・動画等）にまとめ、的確に口頭発表できる。
+  note: null
+  source:
+    page_pdf: 60
+    page_printed: 46
+  verification: machine
+- id: mcc2023:III-A:03.05
+  type: goal
+  parent: mcc2023:III-A:03
+  text: 課題や条件に応じ、根拠に基づいて議論できる。
+  note: null
+  source:
+    page_pdf: 60
+    page_printed: 46
+  verification: machine
+- id: mcc2023:III-A:03.06
+  type: goal
+  parent: mcc2023:III-A:03
+  text: 相手の立場や考えを尊重しつつ、議論を通して集団としての思いや考えをまとめることができる。
+  note: null
+  source:
+    page_pdf: 60
+    page_printed: 46
+  verification: machine
+- id: mcc2023:III-A:03.07
+  type: goal
+  parent: mcc2023:III-A:03
+  text: 新たな発想や他者の視点の理解に努め、自分の思いや考えを整理するための手法を実践できる。
+  note: null
+  source:
+    page_pdf: 60
+    page_printed: 46
+  verification: machine

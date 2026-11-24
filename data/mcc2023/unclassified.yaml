@@ -1,0 +1,22 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: unclassified
+tables:
+- id: mcc2023:unclassified:p055-t0
+  reason: ヘッダー行のない 1 行の表で、到達目標の列に箇条書きが入っている。前ページの II-B 物理実験「分野」の到達目標の続きに見えるが、セル内の改行が折り返しではなく箇条書きであり、到達目標の 1 件として取り込めるか判定できない
+  context: '直前の到達目標の行（p54）: 以下の6分野に関する実験に基づき、代表的な物理現象を説明できる。'
+  rows:
+  - - ''
+    - |-
+      力学に関する分野
+      熱に関する分野
+      波に関する分野
+      光に関する分野
+      電磁気に関する分野
+      原子（電子及び放射線を含む）に関する分野
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine

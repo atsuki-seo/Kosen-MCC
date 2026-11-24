@@ -1,0 +1,18 @@
+# 大分類ノードの「区分」と「到達水準」（設計 5.2）。
+# 区分は表 3（PDF 25 ページ）から抽出する。ここには表 3 の位置だけを書く。
+# 到達水準は本文の記述を quote に引用し、抽出時に該当ページに含まれることを検査する。
+division_table:
+  page_pdf: 25
+levels:
+  - categories: [I, II, III, IV]
+    value: レベル3（適用）
+    quote: 分野共通の基礎的専門能力はレベル3まで
+    page_pdf: 26
+  - categories: [V, VI]
+    value: レベル4（実践）
+    quote: 分野別専門的能力はレベル4までの到達を図るものと設定する
+    page_pdf: 26
+  - categories: [VII, VIII, IX]
+    value: null
+    quote: MCC(モデル)に対しては段階的な到達水準（Level1～4）の設定はおこなわない
+    page_pdf: 28

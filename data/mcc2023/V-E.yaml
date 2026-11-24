@@ -1,0 +1,2468 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: V-E
+nodes:
+- id: mcc2023:V-E
+  type: field
+  parent: mcc2023:V
+  code: V-E
+  name: 化学・生物系分野
+  heading_raw: 3-1.5 V-E 化学・生物系分野
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1
+  type: area
+  parent: mcc2023:V-E
+  code: V-E-1
+  name: 有機化学
+  heading_raw: V-E-1 有機化学
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 有機材料となる化合物の性質や生命科学の現象を理解するための基礎となる有機化合物の構造とその性質・反
+    - 応を学ぶ領域である。
+    - (1) 有機化合物に関して、IUPACの命名法を使い、構造と名前を結びつけることができる。
+    - (2) 代表的な官能基の性質を説明でき、その反応及び導入法を示すことができる。
+    - (3) 代表的な高分子化合物の性質や合成法を説明できる。
+    - 2 一般的な科目名
+    - 有機化学、高分子化学
+    pages_pdf:
+    - 95
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:01
+  type: content
+  parent: mcc2023:V-E-1
+  name: 有機化学の定義
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:01.01
+  type: goal
+  parent: mcc2023:V-E-1:01
+  text: 有機化合物が炭素骨格を持つ化合物であることを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 有機化合物
+    items:
+    - 有機化合物
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:01.02
+  type: goal
+  parent: mcc2023:V-E-1:01
+  text: 代表的な官能基を有する化合物について、IUPAC の命名法に基づき、構造と名前を結び付けることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: IUPAC命名法、慣用名
+    items:
+    - IUPAC命名法
+    - 慣用名
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:02
+  type: content
+  parent: mcc2023:V-E-1
+  name: 有機化合物の構造と結合
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:02.01
+  type: goal
+  parent: mcc2023:V-E-1:02
+  text: σ結合とπ結合について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: σ結合、π結合
+    items:
+    - σ結合
+    - π結合
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:02.02
+  type: goal
+  parent: mcc2023:V-E-1:02
+  text: 混成軌道を用い分子の形を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: sp3混成軌道、sp2混成軌道、sp混成軌道
+    items:
+    - sp3混成軌道
+    - sp2混成軌道
+    - sp混成軌道
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:02.03
+  type: goal
+  parent: mcc2023:V-E-1:02
+  text: ルイス構造を書くことができ、それを利用して反応に結びつけることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ルイス構造、孤立電子対
+    items:
+    - ルイス構造
+    - 孤立電子対
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:02.04
+  type: goal
+  parent: mcc2023:V-E-1:02
+  text: 誘起効果と共鳴効果を理解し、結合の分極や電荷の非局在化を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 誘起効果、共鳴効果、電気陰性度、分極、非局在化
+    items:
+    - 誘起効果
+    - 共鳴効果
+    - 電気陰性度
+    - 分極
+    - 非局在化
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:03
+  type: content
+  parent: mcc2023:V-E-1
+  name: 立体化学
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:03.01
+  type: goal
+  parent: mcc2023:V-E-1:03
+  text: 分子の三次元的な構造がイメージでき、構造異性体、シス－トランス異性体、鏡像異性体などについて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 構造異性体、シス－トランス異性体、鏡像異性体、光学活性、キラル、ラセミ体
+    items:
+    - 構造異性体
+    - シス－トランス異性体
+    - 鏡像異性体
+    - 光学活性
+    - キラル
+    - ラセミ体
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:03.02
+  type: goal
+  parent: mcc2023:V-E-1:03
+  text: 化合物の立体化学に関して、その表記法により正しく表示できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: E,Z 命名法、R,S 配置
+    items:
+    - E,Z 命名法
+    - R,S 配置
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:04
+  type: content
+  parent: mcc2023:V-E-1
+  name: 有機化合物の分類と各化合物の特性、反応
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:04.01
+  type: goal
+  parent: mcc2023:V-E-1:04
+  text: 炭化水素の種類や代表的な官能基を理解し、その構造及び性質を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: アルカン、アルケン、アルキン、芳香族化合物、アルコール、アルデヒド、ケトン、カルボン酸、アミン
+    items:
+    - アルカン
+    - アルケン
+    - アルキン
+    - 芳香族化合物
+    - アルコール
+    - アルデヒド
+    - ケトン
+    - カルボン酸
+    - アミン
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:04.02
+  type: goal
+  parent: mcc2023:V-E-1:04
+  text: 芳香族化合物の構造と安定性について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ベンゼン、芳香族性、ヒュッケル則
+    items:
+    - ベンゼン
+    - 芳香族性
+    - ヒュッケル則
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:04.03
+  type: goal
+  parent: mcc2023:V-E-1:04
+  text: 芳香族化合物を含む炭化水素の代表的な反応を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: アルケン・アルキンの付加反応、芳香族求電子置換反応
+    items:
+    - アルケン・アルキンの付加反応
+    - 芳香族求電子置換反応
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:04.04
+  type: goal
+  parent: mcc2023:V-E-1:04
+  text: 代表的な官能基を含む化合物の合成法及びその反応を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 酸化反応、還元反応、SN2、SN1、E2、E1、カルボニル化合物の求核付加反応、求核アシル置換反応、カルボニル化合物の縮合反応
+    items:
+    - 酸化反応
+    - 還元反応
+    - SN2
+    - SN1
+    - E2
+    - E1
+    - カルボニル化合物の求核付加反応
+    - 求核アシル置換反応
+    - カルボニル化合物の縮合反応
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:04.05
+  type: goal
+  parent: mcc2023:V-E-1:04
+  text: 代表的な反応に関して、その反応機構に基づき得られる生成物を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 反応機構、電子論、配向性、位置選択的反応、立体選択的反応
+    items:
+    - 反応機構
+    - 電子論
+    - 配向性
+    - 位置選択的反応
+    - 立体選択的反応
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:05
+  type: content
+  parent: mcc2023:V-E-1
+  name: 高分子化学序論
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:05.01
+  type: goal
+  parent: mcc2023:V-E-1:05
+  text: 高分子化合物がどのようなものか説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: モノマー、重合反応、平均分子量、分子量分布
+    items:
+    - モノマー
+    - 重合反応
+    - 平均分子量
+    - 分子量分布
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:05.02
+  type: goal
+  parent: mcc2023:V-E-1:05
+  text: 代表的な高分子化合物の種類と、その性質について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 汎用プラスチック、エンジニアリングプラスチック
+    items:
+    - 汎用プラスチック
+    - エンジニアリングプラスチック
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:05.03
+  type: goal
+  parent: mcc2023:V-E-1:05
+  text: 合成高分子や天然高分子などの違いを理解し、区別できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 合成高分子、天然高分子、バイオベースポリマー
+    items:
+    - 合成高分子
+    - 天然高分子
+    - バイオベースポリマー
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:05.04
+  type: goal
+  parent: mcc2023:V-E-1:05
+  text: 自然環境中における高分子の安定性について理解し、その意義と問題点を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: プラスチックごみ、生分解性高分子
+    items:
+    - プラスチックごみ
+    - 生分解性高分子
+  note: null
+  source:
+    page_pdf: 95
+    page_printed: 81
+  verification: machine
+- id: mcc2023:V-E-1:06
+  type: content
+  parent: mcc2023:V-E-1
+  name: 高分子合成
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-1:06.01
+  type: goal
+  parent: mcc2023:V-E-1:06
+  text: 代表的な高分子合成反応を説明でき、どのような高分子がこの反応によりできているか区別できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 付加重合、開環重合、重縮合、重付加、ラジカル重合、カチオン重合、アニオン重合
+    items:
+    - 付加重合
+    - 開環重合
+    - 重縮合
+    - 重付加
+    - ラジカル重合
+    - カチオン重合
+    - アニオン重合
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+    page_top: true
+  verification: machine
+- id: mcc2023:V-E-2
+  type: area
+  parent: mcc2023:V-E
+  code: V-E-2
+  name: 無機化学
+  heading_raw: V-E-2 無機化学
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 原子の構造や結合状態など物質の本質を理解する根幹となり、近年の材料開発の発展を無機化学分野から支え
+    - る科目からなる教育領域である。
+    - (1) 原子の構造、種類、性質について説明できる。
+    - (2) 元素及び化合物の構造、結合状態、性質について説明できる。
+    - 2 一般的な科目名
+    - 無機化学
+    pages_pdf:
+    - 96
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:01
+  type: content
+  parent: mcc2023:V-E-2
+  name: 原子の電子配置と周期律
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:01.01
+  type: goal
+  parent: mcc2023:V-E-2:01
+  text: 主量子数、方位量子数、磁気量子数について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 主量子数、方位量子数、磁気量子数
+    items:
+    - 主量子数
+    - 方位量子数
+    - 磁気量子数
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:01.02
+  type: goal
+  parent: mcc2023:V-E-2:01
+  text: 電子殻、電子軌道、電子軌道の形を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 電子殻、電子軌道、電子軌道
+    items:
+    - 電子殻
+    - 電子軌道
+    - 電子軌道
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:01.03
+  type: goal
+  parent: mcc2023:V-E-2:01
+  text: パウリの排他原理、軌道のエネルギー準位、フントの規則から電子の配置を示すことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: パウリの排他原理、軌道のエネルギー準位、フントの規則
+    items:
+    - パウリの排他原理
+    - 軌道のエネルギー準位
+    - フントの規則
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:01.04
+  type: goal
+  parent: mcc2023:V-E-2:01
+  text: 価電子について理解し、希ガス構造やイオンの生成について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 電子配置、イオン
+    items:
+    - 電子配置
+    - イオン
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:01.05
+  type: goal
+  parent: mcc2023:V-E-2:01
+  text: 元素の周期律を理解し、典型元素や遷移元素の一般的な性質を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 周期律、典型元素、遷移元素
+    items:
+    - 周期律
+    - 典型元素
+    - 遷移元素
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:01.06
+  type: goal
+  parent: mcc2023:V-E-2:01
+  text: イオン化エネルギー、電子親和力、電気陰性度について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: イオン化エネルギー、電子親和力、電気陰性度
+    items:
+    - イオン化エネルギー
+    - 電子親和力
+    - 電気陰性度
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:02
+  type: content
+  parent: mcc2023:V-E-2
+  name: 原子核構造と放射能
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:02.01
+  type: goal
+  parent: mcc2023:V-E-2:02
+  text: 代表的な放射線の種類と性質を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 放射線
+    items:
+    - 放射線
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:02.02
+  type: goal
+  parent: mcc2023:V-E-2:02
+  text: 放射性元素の半減期と安定性を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 半減期
+    items:
+    - 半減期
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:02.03
+  type: goal
+  parent: mcc2023:V-E-2:02
+  text: 核分裂と核融合を理解し、そのエネルギー利用を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 核分裂、核融合
+    items:
+    - 核分裂
+    - 核融合
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:03
+  type: content
+  parent: mcc2023:V-E-2
+  name: 化学結合と分子の構造
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:03.01
+  type: goal
+  parent: mcc2023:V-E-2:03
+  text: 共有結合、イオン結合、金属結合について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 共有結合、イオン結合、金属結合
+    items:
+    - 共有結合
+    - イオン結合
+    - 金属結合
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:03.02
+  type: goal
+  parent: mcc2023:V-E-2:03
+  text: 代表的な分子に関して、原子価結合法（VB法）や分子軌道法（MO法）から共有結合を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 原子価結合法（VB法）、分子軌道法（MO法）
+    items:
+    - 原子価結合法（VB法）
+    - 分子軌道法（MO法）
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:03.03
+  type: goal
+  parent: mcc2023:V-E-2:03
+  text: 電子配置から混成軌道の形成について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 混成軌道
+    items:
+    - 混成軌道
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:03.04
+  type: goal
+  parent: mcc2023:V-E-2:03
+  text: 水素結合、配位結合、ファンデルワールス力について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 水素結合、配位結合、ファンデルワールス力
+    items:
+    - 水素結合
+    - 配位結合
+    - ファンデルワールス力
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:04
+  type: content
+  parent: mcc2023:V-E-2
+  name: 固体の構造
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:04.01
+  type: goal
+  parent: mcc2023:V-E-2:04
+  text: 結晶の充填構造・充填率・イオン半径比など基本的な計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 充填構造・充填率・イオン半径比
+    items:
+    - 充填構造・充填率・イオン半径比
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:04.02
+  type: goal
+  parent: mcc2023:V-E-2:04
+  text: 金属結晶、イオン結晶、共有結晶について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 金属結晶、イオン結晶、共有結晶
+    items:
+    - 金属結晶
+    - イオン結晶
+    - 共有結晶
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:05
+  type: content
+  parent: mcc2023:V-E-2
+  name: 錯体の化学
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:05.01
+  type: goal
+  parent: mcc2023:V-E-2:05
+  text: 錯体化学で使用される用語（中心原子、配位子、キレート、配位数など）を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 中心原子、配位子、キレート、配位数
+    items:
+    - 中心原子
+    - 配位子
+    - キレート
+    - 配位数
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:05.02
+  type: goal
+  parent: mcc2023:V-E-2:05
+  text: 錯体の命名法に基づき、命名できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 錯体の命名
+    items:
+    - 錯体の命名
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:05.03
+  type: goal
+  parent: mcc2023:V-E-2:05
+  text: 配位数と構造について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 配位数
+    items:
+    - 配位数
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:05.04
+  type: goal
+  parent: mcc2023:V-E-2:05
+  text: 代表的な錯体の性質（色、磁性等）を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 錯体の性質
+    items:
+    - 錯体の性質
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:06
+  type: content
+  parent: mcc2023:V-E-2
+  name: 無機物質
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-2:06.01
+  type: goal
+  parent: mcc2023:V-E-2:06
+  text: 代表的な元素の単体と化合物の性質を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 無機物質の性質
+    items:
+    - 無機物質の性質
+  note: null
+  source:
+    page_pdf: 96
+    page_printed: 82
+  verification: machine
+- id: mcc2023:V-E-3
+  type: area
+  parent: mcc2023:V-E
+  code: V-E-3
+  name: 分析化学
+  heading_raw: V-E-3 分析化学
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 化学、環境、材料開発、生物などあらゆる分野において必要な物質（原子、イオン、分子、単体、化合物な
+    - ど）を分析するための理論や方法を学ぶ科目からなる教育領域である。
+    - (1) 物理量の表現方法としての単位計算ができる。
+    - (2) 化学反応（沈殿形成、錯体形成、電離など）や物理現象による状態変化について説明でき、必要な定量計
+    - 算ができる。
+    - (3) 標準的な機器分析の目的や特徴を理解し、分析対象に応じて選択できる。
+    - なお、いくつかの達成目標は、分析実験や機器分析実験で、あるいはそれを併用することが理解（実践力の獲
+    - 得）に有効である。
+    - 2 一般的な科目名
+    - 分析化学、機器分析
+    pages_pdf:
+    - 97
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:01
+  type: content
+  parent: mcc2023:V-E-3
+  name: 定性分析
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:01.01
+  type: goal
+  parent: mcc2023:V-E-3:01
+  text: いくつかの代表的な陽イオンや陰イオンの定性分析のための化学反応について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 陽・陰イオンの定性分析
+    items:
+    - 陽・陰イオンの定性分析
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:02
+  type: content
+  parent: mcc2023:V-E-3
+  name: 化学平衡
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:02.01
+  type: goal
+  parent: mcc2023:V-E-3:02
+  text: 電離平衡と活量について理解し、物質量に関する計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 電離平衡、活量
+    items:
+    - 電離平衡
+    - 活量
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:02.02
+  type: goal
+  parent: mcc2023:V-E-3:02
+  text: 溶解度・溶解度積について理解し、必要な計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 溶解度、溶解度積
+    items:
+    - 溶解度
+    - 溶解度積
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:02.03
+  type: goal
+  parent: mcc2023:V-E-3:02
+  text: 沈殿による物質の分離方法について理解し、化学量論から沈殿量の計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 重量分析
+    items:
+    - 重量分析
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:02.04
+  type: goal
+  parent: mcc2023:V-E-3:02
+  text: 強酸、強塩基及び弱酸、弱塩基についての各種平衡について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 酸塩基平衡
+    items:
+    - 酸塩基平衡
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:02.05
+  type: goal
+  parent: mcc2023:V-E-3:02
+  text: 強酸、強塩基、弱酸、弱塩基、弱酸の塩、弱塩基の塩のpHの計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: pH
+    items:
+    - pH
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:02.06
+  type: goal
+  parent: mcc2023:V-E-3:02
+  text: 緩衝溶液とpHの関係について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 緩衝溶液
+    items:
+    - 緩衝溶液
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:02.07
+  type: goal
+  parent: mcc2023:V-E-3:02
+  text: 錯体の生成について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 錯体の生成
+    items:
+    - 錯体の生成
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:03
+  type: content
+  parent: mcc2023:V-E-3
+  name: 化学分析
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:03.01
+  type: goal
+  parent: mcc2023:V-E-3:03
+  text: 陽イオンや陰イオンの関係した化学反応について理解し、溶液中の物質の濃度計算（定量計算）ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 化学量論
+    items:
+    - 化学量論
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:03.02
+  type: goal
+  parent: mcc2023:V-E-3:03
+  text: 中和滴定についての原理を理解し、酸及び塩基濃度の計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 中和滴定
+    items:
+    - 中和滴定
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:03.03
+  type: goal
+  parent: mcc2023:V-E-3:03
+  text: 酸化還元滴定についての原理を理解し、酸化剤及び還元剤の濃度計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 酸化還元滴定
+    items:
+    - 酸化還元滴定
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:03.04
+  type: goal
+  parent: mcc2023:V-E-3:03
+  text: キレート滴定についての原理を理解し、金属イオンの濃度計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: キレート滴定
+    items:
+    - キレート滴定
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:04
+  type: content
+  parent: mcc2023:V-E-3
+  name: 光分析法
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:04.01
+  type: goal
+  parent: mcc2023:V-E-3:04
+  text: 光吸収について理解し、代表的な分析方法について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 分光分析
+    items:
+    - 分光分析
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:04.02
+  type: goal
+  parent: mcc2023:V-E-3:04
+  text: Lambert-Beerの法則に基づく計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: Lambert-Beerの法則
+    items:
+    - Lambert-Beerの法則
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:05
+  type: content
+  parent: mcc2023:V-E-3
+  name: その他の分析法
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:05.01
+  type: goal
+  parent: mcc2023:V-E-3:05
+  text: イオン交換による分離方法についての概略を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: イオン交換法
+    items:
+    - イオン交換法
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:05.02
+  type: goal
+  parent: mcc2023:V-E-3:05
+  text: 溶媒抽出を利用した分析法について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 溶媒抽出法
+    items:
+    - 溶媒抽出法
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:06
+  type: content
+  parent: mcc2023:V-E-3
+  name: 機器分析
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:06.01
+  type: goal
+  parent: mcc2023:V-E-3:06
+  text: 無機及び有機物に関する代表的な構造分析、定性、定量分析法等を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 機器分析（原理）
+    items:
+    - 機器分析（原理）
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-3:06.02
+  type: goal
+  parent: mcc2023:V-E-3:06
+  text: 特定の分析装置を用いた気体、液体、固体の分析方法を理解し、測定例をもとにデータを解析できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 機器分析（データ解析）
+    items:
+    - 機器分析（データ解析）
+  note: null
+  source:
+    page_pdf: 97
+    page_printed: 83
+  verification: machine
+- id: mcc2023:V-E-4
+  type: area
+  parent: mcc2023:V-E
+  code: V-E-4
+  name: 物理化学
+  heading_raw: V-E-4 物理化学
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 理論化学として物理化学の３本柱の構造・物性、平衡、速度論について理解する科目である。
+    - 本科では熱力学を中心に物理化学の基本を学ぶ。
+    - (1) 気体の性質を理解し、関連する計算ができる。
+    - (2) 凝固点降下、沸点上昇、浸透圧等から溶質の分子量を計算できる。
+    - (3) 熱力学の第一、第二、第三法則が説明でき、関連する計算ができる。
+    - (4) 化学平衡が説明でき、関連する計算ができる。
+    - (5) 反応速度が説明でき、関連する計算ができる。
+    - (6) 代表的な化学電池について説明ができる。
+    - (7) 量子化学の意義を理解し、役割を説明できる。
+    - 2 一般的な科目名
+    - 物理化学
+    pages_pdf:
+    - 98
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:01
+  type: content
+  parent: mcc2023:V-E-4
+  name: 気体の性質
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:01.01
+  type: goal
+  parent: mcc2023:V-E-4:01
+  text: 気体の法則を理解して、理想気体の方程式を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 理想気体の状態方程式
+    items:
+    - 理想気体の状態方程式
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:01.02
+  type: goal
+  parent: mcc2023:V-E-4:01
+  text: 気体の分子運動論から、圧力を定義して、理想気体の方程式を証明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 理想気体の状態方程式
+    items:
+    - 理想気体の状態方程式
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:01.03
+  type: goal
+  parent: mcc2023:V-E-4:01
+  text: 実在気体の特徴と状態方程式を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 実在気体の状態方程式
+    items:
+    - 実在気体の状態方程式
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:01.04
+  type: goal
+  parent: mcc2023:V-E-4:01
+  text: 臨界現象と臨界点近傍の特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 臨界現象
+    items:
+    - 臨界現象
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:01.05
+  type: goal
+  parent: mcc2023:V-E-4:01
+  text: 混合気体の分圧の計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ドルトンの法則
+    items:
+    - ドルトンの法則
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:02
+  type: content
+  parent: mcc2023:V-E-4
+  name: 混合物の性質
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:02.01
+  type: goal
+  parent: mcc2023:V-E-4:02
+  text: 束一的性質を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 相平衡
+    items:
+    - 相平衡
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:02.02
+  type: goal
+  parent: mcc2023:V-E-4:02
+  text: 凝固点降下、沸点上昇より、溶質の分子量を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 凝固点降下、沸点上昇
+    items:
+    - 凝固点降下
+    - 沸点上昇
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:02.03
+  type: goal
+  parent: mcc2023:V-E-4:02
+  text: 浸透圧より、溶質の分子量を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 浸透圧
+    items:
+    - 浸透圧
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:02.04
+  type: goal
+  parent: mcc2023:V-E-4:02
+  text: 相律の定義を理解して、純物質、混合物の自由度（温度、圧力、組成）を計算し、平衡状態を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 相律
+    items:
+    - 相律
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:03
+  type: content
+  parent: mcc2023:V-E-4
+  name: 熱力学
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:03.01
+  type: goal
+  parent: mcc2023:V-E-4:03
+  text: 熱力学の第一法則の定義と適用方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 熱力学第一法則
+    items:
+    - 熱力学第一法則
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:03.02
+  type: goal
+  parent: mcc2023:V-E-4:03
+  text: 熱力学の第二・第三法則の定義と適用方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 熱力学第二法則、熱力学第三法則
+    items:
+    - 熱力学第二法則
+    - 熱力学第三法則
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:03.03
+  type: goal
+  parent: mcc2023:V-E-4:03
+  text: エンタルピーの定義と適用方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: エンタルピー
+    items:
+    - エンタルピー
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:03.04
+  type: goal
+  parent: mcc2023:V-E-4:03
+  text: エンタルピーに関係する計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 標準生成エンタルピー、キルヒホッフの法則
+    items:
+    - 標準生成エンタルピー
+    - キルヒホッフの法則
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:03.05
+  type: goal
+  parent: mcc2023:V-E-4:03
+  text: 気体の各種変化にともなう内部エネルギー変化、仕事、熱を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 内部エネルギー変化、仕事、熱
+    items:
+    - 内部エネルギー変化
+    - 仕事
+    - 熱
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:03.06
+  type: goal
+  parent: mcc2023:V-E-4:03
+  text: 内部エネルギー、熱容量の定義と適用方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 内部エネルギー、熱容量
+    items:
+    - 内部エネルギー
+    - 熱容量
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:03.07
+  type: goal
+  parent: mcc2023:V-E-4:03
+  text: エントロピーに関係する計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 絶対エントロピー、エントロピー変化
+    items:
+    - 絶対エントロピー
+    - エントロピー変化
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:03.08
+  type: goal
+  parent: mcc2023:V-E-4:03
+  text: ギブズエネルギーを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 標準生成自由エネルギー
+    items:
+    - 標準生成自由エネルギー
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:04
+  type: content
+  parent: mcc2023:V-E-4
+  name: 化学平衡
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:04.01
+  type: goal
+  parent: mcc2023:V-E-4:04
+  text: 化学平衡の法則を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 化学平衡の法則
+    items:
+    - 化学平衡の法則
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:04.02
+  type: goal
+  parent: mcc2023:V-E-4:04
+  text: ルシャトリエの法則を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ルシャトリエの法則
+    items:
+    - ルシャトリエの法則
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:04.03
+  type: goal
+  parent: mcc2023:V-E-4:04
+  text: 均一反応の平衡及び不均一系の相平衡（相図）の平衡を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 均一反応の平衡、不均一系の相平衡
+    items:
+    - 均一反応の平衡
+    - 不均一系の相平衡
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:04.04
+  type: goal
+  parent: mcc2023:V-E-4:04
+  text: 反応におけるギブズエネルギー変化より、平衡定数・組成を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ギブズエネルギー、平衡定数、平衡組成
+    items:
+    - ギブズエネルギー
+    - 平衡定数
+    - 平衡組成
+  note: null
+  source:
+    page_pdf: 98
+    page_printed: 84
+  verification: machine
+- id: mcc2023:V-E-4:04.05
+  type: goal
+  parent: mcc2023:V-E-4:04
+  text: 平衡定数の温度依存性を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 平衡定数の温度依存性
+    items:
+    - 平衡定数の温度依存性
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+    page_top: true
+  verification: machine
+- id: mcc2023:V-E-4:05
+  type: content
+  parent: mcc2023:V-E-4
+  name: 反応速度
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-4:05.01
+  type: goal
+  parent: mcc2023:V-E-4:05
+  text: 反応速度の定義を理解して、実験的決定方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 反応速度
+    items:
+    - 反応速度
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-4:05.02
+  type: goal
+  parent: mcc2023:V-E-4:05
+  text: 反応速度定数、反応次数の概念を理解して、計算により求めることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 反応速度定数、反応次数
+    items:
+    - 反応速度定数
+    - 反応次数
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-4:05.03
+  type: goal
+  parent: mcc2023:V-E-4:05
+  text: 反応速度の温度依存性を理解して、計算により求めることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: アレニウスの式、活性化エネルギー
+    items:
+    - アレニウスの式
+    - 活性化エネルギー
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-4:06
+  type: content
+  parent: mcc2023:V-E-4
+  name: 量子化学
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-4:06.01
+  type: goal
+  parent: mcc2023:V-E-4:06
+  text: 量子化学の意義を理解し、果たしてきた役割を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 原子スペクトル、光電効果
+    items:
+    - 原子スペクトル
+    - 光電効果
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-4:06.02
+  type: goal
+  parent: mcc2023:V-E-4:06
+  text: シュレディンガー方程式の役割を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: シュレディンガー方程式
+    items:
+    - シュレディンガー方程式
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5
+  type: area
+  parent: mcc2023:V-E
+  code: V-E-5
+  name: 化学工学
+  heading_raw: V-E-5 化学工学
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 化学工業を支える化学プラントに用いられる装置・機器、及びそこにおける化学反応・物理現象について学ぶ
+    - ための科目からなる教育領域である。
+    - (1) 化学工学量論(単位、物質収支等)、及び単位操作の基本的内容について理解し、各種の計算ができる。
+    - (2) 流体輸送や反応器など、化学プラントにおける基本的な装置や単位操作を理解するための基礎を習得して
+    - いる。
+    - 2 一般的な科目名
+    - 化学工学
+    pages_pdf:
+    - 99
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:01
+  type: content
+  parent: mcc2023:V-E-5
+  name: 物質収支
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:01.01
+  type: goal
+  parent: mcc2023:V-E-5:01
+  text: SI単位への単位換算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: SI単位、単位換算
+    items:
+    - SI単位
+    - 単位換算
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:01.02
+  type: goal
+  parent: mcc2023:V-E-5:01
+  text: 回分操作と連続操作の違いを理解し、その特徴や用途を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 回分操作、連続操作、回分反応器、管型反応器
+    items:
+    - 回分操作
+    - 連続操作
+    - 回分反応器
+    - 管型反応器
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:01.03
+  type: goal
+  parent: mcc2023:V-E-5:01
+  text: 化学反応を伴う場合と伴わない場合のプロセスの物質収支を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 物質収支、量論式、反応率
+    items:
+    - 物質収支
+    - 量論式
+    - 反応率
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:02
+  type: content
+  parent: mcc2023:V-E-5
+  name: 熱の移動
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:02.01
+  type: goal
+  parent: mcc2023:V-E-5:02
+  text: 化学プロセスで変化する熱量や温度の計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 加熱、冷却、潜熱、顕熱、反応熱、熱収支、熱交換
+    items:
+    - 加熱
+    - 冷却
+    - 潜熱
+    - 顕熱
+    - 反応熱
+    - 熱収支
+    - 熱交換
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:02.02
+  type: goal
+  parent: mcc2023:V-E-5:02
+  text: 伝熱形態の違いを理解し、説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 伝導伝熱、対流伝熱、放射伝熱
+    items:
+    - 伝導伝熱
+    - 対流伝熱
+    - 放射伝熱
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:03
+  type: content
+  parent: mcc2023:V-E-5
+  name: 液体と気体の流れ
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:03.01
+  type: goal
+  parent: mcc2023:V-E-5:03
+  text: 管内を流れる流体の流速や流量を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 体積流量、質量流量、流速、連続の式
+    items:
+    - 体積流量
+    - 質量流量
+    - 流速
+    - 連続の式
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:03.02
+  type: goal
+  parent: mcc2023:V-E-5:03
+  text: レイノルズ数を計算し、流れの状態が層流か乱流か判断できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: レイノルズ数、層流、乱流
+    items:
+    - レイノルズ数
+    - 層流
+    - 乱流
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:03.03
+  type: goal
+  parent: mcc2023:V-E-5:03
+  text: 流れのエネルギー収支を理解し、エネルギー損失や流体輸送動力を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: エネルギー収支、ベルヌーイの式、エネルギー損失、摩擦損失、ファニングの式、動力
+    items:
+    - エネルギー収支
+    - ベルヌーイの式
+    - エネルギー損失
+    - 摩擦損失
+    - ファニングの式
+    - 動力
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:04
+  type: content
+  parent: mcc2023:V-E-5
+  name: 物質の分離と精製
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:04.01
+  type: goal
+  parent: mcc2023:V-E-5:04
+  text: 単蒸留や連続蒸留装置について理解し、その原理を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 単蒸留、連続蒸留、気液平衡、ラウールの法則、相対揮発度
+    items:
+    - 単蒸留
+    - 連続蒸留
+    - 気液平衡
+    - ラウールの法則
+    - 相対揮発度
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:04.02
+  type: goal
+  parent: mcc2023:V-E-5:04
+  text: レイリーの式やマッケーブ・シーレ法を用いて蒸留についての計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: レイリーの式、マッケーブ・シーレ法、留出液組成、理論段数、環流比、原料供給段
+    items:
+    - レイリーの式
+    - マッケーブ・シーレ法
+    - 留出液組成
+    - 理論段数
+    - 環流比
+    - 原料供給段
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-5:04.03
+  type: goal
+  parent: mcc2023:V-E-5:04
+  text: 基本的な抽出の目的や方法を理解し、抽出率などを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 単抽出、多回抽出、三角線図、抽出率
+    items:
+    - 単抽出
+    - 多回抽出
+    - 三角線図
+    - 抽出率
+  note: null
+  source:
+    page_pdf: 99
+    page_printed: 85
+  verification: machine
+- id: mcc2023:V-E-6
+  type: area
+  parent: mcc2023:V-E
+  code: V-E-6
+  name: 生物化学
+  heading_raw: V-E-6 生物化学
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 生物化学は生命現象と生体物質を化学によって説明する分野であり、近年発展の著しいバイオテクノロジーの
+    - みならず、広く生物の関わる工業技術の基礎となる。生物化学は、生体物質の生物化学と、酵素と代謝に関す
+    - る内容を含み、両方を関連付けて理解できることが必要である。以下の項目を達成することを目標とする。
+    - (1) 炭水化物、タンパク質、核酸、脂質について、生体内での機能と化学構造・性質を結びつけて説明できる。
+    - (2) 酵素の役割・性質、生体内における役割を理解するとともに、酵素反応速度論を基にミカエリス・メンテン
+    - 式について説明できる。
+    - (3) 代謝における物質の変化とエネルギーの出入りを結びつけて説明できる。
+    - 2 一般的な科目名
+    - 生物化学、生化学、基礎生物学
+    pages_pdf:
+    - 100
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:01
+  type: content
+  parent: mcc2023:V-E-6
+  name: 糖
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:01.01
+  type: goal
+  parent: mcc2023:V-E-6:01
+  text: 単糖と多糖の例をあげて、その生物機能を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 単糖と多糖
+    items:
+    - 単糖と多糖
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:01.02
+  type: goal
+  parent: mcc2023:V-E-6:01
+  text: 単糖の化学構造を説明でき、各種の異性体について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 単糖の化学構造
+    items:
+    - 単糖の化学構造
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:01.03
+  type: goal
+  parent: mcc2023:V-E-6:01
+  text: グリコシド結合を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: グリコシド結合
+    items:
+    - グリコシド結合
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:02
+  type: content
+  parent: mcc2023:V-E-6
+  name: 脂質
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:02.01
+  type: goal
+  parent: mcc2023:V-E-6:02
+  text: 脂質の機能を複数挙げることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 脂質の機能
+    items:
+    - 脂質の機能
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:02.02
+  type: goal
+  parent: mcc2023:V-E-6:02
+  text: トリアシルグリセロールの構造を説明できる。脂肪酸の構造を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 脂肪酸の構造
+    items:
+    - 脂肪酸の構造
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:02.03
+  type: goal
+  parent: mcc2023:V-E-6:02
+  text: リン脂質が作るミセル、脂質二重層について説明でき、生体膜の化学的性質を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 生体膜の構造
+    items:
+    - 生体膜の構造
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:03
+  type: content
+  parent: mcc2023:V-E-6
+  name: タンパク質
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:03.01
+  type: goal
+  parent: mcc2023:V-E-6:03
+  text: タンパク質の機能を挙げることができ、タンパク質が生命活動の中心であることを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: タンパク質の機能
+    items:
+    - タンパク質の機能
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:03.02
+  type: goal
+  parent: mcc2023:V-E-6:03
+  text: タンパク質を構成するアミノ酸をあげ、それらの側鎖の特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: アミノ酸
+    items:
+    - アミノ酸
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:03.03
+  type: goal
+  parent: mcc2023:V-E-6:03
+  text: アミノ酸の構造とペプチド結合の形成について構造式を用いて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ペプチド
+    items:
+    - ペプチド
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:03.04
+  type: goal
+  parent: mcc2023:V-E-6:03
+  text: タンパク質は化学結合（水素結合、イオン結合、疎水性相互作用など）で高次構造をとることを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: タンパク質の化学結合、高次構造
+    items:
+    - タンパク質の化学結合
+    - 高次構造
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:04
+  type: content
+  parent: mcc2023:V-E-6
+  name: 核酸と遺伝情報の発現
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:04.01
+  type: goal
+  parent: mcc2023:V-E-6:04
+  text: 核酸の種類とヌクレオチドの構造を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 核酸の種類、ヌクレオチドの構造
+    items:
+    - 核酸の種類
+    - ヌクレオチドの構造
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:04.02
+  type: goal
+  parent: mcc2023:V-E-6:04
+  text: DNAの二重らせん構造、塩基の相補的結合とDNAの半保存的複製を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: DNA二重結合、DNAの半保存的複製
+    items:
+    - DNA二重結合
+    - DNAの半保存的複製
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:04.03
+  type: goal
+  parent: mcc2023:V-E-6:04
+  text: RNAの種類と働きを列記できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: RNAの種類と働き
+    items:
+    - RNAの種類と働き
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:04.04
+  type: goal
+  parent: mcc2023:V-E-6:04
+  text: ゲノムと遺伝子の関係について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ゲノムと遺伝子
+    items:
+    - ゲノムと遺伝子
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:04.05
+  type: goal
+  parent: mcc2023:V-E-6:04
+  text: 細胞周期について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 細胞周期
+    items:
+    - 細胞周期
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:04.06
+  type: goal
+  parent: mcc2023:V-E-6:04
+  text: 分化について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 分化
+    items:
+    - 分化
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:04.07
+  type: goal
+  parent: mcc2023:V-E-6:04
+  text: セントラルドグマ、転写と翻訳の概要及びタンパク質発現について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: セントラルドグマ、タンパク質の発現
+    items:
+    - セントラルドグマ
+    - タンパク質の発現
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:05
+  type: content
+  parent: mcc2023:V-E-6
+  name: 酵素
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:05.01
+  type: goal
+  parent: mcc2023:V-E-6:05
+  text: 酵素の性質（基質特異性、最適温度、最適pH、基質濃度）について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 酵素の性質
+    items:
+    - 酵素の性質
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:05.02
+  type: goal
+  parent: mcc2023:V-E-6:05
+  text: 酵素反応速度論を基に、ミカエリス・メンテン式について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 酵素反応速度論、KmとVmaxの意義
+    items:
+    - 酵素反応速度論
+    - KmとVmaxの意義
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:06
+  type: content
+  parent: mcc2023:V-E-6
+  name: 生体エネルギーと代謝
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:06.01
+  type: goal
+  parent: mcc2023:V-E-6:06
+  text: 生命活動のエネルギーの通貨としてのATPの役割について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ATPの役割
+    items:
+    - ATPの役割
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:06.02
+  type: goal
+  parent: mcc2023:V-E-6:06
+  text: 解糖系、β酸化とクエン酸回路の概要を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 解糖系、β酸化、クエン酸回路
+    items:
+    - 解糖系
+    - β酸化
+    - クエン酸回路
+  note: null
+  source:
+    page_pdf: 100
+    page_printed: 86
+  verification: machine
+- id: mcc2023:V-E-6:06.03
+  type: goal
+  parent: mcc2023:V-E-6:06
+  text: 酸化的リン酸化過程におけるATPの合成を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 呼吸鎖
+    items:
+    - 呼吸鎖
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+    page_top: true
+  verification: machine
+- id: mcc2023:V-E-6:06.04
+  type: goal
+  parent: mcc2023:V-E-6:06
+  text: 嫌気呼吸（アルコール発酵・乳酸発酵）の過程を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 嫌気呼吸
+    items:
+    - 嫌気呼吸
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-6:06.05
+  type: goal
+  parent: mcc2023:V-E-6:06
+  text: 光化学反応の仕組みを理解し、その概要を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 光合成
+    items:
+    - 光合成
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-6:06.06
+  type: goal
+  parent: mcc2023:V-E-6:06
+  text: 炭酸固定の過程を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 炭酸固定
+    items:
+    - 炭酸固定
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-6:06.07
+  type: goal
+  parent: mcc2023:V-E-6:06
+  text: 光合成及び呼吸の大まかな過程を説明でき、二つの過程の関係を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 同化と異化
+    items:
+    - 同化と異化
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7
+  type: area
+  parent: mcc2023:V-E
+  code: V-E-7
+  name: 生物工学
+  heading_raw: V-E-7 生物工学
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 生物工学の基礎として、細胞の構造、微生物の性質とその取扱い、代謝とその利用法、遺伝子工学について学
+    - 習することを目標とする。
+    - (1) 細胞小器官の種類と特徴を理解し、細胞の構造を説明できる。
+    - (2) 生体の恒常性を維持するための仕組みを理解し、その応用技術について説明できる。
+    - (3) 微生物の生育について理解し、培養方法について説明できる。
+    - (4) 微生物や動植物細胞等の利用方法について説明できる
+    - (5) 遺伝子工学の原理について理解し、その応用方法について説明できる。
+    - 2 一般的な科目名
+    - 基礎微生物学、生物工学、バイオテクノロジー
+    pages_pdf:
+    - 101
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:01
+  type: content
+  parent: mcc2023:V-E-7
+  name: 細胞と生体の恒常性
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:01.01
+  type: goal
+  parent: mcc2023:V-E-7:01
+  text: 原核生物と真核生物の種類や特徴について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 真核生物、原核生物
+    items:
+    - 真核生物
+    - 原核生物
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:01.02
+  type: goal
+  parent: mcc2023:V-E-7:01
+  text: 核、ミトコンドリア、葉緑体、細胞膜、細胞壁、液胞の構造と働きについて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 細胞小器官
+    items:
+    - 細胞小器官
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:01.03
+  type: goal
+  parent: mcc2023:V-E-7:01
+  text: 細胞や体内の恒常性の仕組みを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 体内の恒常性
+    items:
+    - 体内の恒常性
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:01.04
+  type: goal
+  parent: mcc2023:V-E-7:01
+  text: 免疫系による生体防御の仕組みとワクチンなど医療への応用を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 生体防御、免疫系、ワクチン
+    items:
+    - 生体防御
+    - 免疫系
+    - ワクチン
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:02
+  type: content
+  parent: mcc2023:V-E-7
+  name: 微生物の増殖と培養
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:02.01
+  type: goal
+  parent: mcc2023:V-E-7:02
+  text: 微生物の増殖（増殖曲線）について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 微生物増殖
+    items:
+    - 微生物増殖
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:02.02
+  type: goal
+  parent: mcc2023:V-E-7:02
+  text: 微生物の育種方法について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 突然変異、細胞融合
+    items:
+    - 突然変異
+    - 細胞融合
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:02.03
+  type: goal
+  parent: mcc2023:V-E-7:02
+  text: 微生物の培養方法について説明でき、安全対策についても説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 微生物培養、バイオハザード
+    items:
+    - 微生物培養
+    - バイオハザード
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:03
+  type: content
+  parent: mcc2023:V-E-7
+  name: 微生物や動植物細胞等の利用
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:03.01
+  type: goal
+  parent: mcc2023:V-E-7:03
+  text: 酒類製造や食品加工と微生物の関係について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 発酵生産、食品加工
+    items:
+    - 発酵生産
+    - 食品加工
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:03.02
+  type: goal
+  parent: mcc2023:V-E-7:03
+  text: 医薬品や生理活性物質の例を挙げ、微生物や動植物細胞等を用いたそれらの生産方法について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 抗生物質、医薬品、生理活性物質
+    items:
+    - 抗生物質
+    - 医薬品
+    - 生理活性物質
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:03.03
+  type: goal
+  parent: mcc2023:V-E-7:03
+  text: 微生物を用いた廃水処理・バイオレメディエーションについて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: バイオレメディエーション
+    items:
+    - バイオレメディエーション
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:04
+  type: content
+  parent: mcc2023:V-E-7
+  name: 遺伝子工学
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine
+- id: mcc2023:V-E-7:04.01
+  type: goal
+  parent: mcc2023:V-E-7:04
+  text: 遺伝子工学（遺伝子組み換えやPCR等）の原理について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 遺伝子組換え技術、PCR
+    items:
+    - 遺伝子組換え技術
+    - PCR
+  note: null
+  source:
+    page_pdf: 101
+    page_printed: 87
+  verification: machine

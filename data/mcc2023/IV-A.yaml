@@ -1,0 +1,126 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: IV-A
+nodes:
+- id: mcc2023:IV-A
+  type: field
+  parent: mcc2023:IV
+  code: IV-A
+  name: 工学実験技術
+  heading_raw: 2-4.1 IV-A 工学実験技術
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 工学実験技術は実験計画、安全にも配慮した実験実施、結果の整理と考察までの基本的かつ必須の到達目標で
+    - ある。また、工学実験を実施する上で基本的な態度を身に付け実践できることも目標とする。
+    - 工学分野における現象の観測や装置の性能評価を行う上で必要となる実験技術を身に付ける。併せて、安全な
+    - 実験遂行、結果の整理と考察、報告書の作成方法を修得する。
+    - (1) それぞれの工学分野に応じた各種測定器具の使用方法を理解した上で、適切に活用して安全に実験を行う
+    - ことができる。
+    - (2) 取得したデータを適切な方法で整理し、その結果に基づいた定量的・論理的な考察ができる。
+    - (3) 実験目的・手法・結果及び考察した成果を報告書にまとめることができる。
+    - (4) 実験を通して課題を解決する上で、基本的ルール（主体性・協調性・提出期限など）を守ることができる。
+    - 2 一般的な科目名
+    - 工学実験
+    pages_pdf:
+    - 63
+  source:
+    page_pdf: 63
+    page_printed: 49
+  verification: machine
+- id: mcc2023:IV-A:01
+  type: content
+  parent: mcc2023:IV-A
+  name: 実験の実施
+  source:
+    page_pdf: 63
+    page_printed: 49
+  verification: machine
+- id: mcc2023:IV-A:01.01
+  type: goal
+  parent: mcc2023:IV-A:01
+  text: 目的に応じて適切な実験手法を選択し、実験手順や実験装置・測定器等の使用方法を理解した上で、安全に実験を行うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 自らの工学分野に関する基礎的な原理や現象を明らかにするための実験手法・実験手順の説明、実験装置や測定器の操作、実験器具・試薬・材料の正しい取扱い、安全な実験の実施
+    items:
+    - 自らの工学分野に関する基礎的な原理や現象を明らかにするための実験手法・実験手順の説明
+    - 実験装置や測定器の操作
+    - 実験器具・試薬・材料の正しい取扱い
+    - 安全な実験の実施
+  note: null
+  source:
+    page_pdf: 63
+    page_printed: 49
+  verification: machine
+- id: mcc2023:IV-A:02
+  type: content
+  parent: mcc2023:IV-A
+  name: 報告書の作成
+  source:
+    page_pdf: 63
+    page_printed: 49
+  verification: machine
+- id: mcc2023:IV-A:02.01
+  type: goal
+  parent: mcc2023:IV-A:02
+  text: 実験テーマの目的を理解し、適切な手法により取得したデータから近似曲線を求めるなど、グラフや図、表を用いて分かり易く効果的に表現することができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 実験データの分析、誤差解析、有効桁数の評価、整理の仕方（最小二乗法などの近似曲線を含む）に配慮したデータ整理、情報技術のツールを活用した実験データの適切な形式での表現
+    items:
+    - 実験データの分析
+    - 誤差解析
+    - 有効桁数の評価
+    - 整理の仕方（最小二乗法などの近似曲線を含む）に配慮したデータ整理
+    - 情報技術のツールを活用した実験データの適切な形式での表現
+  note: null
+  source:
+    page_pdf: 63
+    page_printed: 49
+  verification: machine
+- id: mcc2023:IV-A:02.02
+  type: goal
+  parent: mcc2023:IV-A:02
+  text: 必要に応じて適切な文献や資料を収集し、実験結果について説明でき、定量的・論理的な考察を行い、報告書を作成することができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 実験・測定結果の妥当性など、実験データに関する定量的・論理的な考察、実験ノートや実験レポートの記載方法に沿った報告書作成、実験の考察などに必要な文献・参考資料などの収集
+    items:
+    - 実験・測定結果の妥当性など
+    - 実験データに関する定量的・論理的な考察
+    - 実験ノートや実験レポートの記載方法に沿った報告書作成
+    - 実験の考察などに必要な文献・参考資料などの収集
+  note: null
+  source:
+    page_pdf: 63
+    page_printed: 49
+  verification: machine
+- id: mcc2023:IV-A:03
+  type: content
+  parent: mcc2023:IV-A
+  name: 実験・実習に関わる態度
+  source:
+    page_pdf: 63
+    page_printed: 49
+  verification: machine
+- id: mcc2023:IV-A:03.01
+  type: goal
+  parent: mcc2023:IV-A:03
+  text: 個人あるいはチームとして活動する際、自らの役割を認識して実験・実習を実施することができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 安全性や禁止事項への配慮、主体性や協調性への配慮、実験・実習、報告書作成の計画的な実践
+    items:
+    - 安全性や禁止事項への配慮
+    - 主体性や協調性への配慮
+    - 実験・実習
+    - 報告書作成の計画的な実践
+  note: null
+  source:
+    page_pdf: 63
+    page_printed: 49
+  verification: machine

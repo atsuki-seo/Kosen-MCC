@@ -1,0 +1,631 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: II-C
+nodes:
+- id: mcc2023:II-C
+  type: field
+  parent: mcc2023:II
+  code: II-C
+  name: 化学
+  heading_raw: 2-2.3 II -C 化学
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 化学の基本知識を修得し、自らの工学分野に応用できる。さらに、その過程で、自然現象を系統的・論理的に
+    - 考えていく能力を養い、広く自然の諸現象を科学的に解明するための化学的な見方、考え方を身に付ける。
+    - 2 学習内容の取扱い
+    - (1) 科学技術の進歩に対応し、その理解のために必要となる基礎的な知識を修得できるよう工夫する。
+    - (2) 実験や観察を通して化学現象を理解し、考察する力を育てることにも留意する。
+    - 3 一般的な科目名
+    - 化学
+    pages_pdf:
+    - 55
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:01
+  type: content
+  parent: mcc2023:II-C
+  name: 化学と人間生活のかかわり
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:01.01
+  type: goal
+  parent: mcc2023:II-C:01
+  text: 化学と現代の社会課題との関連性について説明できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:02
+  type: content
+  parent: mcc2023:II-C
+  name: 物質の成分
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:02.01
+  type: goal
+  parent: mcc2023:II-C:02
+  text: 物質が原子からできていることについて説明できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:02.02
+  type: goal
+  parent: mcc2023:II-C:02
+  text: 単体と化合物について説明できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:02.03
+  type: goal
+  parent: mcc2023:II-C:02
+  text: 同素体について説明できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:02.04
+  type: goal
+  parent: mcc2023:II-C:02
+  text: 純物質と混合物の区別について説明できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:02.05
+  type: goal
+  parent: mcc2023:II-C:02
+  text: 混合物の分離法について理解し、適切な分離法を選択できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:03
+  type: content
+  parent: mcc2023:II-C
+  name: 物質の三態
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:03.01
+  type: goal
+  parent: mcc2023:II-C:03
+  text: 物質を構成する分子・原子が常に熱運動していることについて説明できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:03.02
+  type: goal
+  parent: mcc2023:II-C:03
+  text: 水の状態変化について説明できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:03.03
+  type: goal
+  parent: mcc2023:II-C:03
+  text: 物質の三態とその状態変化について説明できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:04
+  type: content
+  parent: mcc2023:II-C
+  name: 気体の状態方程式
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:04.01
+  type: goal
+  parent: mcc2023:II-C:04
+  text: ボイル-シャルルの法則について説明でき、必要な計算ができる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:04.02
+  type: goal
+  parent: mcc2023:II-C:04
+  text: 気体の状態方程式について説明でき、必要な計算ができる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:05
+  type: content
+  parent: mcc2023:II-C
+  name: 原子の構造
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:05.01
+  type: goal
+  parent: mcc2023:II-C:05
+  text: 原子の構造（原子核・電子）や原子番号、質量数について説明できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:05.02
+  type: goal
+  parent: mcc2023:II-C:05
+  text: 同位体・放射性同位体について説明できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:06
+  type: content
+  parent: mcc2023:II-C
+  name: 電子配置
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:06.01
+  type: goal
+  parent: mcc2023:II-C:06
+  text: 原子の電子配置について電子殻を用いて書き表すことができる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:06.02
+  type: goal
+  parent: mcc2023:II-C:06
+  text: 価電子の働きについて説明できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:07
+  type: content
+  parent: mcc2023:II-C
+  name: イオン
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:07.01
+  type: goal
+  parent: mcc2023:II-C:07
+  text: イオン化エネルギーと電子親和力について説明できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:07.02
+  type: goal
+  parent: mcc2023:II-C:07
+  text: 代表的なイオンを化学式で表すことができる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:08
+  type: content
+  parent: mcc2023:II-C
+  name: 元素の周期律
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:08.01
+  type: goal
+  parent: mcc2023:II-C:08
+  text: 原子番号と価電子の数との関係について考えることができる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:08.02
+  type: goal
+  parent: mcc2023:II-C:08
+  text: 元素の性質について価電子と周期律から考えることができる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:09
+  type: content
+  parent: mcc2023:II-C
+  name: イオン結合
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:09.01
+  type: goal
+  parent: mcc2023:II-C:09
+  text: イオンの化学式とイオンの名称について説明できる。
+  note: null
+  source:
+    page_pdf: 55
+    page_printed: 41
+  verification: machine
+- id: mcc2023:II-C:09.02
+  type: goal
+  parent: mcc2023:II-C:09
+  text: イオン結合について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+    page_top: true
+  verification: machine
+- id: mcc2023:II-C:09.03
+  type: goal
+  parent: mcc2023:II-C:09
+  text: イオン結晶の性質について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:10
+  type: content
+  parent: mcc2023:II-C
+  name: 共有結合
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:10.01
+  type: goal
+  parent: mcc2023:II-C:10
+  text: 共有結合について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:10.02
+  type: goal
+  parent: mcc2023:II-C:10
+  text: 極性と水素結合について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:10.03
+  type: goal
+  parent: mcc2023:II-C:10
+  text: 構造式や電子式により分子を書き表すことができる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:11
+  type: content
+  parent: mcc2023:II-C
+  name: 金属結合と金属の結晶
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:11.01
+  type: goal
+  parent: mcc2023:II-C:11
+  text: 自由電子と金属結合について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:11.02
+  type: goal
+  parent: mcc2023:II-C:11
+  text: 金属の性質について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:12
+  type: content
+  parent: mcc2023:II-C
+  name: 原子量・分子量・式量と物質量
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:12.01
+  type: goal
+  parent: mcc2023:II-C:12
+  text: 原子の相対質量と原子量について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:12.02
+  type: goal
+  parent: mcc2023:II-C:12
+  text: 物質量（mol）を用い物質の量を表すことができる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:12.03
+  type: goal
+  parent: mcc2023:II-C:12
+  text: 分子量・式量について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:12.04
+  type: goal
+  parent: mcc2023:II-C:12
+  text: 気体の体積と物質量の関係について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:13
+  type: content
+  parent: mcc2023:II-C
+  name: 化学反応式
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:13.01
+  type: goal
+  parent: mcc2023:II-C:13
+  text: 化学反応式について反応物、生成物、係数を理解し、組み立てることができる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:13.02
+  type: goal
+  parent: mcc2023:II-C:13
+  text: 化学反応式を用いて化学量論的な計算ができる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:14
+  type: content
+  parent: mcc2023:II-C
+  name: 溶液の濃度
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:14.01
+  type: goal
+  parent: mcc2023:II-C:14
+  text: 電離について説明でき、電解質と非電解質の区別ができる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:14.02
+  type: goal
+  parent: mcc2023:II-C:14
+  text: 質量パーセント濃度について説明でき、質量パーセント濃度の計算ができる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:14.03
+  type: goal
+  parent: mcc2023:II-C:14
+  text: モル濃度について説明でき、モル濃度の計算ができる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:15
+  type: content
+  parent: mcc2023:II-C
+  name: 酸と塩基
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:15.01
+  type: goal
+  parent: mcc2023:II-C:15
+  text: 酸・塩基の定義（アレニウスの定義、ブレンステッド・ローリーの定義）について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:15.02
+  type: goal
+  parent: mcc2023:II-C:15
+  text: 酸・塩基の化学式と酸・塩基の価数について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:15.03
+  type: goal
+  parent: mcc2023:II-C:15
+  text: 電離度と酸・塩基の強弱について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:16
+  type: content
+  parent: mcc2023:II-C
+  name: pH
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:16.01
+  type: goal
+  parent: mcc2023:II-C:16
+  text: pHについて説明でき、pHと水素イオン濃度の計算ができる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:17
+  type: content
+  parent: mcc2023:II-C
+  name: 中和
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:17.01
+  type: goal
+  parent: mcc2023:II-C:17
+  text: 中和反応を化学反応式で表すことができる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:17.02
+  type: goal
+  parent: mcc2023:II-C:17
+  text: 中和滴定の計算ができる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:18
+  type: content
+  parent: mcc2023:II-C
+  name: 酸化と還元
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:18.01
+  type: goal
+  parent: mcc2023:II-C:18
+  text: 酸化還元反応について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:19
+  type: content
+  parent: mcc2023:II-C
+  name: 金属のイオン化傾向と電池
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:19.01
+  type: goal
+  parent: mcc2023:II-C:19
+  text: イオン化傾向について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:19.02
+  type: goal
+  parent: mcc2023:II-C:19
+  text: 金属の反応性についてイオン化傾向に基づき説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:19.03
+  type: goal
+  parent: mcc2023:II-C:19
+  text: 一次電池についてその反応を説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:19.04
+  type: goal
+  parent: mcc2023:II-C:19
+  text: 二次電池についてその反応を説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:20
+  type: content
+  parent: mcc2023:II-C
+  name: 電気分解
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:20.01
+  type: goal
+  parent: mcc2023:II-C:20
+  text: 電気分解反応について説明できる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-C:20.02
+  type: goal
+  parent: mcc2023:II-C:20
+  text: ファラデーの法則による計算ができる。
+  note: null
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine

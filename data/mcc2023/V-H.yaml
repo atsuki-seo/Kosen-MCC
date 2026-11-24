@@ -1,0 +1,1173 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: V-H
+nodes:
+- id: mcc2023:V-H
+  type: field
+  parent: mcc2023:V
+  code: V-H
+  name: 商船系分野（航海）
+  heading_raw: 3-1.8 Ⅴ-H 商船系分野（航海）
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1
+  type: area
+  parent: mcc2023:V-H
+  code: V-H-1
+  name: 航海
+  heading_raw: V-H-1 航海
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 航海系領域では、海図や航路標識、自船の位置を求めるための測定及び計算方法、航海計器の原理や取扱いに
+    - ついて習得し、航海に必要な基本的な能力を養うことを目標とする。
+    - (1) 海図図式及び航路標識を正しく説明できる。
+    - (2) 各種航程線航法の特徴を説明し、それらを用いた推測位置や直行針路・直行距離を計算で求められる。
+    - (3) 航行予定海域の地理や潮流潮汐等航海に必要な情報を検索し、安全かつ効率的な航路計画を立案できる。
+    - (4) 天体による船位の測定及び計算方法を理解し、船位を求めることができる。
+    - (5) コンパス、オートパイロット、ログ、音響測深器等の原理及び構造、取扱いについて説明できる。
+    - (6) レーダー/TT、ECDIS、衛星航法システム、AIS等の原理及び作動、取扱いについて説明できる。
+    - 2 一般的な科目名
+    - 地文航法、測位論、航路論、天文航法、航海システム論、航海計器、電波航法、航海学
+    pages_pdf:
+    - 117
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:01
+  type: content
+  parent: mcc2023:V-H-1
+  name: 水路図誌・航路標識
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:01.01
+  type: goal
+  parent: mcc2023:V-H-1:01
+  text: 海図に記載されている海図図式を理解し、海図を正しく利用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 海図、海図図式、測地系、基本基準面
+    items:
+    - 海図
+    - 海図図式
+    - 測地系
+    - 基本基準面
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:01.02
+  type: goal
+  parent: mcc2023:V-H-1:01
+  text: 水路書誌を利用して、航海に必要な情報を収集できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 水路書誌、水路誌、改補、小改正、航行警報、航行安全情報
+    items:
+    - 水路書誌
+    - 水路誌
+    - 改補
+    - 小改正
+    - 航行警報
+    - 航行安全情報
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:01.03
+  type: goal
+  parent: mcc2023:V-H-1:01
+  text: 航路標識の種類と名称、意味を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 航路標識、灯台、灯質、到達距離、IALA海上浮標式
+    items:
+    - 航路標識
+    - 灯台
+    - 灯質
+    - 到達距離
+    - IALA海上浮標式
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:02
+  type: content
+  parent: mcc2023:V-H-1
+  name: 地文航法
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:02.01
+  type: goal
+  parent: mcc2023:V-H-1:02
+  text: 地上物標による船位測定の種類とその特徴を理解し、適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 交差方位法、ランニングフィックス、正横距離予測法
+    items:
+    - 交差方位法
+    - ランニングフィックス
+    - 正横距離予測法
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:02.02
+  type: goal
+  parent: mcc2023:V-H-1:02
+  text: 海図による船位、針路及び航程の求め方を理解し、作図により求めることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 流潮航法
+    items:
+    - 流潮航法
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:02.03
+  type: goal
+  parent: mcc2023:V-H-1:02
+  text: 各種航法の特徴を理解し、航法計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 距等圏航法、平均中分緯度航法、漸長緯度航法、連針路航法、大圏航法、集成大圏航法
+    items:
+    - 距等圏航法
+    - 平均中分緯度航法
+    - 漸長緯度航法
+    - 連針路航法
+    - 大圏航法
+    - 集成大圏航法
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:03
+  type: content
+  parent: mcc2023:V-H-1
+  name: 航海計画
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:03.01
+  type: goal
+  parent: mcc2023:V-H-1:03
+  text: 出入港を含めた、一般的な状況における航路を正しく選定し、図示できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 出港操船、変針、見張り、入航操船、錨地選定、錨泊法、避険線
+    items:
+    - 出港操船
+    - 変針
+    - 見張り
+    - 入航操船
+    - 錨地選定
+    - 錨泊法
+    - 避険線
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:03.02
+  type: goal
+  parent: mcc2023:V-H-1:03
+  text: 特殊な海域を含む、航路計画を立案できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 狭水道航行、荒天航行、狭視界航行、河川航行、氷海航行、航海計画
+    items:
+    - 狭水道航行
+    - 荒天航行
+    - 狭視界航行
+    - 河川航行
+    - 氷海航行
+    - 航海計画
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:04
+  type: content
+  parent: mcc2023:V-H-1
+  name: 潮汐及び海流
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:04.01
+  type: goal
+  parent: mcc2023:V-H-1:04
+  text: 潮流及び潮汐が起きる仕組みを理解し、潮汐表を正しく利用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 月潮間隔、大潮、小潮、日潮不等、潮時、潮高、潮時差、潮高位、潮汐表
+    items:
+    - 月潮間隔
+    - 大潮
+    - 小潮
+    - 日潮不等
+    - 潮時
+    - 潮高
+    - 潮時差
+    - 潮高位
+    - 潮汐表
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:04.02
+  type: goal
+  parent: mcc2023:V-H-1:04
+  text: 世界の主要海流について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 暖流、寒流、主要海流の名称
+    items:
+    - 暖流
+    - 寒流
+    - 主要海流の名称
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:05
+  type: content
+  parent: mcc2023:V-H-1
+  name: 天文航法
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:05.01
+  type: goal
+  parent: mcc2023:V-H-1:05
+  text: 天文航法で用いられる用語を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 天球、赤経、赤緯、黄道、時角、位置角、方位角、天頂、高度、真水平、視水平
+    items:
+    - 天球
+    - 赤経
+    - 赤緯
+    - 黄道
+    - 時角
+    - 位置角
+    - 方位角
+    - 天頂
+    - 高度
+    - 真水平
+    - 視水平
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:05.02
+  type: goal
+  parent: mcc2023:V-H-1:05
+  text: 時の基準及び船内時計を改正できる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 視時、平時、地方時、世界時、時刻改正量
+    items:
+    - 視時
+    - 平時
+    - 地方時
+    - 世界時
+    - 時刻改正量
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:05.03
+  type: goal
+  parent: mcc2023:V-H-1:05
+  text: 天体出没時間と薄明時間を求めることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 常用日出没時、常用月出没時、天文薄明、常用薄明
+    items:
+    - 常用日出没時
+    - 常用月出没時
+    - 天文薄明
+    - 常用薄明
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:05.04
+  type: goal
+  parent: mcc2023:V-H-1:05
+  text: ジャイロ誤差の測定方法を正しく選択し、計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 出没方位角法、時辰方位角法、北極星方位角法
+    items:
+    - 出没方位角法
+    - 時辰方位角法
+    - 北極星方位角法
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:05.05
+  type: goal
+  parent: mcc2023:V-H-1:05
+  text: 天体による船位を測定できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 天測位置、位置決定用図、子午線高度緯度法、北極星緯度法
+    items:
+    - 天測位置
+    - 位置決定用図
+    - 子午線高度緯度法
+    - 北極星緯度法
+  note: null
+  source:
+    page_pdf: 117
+    page_printed: 103
+  verification: machine
+- id: mcc2023:V-H-1:06
+  type: content
+  parent: mcc2023:V-H-1
+  name: 航海計器
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-1:06.01
+  type: goal
+  parent: mcc2023:V-H-1:06
+  text: 磁気コンパスの原理と自差の原因を理解し、正しく取り扱うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 磁気コンパス、偏差、自差、自差測定法、自差曲線、自差係数、自差修正、ガウシン差、傾船差
+    items:
+    - 磁気コンパス
+    - 偏差
+    - 自差
+    - 自差測定法
+    - 自差曲線
+    - 自差係数
+    - 自差修正
+    - ガウシン差
+    - 傾船差
+  note: null
+  source:
+    page_pdf: 118
+    page_printed: 104
+    page_top: true
+  verification: machine
+- id: mcc2023:V-H-1:06.02
+  type: goal
+  parent: mcc2023:V-H-1:06
+  text: ジャイロコンパスの指北原理を理解し、正しく取り扱うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: スペリー系、アンシューツ系、指北作用、制振作用、緯度誤差、速度誤差、変速度誤差、動揺誤差、旋回誤差
+    items:
+    - スペリー系
+    - アンシューツ系
+    - 指北作用
+    - 制振作用
+    - 緯度誤差
+    - 速度誤差
+    - 変速度誤差
+    - 動揺誤差
+    - 旋回誤差
+  note: null
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-1:06.03
+  type: goal
+  parent: mcc2023:V-H-1:06
+  text: オートパイロット、ログ、音響測深機の原理や構造を理解し、正しく取り扱うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: オートパイロット、舵角調整、当て舵調整、天候調整、PID制御、電磁ログ、ドップラーログ、ソナー、音響測深機
+    items:
+    - オートパイロット
+    - 舵角調整
+    - 当て舵調整
+    - 天候調整
+    - PID制御
+    - 電磁ログ
+    - ドップラーログ
+    - ソナー
+    - 音響測深機
+  note: null
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-1:07
+  type: content
+  parent: mcc2023:V-H-1
+  name: 電波航法
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-1:07.01
+  type: goal
+  parent: mcc2023:V-H-1:07
+  text: レーダー/TTの原理及び作動、取扱いについて理解し、正しく取り扱うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: レーダーの構成、表示方式、方位分解能、距離分解能、最小探知距離、STC.FTC、偽像、TT、CPA、TCPA
+    items:
+    - レーダーの構成
+    - 表示方式
+    - 方位分解能
+    - 距離分解能
+    - 最小探知距離
+    - STC.FTC
+    - 偽像
+    - TT
+    - CPA
+    - TCPA
+  note: null
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-1:07.02
+  type: goal
+  parent: mcc2023:V-H-1:07
+  text: ECDISの原理及び作動、取扱いについて理解し、正しく取り扱うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ECDISの構成、航路計画、航路監視、ENC、当直、操作
+    items:
+    - ECDISの構成
+    - 航路計画
+    - 航路監視
+    - ENC
+    - 当直
+    - 操作
+  note: null
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-1:07.03
+  type: goal
+  parent: mcc2023:V-H-1:07
+  text: 衛星航法装置の原理及び作動、取扱いについて理解し、正しく取り扱うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: GPS測位原理、そのほかの測位システム
+    items:
+    - GPS測位原理
+    - そのほかの測位システム
+  note: null
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-1:07.04
+  type: goal
+  parent: mcc2023:V-H-1:07
+  text: 船舶自動識別装置の原理及び作動、取扱いについて理解し、正しく取り扱うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: AIS 機器構成、他船情報の表示、メッセージの送信
+    items:
+    - AIS 機器構成
+    - 他船情報の表示
+    - メッセージの送信
+  note: null
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-2
+  type: area
+  parent: mcc2023:V-H
+  code: V-H-2
+  name: 運用
+  heading_raw: V-H-2 運用
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 運用系領域では、船舶運航者として必要な船舶の構造や設備、気象及び海象、操縦性能、貨物の積付けについ
+    - て習得し、操船者として必要な能力を養うことを目標とする。
+    - また、専門的な知識として、「船体構造」、「抵抗・推進」について習得することを目標とする。
+    - (1) 船体要目船体を構成する構造・部材を説明できる。
+    - (2) 船体の復原性について説明でき、復原性の観点から船体の安全性を評価できる。
+    - (3) 気象及び海象にかかる用語及び現象について説明できる。
+    - (4) 船舶の操縦性能及び外力や海域が及ぼす操船への影響を説明できる。
+    - (5) 危険物輸送における安全上の留意点について説明できる。
+    - 2 一般的な科目名
+    - 船舶工学、 造船工学、 材料力学、 海事工学基礎、載貨論、 船舶安全工学、操船論、船体運動、海洋気象、
+    - 海洋環境論、ライフサイエンス・アースサイエンス
+    pages_pdf:
+    - 118
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-2:01
+  type: content
+  parent: mcc2023:V-H-2
+  name: 船舶の構造、設備、復原性及び損傷制御
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-2:01.01
+  type: goal
+  parent: mcc2023:V-H-2:01
+  text: 船体要目について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 主要寸法、トン数、シヤー、キャンバー
+    items:
+    - 主要寸法
+    - トン数
+    - シヤー
+    - キャンバー
+  note: null
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-2:01.02
+  type: goal
+  parent: mcc2023:V-H-2:01
+  text: 船舶の主要な構造部材及び構造について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 船首構造、船尾構造、二重底、水密隔壁、外板、甲板、フレーム、ビーム、キール、ビルジキール
+    items:
+    - 船首構造
+    - 船尾構造
+    - 二重底
+    - 水密隔壁
+    - 外板
+    - 甲板
+    - フレーム
+    - ビーム
+    - キール
+    - ビルジキール
+  note: null
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-2:01.03
+  type: goal
+  parent: mcc2023:V-H-2:01
+  text: 復原性と船の安全性の関係について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 動揺周期、同調作用、自由水影響、区画浸水、復原力曲線
+    items:
+    - 動揺周期
+    - 同調作用
+    - 自由水影響
+    - 区画浸水
+    - 復原力曲線
+  note: null
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-2:01.04
+  type: goal
+  parent: mcc2023:V-H-2:01
+  text: 復原性に関する用語を理解し、その意味を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 重心、浮心、メタセンタ、GM、復原力、乾舷
+    items:
+    - 重心
+    - 浮心
+    - メタセンタ
+    - GM
+    - 復原力
+    - 乾舷
+  note: null
+  source:
+    page_pdf: 118
+    page_printed: 104
+  verification: machine
+- id: mcc2023:V-H-2:01.05
+  type: goal
+  parent: mcc2023:V-H-2:01
+  text: 貨物の移動・積み降ろしによる重心移動とトリムについて理解し、説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 貨物の移動または積み降ろしによる重心の移動及びトリム・喫水の変化
+    items:
+    - 貨物の移動または積み降ろしによる重心の移動及びトリム・喫水の変化
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+    page_top: true
+  verification: machine
+- id: mcc2023:V-H-2:01.06
+  type: goal
+  parent: mcc2023:V-H-2:01
+  text: 喫水及びその表示を理解し、喫水変化について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 排水量等曲線、満載喫水表示、船首喫水修正、トリム修正、ホグサグ修正、比重修正
+    items:
+    - 排水量等曲線
+    - 満載喫水表示
+    - 船首喫水修正
+    - トリム修正
+    - ホグサグ修正
+    - 比重修正
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:02
+  type: content
+  parent: mcc2023:V-H-2
+  name: 貨物の取扱い及び積付け
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:02.01
+  type: goal
+  parent: mcc2023:V-H-2:02
+  text: 貨物の取扱い、積付け及び保全における注意事項を理解し、説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 貨物の種類、重量物、危険物及びばら積み貨物の取扱い、積付時の注意事項
+    items:
+    - 貨物の種類
+    - 重量物
+    - 危険物及びばら積み貨物の取扱い
+    - 積付時の注意事項
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:02.02
+  type: goal
+  parent: mcc2023:V-H-2:02
+  text: 荷役装置及び属具の取扱い及び保存手入れ方法を理解し、説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 荷役装置、ロープ、テークル、ダンネージ、スリング、シャックル、フック
+    items:
+    - 荷役装置
+    - ロープ
+    - テークル
+    - ダンネージ
+    - スリング
+    - シャックル
+    - フック
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:02.03
+  type: goal
+  parent: mcc2023:V-H-2:02
+  text: タンカーの安全手引書に関する基礎知識を理解し、説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 燃焼三要素、引火点、発火点、爆発限界、タンク洗浄、IGS
+    items:
+    - 燃焼三要素
+    - 引火点
+    - 発火点
+    - 爆発限界
+    - タンク洗浄
+    - IGS
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:03
+  type: content
+  parent: mcc2023:V-H-2
+  name: 操船
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:03.01
+  type: goal
+  parent: mcc2023:V-H-2:03
+  text: 船舶の操縦性能について理解し、説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 舵、推進器、操縦性能、旋回径、操縦性試験、出力、推進効率、船体抵抗、発動惰力、停止惰力、反転惰力、進出距離、プロペラの作用
+    items:
+    - 舵
+    - 推進器
+    - 操縦性能
+    - 旋回径
+    - 操縦性試験
+    - 出力
+    - 推進効率
+    - 船体抵抗
+    - 発動惰力
+    - 停止惰力
+    - 反転惰力
+    - 進出距離
+    - プロペラの作用
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:03.02
+  type: goal
+  parent: mcc2023:V-H-2:03
+  text: 外力が及ぼす操船への影響について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 風圧力、流圧力、追い波、向かい波、出会い周期、ブローチング、バウダイビング
+    items:
+    - 風圧力
+    - 流圧力
+    - 追い波
+    - 向かい波
+    - 出会い周期
+    - ブローチング
+    - バウダイビング
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:03.03
+  type: goal
+  parent: mcc2023:V-H-2:03
+  text: 水域が操船に及ぼす影響について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 浅水影響、側壁影響、バンクサクション、船体沈下現象、2船間の相互作用
+    items:
+    - 浅水影響
+    - 側壁影響
+    - バンクサクション
+    - 船体沈下現象
+    - 2船間の相互作用
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:03.04
+  type: goal
+  parent: mcc2023:V-H-2:03
+  text: 一般的な海域における航行時の操船について、留意事項を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 出入港操船、揚投錨操船、速力逓減法、タグの使用、係留索、伸出錨鎖量
+    items:
+    - 出入港操船
+    - 揚投錨操船
+    - 速力逓減法
+    - タグの使用
+    - 係留索
+    - 伸出錨鎖量
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:03.05
+  type: goal
+  parent: mcc2023:V-H-2:03
+  text: 特殊な海域における航行時の操船について、留意事項を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 狭水道航行、氷海航行、狭視界航行、荒天航行、曳航
+    items:
+    - 狭水道航行
+    - 氷海航行
+    - 狭視界航行
+    - 荒天航行
+    - 曳航
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:04
+  type: content
+  parent: mcc2023:V-H-2
+  name: 非常措置
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:04.01
+  type: goal
+  parent: mcc2023:V-H-2:04
+  text: 海難遭遇時における非常措置について理解し、説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 非常措置（衝突・乗揚・浸水・火災・舵故障）、損傷制御、船舶救助
+    items:
+    - 非常措置（衝突・乗揚・浸水・火災・舵故障）
+    - 損傷制御
+    - 船舶救助
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:05
+  type: content
+  parent: mcc2023:V-H-2
+  name: 捜索及び救助
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:05.01
+  type: goal
+  parent: mcc2023:V-H-2:05
+  text: 国際航空海上捜索救助マニュアル（IAMSA）について理解し、捜索及び救助方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 位置通報制度、海中転落、捜索、ウィリアムソンターン、シャルノーターン
+    items:
+    - 位置通報制度
+    - 海中転落
+    - 捜索
+    - ウィリアムソンターン
+    - シャルノーターン
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:06
+  type: content
+  parent: mcc2023:V-H-2
+  name: 気象及び海象
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:06.01
+  type: goal
+  parent: mcc2023:V-H-2:06
+  text: 気象要素について説明できる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 気圧、気温、湿度、大気圏、雲
+    items:
+    - 気圧
+    - 気温
+    - 湿度
+    - 大気圏
+    - 雲
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:06.02
+  type: goal
+  parent: mcc2023:V-H-2:06
+  text: 気象海象で使用される用語について理解し、説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 前線、高気圧、低気圧、気団配置、地衡風、傾度風、季節風
+    items:
+    - 前線
+    - 高気圧
+    - 低気圧
+    - 気団配置
+    - 地衡風
+    - 傾度風
+    - 季節風
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:06.03
+  type: goal
+  parent: mcc2023:V-H-2:06
+  text: 暴風雨の発生と消滅について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 熱帯性低気圧、暴風雨、危険区域、回避
+    items:
+    - 熱帯性低気圧
+    - 暴風雨
+    - 危険区域
+    - 回避
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-2:06.04
+  type: goal
+  parent: mcc2023:V-H-2:06
+  text: 天気図に記載されている記号を理解し、天気図を利用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 地上天気図、高層天気図
+    items:
+    - 地上天気図
+    - 高層天気図
+  note: null
+  source:
+    page_pdf: 119
+    page_printed: 105
+  verification: machine
+- id: mcc2023:V-H-3
+  type: area
+  parent: mcc2023:V-H
+  code: V-H-3
+  name: 法規
+  heading_raw: V-H-3 法規
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 法規系領域では、海上交通三法（海上衝突予防法・海上交通安全法・港則法）で定められる船舶を安全に運航
+    - するために必要な法体系と、「船舶法」や「船舶安全法」のように船舶そのものに係る法、「船員法」のよう
+    - に船員に係る法等に関する知識を習得し、法の知識を活用して船舶の安全運航及び船舶を運用管理する基礎能
+    - 力を養うことを目標とする。
+    - (1) 海上交通三法を総合的に理解し、海難衝突事例について関連する適用法規・条文を判断できる。
+    - (2) 船舶法、船舶安全法等、船舶に関する法体系と規定について説明できる。
+    - (3) 船員法等、船員に関する法体系と規定について説明できる。
+    - (4) SOLAS条約やMARPOL条約等、海事関係条約について説明できる。
+    - 2 一般的な科目名
+    - 航海法規、海事法規
+    pages_pdf:
+    - 120
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:01
+  type: content
+  parent: mcc2023:V-H-3
+  name: 海上衝突予防法、海上交通安全法及び港則法
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:01.01
+  type: goal
+  parent: mcc2023:V-H-3:01
+  text: 海上衝突予防法及び同法施行規則について理解し、法に基づいた航法を適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 海上衝突予防法及び同法律施行規則
+    items:
+    - 海上衝突予防法及び同法律施行規則
+  note: null
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:01.02
+  type: goal
+  parent: mcc2023:V-H-3:01
+  text: 海上交通安全法及び同法施行規則について理解し、法に基づいた航法を適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 海上交通安全法及び同法律施行規則
+    items:
+    - 海上交通安全法及び同法律施行規則
+  note: null
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:01.03
+  type: goal
+  parent: mcc2023:V-H-3:01
+  text: 港則法及び同法施行規則について理解し、法に基づいた航法を適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 港則法及び同法律施行規則
+    items:
+    - 港則法及び同法律施行規則
+  note: null
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:02
+  type: content
+  parent: mcc2023:V-H-3
+  name: 船舶法、船舶のトン数の測度に関する法律
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:02.01
+  type: goal
+  parent: mcc2023:V-H-3:02
+  text: 船舶法及び船舶のトン数の測度に関する法律について理解し、適法判断ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 船舶法及び同法律施行規則、船舶のトン数の測度に関する法律
+    items:
+    - 船舶法及び同法律施行規則
+    - 船舶のトン数の測度に関する法律
+  note: null
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:03
+  type: content
+  parent: mcc2023:V-H-3
+  name: 船員法及びこれに基づく法律
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:03.01
+  type: goal
+  parent: mcc2023:V-H-3:03
+  text: 船員法及びこれに基づく法律について理解し、適法判断ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 船員法及び同法律施行規則、船員労働安全衛生規則
+    items:
+    - 船員法及び同法律施行規則
+    - 船員労働安全衛生規則
+  note: null
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:04
+  type: content
+  parent: mcc2023:V-H-3
+  name: 船舶安全法及びこれらに基づく法律
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:04.01
+  type: goal
+  parent: mcc2023:V-H-3:04
+  text: 船舶安全法及びこれに基づく省令について理解し、適法判断ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 船舶安全法及び同法律施行規則、船舶設備規程、船舶消防設備規則、船舶消防設備規則
+    items:
+    - 船舶安全法及び同法律施行規則
+    - 船舶設備規程
+    - 船舶消防設備規則
+    - 船舶消防設備規則
+  note: null
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:05
+  type: content
+  parent: mcc2023:V-H-3
+  name: 海洋汚染等及び海上災害の防止に関する法律
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:05.01
+  type: goal
+  parent: mcc2023:V-H-3:05
+  text: 海洋汚染等及び海上災害の防止に関する法律並びに同法律施行令及び同法律施行規則について理解し、適法判断ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 海洋汚染等及び海上災害の防止に関する法律並びに同法律施行令及び同法律施行規則
+    items:
+    - 海洋汚染等及び海上災害の防止に関する法律並びに同法律施行令及び同法律施行規則
+  note: null
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:06
+  type: content
+  parent: mcc2023:V-H-3
+  name: 国際公法
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:06.01
+  type: goal
+  parent: mcc2023:V-H-3:06
+  text: SOLAS条約及びSTCW条約等で定められている規定について理解し、適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: SOLAS 条約、STCW 条約、MARPOL条約
+    items:
+    - SOLAS 条約
+    - STCW 条約
+    - MARPOL条約
+  note: null
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:07
+  type: content
+  parent: mcc2023:V-H-3
+  name: 船舶職員及び小型船舶操縦者法
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine
+- id: mcc2023:V-H-3:07.01
+  type: goal
+  parent: mcc2023:V-H-3:07
+  text: 船舶職員及び小型船舶操縦者法、海難審判法について理解し、適法判断ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 船舶職員及び小型船舶操縦者法並びに同法律施行令及び同法律施行規則、海難審判法
+    items:
+    - 船舶職員及び小型船舶操縦者法並びに同法律施行令及び同法律施行規則
+    - 海難審判法
+  note: null
+  source:
+    page_pdf: 120
+    page_printed: 106
+  verification: machine

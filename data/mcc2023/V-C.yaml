@@ -1,0 +1,1632 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: V-C
+nodes:
+- id: mcc2023:V-C
+  type: field
+  parent: mcc2023:V
+  code: V-C
+  name: 電気・電子系分野
+  heading_raw: 3-1.3 V-C 電気・電子系分野
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1
+  type: area
+  parent: mcc2023:V-C
+  code: V-C-1
+  name: 電気回路
+  heading_raw: V-C-1 電気回路
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 電気回路系領域では、直流回路と交流回路の取扱い方や電気回路の過渡現象の解析方法を習得し、電気・電子
+    - 工学を履修するのに必要な基本的な能力を養うことを目標とする。
+    - (1) 抵抗、コイル、コンデンサ素子における電圧と電流の関係を理解し、電気回路の計算に用いることができ
+    - る。
+    - (2) キルヒホッフの法則や重ねの理等の定理を理解し、電気回路の計算に用いることができる。
+    - (3) 瞬時値、フェーザ、複素数表示を理解し、これらを正弦波交流回路の計算に用いることができる。
+    - (4) 共振回路や結合回路等を計算できる。
+    - (5) 電気回路の過渡応答を計算し、過渡応答の特徴を説明できる。
+    - 2 一般的な科目名
+    - 電気回路、交流回路、過渡現象論
+    pages_pdf:
+    - 84
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:01
+  type: content
+  parent: mcc2023:V-C-1
+  name: 電気回路の基礎
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:01.01
+  type: goal
+  parent: mcc2023:V-C-1:01
+  text: 電荷と電流、電圧、電力の関係を理解し、回路の計算に用いることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 電荷、電圧、電流、電力、電力量、オームの法則
+    items:
+    - 電荷
+    - 電圧
+    - 電流
+    - 電力
+    - 電力量
+    - オームの法則
+  note: null
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:01.02
+  type: goal
+  parent: mcc2023:V-C-1:01
+  text: 合成抵抗や分圧・分流の考え方を用いて、回路の計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 合成抵抗、分圧則、分流則
+    items:
+    - 合成抵抗
+    - 分圧則
+    - 分流則
+  note: null
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:02
+  type: content
+  parent: mcc2023:V-C-1
+  name: 回路網の基礎と計算
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:02.01
+  type: goal
+  parent: mcc2023:V-C-1:02
+  text: キルヒホッフの法則や重ねの理等の定理を理解し、回路の電圧や電流、電力を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: キルヒホッフの法則、重ね合わせの理、テブナンの定理、ブリッジの平衡条件
+    items:
+    - キルヒホッフの法則
+    - 重ね合わせの理
+    - テブナンの定理
+    - ブリッジの平衡条件
+  note: null
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:03
+  type: content
+  parent: mcc2023:V-C-1
+  name: 交流回路の基礎
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:03.01
+  type: goal
+  parent: mcc2023:V-C-1:03
+  text: 瞬時値を理解し、抵抗、インダクタンス、キャパシタンス回路の計算に用いることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 正弦波、瞬時値、周波数、位相、抵抗、インダクタンス、キャパシタンス
+    items:
+    - 正弦波
+    - 瞬時値
+    - 周波数
+    - 位相
+    - 抵抗
+    - インダクタンス
+    - キャパシタンス
+  note: null
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:03.02
+  type: goal
+  parent: mcc2023:V-C-1:03
+  text: 平均値と実効値を説明し、これらを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 平均値、実効値
+    items:
+    - 平均値
+    - 実効値
+  note: null
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:03.03
+  type: goal
+  parent: mcc2023:V-C-1:03
+  text: フェーザ、複素数表示を理解し、これらを正弦波交流回路の計算に用いることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: フェーザ、複素数表示
+    items:
+    - フェーザ
+    - 複素数表示
+  note: null
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:03.04
+  type: goal
+  parent: mcc2023:V-C-1:03
+  text: インピーダンスとアドミタンスを説明し、これらを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: インピーダンス、アドミタンス
+    items:
+    - インピーダンス
+    - アドミタンス
+  note: null
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:03.05
+  type: goal
+  parent: mcc2023:V-C-1:03
+  text: 交流電力と力率を説明し、これらを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 皮相電力、有効電力、無効電力、力率
+    items:
+    - 皮相電力
+    - 有効電力
+    - 無効電力
+    - 力率
+  note: null
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:04
+  type: content
+  parent: mcc2023:V-C-1
+  name: 共振回路
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:04.01
+  type: goal
+  parent: mcc2023:V-C-1:04
+  text: 共振回路の計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 直列共振回路、並列共振回路
+    items:
+    - 直列共振回路
+    - 並列共振回路
+  note: null
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:05
+  type: content
+  parent: mcc2023:V-C-1
+  name: 結合回路
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:05.01
+  type: goal
+  parent: mcc2023:V-C-1:05
+  text: 結合回路の計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 相互誘導回路、理想変圧器
+    items:
+    - 相互誘導回路
+    - 理想変圧器
+  note: null
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:06
+  type: content
+  parent: mcc2023:V-C-1
+  name: 過渡現象
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-1:06.01
+  type: goal
+  parent: mcc2023:V-C-1:06
+  text: 抵抗、インダクタンス、キャパシタンス回路の過渡応答を計算し、特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: RL 直列回路、RC 直列回路、RLC直列回路、直流応答、時定数
+    items:
+    - RL 直列回路
+    - RC 直列回路
+    - RLC直列回路
+    - 直流応答
+    - 時定数
+  note: null
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-2
+  type: area
+  parent: mcc2023:V-C
+  code: V-C-2
+  name: 電磁気
+  heading_raw: V-C-2 電磁気
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 電磁気系領域では、静電界、電流と磁界等の電磁現象に関する理論を習得し、電気・電子工学を履修するため
+    - に必要な基本的能力を養うことを目標とする。
+    - (1) 静電界における電荷、電界、電位等を説明でき、それらを計算できる。
+    - (2) 電流による磁界を説明でき、各種法則を用いて磁界の計算ができる。
+    - (3) 導体、誘電体、磁性体を説明できる。
+    - (4) 静電容量及びインダクタンスを説明でき、それらを計算できる。
+    - (5) 電磁誘導を説明でき、誘導起電力、自己誘導、相互誘導について計算できる。
+    - 2 一般的な科目名
+    - 電気基礎、基礎電気工学、電磁気学、電気回路、物理、応用物理、電波工学、通信工学
+    pages_pdf:
+    - 84
+    - 85
+  source:
+    page_pdf: 84
+    page_printed: 70
+  verification: machine
+- id: mcc2023:V-C-2:01
+  type: content
+  parent: mcc2023:V-C-2
+  name: 静電界
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:01.01
+  type: goal
+  parent: mcc2023:V-C-2:01
+  text: 電荷及びクーロンの法則を説明でき、点電荷に働く力等を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 電荷、クーロン力
+    items:
+    - 電荷
+    - クーロン力
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:01.02
+  type: goal
+  parent: mcc2023:V-C-2:01
+  text: 電界、電位、電気力線、電束を説明でき、これらを用いた計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 電界、電位、電束
+    items:
+    - 電界
+    - 電位
+    - 電束
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:01.03
+  type: goal
+  parent: mcc2023:V-C-2:01
+  text: ガウスの法則を説明でき、電界の計算に用いることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ガウスの法則、導体表面の電荷密度と電界
+    items:
+    - ガウスの法則
+    - 導体表面の電荷密度と電界
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:02
+  type: content
+  parent: mcc2023:V-C-2
+  name: 誘電体
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:02.01
+  type: goal
+  parent: mcc2023:V-C-2:02
+  text: 誘電体と分極及び電束密度を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 誘電体、分極、電束密度、比誘電率
+    items:
+    - 誘電体
+    - 分極
+    - 電束密度
+    - 比誘電率
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:03
+  type: content
+  parent: mcc2023:V-C-2
+  name: 静電容量
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:03.01
+  type: goal
+  parent: mcc2023:V-C-2:03
+  text: 静電容量を説明でき、平行平板コンデンサ等の静電容量を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 静電容量、平行平板コンデンサ
+    items:
+    - 静電容量
+    - 平行平板コンデンサ
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:03.02
+  type: goal
+  parent: mcc2023:V-C-2:03
+  text: コンデンサの直列接続、並列接続を説明し、その合成静電容量を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: コンデンサの直並列接続、合成容量
+    items:
+    - コンデンサの直並列接続
+    - 合成容量
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:03.03
+  type: goal
+  parent: mcc2023:V-C-2:03
+  text: 静電エネルギーを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 静電エネルギー
+    items:
+    - 静電エネルギー
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:04
+  type: content
+  parent: mcc2023:V-C-2
+  name: 電流と磁界
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:04.01
+  type: goal
+  parent: mcc2023:V-C-2:04
+  text: 電流が作る磁界をビオ・サバールの法則を用いて計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ビオ・サバールの法則
+    items:
+    - ビオ・サバールの法則
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:04.02
+  type: goal
+  parent: mcc2023:V-C-2:04
+  text: 電流が作る磁界をアンペールの法則を用いて計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: アンペールの法則
+    items:
+    - アンペールの法則
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:04.03
+  type: goal
+  parent: mcc2023:V-C-2:04
+  text: 磁界中の電流に作用するローレンツ力を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ローレンツ力
+    items:
+    - ローレンツ力
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:05
+  type: content
+  parent: mcc2023:V-C-2
+  name: 磁性体
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:05.01
+  type: goal
+  parent: mcc2023:V-C-2:05
+  text: 磁性体と磁化及び磁束密度を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 磁性体、磁束密度、比透磁率、ヒステリシス特性
+    items:
+    - 磁性体
+    - 磁束密度
+    - 比透磁率
+    - ヒステリシス特性
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:06
+  type: content
+  parent: mcc2023:V-C-2
+  name: 電磁誘導
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:06.01
+  type: goal
+  parent: mcc2023:V-C-2:06
+  text: 電磁誘導を説明でき、誘導起電力を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 電磁誘導、誘導起電力
+    items:
+    - 電磁誘導
+    - 誘導起電力
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:06.02
+  type: goal
+  parent: mcc2023:V-C-2:06
+  text: 自己誘導と相互誘導を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 自己誘導、相互誘導
+    items:
+    - 自己誘導
+    - 相互誘導
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:07
+  type: content
+  parent: mcc2023:V-C-2
+  name: インダクタンス
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:07.01
+  type: goal
+  parent: mcc2023:V-C-2:07
+  text: 自己インダクタンス及び相互インダクタンスを求めることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 自己インダクタンス、相互インダクタンス
+    items:
+    - 自己インダクタンス
+    - 相互インダクタンス
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-2:07.02
+  type: goal
+  parent: mcc2023:V-C-2:07
+  text: 磁気エネルギーを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 磁気エネルギー
+    items:
+    - 磁気エネルギー
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-3
+  type: area
+  parent: mcc2023:V-C
+  code: V-C-3
+  name: 電子回路
+  heading_raw: V-C-3 電子回路
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 電子回路系領域では、ダイオード、トランジスタ、演算増幅器の基本動作と増幅回路の基本事項を理解するこ
+    - とを目標とする。
+    - (1) ダイオード、トランジスタの基本動作を理解し、等価回路等を説明できる。
+    - (2) 増幅回路の基礎を理解し、動作量等を計算できる。
+    - (3) 演算増幅器の基本動作を理解し、増幅回路等を説明できる。
+    - 2 一般的な科目名
+    - 電子回路
+    pages_pdf:
+    - 85
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-3:01
+  type: content
+  parent: mcc2023:V-C-3
+  name: 電子回路の構成素子
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-3:01.01
+  type: goal
+  parent: mcc2023:V-C-3:01
+  text: ダイオードの特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ダイオード
+    items:
+    - ダイオード
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-3:01.02
+  type: goal
+  parent: mcc2023:V-C-3:01
+  text: バイポーラトランジスタの特徴と等価回路を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: バイポーラトランジスタの特徴と等価回路
+    items:
+    - バイポーラトランジスタの特徴と等価回路
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-3:01.03
+  type: goal
+  parent: mcc2023:V-C-3:01
+  text: FETの特徴と等価回路を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: FETの特徴と等価回路
+    items:
+    - FETの特徴と等価回路
+  note: null
+  source:
+    page_pdf: 85
+    page_printed: 71
+  verification: machine
+- id: mcc2023:V-C-3:02
+  type: content
+  parent: mcc2023:V-C-3
+  name: 増幅回路
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-3:02.01
+  type: goal
+  parent: mcc2023:V-C-3:02
+  text: 利得、周波数帯域、入力・出力インピーダンス等の増幅回路の基礎事項を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 利得、周波数帯域、入力・出力インピーダンス
+    items:
+    - 利得
+    - 周波数帯域
+    - 入力・出力インピーダンス
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+    page_top: true
+  verification: machine
+- id: mcc2023:V-C-3:02.02
+  type: goal
+  parent: mcc2023:V-C-3:02
+  text: トランジスタ増幅器のバイアス回路について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: バイアス回路
+    items:
+    - バイアス回路
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-3:03
+  type: content
+  parent: mcc2023:V-C-3
+  name: 演算増幅器
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-3:03.01
+  type: goal
+  parent: mcc2023:V-C-3:03
+  text: 演算増幅器の特性を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 演算増幅器の特性
+    items:
+    - 演算増幅器の特性
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-3:03.02
+  type: goal
+  parent: mcc2023:V-C-3:03
+  text: 演算増幅器を用いた基本的な回路の動作を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 演算増幅器の基本的な回路
+    items:
+    - 演算増幅器の基本的な回路
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4
+  type: area
+  parent: mcc2023:V-C
+  code: V-C-4
+  name: 電子工学
+  heading_raw: V-C-4 電子工学
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 電子工学系領域では、電子物性の基礎を学び、半導体や半導体デバイスの基本的事項を習得することを目標と
+    - する。
+    - (1) 電子や原子等の基本的性質を理解し、金属や半導体の物性の理解に役立てることができる。
+    - (2) 半導体の基本的性質を理解し、pn接合の特性やトランジスタの動作原理等を説明できる。
+    - 2 一般的な科目名
+    - 電子工学、電子材料、半導体工学
+    pages_pdf:
+    - 86
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:01
+  type: content
+  parent: mcc2023:V-C-4
+  name: 電子の性質
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:01.01
+  type: goal
+  parent: mcc2023:V-C-4:01
+  text: 電子の電荷量や質量などの基本性質を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 電子の電荷量や質量
+    items:
+    - 電子の電荷量や質量
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:01.02
+  type: goal
+  parent: mcc2023:V-C-4:01
+  text: エレクトロンボルトの定義を説明し、単位換算等の計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: エレクトロンボルトの定義
+    items:
+    - エレクトロンボルトの定義
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:02
+  type: content
+  parent: mcc2023:V-C-4
+  name: 原子の構造
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:02.01
+  type: goal
+  parent: mcc2023:V-C-4:02
+  text: 原子の構造を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 原子の構造
+    items:
+    - 原子の構造
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:02.02
+  type: goal
+  parent: mcc2023:V-C-4:02
+  text: パウリの排他律を理解し、原子の電子配置を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: パウリの排他律
+    items:
+    - パウリの排他律
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:03
+  type: content
+  parent: mcc2023:V-C-4
+  name: 固体の構造
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:03.01
+  type: goal
+  parent: mcc2023:V-C-4:03
+  text: 結晶、エネルギーバンドの形成、フェルミ・ディラック分布を理解し、金属と半導体、絶縁体のエネルギーバンド図を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 結晶、エネルギーバンド図、フェルミ・ディラック分布
+    items:
+    - 結晶
+    - エネルギーバンド図
+    - フェルミ・ディラック分布
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:04
+  type: content
+  parent: mcc2023:V-C-4
+  name: 金属
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:04.01
+  type: goal
+  parent: mcc2023:V-C-4:04
+  text: 金属の電気的性質を説明し、移動度や導電率を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 金属の電気的性質、移動度と導電率
+    items:
+    - 金属の電気的性質
+    - 移動度と導電率
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:05
+  type: content
+  parent: mcc2023:V-C-4
+  name: 半導体
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:05.01
+  type: goal
+  parent: mcc2023:V-C-4:05
+  text: 真性半導体と不純物半導体を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 真性半導体と不純物半導体
+    items:
+    - 真性半導体と不純物半導体
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:05.02
+  type: goal
+  parent: mcc2023:V-C-4:05
+  text: 半導体のエネルギーバンド図を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 半導体のエネルギーバンド図
+    items:
+    - 半導体のエネルギーバンド図
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:06
+  type: content
+  parent: mcc2023:V-C-4
+  name: 半導体デバイス
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:06.01
+  type: goal
+  parent: mcc2023:V-C-4:06
+  text: pn接合の構造や動作を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: pn接合
+    items:
+    - pn接合
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:06.02
+  type: goal
+  parent: mcc2023:V-C-4:06
+  text: バイポーラトランジスタの構造や動作を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: バイポーラトランジスタ
+    items:
+    - バイポーラトランジスタ
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-4:06.03
+  type: goal
+  parent: mcc2023:V-C-4:06
+  text: 電界効果トランジスタの構造と動作を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 電界効果トランジスタ
+    items:
+    - 電界効果トランジスタ
+  note: null
+  source:
+    page_pdf: 86
+    page_printed: 72
+  verification: machine
+- id: mcc2023:V-C-5
+  type: area
+  parent: mcc2023:V-C
+  code: V-C-5
+  name: 電力
+  heading_raw: V-C-5 電力
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 電力系領域では、様々なエネルギー源より電気エネルギーに変換する方法とその電気エネルギーを適切に輸送・
+    - 利用する方法について説明できること、また、電気エネルギーの発生・輸送・利用と環境問題との関わりにつ
+    - いて説明できることを目標とする。
+    - (1) 電力の基本原理である三相交流の基本事項について説明できる。
+    - (2) 電力の発生、変換及び利用に用いられる回転機と静止器の動作原理と構造を説明できる。
+    - (3) 様々なエネルギー源から発電する方法と特徴、環境問題への対応と有効性についても説明できる。
+    - (4) 日本における電力輸送システムの構成要素の働きと、電力品質や安定供給を維持する方法について説明で
+    - きる。
+    - 2 一般的な科目名
+    - 電気回路、電気機器、発変電工学、送配電工学、電力系統工学、エネルギー変換工学
+    pages_pdf:
+    - 87
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:01
+  type: content
+  parent: mcc2023:V-C-5
+  name: 三相交流
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:01.01
+  type: goal
+  parent: mcc2023:V-C-5:01
+  text: 三相交流における電圧・電流（相電圧、線間電圧、線電流）を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 三相交流の相電圧、線間電圧、線電流、有効電力
+    items:
+    - 三相交流の相電圧
+    - 線間電圧
+    - 線電流
+    - 有効電力
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:01.02
+  type: goal
+  parent: mcc2023:V-C-5:01
+  text: YやΔ結線された電源及び対称三相負荷の電圧・電流・電力を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: Y結線、Δ結線、Δ-Y変換
+    items:
+    - Y結線
+    - Δ結線
+    - Δ-Y変換
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:02
+  type: content
+  parent: mcc2023:V-C-5
+  name: 回転機
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:02.01
+  type: goal
+  parent: mcc2023:V-C-5:02
+  text: 直流機の原理と構造を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 直流機の原理と構造、電気的特性
+    items:
+    - 直流機の原理と構造
+    - 電気的特性
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:02.02
+  type: goal
+  parent: mcc2023:V-C-5:02
+  text: 誘導機と同期機の原理と構造を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 誘導機、同期機の原理と構造、電気的特性
+    items:
+    - 誘導機
+    - 同期機の原理と構造
+    - 電気的特性
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:03
+  type: content
+  parent: mcc2023:V-C-5
+  name: 静止器
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:03.01
+  type: goal
+  parent: mcc2023:V-C-5:03
+  text: 変圧器の原理、構造、特性を説明でき、その等価回路を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 変圧器の原理、構造、特性、等価回路
+    items:
+    - 変圧器の原理
+    - 構造
+    - 特性
+    - 等価回路
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:03.02
+  type: goal
+  parent: mcc2023:V-C-5:03
+  text: 半導体電力変換装置の半導体デバイスの種類と動作原理について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 半導体デバイスの種類、動作原理
+    items:
+    - 半導体デバイスの種類
+    - 動作原理
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:04
+  type: content
+  parent: mcc2023:V-C-5
+  name: 発電
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:04.01
+  type: goal
+  parent: mcc2023:V-C-5:04
+  text: 火力発電の原理と主要設備や発電に伴う環境負荷についても説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 火力発電の原理や設備、環境問題
+    items:
+    - 火力発電の原理や設備
+    - 環境問題
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:04.02
+  type: goal
+  parent: mcc2023:V-C-5:04
+  text: 原子力発電の原理と主要設備や発電に伴う環境負荷についても説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 原子力発電の原理や設備、環境問題
+    items:
+    - 原子力発電の原理や設備
+    - 環境問題
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:04.03
+  type: goal
+  parent: mcc2023:V-C-5:04
+  text: 水力発電の原理と主要設備を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 水力発電の原理や設備
+    items:
+    - 水力発電の原理や設備
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:04.04
+  type: goal
+  parent: mcc2023:V-C-5:04
+  text: その他の新エネルギー・再生可能エネルギーを用いた発電の概要と、環境面での有効性や導入における課題について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 新エネルギー・再生可能エネルギーによる発電と有効性
+    items:
+    - 新エネルギー・再生可能エネルギーによる発電と有効性
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:04.05
+  type: goal
+  parent: mcc2023:V-C-5:04
+  text: 様々な発電方式の組合せにより、電力需要に対応して電力が供給されていることを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ベースロード電源、ミドル電源、ピーク電源
+    items:
+    - ベースロード電源
+    - ミドル電源
+    - ピーク電源
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:05
+  type: content
+  parent: mcc2023:V-C-5
+  name: 送配電
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:05.01
+  type: goal
+  parent: mcc2023:V-C-5:05
+  text: 交流及び直流送配電方式や周波数変換所を組み合わせた日本の電力系統について、それぞれの特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 交流・直流送配電、周波数変換所、電力系統､スマートグリッド
+    items:
+    - 交流・直流送配電
+    - 周波数変換所
+    - 電力系統､スマートグリッド
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:05.02
+  type: goal
+  parent: mcc2023:V-C-5:05
+  text: 変電所における変圧器の三相結線における電圧・電流・電力の計算ができ、結線方法の特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 送電設備、変電設備、Δ-Δ結線、Y-Y結線、Δ-Y 結線、Y-Δ結線、V結線
+    items:
+    - 送電設備
+    - 変電設備
+    - Δ-Δ結線
+    - Y-Y結線
+    - Δ-Y 結線
+    - Y-Δ結線
+    - V結線
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-5:05.03
+  type: goal
+  parent: mcc2023:V-C-5:05
+  text: 送電設備の種類と、環境や気候に伴う電力の安定供給を維持する方法について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 送電線設備、架空送電線理論、雷被害、風雪害、塩害
+    items:
+    - 送電線設備
+    - 架空送電線理論
+    - 雷被害
+    - 風雪害
+    - 塩害
+  note: null
+  source:
+    page_pdf: 87
+    page_printed: 73
+  verification: machine
+- id: mcc2023:V-C-6
+  type: area
+  parent: mcc2023:V-C
+  code: V-C-6
+  name: 計測
+  heading_raw: V-C-6 計測
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 計測系領域では、電気・電子計測に関する理論や電気・電子計測に必要な知識と手法を習得することを目標と
+    - する。
+    - (1) 計測の分類法、計器精度や測定誤差の定義、単位の成立ち等、計測の基礎について説明できる。
+    - (2) 電気諸量の測定法及び測定上の注意点について説明できる。
+    - 2 一般的な科目名
+    - 計測工学、電気計測、電子計測、電気電子計測、電気回路
+    pages_pdf:
+    - 88
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:01
+  type: content
+  parent: mcc2023:V-C-6
+  name: 計測の基礎
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:01.01
+  type: goal
+  parent: mcc2023:V-C-6:01
+  text: 計測方法の分類（偏位法/零位法、直接測定/間接測定、アナログ計測/ディジタル計測）を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 偏位法/零位法、直接測定/間接測定、アナログ計測/ディジタル計測
+    items:
+    - 偏位法/零位法
+    - 直接測定/間接測定
+    - アナログ計測/ディジタル計測
+  note: null
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:01.02
+  type: goal
+  parent: mcc2023:V-C-6:01
+  text: 精度と誤差を理解し、有効数字・誤差の伝搬を考慮した計測値の処理を行うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 精度と誤差、有効数字
+    items:
+    - 精度と誤差
+    - 有効数字
+  note: null
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:02
+  type: content
+  parent: mcc2023:V-C-6
+  name: 単位系と標準
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:02.01
+  type: goal
+  parent: mcc2023:V-C-6:02
+  text: SI単位系における基本単位と組立単位について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: SI単位系、基本単位、組み立て単位
+    items:
+    - SI単位系
+    - 基本単位
+    - 組み立て単位
+  note: null
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:02.02
+  type: goal
+  parent: mcc2023:V-C-6:02
+  text: 計測標準とトレーサビリティの関係について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 計測標準とトレーサビリティ
+    items:
+    - 計測標準とトレーサビリティ
+  note: null
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:03
+  type: content
+  parent: mcc2023:V-C-6
+  name: 電気計器の基礎
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:03.01
+  type: goal
+  parent: mcc2023:V-C-6:03
+  text: 指示計器について、その動作原理を理解し、電圧・電流測定に使用する方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 指示計器、電圧・電流計
+    items:
+    - 指示計器
+    - 電圧・電流計
+  note: null
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:03.02
+  type: goal
+  parent: mcc2023:V-C-6:03
+  text: 倍率器・分流器を用いた電圧・電流の測定範囲の拡大手法について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 倍率器・分流器
+    items:
+    - 倍率器・分流器
+  note: null
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:03.03
+  type: goal
+  parent: mcc2023:V-C-6:03
+  text: A/D変換を用いたディジタル計器の原理について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: A/D変換、ディジタル計器
+    items:
+    - A/D変換
+    - ディジタル計器
+  note: null
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:04
+  type: content
+  parent: mcc2023:V-C-6
+  name: 抵抗、インピーダンスの測定
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:04.01
+  type: goal
+  parent: mcc2023:V-C-6:04
+  text: 電圧降下法による抵抗測定の原理を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 電位降下法による抵抗やインピーダンス測定
+    items:
+    - 電位降下法による抵抗やインピーダンス測定
+  note: null
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:04.02
+  type: goal
+  parent: mcc2023:V-C-6:04
+  text: ブリッジ回路を用いたインピーダンスの測定原理を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ブリッジ回路による抵抗やインピーダンス測定
+    items:
+    - ブリッジ回路による抵抗やインピーダンス測定
+  note: null
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:05
+  type: content
+  parent: mcc2023:V-C-6
+  name: 電力、電力量の測定
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:05.01
+  type: goal
+  parent: mcc2023:V-C-6:05
+  text: 有効電力、無効電力、力率の測定原理とその方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 有効電力、無効電力、力率の測定
+    items:
+    - 有効電力
+    - 無効電力
+    - 力率の測定
+  note: null
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:05.02
+  type: goal
+  parent: mcc2023:V-C-6:05
+  text: 電力量の測定原理を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 電力量の測定
+    items:
+    - 電力量の測定
+  note: null
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:06
+  type: content
+  parent: mcc2023:V-C-6
+  name: 波形観測
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-6:06.01
+  type: goal
+  parent: mcc2023:V-C-6:06
+  text: オシロスコープの動作原理を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: オシロスコープの動作原理と波形測定
+    items:
+    - オシロスコープの動作原理と波形測定
+  note: null
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-7
+  type: area
+  parent: mcc2023:V-C
+  code: V-C-7
+  name: 制御
+  heading_raw: V-C-7 制御
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 制御系領域の科目では、制御工学に関する理論及び自動制御応用に必要な知識を習得することを目標とする。
+    - (1) システムのふるまいを伝達関数やブロック線図を用いて表現することができる。
+    - (2) システムの過渡特性、定常特性及び周波数特性を説明する方法を習得している。
+    - (3) フィードバックシステムの安定性を判別する方法を習得している。
+    - 2 一般的な科目名
+    - 制御工学、自動制御
+    pages_pdf:
+    - 88
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-7:01
+  type: content
+  parent: mcc2023:V-C-7
+  name: ''
+  name_empty_in_source: true
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-7:01.01
+  type: goal
+  parent: mcc2023:V-C-7:01
+  text: 伝達関数を用いたシステムの入出力表現ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 伝達関数を用いたシステム
+    items:
+    - 伝達関数を用いたシステム
+  note: null
+  source:
+    page_pdf: 88
+    page_printed: 74
+  verification: machine
+- id: mcc2023:V-C-7:02
+  type: content
+  parent: mcc2023:V-C-7
+  name: 伝達関数とブロック線図
+  source:
+    page_pdf: 89
+    page_printed: 75
+  verification: machine
+- id: mcc2023:V-C-7:02.01
+  type: goal
+  parent: mcc2023:V-C-7:02
+  text: ブロック線図を用いてシステムを表現することができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ブロック線図を用いたシステム表現
+    items:
+    - ブロック線図を用いたシステム表現
+  note: null
+  source:
+    page_pdf: 89
+    page_printed: 75
+    page_top: true
+  verification: machine
+- id: mcc2023:V-C-7:03
+  type: content
+  parent: mcc2023:V-C-7
+  name: システムの応答
+  source:
+    page_pdf: 89
+    page_printed: 75
+  verification: machine
+- id: mcc2023:V-C-7:03.01
+  type: goal
+  parent: mcc2023:V-C-7:03
+  text: システムの過渡特性について、インパルス応答とステップ応答を用いて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: インパルス応答、ステップ応答
+    items:
+    - インパルス応答
+    - ステップ応答
+  note: null
+  source:
+    page_pdf: 89
+    page_printed: 75
+  verification: machine
+- id: mcc2023:V-C-7:03.02
+  type: goal
+  parent: mcc2023:V-C-7:03
+  text: システムの定常特性について、定常偏差を用いて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 定常偏差
+    items:
+    - 定常偏差
+  note: null
+  source:
+    page_pdf: 89
+    page_printed: 75
+  verification: machine
+- id: mcc2023:V-C-7:03.03
+  type: goal
+  parent: mcc2023:V-C-7:03
+  text: システムの周波数特性について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 周波数特性
+    items:
+    - 周波数特性
+  note: null
+  source:
+    page_pdf: 89
+    page_printed: 75
+  verification: machine
+- id: mcc2023:V-C-7:04
+  type: content
+  parent: mcc2023:V-C-7
+  name: フィードバックシステムの安定判別
+  source:
+    page_pdf: 89
+    page_printed: 75
+  verification: machine
+- id: mcc2023:V-C-7:04.01
+  type: goal
+  parent: mcc2023:V-C-7:04
+  text: フィードバックシステムの安定判別法について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: フィードバックシステムの安定性
+    items:
+    - フィードバックシステムの安定性
+  note: null
+  source:
+    page_pdf: 89
+    page_printed: 75
+  verification: machine

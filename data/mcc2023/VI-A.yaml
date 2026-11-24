@@ -1,0 +1,181 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VI-A
+nodes:
+- id: mcc2023:VI-A
+  type: field
+  parent: mcc2023:VI
+  code: VI-A
+  name: 機械系分野
+  heading_raw: 3-2.1 VI-A 機械系分野
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 実験・実習系領域は、座学で学習したものづくりの基礎及び機械工学の理論を体験的に理解し基礎的知識を習
+    - 得することを目標とする。
+    - (1) 各種工作法の技能及び技術を習得し、図面に基づいた加工ができる。
+    - (2) 実験装置の原理と操作方法を理解し、実験の過程及び結果を説明できる。
+    - 2 一般的な科目名
+    - 機械工作実習、機械工学実験
+    pages_pdf:
+    - 127
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-A:01
+  type: content
+  parent: mcc2023:VI-A
+  name: 計測機器の取扱い方
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-A:01.01
+  type: goal
+  parent: mcc2023:VI-A:01
+  text: 各種計測機器の使い方を理解し、計測できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ノギス、マイクロメータ、ダイヤルゲージ、ハイトゲージ、デプスゲージ
+    items:
+    - ノギス
+    - マイクロメータ
+    - ダイヤルゲージ
+    - ハイトゲージ
+    - デプスゲージ
+  note: null
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-A:02
+  type: content
+  parent: mcc2023:VI-A
+  name: 手仕上げ
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-A:02.01
+  type: goal
+  parent: mcc2023:VI-A:02
+  text: 各種工具を用いた手仕上げ加工ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: けがき工具、やすり、ねじ立て工具
+    items:
+    - けがき工具
+    - やすり
+    - ねじ立て工具
+  note: null
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-A:03
+  type: content
+  parent: mcc2023:VI-A
+  name: 溶接
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-A:03.01
+  type: goal
+  parent: mcc2023:VI-A:03
+  text: アーク溶接の原理を理解し、溶接の基本作業ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: アーク溶接
+    items:
+    - アーク溶接
+  note: null
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-A:04
+  type: content
+  parent: mcc2023:VI-A
+  name: 機械加工
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-A:04.01
+  type: goal
+  parent: mcc2023:VI-A:04
+  text: 旋盤、フライス盤、ボール盤の基本操作を習得し、切削作業ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 外丸削り、端面削り、段付削り、ねじ切り、テーパ削り、穴あけ、中ぐり、平面削り、側面削り
+    items:
+    - 外丸削り
+    - 端面削り
+    - 段付削り
+    - ねじ切り
+    - テーパ削り
+    - 穴あけ
+    - 中ぐり
+    - 平面削り
+    - 側面削り
+  note: null
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-A:05
+  type: content
+  parent: mcc2023:VI-A
+  name: NC機械加工
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-A:05.01
+  type: goal
+  parent: mcc2023:VI-A:05
+  text: NC工作機械の基本操作を習得し、基本作業ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: NC工作機械、NCプログラム
+    items:
+    - NC工作機械
+    - NCプログラム
+  note: null
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-A:06
+  type: content
+  parent: mcc2023:VI-A
+  name: 工学実験
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-A:06.01
+  type: goal
+  parent: mcc2023:VI-A:06
+  text: 機械工学に関する実験を行い、実験の準備、実験装置の操作、実験結果の整理と考察ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 加工学実験、機械力学実験、材料学実験、材料力学実験、熱力学実験、流体力学実験、制御工学実験
+    items:
+    - 加工学実験
+    - 機械力学実験
+    - 材料学実験
+    - 材料力学実験
+    - 熱力学実験
+    - 流体力学実験
+    - 制御工学実験
+  note: null
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine

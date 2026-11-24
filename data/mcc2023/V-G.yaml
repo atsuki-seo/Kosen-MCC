@@ -1,0 +1,2133 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: V-G
+nodes:
+- id: mcc2023:V-G
+  type: field
+  parent: mcc2023:V
+  code: V-G
+  name: 建築系分野
+  heading_raw: 3-1.7 V-G 建築系分野
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-1
+  type: area
+  parent: mcc2023:V-G
+  code: V-G-1
+  name: 材料
+  heading_raw: V-G-1 材料
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 材料（建築）領域は、建築物に使用される主な材料の製造方法、組成、性質等を理解し、使用目的に応じて適
+    - 切に材料を選定し、計画的、経済的に材料を活用することができる能力を養う領域である。
+    - (1) 構造材料分野（木、コンクリート、金属）では、特に構造性能について理解するとともに、要求される性
+    - 能を発揮するために必要な要因について説明できること。
+    - (2) 仕上げ材料分野（内装、外装）では、多くの仕上げ材料を適切に選定するために、機能性と適用環境につ
+    - いて説明できる。
+    - 2 一般的な科目名
+    - 建築材料、建築構造、建築概論、一般構造
+    pages_pdf:
+    - 110
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-1:01
+  type: content
+  parent: mcc2023:V-G-1
+  name: 建築材料の種類
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-1:01.01
+  type: goal
+  parent: mcc2023:V-G-1:01
+  text: 建築材料の種類や必要とされる性能及び使用事例を説明できる
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 材料の種類・規格・性能
+    items:
+    - 材料の種類・規格・性能
+  note: null
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-1:02
+  type: content
+  parent: mcc2023:V-G-1
+  name: 木質材料
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-1:02.01
+  type: goal
+  parent: mcc2023:V-G-1:02
+  text: 木質材料の種類とその特質（力学的特性、耐久性など）について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 種類、物理的性質、耐久性、耐火性、木材工業製品
+    items:
+    - 種類
+    - 物理的性質
+    - 耐久性
+    - 耐火性
+    - 木材工業製品
+  note: null
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-1:03
+  type: content
+  parent: mcc2023:V-G-1
+  name: セメント・コンクリート
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-1:03.01
+  type: goal
+  parent: mcc2023:V-G-1:03
+  text: セメントやコンクリートの種類・特徴（強度、耐久性、調合など）について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: セメントの種類・特性、骨材の種類、混和材、混和剤、水セメント比、スランプ、空気量、コンクリートの強度・耐久性、各種コンクリート
+    items:
+    - セメントの種類・特性
+    - 骨材の種類
+    - 混和材
+    - 混和剤
+    - 水セメント比
+    - スランプ
+    - 空気量
+    - コンクリートの強度・耐久性
+    - 各種コンクリート
+  note: null
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-1:03.02
+  type: goal
+  parent: mcc2023:V-G-1:03
+  text: セメントやコンクリートの製造方法（廃棄物の利用も含む）について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: セメントの製造方法、コンクリート製品の特徴
+    items:
+    - セメントの製造方法
+    - コンクリート製品の特徴
+  note: null
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-1:04
+  type: content
+  parent: mcc2023:V-G-1
+  name: 金属材料
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-1:04.01
+  type: goal
+  parent: mcc2023:V-G-1:04
+  text: 鋼材の種類やその強度特性や耐久性（腐食、電食、耐火など）について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 耐久性、物理的性質、建築用構造用鋼材、建築用鋼製品
+    items:
+    - 耐久性
+    - 物理的性質
+    - 建築用構造用鋼材
+    - 建築用鋼製品
+  note: null
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-1:04.02
+  type: goal
+  parent: mcc2023:V-G-1:04
+  text: 非鉄金属（アルミ、銅、ステンレスなど）の分類、特徴をあげることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 種類・特性
+    items:
+    - 種類・特性
+  note: null
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-1:05
+  type: content
+  parent: mcc2023:V-G-1
+  name: その他の材料
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-1:05.01
+  type: goal
+  parent: mcc2023:V-G-1:05
+  text: その他の材料の種類・性質・使用上の注意について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 石材・ガラス・屋根材・塗料・外装材・内装材・開口部
+    items:
+    - 石材・ガラス・屋根材・塗料・外装材・内装材・開口部
+  note: null
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-2
+  type: area
+  parent: mcc2023:V-G
+  code: V-G-2
+  name: 構造
+  heading_raw: V-G-2 構造
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 構造系領域は、力学などの科目を基礎に各種骨組構造物の設計を行うための計算理論を学ぶ領域である。
+    - (1) 力学分野では、建築構造物に作用する荷重に対し、反力や構造物内部に生じる応力及び変形を計算でき
+    - る。
+    - (2) 各種構造分野（鋼構造、鉄筋コンクリート構造、木構造など）では、各種材料の力学的特性、及び、変形
+    - 特性、各種構造物の仕組み、設計・計算手順を説明できる。
+    - 2 一般的な科目名
+    - 構造力学、基礎力学、材料力学、建築一般構造、建築構造計画、鉄筋コンクリート構造、鋼構造
+    pages_pdf:
+    - 110
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-2:01
+  type: content
+  parent: mcc2023:V-G-2
+  name: 建築構造概要
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-2:01.01
+  type: goal
+  parent: mcc2023:V-G-2:01
+  text: 建築構造の種類や特性を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 建築構造の成り立ち、建築構造種別、荷重の種類
+    items:
+    - 建築構造の成り立ち
+    - 建築構造種別
+    - 荷重の種類
+  note: null
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-2:02
+  type: content
+  parent: mcc2023:V-G-2
+  name: 断面の性質
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-2:02.01
+  type: goal
+  parent: mcc2023:V-G-2:02
+  text: 断面諸量（断面二次モーメント、断面係数など）を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 断面一次モーメント、断面二次モーメント、断面係数、断面二次半径
+    items:
+    - 断面一次モーメント
+    - 断面二次モーメント
+    - 断面係数
+    - 断面二次半径
+  note: null
+  source:
+    page_pdf: 110
+    page_printed: 96
+  verification: machine
+- id: mcc2023:V-G-2:03
+  type: content
+  parent: mcc2023:V-G-2
+  name: 応力とひずみ
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:03.01
+  type: goal
+  parent: mcc2023:V-G-2:03
+  text: 弾性状態における応力とひずみの定義、力と変形の関係を説明でき、それらを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 力、ひずみ、力と変形の関係、曲げモーメントによる断面内応力分布
+    items:
+    - 力
+    - ひずみ
+    - 力と変形の関係
+    - 曲げモーメントによる断面内応力分布
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+    page_top: true
+  verification: machine
+- id: mcc2023:V-G-2:03.02
+  type: goal
+  parent: mcc2023:V-G-2:03
+  text: はり断面内のせん断応力分布について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: はり断面内の応力分布
+    items:
+    - はり断面内の応力分布
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:04
+  type: content
+  parent: mcc2023:V-G-2
+  name: 静定構造物
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:04.01
+  type: goal
+  parent: mcc2023:V-G-2:04
+  text: 静定ラーメンの応力（軸力、せん断力、曲げモーメント）、静定トラスの応力（軸力）を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 安定・不安定、不静定次数、力のつり合い・合成・分解、トラスの支点反力・軸力・軸力図、ラーメンの支点反力・応力（軸力、せん断力、曲げモーメント）・応力図
+    items:
+    - 安定・不安定
+    - 不静定次数
+    - 力のつり合い・合成・分解
+    - トラスの支点反力・軸力・軸力図
+    - ラーメンの支点反力・応力（軸力、せん断力、曲げモーメント）・応力図
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:04.02
+  type: goal
+  parent: mcc2023:V-G-2:04
+  text: 静定構造物の変位（たわみ、たわみ角）を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: はりのたわみの微分方程式、仕事・ひずみエネルギー、仮想仕事法
+    items:
+    - はりのたわみの微分方程式
+    - 仕事・ひずみエネルギー
+    - 仮想仕事法
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:05
+  type: content
+  parent: mcc2023:V-G-2
+  name: 柱の力学
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:05.01
+  type: goal
+  parent: mcc2023:V-G-2:05
+  text: 圧縮力を受ける柱の分類（短柱・長柱）ができ、各種支持条件に対するEuler座屈荷重を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 短柱・長柱、Euler座屈荷重
+    items:
+    - 短柱・長柱
+    - Euler座屈荷重
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:05.02
+  type: goal
+  parent: mcc2023:V-G-2:05
+  text: 偏心圧縮柱の応力状態を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 偏心圧縮柱の応力状態
+    items:
+    - 偏心圧縮柱の応力状態
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:06
+  type: content
+  parent: mcc2023:V-G-2
+  name: 不静定構造物
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:06.01
+  type: goal
+  parent: mcc2023:V-G-2:06
+  text: 不静定構造物の支点反力、応力（図）を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 不静定構造物の応力・支点反力、応力法・変位法（たわみ角法）・固定モーメント法
+    items:
+    - 不静定構造物の応力・支点反力
+    - 応力法・変位法（たわみ角法）・固定モーメント法
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:07
+  type: content
+  parent: mcc2023:V-G-2
+  name: 構法
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:07.01
+  type: goal
+  parent: mcc2023:V-G-2:07
+  text: 木質構造の特徴・構造形式、建築構法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 木構造の特徴・構造形式、構法
+    items:
+    - 木構造の特徴・構造形式
+    - 構法
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:08
+  type: content
+  parent: mcc2023:V-G-2
+  name: 鋼構造
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:08.01
+  type: goal
+  parent: mcc2023:V-G-2:08
+  text: S造の特徴・構造形式・接合形式について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: S造の特徴・構造形式、鋼構造物の復元力特性、構造設計法、高力ボルト接合、溶接接合
+    items:
+    - S造の特徴・構造形式
+    - 鋼構造物の復元力特性
+    - 構造設計法
+    - 高力ボルト接合
+    - 溶接接合
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:08.02
+  type: goal
+  parent: mcc2023:V-G-2:08
+  text: 主要な部材並びに接合部の説明及び設計ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 許容応力度、柱・梁・ブレース・接合部・仕口・継手の構造設計、保有耐力接合
+    items:
+    - 許容応力度
+    - 柱・梁・ブレース・接合部・仕口・継手の構造設計
+    - 保有耐力接合
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:09
+  type: content
+  parent: mcc2023:V-G-2
+  name: 鉄筋コンクリート構造
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:09.01
+  type: goal
+  parent: mcc2023:V-G-2:09
+  text: RC造の特徴・構造形式・接合形式について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 各種の鉄筋コンクリート造の特徴・構造形式、構造計算の設計ルート
+    items:
+    - 各種の鉄筋コンクリート造の特徴・構造形式
+    - 構造計算の設計ルート
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:09.02
+  type: goal
+  parent: mcc2023:V-G-2:09
+  text: 主要な部材の設計ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 許容応力度、柱・梁に作用する軸力・曲げモーメント・せん断力に対する構造設計、終局曲げモーメント
+    items:
+    - 許容応力度
+    - 柱・梁に作用する軸力・曲げモーメント・せん断力に対する構造設計
+    - 終局曲げモーメント
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:10
+  type: content
+  parent: mcc2023:V-G-2
+  name: 塑性解析
+  group: 上記以外の観点
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:10.01
+  type: goal
+  parent: mcc2023:V-G-2:10
+  text: 単純な構造の最大耐力（終局耐力）を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 崩壊系、崩壊荷重
+    items:
+    - 崩壊系
+    - 崩壊荷重
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:10.02
+  type: goal
+  parent: mcc2023:V-G-2:10
+  text: 矩形断面の全塑性モーメントを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 全塑性モーメント
+    items:
+    - 全塑性モーメント
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:11
+  type: content
+  parent: mcc2023:V-G-2
+  name: 基礎構造
+  group: 上記以外の観点
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:11.01
+  type: goal
+  parent: mcc2023:V-G-2:11
+  text: 支持地盤について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 支持地盤
+    items:
+    - 支持地盤
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:11.02
+  type: goal
+  parent: mcc2023:V-G-2:11
+  text: 基礎形式（直接、杭）の分類ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 基礎形式
+    items:
+    - 基礎形式
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:11.03
+  type: goal
+  parent: mcc2023:V-G-2:11
+  text: 基礎形式別の支持力算定方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 支持力
+    items:
+    - 支持力
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:12
+  type: content
+  parent: mcc2023:V-G-2
+  name: 建物の振動
+  group: 上記以外の観点
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:12.01
+  type: goal
+  parent: mcc2023:V-G-2:12
+  text: 固有周期・振動モードを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 固有周期・振動モード
+    items:
+    - 固有周期・振動モード
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-2:12.02
+  type: goal
+  parent: mcc2023:V-G-2:12
+  text: 地震の特性（マグニチュード、震度など）や応答スペクトルを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 応答スペクトル
+    items:
+    - 応答スペクトル
+  note: null
+  source:
+    page_pdf: 111
+    page_printed: 97
+  verification: machine
+- id: mcc2023:V-G-3
+  type: area
+  parent: mcc2023:V-G
+  code: V-G-3
+  name: 環境・設備
+  heading_raw: V-G-3 環境・設備
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 建築環境・設備系領域は、建築を取り巻く自然現象について理解し、健康で、快適な環境を得るための方策に
+    - ついて習得し、建築設計に活用するための領域である。
+    - (1) 建築環境分野では、日本又は建設地域の風土を理解し、環境に適応した建築について理解するとともに、
+    - 熱・光・音・空気環境について、環境要素を用いることができ、環境共生型の社会を前提として、健康で、快
+    - 適な住環境を得るための手法について説明できる。
+    - (2) 建築設備分野では、環境共生型の社会を前提として、給排水、空調、電気などの方策を用い、健康で、快
+    - 適な住環境を得るための手法について説明できる。
+    - 2 一般的な科目名
+    - 建築環境工学、建築設備、建築環境実習・演習
+    pages_pdf:
+    - 112
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:01
+  type: content
+  parent: mcc2023:V-G-3
+  name: 環境原論
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:01.01
+  type: goal
+  parent: mcc2023:V-G-3:01
+  text: 風土と建築について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 風土
+    items:
+    - 風土
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:01.02
+  type: goal
+  parent: mcc2023:V-G-3:01
+  text: 気候、気象、温湿度の形成について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 気候、気象、温湿度形成
+    items:
+    - 気候
+    - 気象
+    - 温湿度形成
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:01.03
+  type: goal
+  parent: mcc2023:V-G-3:01
+  text: ヒートアイランドの現象について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ヒートアイランド
+    items:
+    - ヒートアイランド
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:01.04
+  type: goal
+  parent: mcc2023:V-G-3:01
+  text: 環境性能・省エネルギーについて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 環境性能、省エネルギー、大気汚染、自然再生可能エネルギー
+    items:
+    - 環境性能
+    - 省エネルギー
+    - 大気汚染
+    - 自然再生可能エネルギー
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:02
+  type: content
+  parent: mcc2023:V-G-3
+  name: 日照・日射環境
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:02.01
+  type: goal
+  parent: mcc2023:V-G-3:02
+  text: 日射・日照について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 日照時間、日影図、直達日射、天空日射、日射遮蔽係数
+    items:
+    - 日照時間
+    - 日影図
+    - 直達日射
+    - 天空日射
+    - 日射遮蔽係数
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:03
+  type: content
+  parent: mcc2023:V-G-3
+  name: 光環境
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:03.01
+  type: goal
+  parent: mcc2023:V-G-3:03
+  text: 視覚と光の関係について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 視覚、明視、グレア
+    items:
+    - 視覚
+    - 明視
+    - グレア
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:03.02
+  type: goal
+  parent: mcc2023:V-G-3:03
+  text: 採光及び採光計画について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 採光、採光計画
+    items:
+    - 採光
+    - 採光計画
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:03.03
+  type: goal
+  parent: mcc2023:V-G-3:03
+  text: 人工照明、照明計画及び照度について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 人工照明、照明計画、照度
+    items:
+    - 人工照明
+    - 照明計画
+    - 照度
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:04
+  type: content
+  parent: mcc2023:V-G-3
+  name: 色彩環境
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:04.01
+  type: goal
+  parent: mcc2023:V-G-3:04
+  text: 表色系について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 表色系、色彩の効果
+    items:
+    - 表色系
+    - 色彩の効果
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:05
+  type: content
+  parent: mcc2023:V-G-3
+  name: 熱環境
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:05.01
+  type: goal
+  parent: mcc2023:V-G-3:05
+  text: 伝熱の基礎、物の熱特性について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 伝熱、熱貫流、熱負荷
+    items:
+    - 伝熱
+    - 熱貫流
+    - 熱負荷
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:05.02
+  type: goal
+  parent: mcc2023:V-G-3:05
+  text: 温熱環境要素・温熱環境指標について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 温熱環境要素、温熱環境指標
+    items:
+    - 温熱環境要素
+    - 温熱環境指標
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:05.03
+  type: goal
+  parent: mcc2023:V-G-3:05
+  text: 結露現象を湿り空気線図で説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 結露、湿り空気線図
+    items:
+    - 結露
+    - 湿り空気線図
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:06
+  type: content
+  parent: mcc2023:V-G-3
+  name: 空気環境
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:06.01
+  type: goal
+  parent: mcc2023:V-G-3:06
+  text: 空気汚染の種類と室内空気環境基準について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 空気汚染、室内空気環境基準
+    items:
+    - 空気汚染
+    - 室内空気環境基準
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:06.02
+  type: goal
+  parent: mcc2023:V-G-3:06
+  text: 必要換気量、自然換気と機械換気について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 必要換気量、自然換気、機械換気
+    items:
+    - 必要換気量
+    - 自然換気
+    - 機械換気
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:07
+  type: content
+  parent: mcc2023:V-G-3
+  name: 音環境
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:07.01
+  type: goal
+  parent: mcc2023:V-G-3:07
+  text: 音の性質と単位について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 音の単位、音心理特性、音の伝搬・減衰・回折
+    items:
+    - 音の単位
+    - 音心理特性
+    - 音の伝搬・減衰・回折
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:07.02
+  type: goal
+  parent: mcc2023:V-G-3:07
+  text: 吸音と遮音、残響について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 吸音、遮音、残響時間、遮音材料
+    items:
+    - 吸音
+    - 遮音
+    - 残響時間
+    - 遮音材料
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:08
+  type: content
+  parent: mcc2023:V-G-3
+  name: 給排水衛生設備
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:08.01
+  type: goal
+  parent: mcc2023:V-G-3:08
+  text: 給水方式、使用水量、給湯方式、排水方式、衛生器具について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 給水方式、使用水量、給湯方式、配管方式、分流式・合流式排水方式、浄化槽、衛生器具
+    items:
+    - 給水方式
+    - 使用水量
+    - 給湯方式
+    - 配管方式
+    - 分流式・合流式排水方式
+    - 浄化槽
+    - 衛生器具
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:09
+  type: content
+  parent: mcc2023:V-G-3
+  name: 空気調和・換気設備
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:09.01
+  type: goal
+  parent: mcc2023:V-G-3:09
+  text: 空気調和・換気設備について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 熱負荷計算法、空気線図、空気調和方式、熱源方式、熱搬送方式
+    items:
+    - 熱負荷計算法
+    - 空気線図
+    - 空気調和方式
+    - 熱源方式
+    - 熱搬送方式
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:10
+  type: content
+  parent: mcc2023:V-G-3
+  name: 電気設備
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:10.01
+  type: goal
+  parent: mcc2023:V-G-3:10
+  text: 電気設備について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 受変電・幹線設備、照明・コンセント設備、情報・通信設備、昇降設備
+    items:
+    - 受変電・幹線設備
+    - 照明・コンセント設備
+    - 情報・通信設備
+    - 昇降設備
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:11
+  type: content
+  parent: mcc2023:V-G-3
+  name: 防災設備
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-3:11.01
+  type: goal
+  parent: mcc2023:V-G-3:11
+  text: 防災設備について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 消火設備、排煙設備、火災報知設備、避雷設備
+    items:
+    - 消火設備
+    - 排煙設備
+    - 火災報知設備
+    - 避雷設備
+  note: null
+  source:
+    page_pdf: 112
+    page_printed: 98
+  verification: machine
+- id: mcc2023:V-G-4
+  type: area
+  parent: mcc2023:V-G
+  code: V-G-4
+  name: 計画・歴史
+  heading_raw: V-G-4 計画・歴史
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 計画・歴史（建築）系領域は、西洋や日本における、原始から現代までの建築様式の変化を理解するととも
+    - に、時代ごとの社会世情、交通手段、及び生活感の変化を前提として、社会の中の都市、都市の中の建築、建
+    - 築の中の住生活という体系を理解する領域である。
+    - (1) 都市計画分野では、社会構造変化（産業革命、交通の変化）に応じた都市形成の変遷・変化などについ
+    - て、諸外国の例と日本における法制度について説明できる。
+    - (2) 建築計画分野では、人の寸法（モジュール）について理解するとともに、建築の用途別に必要な機能、ゾ
+    - ーニングや動線計画を理解しており、建築設計に活用できる。
+    - (3) 歴史分野では、社会の変化に伴う建築への要求の変化と社会的課題に対する解決として、構法の発展及び
+    - 建築構成の理論の側面から、各時代の建築様式を説明できる。
+    - 2 一般的な科目名
+    - 都市計画、地域計画、建築計画、建築史、都市史、近代建築論
+    pages_pdf:
+    - 113
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:01
+  type: content
+  parent: mcc2023:V-G-4
+  name: 都市計画
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:01.01
+  type: goal
+  parent: mcc2023:V-G-4:01
+  text: 近現代の著名な都市計画論について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 近現代の都市計画論
+    items:
+    - 近現代の都市計画論
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:01.02
+  type: goal
+  parent: mcc2023:V-G-4:01
+  text: 住宅地の計画について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 街路設計、街区構成、公園・緑地計画
+    items:
+    - 街路設計
+    - 街区構成
+    - 公園・緑地計画
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:01.03
+  type: goal
+  parent: mcc2023:V-G-4:01
+  text: 日本の土地利用計画の仕組みについて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 土地利用計画、用途・形態規制、地区計画
+    items:
+    - 土地利用計画
+    - 用途・形態規制
+    - 地区計画
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:02
+  type: content
+  parent: mcc2023:V-G-4
+  name: 建築計画・設計の考え方
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:02.01
+  type: goal
+  parent: mcc2023:V-G-4:02
+  text: 建築計画、設計の手法や環境共生について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 建築に対する要求（条件）、建築計画・設計のプロセス、ボリューム、ゾーニング、配置計画、外構計画、環境共生
+    items:
+    - 建築に対する要求（条件）
+    - 建築計画・設計のプロセス
+    - ボリューム
+    - ゾーニング
+    - 配置計画
+    - 外構計画
+    - 環境共生
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:02.02
+  type: goal
+  parent: mcc2023:V-G-4:02
+  text: 防火・防災計画について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 延焼、避難計画、防火区画
+    items:
+    - 延焼
+    - 避難計画
+    - 防火区画
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:03
+  type: content
+  parent: mcc2023:V-G-4
+  name: 寸法体系
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:03.01
+  type: goal
+  parent: mcc2023:V-G-4:03
+  text: 動線、モデュールについて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 動線、モデュール
+    items:
+    - 動線
+    - モデュール
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:03.02
+  type: goal
+  parent: mcc2023:V-G-4:03
+  text: 建築設計に関わる基本的な寸法（必要面積、高さ、条件など）を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 寸法設計、ユニバーサルデザイン、バリアフリー法
+    items:
+    - 寸法設計
+    - ユニバーサルデザイン
+    - バリアフリー法
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:04
+  type: content
+  parent: mcc2023:V-G-4
+  name: 居住系施設
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:04.01
+  type: goal
+  parent: mcc2023:V-G-4:04
+  text: 居住系施設（例えば、独立住宅、集合住宅など）の計画について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 独立住宅、集合住宅
+    items:
+    - 独立住宅
+    - 集合住宅
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:05
+  type: content
+  parent: mcc2023:V-G-4
+  name: 教育・福祉系施設
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:05.01
+  type: goal
+  parent: mcc2023:V-G-4:05
+  text: 教育や福祉系の施設（例えば、小学校、保育所、幼稚園、中・高・大学など）あるいは類似施設の計画について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 小学校、保育所、幼稚園、中学校、高校・大学、福祉施設
+    items:
+    - 小学校
+    - 保育所
+    - 幼稚園
+    - 中学校
+    - 高校・大学
+    - 福祉施設
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:06
+  type: content
+  parent: mcc2023:V-G-4
+  name: 文化・交流系施設
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:06.01
+  type: goal
+  parent: mcc2023:V-G-4:06
+  text: 文化・交流系の施設（例えば、美術館、博物館、図書館など）あるいは類似施設の計画について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 美術館、博物館、図書館
+    items:
+    - 美術館
+    - 博物館
+    - 図書館
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:07
+  type: content
+  parent: mcc2023:V-G-4
+  name: 業務系施設
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:07.01
+  type: goal
+  parent: mcc2023:V-G-4:07
+  text: 業務系の施設（例えば、オフィスビル、オーディトリアム、宿泊施設等）あるいは類似施設の計画について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: オフィスビル、オーディトリアム、宿泊施設
+    items:
+    - オフィスビル
+    - オーディトリアム
+    - 宿泊施設
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:08
+  type: content
+  parent: mcc2023:V-G-4
+  name: 医療系施設
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:08.01
+  type: goal
+  parent: mcc2023:V-G-4:08
+  text: 医療の施設（例えば、病院、高齢者施設等）あるいは類似施設の計画について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 病院、高齢者施設
+    items:
+    - 病院
+    - 高齢者施設
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:09
+  type: content
+  parent: mcc2023:V-G-4
+  name: 近現代の建築様式
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:09.01
+  type: goal
+  parent: mcc2023:V-G-4:09
+  text: 日本及び海外における近現代の建築様式の特徴について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 近現代の建築様式
+    items:
+    - 近現代の建築様式
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:10
+  type: content
+  parent: mcc2023:V-G-4
+  name: 西洋の建築様式
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:10.01
+  type: goal
+  parent: mcc2023:V-G-4:10
+  text: 古代～近世の建築様式の特徴について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: エジプト、オリエント、ギリシャ、ビザンチン、イスラム、ロマネスク、ゴシック、ルネサンス、マニエリスム、バロック、ロココ
+    items:
+    - エジプト
+    - オリエント
+    - ギリシャ
+    - ビザンチン
+    - イスラム
+    - ロマネスク
+    - ゴシック
+    - ルネサンス
+    - マニエリスム
+    - バロック
+    - ロココ
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:11
+  type: content
+  parent: mcc2023:V-G-4
+  name: 日本の建築様式
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:11.01
+  type: goal
+  parent: mcc2023:V-G-4:11
+  text: 古代～近世の建築様式の特徴について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 古代建築、住宅建築、寝殿造、神社建築、寺院建築、書院造、町屋、農家、茶室城郭
+    items:
+    - 古代建築
+    - 住宅建築
+    - 寝殿造
+    - 神社建築
+    - 寺院建築
+    - 書院造
+    - 町屋
+    - 農家
+    - 茶室城郭
+  note: null
+  source:
+    page_pdf: 113
+    page_printed: 99
+  verification: machine
+- id: mcc2023:V-G-4:12
+  type: content
+  parent: mcc2023:V-G-4
+  name: 計画基礎
+  group: 上記以外の観点
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-4:12.01
+  type: goal
+  parent: mcc2023:V-G-4:12
+  text: 建築士の職責・業務を知っている。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 建築士法
+    items:
+    - 建築士法
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+    page_top: true
+  verification: machine
+- id: mcc2023:V-G-4:12.02
+  type: goal
+  parent: mcc2023:V-G-4:12
+  text: 設計契約やマネジメントの種類について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 設計監理
+    items:
+    - 設計監理
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-4:12.03
+  type: goal
+  parent: mcc2023:V-G-4:12
+  text: 建築積算の方法について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 積算
+    items:
+    - 積算
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5
+  type: area
+  parent: mcc2023:V-G
+  code: V-G-5
+  name: 施工・法規
+  heading_raw: V-G-5 施工・法規
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 建築施工・法規系領域は、請負契約、準備工事、躯体工事、仕上げ（内外装）工事の流れについて理解すると
+    - ともに、建築基準法及び関連法令の定義、運用方法などについて理解する領域である。
+    - (1) 施工分野では、木造、鉄筋コンクリート造、鋼構造、及び鉄骨鉄筋コンクリート造の建築物を建設するた
+    - めの、施工の手順（工種）、方法（構・工法）を理解し、Q（品質）、C（コスト）、D（工程）、S（安
+    - 全）、E（環境）の各項目の管理、及び届出について説明できる。
+    - (2) 法規分野では、法体系を理解し、建築基準法を中心とした関係法令を用い、建築物及び都市計画の設計又
+    - は計画に活用することができる。
+    - 2 一般的な科目名
+    - 建築施工、建築法規、一般構造、建築概論、建築構造、都市計画
+    pages_pdf:
+    - 114
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:01
+  type: content
+  parent: mcc2023:V-G-5
+  name: 施工一般
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:01.01
+  type: goal
+  parent: mcc2023:V-G-5:01
+  text: 工事の流れ（仮設・準備・基礎・地業・躯体・仕上げ・設備（電気・空調・給排水・衛生）・解体）について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 仮設工事、基礎工事、地業工事、躯体工事、仕上げ工事、設備工事
+    items:
+    - 仮設工事
+    - 基礎工事
+    - 地業工事
+    - 躯体工事
+    - 仕上げ工事
+    - 設備工事
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:01.02
+  type: goal
+  parent: mcc2023:V-G-5:01
+  text: 請負契約（見積り、積算を含む）について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 請負契約
+    items:
+    - 請負契約
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:01.03
+  type: goal
+  parent: mcc2023:V-G-5:01
+  text: 現場管理、品質・材料管理、工程表について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 建設業法、労働安全衛生法、品質管理、材料管理、工程管理、工程表
+    items:
+    - 建設業法
+    - 労働安全衛生法
+    - 品質管理
+    - 材料管理
+    - 工程管理
+    - 工程表
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:01.04
+  type: goal
+  parent: mcc2023:V-G-5:01
+  text: 主な申請や届出について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 申請・届出の種類
+    items:
+    - 申請・届出の種類
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:01.05
+  type: goal
+  parent: mcc2023:V-G-5:01
+  text: 五大管理項目（品質、原価、工程、安全、環境）の特徴について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 管理項目
+    items:
+    - 管理項目
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:01.06
+  type: goal
+  parent: mcc2023:V-G-5:01
+  text: 工程表について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 工程管理、工程表
+    items:
+    - 工程管理
+    - 工程表
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:02
+  type: content
+  parent: mcc2023:V-G-5
+  name: 各種工事
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:02.01
+  type: goal
+  parent: mcc2023:V-G-5:02
+  text: 敷地・地盤調査について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 敷地・地盤調査
+    items:
+    - 敷地・地盤調査
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:02.02
+  type: goal
+  parent: mcc2023:V-G-5:02
+  text: 仮設工事について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 仮設工事
+    items:
+    - 仮設工事
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:02.03
+  type: goal
+  parent: mcc2023:V-G-5:02
+  text: 土工事・山留、基礎・地業について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 土工事・山留、基礎・地業
+    items:
+    - 土工事・山留
+    - 基礎・地業
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:02.04
+  type: goal
+  parent: mcc2023:V-G-5:02
+  text: 鉄筋工事、型枠工事、コンクリート工事について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 鉄筋工事、型枠工事、コンクリート工事
+    items:
+    - 鉄筋工事
+    - 型枠工事
+    - コンクリート工事
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:02.05
+  type: goal
+  parent: mcc2023:V-G-5:02
+  text: 鉄骨工事について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 鉄骨工事
+    items:
+    - 鉄骨工事
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:02.06
+  type: goal
+  parent: mcc2023:V-G-5:02
+  text: その他工事（例えば、木工事、防水工事など）について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 木工事、防水工事、左官工事、ガラス工事、内外装工事、屋根工事、設備工事
+    items:
+    - 木工事
+    - 防水工事
+    - 左官工事
+    - ガラス工事
+    - 内外装工事
+    - 屋根工事
+    - 設備工事
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:03
+  type: content
+  parent: mcc2023:V-G-5
+  name: 建築基準法及び用語
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:03.01
+  type: goal
+  parent: mcc2023:V-G-5:03
+  text: 法の体系について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 法・令・告示
+    items:
+    - 法・令・告示
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:03.02
+  type: goal
+  parent: mcc2023:V-G-5:03
+  text: 基本用語及び防火などの定義について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 建築物、工作物、防火に関する用語、建築手続き、建築物の面積・高さ・階数
+    items:
+    - 建築物
+    - 工作物
+    - 防火に関する用語
+    - 建築手続き
+    - 建築物の面積・高さ・階数
+  note: null
+  source:
+    page_pdf: 114
+    page_printed: 100
+  verification: machine
+- id: mcc2023:V-G-5:03.03
+  type: goal
+  parent: mcc2023:V-G-5:03
+  text: 建築手続きについて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 確認申請、中間検査・完了検査、建築工事届
+    items:
+    - 確認申請
+    - 中間検査・完了検査
+    - 建築工事届
+  note: null
+  source:
+    page_pdf: 115
+    page_printed: 101
+    page_top: true
+  verification: machine
+- id: mcc2023:V-G-5:04
+  type: content
+  parent: mcc2023:V-G-5
+  name: 単体規定
+  source:
+    page_pdf: 115
+    page_printed: 101
+  verification: machine
+- id: mcc2023:V-G-5:04.01
+  type: goal
+  parent: mcc2023:V-G-5:04
+  text: 一般構造、建築設備の法令文を具体例に適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 採光、界壁、階段・踊り場の寸法、換気・換気設備、配管設備の構造、昇降機
+    items:
+    - 採光
+    - 界壁
+    - 階段・踊り場の寸法
+    - 換気・換気設備
+    - 配管設備の構造
+    - 昇降機
+  note: null
+  source:
+    page_pdf: 115
+    page_printed: 101
+  verification: machine
+- id: mcc2023:V-G-5:04.02
+  type: goal
+  parent: mcc2023:V-G-5:04
+  text: 構造強度、構造計算の法令文を具体例に適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 木造、鉄骨造、鉄筋コンクリート造、構造耐力、構造計算適合性判定
+    items:
+    - 木造
+    - 鉄骨造
+    - 鉄筋コンクリート造
+    - 構造耐力
+    - 構造計算適合性判定
+  note: null
+  source:
+    page_pdf: 115
+    page_printed: 101
+  verification: machine
+- id: mcc2023:V-G-5:04.03
+  type: goal
+  parent: mcc2023:V-G-5:04
+  text: 防火規定、避難規定に関する法令文を具体例に適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 防火に関する用語、防火区画、内装制限、避難規定に関する用語、排煙設備、避難安全検証法
+    items:
+    - 防火に関する用語
+    - 防火区画
+    - 内装制限
+    - 避難規定に関する用語
+    - 排煙設備
+    - 避難安全検証法
+  note: null
+  source:
+    page_pdf: 115
+    page_printed: 101
+  verification: machine
+- id: mcc2023:V-G-5:05
+  type: content
+  parent: mcc2023:V-G-5
+  name: 集団規定
+  source:
+    page_pdf: 115
+    page_printed: 101
+  verification: machine
+- id: mcc2023:V-G-5:05.01
+  type: goal
+  parent: mcc2023:V-G-5:05
+  text: 建築基準法で定める道路と敷地について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 道路の定義
+    items:
+    - 道路の定義
+  note: null
+  source:
+    page_pdf: 115
+    page_printed: 101
+  verification: machine
+- id: mcc2023:V-G-5:05.02
+  type: goal
+  parent: mcc2023:V-G-5:05
+  text: 用途地域に関する法令文を具体例に適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 用途地域
+    items:
+    - 用途地域
+  note: null
+  source:
+    page_pdf: 115
+    page_printed: 101
+  verification: machine
+- id: mcc2023:V-G-5:05.03
+  type: goal
+  parent: mcc2023:V-G-5:05
+  text: 容積率・建ぺい率、高さ制限などについて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 容積率、建ぺい率、高さ制限
+    items:
+    - 容積率
+    - 建ぺい率
+    - 高さ制限
+  note: null
+  source:
+    page_pdf: 115
+    page_printed: 101
+  verification: machine
+- id: mcc2023:V-G-5:05.04
+  type: goal
+  parent: mcc2023:V-G-5:05
+  text: 防火地域、建築協定などについて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 防火地域、建築協定
+    items:
+    - 防火地域
+    - 建築協定
+  note: null
+  source:
+    page_pdf: 115
+    page_printed: 101
+  verification: machine
+- id: mcc2023:V-G-5:06
+  type: content
+  parent: mcc2023:V-G-5
+  name: 関係法令
+  source:
+    page_pdf: 115
+    page_printed: 101
+  verification: machine
+- id: mcc2023:V-G-5:06.01
+  type: goal
+  parent: mcc2023:V-G-5:06
+  text: 建築基準法に関連する法律関係（例えば都市計画法、消防法、建築士法、建設業法など）の法令を探すことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 都市計画法、消防法、建築士法、建設業法、バリアフリー法
+    items:
+    - 都市計画法
+    - 消防法
+    - 建築士法
+    - 建設業法
+    - バリアフリー法
+  note: null
+  source:
+    page_pdf: 115
+    page_printed: 101
+  verification: machine
+- id: mcc2023:V-G-6
+  type: area
+  parent: mcc2023:V-G
+  code: V-G-6
+  name: 設計・製図
+  heading_raw: V-G-6 設計・製図
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 製図系領域は、製図用具の特性、各種線種の意味、縮尺の概念を理解した上で、各種建築物を自由な発想で設
+    - 計・デザインし、関係者と情報を共有できるよう図面化する領域である。
+    - (1) 図学分野では、製図用具を使用し、手書きにより線の描き分け、寸法・文字の記入方法、建築物の表現・
+    - 投影方法について説明できる。
+    - (2) CAD分野では、ソフトウェアの基本的な操作方法を理解し、図面の作成、修正、印刷ができる。
+    - (3) 設計製図分野では、指定された条件に基づき、自由な発想で各種建築物の設計・デザインを行うことがで
+    - き、設計趣旨などをプレゼンテーションできること。
+    - 2 一般的な科目名
+    - 図学、製図、設計製図、CAD・CG、設計演習
+    pages_pdf:
+    - 116
+  notes:
+  - label: 注１
+    text: 上記以外の観点として、集合住宅、商業建築などの課題もあると良い。
+    page: 116
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine
+- id: mcc2023:V-G-6:01
+  type: content
+  parent: mcc2023:V-G-6
+  name: 製図
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine
+- id: mcc2023:V-G-6:01.01
+  type: goal
+  parent: mcc2023:V-G-6:01
+  text: 製図用具の特性を理解し、線の描き分け（3種類程度）ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 製図用具
+    items:
+    - 製図用具
+  note: null
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine
+- id: mcc2023:V-G-6:01.02
+  type: goal
+  parent: mcc2023:V-G-6:01
+  text: 建築の各種図面と図面の尺度・縮尺について理解し、図面の作図に反映できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 縮尺に応じた表記
+    items:
+    - 縮尺に応じた表記
+  note: null
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine
+- id: mcc2023:V-G-6:01.03
+  type: goal
+  parent: mcc2023:V-G-6:01
+  text: 建築製図通則に基づき、製図記号を判別、適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 製図記号
+    items:
+    - 製図記号
+  note: null
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine
+- id: mcc2023:V-G-6:01.04
+  type: goal
+  parent: mcc2023:V-G-6:01
+  text: 立体的な発想とその表現（例えば、正投象、単面投象、透視投象などを用い）ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 正投図（立面図、展開図）、軸測投影図（アクソメ図、アイソメ図）、透視図
+    items:
+    - 正投図（立面図、展開図）
+    - 軸測投影図（アクソメ図、アイソメ図）
+    - 透視図
+  note: null
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine
+- id: mcc2023:V-G-6:02
+  type: content
+  parent: mcc2023:V-G-6
+  name: CAD
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine
+- id: mcc2023:V-G-6:02.01
+  type: goal
+  parent: mcc2023:V-G-6:02
+  text: ソフトウェアを用い、各種建築図面を作成できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: CAD
+    items:
+    - CAD
+  note: null
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine
+- id: mcc2023:V-G-6:03
+  type: content
+  parent: mcc2023:V-G-6
+  name: 三次元表現
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine
+- id: mcc2023:V-G-6:03.01
+  type: goal
+  parent: mcc2023:V-G-6:03
+  text: 図面化を目指して、模型又は 3D-CAD により表現すべき建築の検討ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ''
+    items: []
+  note: null
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine
+- id: mcc2023:V-G-6:04
+  type: content
+  parent: mcc2023:V-G-6
+  name: 課題設計（住宅、公共建築など）
+  note: （注１）
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine
+- id: mcc2023:V-G-6:04.01
+  type: goal
+  parent: mcc2023:V-G-6:04
+  text: 与えられた条件をもとに、分析された動線・ゾーニングを満たすように、コンセプトに基づき空間構成をまとめることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: コンセプト、動線、ゾーニング、エスキス
+    items:
+    - コンセプト
+    - 動線
+    - ゾーニング
+    - エスキス
+  note: null
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine
+- id: mcc2023:V-G-6:04.02
+  type: goal
+  parent: mcc2023:V-G-6:04
+  text: 要求された図面（配置図、各階平面図など）を作成できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 配置図、各階平面図、立面図、断面図、透視図
+    items:
+    - 配置図
+    - 各階平面図
+    - 立面図
+    - 断面図
+    - 透視図
+  note: null
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine
+- id: mcc2023:V-G-6:04.03
+  type: goal
+  parent: mcc2023:V-G-6:04
+  text: 講評会等において、プレゼンテーションができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ''
+    items: []
+  note: null
+  source:
+    page_pdf: 116
+    page_printed: 102
+  verification: machine

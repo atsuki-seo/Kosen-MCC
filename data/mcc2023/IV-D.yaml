@@ -1,0 +1,111 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: IV-D
+nodes:
+- id: mcc2023:IV-D
+  type: field
+  parent: mcc2023:IV
+  code: IV-D
+  name: グローバリゼーション・異文化多文化理解
+  heading_raw: 2-4.4 IV-D グローバリゼーション・異文化多文化理解
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 現代社会において各国・地域が相互依存関係にあり、相互協力が必須であることを想定し、そのために必要な
+    - 知識及び考え方の理解を目標とする。
+    - (1) 各国・地域の文化・習慣・価値観等を理解し、尊重しなければならないことを理解する。
+    - (2) グローバリゼーションの進展による影響と変化を理解し、諸外国・地域の相互依存関係及び相互協力の重
+    - 要性を理解する。
+    - 2 一般的な科目名
+    - 異文化交流、地理、歴史、政治・経済、PBL、海外研修など
+    pages_pdf:
+    - 69
+  source:
+    page_pdf: 69
+    page_printed: 55
+  verification: machine
+- id: mcc2023:IV-D:01
+  type: content
+  parent: mcc2023:IV-D
+  name: グローバリゼーション・異文化多文化理解
+  source:
+    page_pdf: 69
+    page_printed: 55
+  verification: machine
+- id: mcc2023:IV-D:01.01
+  type: goal
+  parent: mcc2023:IV-D:01
+  text: 異文化、多文化について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 様々な国、地域、民族等の異なる歴史的、文化的背景、宗教的信条など、地理的特性等を含めた差異性や多様性
+    items:
+    - 様々な国
+    - 地域
+    - 民族等の異なる歴史的
+    - 文化的背景
+    - 宗教的信条など
+    - 地理的特性等を含めた差異性や多様性
+  note: null
+  source:
+    page_pdf: 69
+    page_printed: 55
+  verification: machine
+- id: mcc2023:IV-D:01.02
+  type: goal
+  parent: mcc2023:IV-D:01
+  text: 多様性の概念及びその重要性を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 歴史、文化、人種、民族あるいはセクシャリティ、特性などに関する多様性（ダイバーシティ）、インクルーシブネス（インクルージョン）、個人の人権を尊重することの重要性
+    items:
+    - 歴史
+    - 文化
+    - 人種
+    - 民族あるいはセクシャリティ
+    - 特性などに関する多様性（ダイバーシティ）
+    - インクルーシブネス（インクルージョン）
+    - 個人の人権を尊重することの重要性
+  note: null
+  source:
+    page_pdf: 69
+    page_printed: 55
+  verification: machine
+- id: mcc2023:IV-D:01.03
+  type: goal
+  parent: mcc2023:IV-D:01
+  text: グローバリゼーションの進展により生じた産業、経済、政治への影響及びグローバリゼーションと科学技術との相互作用を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 研究開発のグローバル化、国際経済の動向、科学技術の発展によるグローバリゼーションの進展
+    items:
+    - 研究開発のグローバル化
+    - 国際経済の動向
+    - 科学技術の発展によるグローバリゼーションの進展
+  note: null
+  source:
+    page_pdf: 69
+    page_printed: 55
+  verification: machine
+- id: mcc2023:IV-D:01.04
+  type: goal
+  parent: mcc2023:IV-D:01
+  text: 技術者としてグローバルに活動する際に求められる知識、資質、能力について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 商習慣の違いなど、各国の法や制度、技術者の国際資格、科学技術の発展に伴う活動方法・様態の変化（バーチャル・フィジカル空間での活動など）、多様性の尊重、異質・差異に対する寛容
+    items:
+    - 商習慣の違いなど
+    - 各国の法や制度
+    - 技術者の国際資格
+    - 科学技術の発展に伴う活動方法・様態の変化（バーチャル・フィジカル空間での活動など）
+    - 多様性の尊重
+    - 異質・差異に対する寛容
+  note: null
+  source:
+    page_pdf: 69
+    page_printed: 55
+  verification: machine

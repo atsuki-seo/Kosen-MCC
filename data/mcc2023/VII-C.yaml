@@ -1,0 +1,74 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VII-C
+nodes:
+- id: mcc2023:VII-C
+  type: field
+  parent: mcc2023:VII
+  code: VII-C
+  name: 情報収集・活用・発信力
+  heading_raw: 4-1.3 VII-C 情報収集・活用・発信力
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine
+- id: mcc2023:VII-C:01
+  type: content
+  parent: mcc2023:VII-C
+  name: 情報収集・活用・発信力
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine
+- id: mcc2023:VII-C:01.01
+  type: goal
+  parent: mcc2023:VII-C:01
+  text: ディジタルツールを含む種々の手段や各種メディアを活用し、情報を収集できる。
+  supplement:
+    kind: キーワード
+    raw: 多様なメディアやツールを利用した情報収集、メディアやツールの特性を理解した上での利用など
+    items:
+    - 多様なメディアやツールを利用した情報収集
+    - メディアやツールの特性を理解した上での利用など
+  note: null
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine
+- id: mcc2023:VII-C:01.02
+  type: goal
+  parent: mcc2023:VII-C:01
+  text: 信頼性・妥当性・有効性などを考慮しながら情報を検証・評価できる。
+  supplement:
+    kind: キーワード
+    raw: メディアの特性や情報の性質の理解、バイアス、情報の信頼性や妥当性の検証、情報の取捨選択など
+    items:
+    - メディアの特性や情報の性質の理解
+    - バイアス
+    - 情報の信頼性や妥当性の検証
+    - 情報の取捨選択など
+  note: null
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine
+- id: mcc2023:VII-C:01.03
+  type: goal
+  parent: mcc2023:VII-C:01
+  text: 自己及び他者の権利に配慮し、適切な方法を用いて情報を活用し、効果的に情報発信できる。
+  supplement:
+    kind: キーワード
+    raw: 著作権や人権の知識、不正行為の認知、適切な情報利用、適切な情報発信、効果的な情報活用など
+    items:
+    - 著作権や人権の知識
+    - 不正行為の認知
+    - 適切な情報利用
+    - 適切な情報発信
+    - 効果的な情報活用など
+  note: null
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine

@@ -11,32 +11,88 @@
       "type": "string",
       "pattern": "^(mcc2023|mccplus2023):[A-Za-z0-9:._-]+$"
     },
-    "verification": {"enum": ["machine", "image", "human"]},
-    "page": {"type": "integer", "minimum": 1, "maximum": 234},
+    "verification": {
+      "enum": [
+        "machine",
+        "image",
+        "human"
+      ]
+    },
+    "page": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 234
+    },
     "source": {
       "type": "object",
-      "required": ["page_pdf", "page_printed"],
+      "required": [
+        "page_pdf",
+        "page_printed"
+      ],
       "additionalProperties": false,
       "properties": {
-        "page_pdf": {"$ref": "#/$defs/page"},
-        "page_printed": {"type": ["integer", "null"]},
-        "pages_pdf": {"type": "array", "items": {"$ref": "#/$defs/page"}, "minItems": 2}
+        "page_pdf": {
+          "$ref": "#/$defs/page"
+        },
+        "page_printed": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "pages_pdf": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/page"
+          },
+          "minItems": 2
+        },
+        "page_top": {
+          "const": true,
+          "description": "ページ先頭の行（前ページから続く表の 1 行目、またはページをまたいで続く行）。画像照合の対象（設計 7.2）"
+        }
       }
     },
     "meta": {
       "type": "object",
-      "required": ["source"],
-      "properties": {"source": {"const": "mcc2023"}}
+      "required": [
+        "source"
+      ],
+      "properties": {
+        "source": {
+          "const": "mcc2023"
+        }
+      }
     },
     "target": {
       "type": "object",
-      "required": ["raw", "id"],
+      "required": [
+        "raw",
+        "id"
+      ],
       "additionalProperties": false,
       "properties": {
-        "raw": {"type": "string"},
-        "id": {"oneOf": [{"$ref": "#/$defs/anyId"}, {"type": "null"}]},
-        "reason": {"type": "string", "description": "id が null のときの理由"},
-        "method": {"type": "string", "description": "解決の方法"}
+        "raw": {
+          "type": "string"
+        },
+        "id": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/anyId"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "description": "id が null のときの理由"
+        },
+        "method": {
+          "type": "string",
+          "description": "解決の方法"
+        }
       }
     }
   }

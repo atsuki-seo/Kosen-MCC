@@ -1,0 +1,860 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: I
+nodes:
+- id: mcc2023:I:01
+  type: content
+  parent: mcc2023:I
+  name: 数と式の計算
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:01.01
+  type: goal
+  parent: mcc2023:I:01
+  text: 整式の加減乗除の計算、及び因数定理等を利用した簡単な因数分解ができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:01.02
+  type: goal
+  parent: mcc2023:I:01
+  text: 分数式の加減乗除の計算ができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:01.03
+  type: goal
+  parent: mcc2023:I:01
+  text: 実数の絶対値について理解し、計算ができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:01.04
+  type: goal
+  parent: mcc2023:I:01
+  text: 分母の有理化等の平方根の計算ができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:01.05
+  type: goal
+  parent: mcc2023:I:01
+  text: 複素数の相等を理解し、加減乗除及び絶対値の計算ができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:02
+  type: content
+  parent: mcc2023:I
+  name: 方程式 不等式
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:02.01
+  type: goal
+  parent: mcc2023:I:02
+  text: 解の公式等を利用して、二次方程式を解くことができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:02.02
+  type: goal
+  parent: mcc2023:I:02
+  text: 因数定理等を利用して、高次方程式を解くことができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:02.03
+  type: goal
+  parent: mcc2023:I:02
+  text: 連立方程式を解くことができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:02.04
+  type: goal
+  parent: mcc2023:I:02
+  text: 無理方程式及び分数方程式を解くことができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:02.05
+  type: goal
+  parent: mcc2023:I:02
+  text: 一次不等式及び二次不等式を解くことができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:02.06
+  type: goal
+  parent: mcc2023:I:02
+  text: 恒等式の考え方を活用できる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:03
+  type: content
+  parent: mcc2023:I
+  name: 関数とグラフ
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:03.01
+  type: goal
+  parent: mcc2023:I:03
+  text: 二次関数の性質及びグラフを理解し、最大値や最小値を求めることができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:03.02
+  type: goal
+  parent: mcc2023:I:03
+  text: 分数関数や無理関数の性質及びグラフを理解し、分数関数や無理関数を含む不等式に応用できる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:03.03
+  type: goal
+  parent: mcc2023:I:03
+  text: 与えられた関数の逆関数を求め、その性質を説明できる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:04
+  type: content
+  parent: mcc2023:I
+  name: 指数関数 対数関数
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:04.01
+  type: goal
+  parent: mcc2023:I:04
+  text: 累乗根や指数法則を利用した計算ができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:04.02
+  type: goal
+  parent: mcc2023:I:04
+  text: 指数関数の性質及びグラフを理解し、指数関数を含む方程式・不等式を解くことができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:04.03
+  type: goal
+  parent: mcc2023:I:04
+  text: 対数の性質を理解し、対数の計算ができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:04.04
+  type: goal
+  parent: mcc2023:I:04
+  text: 対数関数の性質及びグラフを理解し、対数関数を含む方程式・不等式を解くことができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:05
+  type: content
+  parent: mcc2023:I
+  name: 三角関数
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:05.01
+  type: goal
+  parent: mcc2023:I:05
+  text: 角を弧度法で表現することができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:05.02
+  type: goal
+  parent: mcc2023:I:05
+  text: 鋭角の三角比及び一般角の三角関数の値を求めることができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:05.03
+  type: goal
+  parent: mcc2023:I:05
+  text: 三角関数の性質及びグラフを理解し、三角関数を含む方程式・不等式を解くことができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:05.04
+  type: goal
+  parent: mcc2023:I:05
+  text: 加法定理を利用できる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:06
+  type: content
+  parent: mcc2023:I
+  name: 図形と式
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:06.01
+  type: goal
+  parent: mcc2023:I:06
+  text: 与えられた二点から距離や内分点を求めることができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:06.02
+  type: goal
+  parent: mcc2023:I:06
+  text: 直線及び円の方程式を求めることができる。
+  note: null
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:I:06.03
+  type: goal
+  parent: mcc2023:I:06
+  text: 二次曲線について、方程式とグラフの概形の関係を説明できる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+    page_top: true
+  verification: machine
+- id: mcc2023:I:06.04
+  type: goal
+  parent: mcc2023:I:06
+  text: 不等式の表す領域を図示できる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:07
+  type: content
+  parent: mcc2023:I
+  name: 場合の数
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:07.01
+  type: goal
+  parent: mcc2023:I:07
+  text: 積の法則及び和の法則を利用して場合の数を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:07.02
+  type: goal
+  parent: mcc2023:I:07
+  text: 積の法則と和の法則を理解し、順列及び組合せの計算ができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:08
+  type: content
+  parent: mcc2023:I
+  name: 数列
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:08.01
+  type: goal
+  parent: mcc2023:I:08
+  text: 等差数列・等比数列の一般項やその和を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:08.02
+  type: goal
+  parent: mcc2023:I:08
+  text: 数列の和を総和記号を用いて表し、その和を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:08.03
+  type: goal
+  parent: mcc2023:I:08
+  text: 数列の極限を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:08.04
+  type: goal
+  parent: mcc2023:I:08
+  text: 無限等比級数の収束・発散を調べ、その和を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:09
+  type: content
+  parent: mcc2023:I
+  name: ベクトル
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:09.01
+  type: goal
+  parent: mcc2023:I:09
+  text: ベクトルの和、差、実数倍の計算ができ、大きさを求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:09.02
+  type: goal
+  parent: mcc2023:I:09
+  text: ベクトルの成分表示を利用した計算ができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:09.03
+  type: goal
+  parent: mcc2023:I:09
+  text: ベクトルの内積を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:09.04
+  type: goal
+  parent: mcc2023:I:09
+  text: ベクトルを使って平行や垂直を判定できる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:09.05
+  type: goal
+  parent: mcc2023:I:09
+  text: 空間内の直線・平面・球の方程式を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:10
+  type: content
+  parent: mcc2023:I
+  name: 行列
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:10.01
+  type: goal
+  parent: mcc2023:I:10
+  text: 行列の和、差、実数倍、及び積の計算ができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:10.02
+  type: goal
+  parent: mcc2023:I:10
+  text: 行列の正則性を判定し、逆行列を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:10.03
+  type: goal
+  parent: mcc2023:I:10
+  text: 行列式の性質を理解し、行列式の値の計算ができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:10.04
+  type: goal
+  parent: mcc2023:I:10
+  text: 行列を利用して連立一次方程式を解くことができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:11
+  type: content
+  parent: mcc2023:I
+  name: 行列の応用
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:11.01
+  type: goal
+  parent: mcc2023:I:11
+  text: 行列が線形変換を表すことを理解し、線形変換された点の座標を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:11.02
+  type: goal
+  parent: mcc2023:I:11
+  text: 合成変換及び逆変換を表す行列を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:11.03
+  type: goal
+  parent: mcc2023:I:11
+  text: 対称移動や平面内の回転が線形変換であることを理解し、線形変換を表す行列を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:11.04
+  type: goal
+  parent: mcc2023:I:11
+  text: 行列の固有値・固有ベクトルを求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:12
+  type: content
+  parent: mcc2023:I
+  name: 微分法
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:12.01
+  type: goal
+  parent: mcc2023:I:12
+  text: 関数の極限を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:12.02
+  type: goal
+  parent: mcc2023:I:12
+  text: 微分係数・導関数の意味を理解し、べき関数の導関数を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:12.03
+  type: goal
+  parent: mcc2023:I:12
+  text: 積及び商の導関数を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:12.04
+  type: goal
+  parent: mcc2023:I:12
+  text: 合成関数の微分法を利用した計算ができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:12.05
+  type: goal
+  parent: mcc2023:I:12
+  text: 三角関数・指数関数・対数関数・逆三角関数を含む関数の導関数を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:13
+  type: content
+  parent: mcc2023:I
+  name: 微分法の応用
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:13.01
+  type: goal
+  parent: mcc2023:I:13
+  text: 導関数を利用してグラフの概形を把握し、関数の極値や最大値・最小値を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:13.02
+  type: goal
+  parent: mcc2023:I:13
+  text: 接線の方程式を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:13.03
+  type: goal
+  parent: mcc2023:I:13
+  text: 第二次導関数を利用してグラフの凹凸を判定できる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:13.04
+  type: goal
+  parent: mcc2023:I:13
+  text: 媒介変数表示された関数に対して導関数の計算ができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:14
+  type: content
+  parent: mcc2023:I
+  name: 積分法
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:14.01
+  type: goal
+  parent: mcc2023:I:14
+  text: 導関数の公式を利用して不定積分を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:14.02
+  type: goal
+  parent: mcc2023:I:14
+  text: 微分積分の基本定理を理解し、不定積分を利用して定積分を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:14.03
+  type: goal
+  parent: mcc2023:I:14
+  text: 置換積分及び部分積分を利用して、不定積分や定積分を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:14.04
+  type: goal
+  parent: mcc2023:I:14
+  text: 三角関数・指数関数・対数関数・分数関数・無理関数などを含む関数の不定積分・定積分を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:15
+  type: content
+  parent: mcc2023:I
+  name: 積分法の応用
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:15.01
+  type: goal
+  parent: mcc2023:I:15
+  text: 定積分を利用して面積を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:15.02
+  type: goal
+  parent: mcc2023:I:15
+  text: 定積分を利用して曲線の長さを求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:15.03
+  type: goal
+  parent: mcc2023:I:15
+  text: 定積分を利用して体積を求めることができる。
+  note: null
+  source:
+    page_pdf: 50
+    page_printed: 36
+  verification: machine
+- id: mcc2023:I:16
+  type: content
+  parent: mcc2023:I
+  name: 級数
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:16.01
+  type: goal
+  parent: mcc2023:I:16
+  text: 一変数関数のテイラー展開を求めることができる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+    page_top: true
+  verification: machine
+- id: mcc2023:I:16.02
+  type: goal
+  parent: mcc2023:I:16
+  text: オイラーの公式を利用できる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:17
+  type: content
+  parent: mcc2023:I
+  name: 偏微分
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:17.01
+  type: goal
+  parent: mcc2023:I:17
+  text: 合成関数の偏微分法などを利用して、第二次までの偏導関数を求めることができる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:17.02
+  type: goal
+  parent: mcc2023:I:17
+  text: 二変数関数の極値を求めることができる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:18
+  type: content
+  parent: mcc2023:I
+  name: 重積分
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:18.01
+  type: goal
+  parent: mcc2023:I:18
+  text: 累次積分による二重積分の計算ができる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:18.02
+  type: goal
+  parent: mcc2023:I:18
+  text: 極座標変換を利用して二重積分の計算ができる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:18.03
+  type: goal
+  parent: mcc2023:I:18
+  text: 二重積分を利用して体積を求めることができる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:19
+  type: content
+  parent: mcc2023:I
+  name: 微分方程式
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:19.01
+  type: goal
+  parent: mcc2023:I:19
+  text: 変数分離形の微分方程式を解くことができる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:19.02
+  type: goal
+  parent: mcc2023:I:19
+  text: 一階線形微分方程式を解くことができる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:19.03
+  type: goal
+  parent: mcc2023:I:19
+  text: 定数係数二階斉次線形微分方程式を解くことができる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:20
+  type: content
+  parent: mcc2023:I
+  name: 確率
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:20.01
+  type: goal
+  parent: mcc2023:I:20
+  text: 確率の加法定理、排反事象、余事象について理解し、確率の計算ができる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:20.02
+  type: goal
+  parent: mcc2023:I:20
+  text: 条件付き確率、確率の乗法定理、独立事象について理解し、確率の計算ができる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:20.03
+  type: goal
+  parent: mcc2023:I:20
+  text: 確率変数と確率分布について理解し、二項分布と正規分布の性質や特徴を説明できる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:21
+  type: content
+  parent: mcc2023:I
+  name: 統計
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:21.01
+  type: goal
+  parent: mcc2023:I:21
+  text: 一次元のデータを整理して、平均・分散・標準偏差を求めることができる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine
+- id: mcc2023:I:21.02
+  type: goal
+  parent: mcc2023:I:21
+  text: 二次元のデータを整理して散布図を作成し、相関係数・回帰直線を求めることができる。
+  note: null
+  source:
+    page_pdf: 51
+    page_printed: 37
+  verification: machine

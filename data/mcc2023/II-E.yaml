@@ -1,0 +1,214 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: II-E
+nodes:
+- id: mcc2023:II-E
+  type: field
+  parent: mcc2023:II
+  code: II-E
+  name: ライフサイエンス・アースサイエンス
+  heading_raw: 2-2.5 II -E ライフサイエンス・アースサイエンス
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 工学系・理学系エンジニアとして今後必須である地球環境や生物環境に配慮した持続可能な社会を構築するた
+    - めに必要なライフサイエンス・アースサイエンスの基礎知識を身に付ける。
+    - (1) 生命の共通性と多様性
+    - 地球上の生物は多様であり、かつ共通性があることを理解し、生命の起源について理解すること。
+    - (2) 生物の生命活動と生態系
+    - 地球における生物の生命活動を理解するだけでなく、 生態系の構成要素も理解することで地球環境が人間活動
+    - と関わりが深いことを理解すること。
+    - (3) 惑星としての地球
+    - 地球が太陽系における惑星の一つであることを理解し、その活動が太陽の放射エネルギーを原動力としている
+    - ことを理解すること。
+    - (4) 地球の歴史と地球環境
+    - 地球の歴史を理解し、地球表層や内部に見られる地学的事象を理解すること。
+    - (5) 人間活動と地球環境
+    - 人間活動によって、地球環境を改善する方法について考えることができる。
+    - 2 一般的な科目名
+    - 総合理科
+    pages_pdf:
+    - 57
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-E:01
+  type: content
+  parent: mcc2023:II-E
+  name: 生物の共通性と多様性
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-E:01.01
+  type: goal
+  parent: mcc2023:II-E:01
+  text: 地球上における生物の多様性について説明できる。
+  note: null
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-E:01.02
+  type: goal
+  parent: mcc2023:II-E:01
+  text: 生物に共通する特徴について理解し、生物の共通性と進化の関係について説明できる。
+  note: null
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-E:01.03
+  type: goal
+  parent: mcc2023:II-E:01
+  text: 地球に生命が誕生した起源を説明できる。
+  note: null
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-E:02
+  type: content
+  parent: mcc2023:II-E
+  name: 生物の生命活動と生態系
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-E:02.01
+  type: goal
+  parent: mcc2023:II-E:02
+  text: 生命活動にエネルギーが必要であることを説明できる。
+  note: null
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-E:02.02
+  type: goal
+  parent: mcc2023:II-E:02
+  text: 生態系の構成要素(生産者、 消費者、 分解者) について理解し、生態系における分解者が人間生活と深く関わっていることを説明できる。
+  note: null
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-E:02.03
+  type: goal
+  parent: mcc2023:II-E:02
+  text: 植生の遷移、バイオームについて理解し、その仕組みや分布について説明できる。
+  note: null
+  source:
+    page_pdf: 58
+    page_printed: 44
+    page_top: true
+  verification: machine
+- id: mcc2023:II-E:03
+  type: content
+  parent: mcc2023:II-E
+  name: 惑星としての地球
+  source:
+    page_pdf: 58
+    page_printed: 44
+  verification: machine
+- id: mcc2023:II-E:03.01
+  type: goal
+  parent: mcc2023:II-E:03
+  text: 太陽系を構成する惑星の中に地球があることを理解し、天体の運動と周期性について説明できる。
+  note: null
+  source:
+    page_pdf: 58
+    page_printed: 44
+  verification: machine
+- id: mcc2023:II-E:03.02
+  type: goal
+  parent: mcc2023:II-E:03
+  text: 大気の大循環を理解し、大気中の風の流れなどの気象現象を説明できる。
+  note: null
+  source:
+    page_pdf: 58
+    page_printed: 44
+  verification: machine
+- id: mcc2023:II-E:03.03
+  type: goal
+  parent: mcc2023:II-E:03
+  text: 地球温暖化を太陽の放射エネルギー及び大気・海洋による熱輸送と関連付けて説明できる。
+  note: null
+  source:
+    page_pdf: 58
+    page_printed: 44
+  verification: machine
+- id: mcc2023:II-E:04
+  type: content
+  parent: mcc2023:II-E
+  name: 地球の歴史と地球環境
+  source:
+    page_pdf: 58
+    page_printed: 44
+  verification: machine
+- id: mcc2023:II-E:04.01
+  type: goal
+  parent: mcc2023:II-E:04
+  text: 原始地球の変遷について説明できる。
+  note: null
+  source:
+    page_pdf: 58
+    page_printed: 44
+  verification: machine
+- id: mcc2023:II-E:04.02
+  type: goal
+  parent: mcc2023:II-E:04
+  text: 地球におけるマグマの生成や火山活動を理解して、人間生活に与える影響を説明できる。
+  note: null
+  source:
+    page_pdf: 58
+    page_printed: 44
+  verification: machine
+- id: mcc2023:II-E:04.03
+  type: goal
+  parent: mcc2023:II-E:04
+  text: 地震の発生と断層運動を理解して、地震活動をプレートの運動と関連付けて説明できる。
+  note: null
+  source:
+    page_pdf: 58
+    page_printed: 44
+  verification: machine
+- id: mcc2023:II-E:05
+  type: content
+  parent: mcc2023:II-E
+  name: 人間活動と地球環境
+  source:
+    page_pdf: 58
+    page_printed: 44
+  verification: machine
+- id: mcc2023:II-E:05.01
+  type: goal
+  parent: mcc2023:II-E:05
+  text: 人間活動による熱帯林の減少と生物多様性の喪失について説明できる。
+  note: null
+  source:
+    page_pdf: 58
+    page_printed: 44
+  verification: machine
+- id: mcc2023:II-E:05.02
+  type: goal
+  parent: mcc2023:II-E:05
+  text: 有害物質の生物濃縮について理解し、 生物濃縮における公害問題について説明できる。
+  note: null
+  source:
+    page_pdf: 58
+    page_printed: 44
+  verification: machine
+- id: mcc2023:II-E:05.03
+  type: goal
+  parent: mcc2023:II-E:05
+  text: 地球温暖化の問題点と対策について説明できる。
+  note: null
+  source:
+    page_pdf: 58
+    page_printed: 44
+  verification: machine

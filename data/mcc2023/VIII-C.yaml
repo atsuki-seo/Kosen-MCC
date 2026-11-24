@@ -1,0 +1,78 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VIII-C
+nodes:
+- id: mcc2023:VIII-C
+  type: field
+  parent: mcc2023:VIII
+  code: VIII-C
+  name: 自己管理と責任ある行動
+  heading_raw: 4-2.3 VIII-C 自己管理と責任ある行動
+  source:
+    page_pdf: 146
+    page_printed: 132
+  verification: machine
+- id: mcc2023:VIII-C:01
+  type: content
+  parent: mcc2023:VIII-C
+  name: 自己管理と責任ある行動
+  source:
+    page_pdf: 146
+    page_printed: 132
+  verification: machine
+- id: mcc2023:VIII-C:01.01
+  type: goal
+  parent: mcc2023:VIII-C:01
+  text: 自分に求められる役割や行動を把握し、確認できる。
+  supplement:
+    kind: キーワード
+    raw: 役割・責務の認識・理解、役割・責務の意味・目的の理解、判断や行動の影響の理解、義務としての責任と意思に基づく責任など
+    items:
+    - 役割・責務の認識・理解
+    - 役割・責務の意味・目的の理解
+    - 判断や行動の影響の理解
+    - 義務としての責任と意思に基づく責任など
+  note: null
+  source:
+    page_pdf: 146
+    page_printed: 132
+    pages_pdf:
+    - 146
+    - 147
+    page_top: true
+  verification: machine
+- id: mcc2023:VIII-C:01.02
+  type: goal
+  parent: mcc2023:VIII-C:01
+  text: やるべきことを実行するための具体的行動や計画を考えることができる。
+  supplement:
+    kind: キーワード
+    raw: タスク管理、スケジュール管理、計画と点検、ストレスコーピング、ストレスマネジメントなど
+    items:
+    - タスク管理
+    - スケジュール管理
+    - 計画と点検
+    - ストレスコーピング
+    - ストレスマネジメントなど
+  note: null
+  source:
+    page_pdf: 147
+    page_printed: 133
+  verification: machine
+- id: mcc2023:VIII-C:01.03
+  type: goal
+  parent: mcc2023:VIII-C:01
+  text: 自分に求められる役割や行動を実践し、その過程や結果の振り返りができる。
+  supplement:
+    kind: キーワード
+    raw: 判断や行動によってもたらされた結果の理解、反省的思考など
+    items:
+    - 判断や行動によってもたらされた結果の理解
+    - 反省的思考など
+  note: null
+  source:
+    page_pdf: 147
+    page_printed: 133
+  verification: machine

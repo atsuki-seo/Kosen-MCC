@@ -1,0 +1,57 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VIII-D
+nodes:
+- id: mcc2023:VIII-D
+  type: field
+  parent: mcc2023:VIII
+  code: VIII-D
+  name: 倫理観
+  heading_raw: 4-2.4 VIII-D 倫理観
+  source:
+    page_pdf: 147
+    page_printed: 133
+  verification: machine
+- id: mcc2023:VIII-D:01
+  type: content
+  parent: mcc2023:VIII-D
+  name: 倫理観
+  source:
+    page_pdf: 147
+    page_printed: 133
+  verification: machine
+- id: mcc2023:VIII-D:01.01
+  type: goal
+  parent: mcc2023:VIII-D:01
+  text: 自分の判断や行動、及びそれらがもたらす結果や影響について、倫理的観点から検討、評価できる。
+  supplement:
+    kind: キーワード
+    raw: 社会のルール・マナーの理解、規範の意味や目的・価値の理解、倫理的に妥当な判断、第三者に対する説明責任など
+    items:
+    - 社会のルール・マナーの理解
+    - 規範の意味や目的・価値の理解
+    - 倫理的に妥当な判断
+    - 第三者に対する説明責任など
+  note: null
+  source:
+    page_pdf: 147
+    page_printed: 133
+  verification: machine
+- id: mcc2023:VIII-D:01.02
+  type: goal
+  parent: mcc2023:VIII-D:01
+  text: 自分の判断や行動の基盤となる倫理観を振り返り、表現できる。
+  supplement:
+    kind: キーワード
+    raw: 価値観、倫理観、自己理解など
+    items:
+    - 価値観
+    - 倫理観
+    - 自己理解など
+  note: null
+  source:
+    page_pdf: 147
+    page_printed: 133
+  verification: machine

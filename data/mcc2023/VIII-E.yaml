@@ -1,0 +1,103 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VIII-E
+nodes:
+- id: mcc2023:VIII-E
+  type: field
+  parent: mcc2023:VIII
+  code: VIII-E
+  name: キャリアデザイン
+  heading_raw: 4-2.5 VIII-E キャリアデザイン
+  source:
+    page_pdf: 147
+    page_printed: 133
+  verification: machine
+- id: mcc2023:VIII-E:01
+  type: content
+  parent: mcc2023:VIII-E
+  name: キャリアデザイン
+  source:
+    page_pdf: 147
+    page_printed: 133
+  verification: machine
+- id: mcc2023:VIII-E:01.01
+  type: goal
+  parent: mcc2023:VIII-E:01
+  text: 自分の体験や行動を振り返り、自分の特性や強みを把握できる。
+  supplement:
+    kind: キーワード
+    raw: 外的キャリアと内的キャリアの確認、自分の強みや特性の確認、強みや特性を活かした行動など
+    items:
+    - 外的キャリアと内的キャリアの確認
+    - 自分の強みや特性の確認
+    - 強みや特性を活かした行動など
+  note: null
+  source:
+    page_pdf: 147
+    page_printed: 133
+  verification: machine
+- id: mcc2023:VIII-E:01.02
+  type: goal
+  parent: mcc2023:VIII-E:01
+  text: 将来のキャリアについて計画を立てることができる。
+  supplement:
+    kind: キーワード
+    raw: 専門職（エンジニアなど）としてのキャリアを考える、自分の特性や強みを活かしたキャリアデザイン、キャリアデザイン実現に向けた計画など
+    items:
+    - 専門職（エンジニアなど）としてのキャリアを考える
+    - 自分の特性や強みを活かしたキャリアデザイン
+    - キャリアデザイン実現に向けた計画など
+  note: null
+  source:
+    page_pdf: 147
+    page_printed: 133
+  verification: machine
+- id: mcc2023:VIII-E:01.03
+  type: goal
+  parent: mcc2023:VIII-E:01
+  text: 社会や環境、人々に対する影響などを踏まえた上で、専門職（エンジニアなど）に求められる役割について考えることができる。
+  supplement:
+    kind: キーワード
+    raw: 社会の問題解決や課題達成に向けた専門職（エンジニアなど）の役割や貢献を考える、専門職（エンジニアなど）としての自分の理想や目標などの考察など
+    items:
+    - 社会の問題解決や課題達成に向けた専門職（エンジニアなど）の役割や貢献を考える
+    - 専門職（エンジニアなど）としての自分の理想や目標などの考察など
+  note: null
+  source:
+    page_pdf: 147
+    page_printed: 133
+  verification: machine
+- id: mcc2023:VIII-E:01.04
+  type: goal
+  parent: mcc2023:VIII-E:01
+  text: 専門職（エンジニアなど）の業務内容について説明できる。
+  supplement:
+    kind: キーワード
+    raw: 専門職（エンジニアなど）の業務・実務の理解、企業活動における専門職（エンジニアなど）の役割・実務の理解など
+    items:
+    - 専門職（エンジニアなど）の業務・実務の理解
+    - 企業活動における専門職（エンジニアなど）の役割・実務の理解など
+  note: null
+  source:
+    page_pdf: 147
+    page_printed: 133
+  verification: machine
+- id: mcc2023:VIII-E:01.05
+  type: goal
+  parent: mcc2023:VIII-E:01
+  text: 様々な業種、職種、企業の社会的意義や責任について説明できる。
+  supplement:
+    kind: キーワード
+    raw: 業種や業界などの理解、企業活動や企業の社会的役割についての理解、Social Responsibility (SR)、Socially Responsible Investment (SRI) など
+    items:
+    - 業種や業界などの理解
+    - 企業活動や企業の社会的役割についての理解
+    - Social Responsibility (SR)
+    - Socially Responsible Investment (SRI) など
+  note: null
+  source:
+    page_pdf: 147
+    page_printed: 133
+  verification: machine

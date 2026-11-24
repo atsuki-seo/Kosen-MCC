@@ -1,0 +1,347 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VI-H
+nodes:
+- id: mcc2023:VI-H
+  type: field
+  parent: mcc2023:VI
+  code: VI-H
+  name: 商船系分野（航海）
+  heading_raw: 3-2.8 VI-H 商船系分野（航海）
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 実験・実習系領域では、船舶運航者として必要な船舶用務、操船技術、航海計器の取扱い、保存手入れ、非常
+    - 時における保安応急を理解して、それらを習得することが目標である。
+    - (1) 練習船実習では、船舶の運航技術を習得するとともに、海技士として必要な規範意識と慣海性・協調性を
+    - 身に付けることも併せて目標とする。
+    - (2) 実験・実習では、法で定められる免許講習の目的と方法を理解し、実践できる能力を養うことを目標とす
+    - る。
+    - 2 一般的な科目名
+    - 校内練習船実習、航海実習、漕艇通信、漕艇実習、商船演習、実験実習
+    pages_pdf:
+    - 132
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:01
+  type: content
+  parent: mcc2023:VI-H
+  name: 実験・実習の心得
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:01.01
+  type: goal
+  parent: mcc2023:VI-H:01
+  text: 整列及び人員確認、敬礼方法等、集団行動の基本を理解し、実践できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 整列、人員確認、敬礼、集団行動
+    items:
+    - 整列
+    - 人員確認
+    - 敬礼
+    - 集団行動
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:01.02
+  type: goal
+  parent: mcc2023:VI-H:01
+  text: 作業服及び保護具の意義を理解し、正しく着用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 作業服、安全靴、安全保護具
+    items:
+    - 作業服
+    - 安全靴
+    - 安全保護具
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:02
+  type: content
+  parent: mcc2023:VI-H
+  name: 端艇
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:02.01
+  type: goal
+  parent: mcc2023:VI-H:02
+  text: 端艇の各部名称及び漕艇号令を理解し、号令に従って操作できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 各部名称、櫂漕、号令
+    items:
+    - 各部名称
+    - 櫂漕
+    - 号令
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:02.02
+  type: goal
+  parent: mcc2023:VI-H:02
+  text: 基本的なロープワークを習得し、実際に結ぶことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ロープワーク、技業
+    items:
+    - ロープワーク
+    - 技業
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:03
+  type: content
+  parent: mcc2023:VI-H
+  name: 消火講習
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:03.01
+  type: goal
+  parent: mcc2023:VI-H:03
+  text: 各種消火器及び消火ホースの使用方法を理解し、初期消火ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 炭酸ガス消火器、泡消火器、粉末消火器、アプリケーターノズル、可変ノズル
+    items:
+    - 炭酸ガス消火器
+    - 泡消火器
+    - 粉末消火器
+    - アプリケーターノズル
+    - 可変ノズル
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:03.02
+  type: goal
+  parent: mcc2023:VI-H:03
+  text: 消火器に予備の消火剤を充填できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 消火剤、泡消火器
+    items:
+    - 消火剤
+    - 泡消火器
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:03.03
+  type: goal
+  parent: mcc2023:VI-H:03
+  text: 呼吸具及び防火服を正しく装着できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 呼吸具、消防員装具、防火服
+    items:
+    - 呼吸具
+    - 消防員装具
+    - 防火服
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:04
+  type: content
+  parent: mcc2023:VI-H
+  name: 救命講習
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:04.01
+  type: goal
+  parent: mcc2023:VI-H:04
+  text: 救命艇及び救命いかだ並びに救助艇の進水及び操縦を理解し、実践できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 救命艇、救命いかだ、ダビット操作
+    items:
+    - 救命艇
+    - 救命いかだ
+    - ダビット操作
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:04.02
+  type: goal
+  parent: mcc2023:VI-H:04
+  text: 水中への飛び込み並びに水中からの救命艇及び救命いかだへの乗り込み等の非常事態において取るべき行為を理解し、実践できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 飛び込み、エレメンタリーバック、集団移動隊形、集団密集隊形
+    items:
+    - 飛び込み
+    - エレメンタリーバック
+    - 集団移動隊形
+    - 集団密集隊形
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:04.03
+  type: goal
+  parent: mcc2023:VI-H:04
+  text: 心肺蘇生法を含む応急医療を理解し、実践できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 生命維持、胸骨圧迫、人工呼吸、AED
+    items:
+    - 生命維持
+    - 胸骨圧迫
+    - 人工呼吸
+    - AED
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:04.04
+  type: goal
+  parent: mcc2023:VI-H:04
+  text: 救命胴衣の使用法を理解し、正しく装着できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: イマーションスーツ、救命胴衣、熱損失低減姿勢
+    items:
+    - イマーションスーツ
+    - 救命胴衣
+    - 熱損失低減姿勢
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:04.05
+  type: goal
+  parent: mcc2023:VI-H:04
+  text: 信号装置及び無線救命設備の使用法を理解し、正しく運用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: VHF無線電話、衛星非常用位置指示無線標識、捜索救助用レーダートランスポンダ、双方向無線電話
+    items:
+    - VHF無線電話
+    - 衛星非常用位置指示無線標識
+    - 捜索救助用レーダートランスポンダ
+    - 双方向無線電話
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:05
+  type: content
+  parent: mcc2023:VI-H
+  name: 航海当直
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:05.01
+  type: goal
+  parent: mcc2023:VI-H:05
+  text: 甲板部における航海当直基準に関する事項及び航海日誌を理解し、当直業務ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 船橋当直、航海日誌
+    items:
+    - 船橋当直
+    - 航海日誌
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:05.02
+  type: goal
+  parent: mcc2023:VI-H:05
+  text: 航海計器を運用し、航海に必要な情報を入手・活用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: レーダー/TT、ECDIS、ログ、ジャイロコンパス、音響測深儀
+    items:
+    - レーダー/TT
+    - ECDIS
+    - ログ
+    - ジャイロコンパス
+    - 音響測深儀
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:06
+  type: content
+  parent: mcc2023:VI-H
+  name: 運用実習
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:06.01
+  type: goal
+  parent: mcc2023:VI-H:06
+  text: 防火部署、防水部署など保安応急部署について理解し、実践できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 防火操練、防水操練
+    items:
+    - 防火操練
+    - 防水操練
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:07
+  type: content
+  parent: mcc2023:VI-H
+  name: 出入港部署、投抜錨法、出入港法
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine
+- id: mcc2023:VI-H:07.01
+  type: goal
+  parent: mcc2023:VI-H:07
+  text: 入出港及び揚投錨における役割と作業を理解し、実践できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ウィンドラス操作、係船作業、錨泊、ムアリングウィンチ操作
+    items:
+    - ウィンドラス操作
+    - 係船作業
+    - 錨泊
+    - ムアリングウィンチ操作
+  note: null
+  source:
+    page_pdf: 132
+    page_printed: 118
+  verification: machine

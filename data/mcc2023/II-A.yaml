@@ -1,0 +1,825 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: II-A
+nodes:
+- id: mcc2023:II-A
+  type: field
+  parent: mcc2023:II
+  code: II-A
+  name: 物理
+  heading_raw: 2-2.1 II-A 物理
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 物理学の基本知識を習得し、自らの工学分野に応用できる。さらに、その過程で、自然現象を系統的・論理的
+    - に考えていく能力を養い、広く自然の諸現象を科学的に解明するための物理的な見方、考え方を身に付ける。
+    - (1) 物体の運動及びエネルギーに関する基礎的な計算をすることができる。
+    - (2) 熱や波、電気に関する様々な現象を物理法則と関連付けて考えることができる。
+    - 2 学習内容の取扱い
+    - (1) 数学や専門科目との連携を密にして、各学習内容の履修学年及び順番を十分考慮し、スムーズにカリキュ
+    - ラムが展開できるよう指導計画を作成する。
+    - (2) 科学技術の進歩に対応し、その理解のために必要となる基礎的な知識を習得できるよう工夫する。
+    - (3) 実験や観察を通して物理現象を理解し、考察する力を育てることにも留意する。
+    - 3 一般的な科目名
+    - 物理、応用物理
+    pages_pdf:
+    - 52
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:01
+  type: content
+  parent: mcc2023:II-A
+  name: 物体の運動（力学分野）
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:01.01
+  type: goal
+  parent: mcc2023:II-A:01
+  text: 速度と加速度の概念を説明できる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:01.02
+  type: goal
+  parent: mcc2023:II-A:01
+  text: 平均の速度、平均の加速度に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:01.03
+  type: goal
+  parent: mcc2023:II-A:01
+  text: 直線及び平面運動において、速度をベクトルとして捉え、速度の合成・分解及び相対速度に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:01.04
+  type: goal
+  parent: mcc2023:II-A:01
+  text: 等加速度直線運動の公式を用いて、物体の変位、時間、速度に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:01.05
+  type: goal
+  parent: mcc2023:II-A:01
+  text: 平面内を移動する質点の運動を位置ベクトルの変化として扱うことができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:01.06
+  type: goal
+  parent: mcc2023:II-A:01
+  text: 物体の変位、速度、加速度を微分・積分を用いて相互に計算できる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:02
+  type: content
+  parent: mcc2023:II-A
+  name: 落体の運動（力学分野）
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:02.01
+  type: goal
+  parent: mcc2023:II-A:02
+  text: 自由落下及び鉛直投射した物体の変位、速度、時間に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:02.02
+  type: goal
+  parent: mcc2023:II-A:02
+  text: 水平投射及び斜方投射した物体の変位、速度、時間に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:03
+  type: content
+  parent: mcc2023:II-A
+  name: いろいろな力（力学分野）
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:03.01
+  type: goal
+  parent: mcc2023:II-A:03
+  text: 物体に作用する力を図示できる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:03.02
+  type: goal
+  parent: mcc2023:II-A:03
+  text: 力の合成と分解ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:03.03
+  type: goal
+  parent: mcc2023:II-A:03
+  text: 質点にはたらく力のつりあいに関する計算ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:03.04
+  type: goal
+  parent: mcc2023:II-A:03
+  text: 重力、弾性力、抗力、張力の概念を理解し、それぞれの力に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:03.05
+  type: goal
+  parent: mcc2023:II-A:03
+  text: 圧力、浮力について説明できる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:04
+  type: content
+  parent: mcc2023:II-A
+  name: 運動の法則（力学分野）
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:04.01
+  type: goal
+  parent: mcc2023:II-A:04
+  text: 運動の三法則について説明できる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:04.02
+  type: goal
+  parent: mcc2023:II-A:04
+  text: 運動方程式を用いて、物体に生じる加速度や物体にはたらく力などを求めることができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:04.03
+  type: goal
+  parent: mcc2023:II-A:04
+  text: 簡単な運動について微分方程式の形で運動方程式を立て、初期値問題として解くことができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:05
+  type: content
+  parent: mcc2023:II-A
+  name: 摩擦力（力学分野）
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:05.01
+  type: goal
+  parent: mcc2023:II-A:05
+  text: 静止摩擦力がはたらいている場合の力のつりあいについて説明できる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:05.02
+  type: goal
+  parent: mcc2023:II-A:05
+  text: 最大摩擦力に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:05.03
+  type: goal
+  parent: mcc2023:II-A:05
+  text: 動摩擦力に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:06
+  type: content
+  parent: mcc2023:II-A
+  name: 力学的エネルギー（力学分野）
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:06.01
+  type: goal
+  parent: mcc2023:II-A:06
+  text: 仕事と仕事率に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:06.02
+  type: goal
+  parent: mcc2023:II-A:06
+  text: 物体の運動エネルギーに関する計算ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:06.03
+  type: goal
+  parent: mcc2023:II-A:06
+  text: 重力による位置エネルギーに関する計算ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:06.04
+  type: goal
+  parent: mcc2023:II-A:06
+  text: 弾性力による位置エネルギーに関する計算ができる。
+  note: null
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:II-A:06.05
+  type: goal
+  parent: mcc2023:II-A:06
+  text: 力学的エネルギー保存の法則について説明でき、その法則を用いて、物体の速度や変位などを求めることができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+    page_top: true
+  verification: machine
+- id: mcc2023:II-A:07
+  type: content
+  parent: mcc2023:II-A
+  name: 運動量（力学分野）
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:07.01
+  type: goal
+  parent: mcc2023:II-A:07
+  text: 物体の質量と速度を用いて、運動量を求めることができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:07.02
+  type: goal
+  parent: mcc2023:II-A:07
+  text: 物体の運動量変化が力積に等しいことを用いて、力積の大きさ、速度変化及び加わる平均の力などを求めることができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:07.03
+  type: goal
+  parent: mcc2023:II-A:07
+  text: 運動量保存の法則について説明でき、その法則や反発係数を用いて、物体の衝突、分裂及び合体に関して、速度変化などを求めることができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:08
+  type: content
+  parent: mcc2023:II-A
+  name: 円運動と単振動（力学分野）
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:08.01
+  type: goal
+  parent: mcc2023:II-A:08
+  text: 等速円運動をする物体の速度、角速度、周期、加速度、向心力に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:08.02
+  type: goal
+  parent: mcc2023:II-A:08
+  text: 単振動における変位、速度、加速度、復元力の関係を説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:08.03
+  type: goal
+  parent: mcc2023:II-A:08
+  text: 周期、振動数など単振動を特徴づける諸量を求めることができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:09
+  type: content
+  parent: mcc2023:II-A
+  name: 万有引力（力学分野）
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:09.01
+  type: goal
+  parent: mcc2023:II-A:09
+  text: 万有引力の法則を用いて、物体間にはたらく万有引力を求めることができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:09.02
+  type: goal
+  parent: mcc2023:II-A:09
+  text: 万有引力による位置エネルギーに関する計算ができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:09.03
+  type: goal
+  parent: mcc2023:II-A:09
+  text: 万有引力を受ける物体の運動に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:10
+  type: content
+  parent: mcc2023:II-A
+  name: 剛体（力学分野）
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:10.01
+  type: goal
+  parent: mcc2023:II-A:10
+  text: 力のモーメントに関する計算ができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:10.02
+  type: goal
+  parent: mcc2023:II-A:10
+  text: 剛体のつり合いに関する計算ができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:10.03
+  type: goal
+  parent: mcc2023:II-A:10
+  text: 重心に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:11
+  type: content
+  parent: mcc2023:II-A
+  name: 温度と熱（熱分野）
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:11.01
+  type: goal
+  parent: mcc2023:II-A:11
+  text: 原子や分子の熱運動と絶対温度との関連について説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:11.02
+  type: goal
+  parent: mcc2023:II-A:11
+  text: 時間の推移とともに、熱の移動によって熱平衡状態に達することを説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:11.03
+  type: goal
+  parent: mcc2023:II-A:11
+  text: 物体の熱容量と比熱に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:11.04
+  type: goal
+  parent: mcc2023:II-A:11
+  text: 熱量保存の法則を用いて、熱容量、比熱及び熱平衡後の物体の温度を求めることができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:12
+  type: content
+  parent: mcc2023:II-A
+  name: 仕事と熱（熱分野）
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:12.01
+  type: goal
+  parent: mcc2023:II-A:12
+  text: ボイル・シャルルの法則や理想気体の状態方程式を用いて、気体の圧力、温度、体積を求めることができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:12.02
+  type: goal
+  parent: mcc2023:II-A:12
+  text: 理想気体における分子の運動エネルギーと内部エネルギーの関係について説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:12.03
+  type: goal
+  parent: mcc2023:II-A:12
+  text: 熱力学第一法則を用いて、気体の状態変化（定積変化、定圧変化、等温変化、断熱変化）に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:13
+  type: content
+  parent: mcc2023:II-A
+  name: エネルギー（熱分野）
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:13.01
+  type: goal
+  parent: mcc2023:II-A:13
+  text: エネルギーには多くの形態があり、互いに変換できることを具体例を挙げて説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:13.02
+  type: goal
+  parent: mcc2023:II-A:13
+  text: 不可逆変化について、具体例を挙げて説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:13.03
+  type: goal
+  parent: mcc2023:II-A:13
+  text: 熱機関の熱効率に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:14
+  type: content
+  parent: mcc2023:II-A
+  name: 波の伝わり方と種類（波動分野）
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:14.01
+  type: goal
+  parent: mcc2023:II-A:14
+  text: 波の振幅、波長、周期、振動数、速さに関する計算ができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:14.02
+  type: goal
+  parent: mcc2023:II-A:14
+  text: 横波と縦波の伝わり方について説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:14.03
+  type: goal
+  parent: mcc2023:II-A:14
+  text: 時刻と位置に対応した媒質の変位を正弦波の式で表現できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:15
+  type: content
+  parent: mcc2023:II-A
+  name: 重ね合わせの原理と波の干渉（波動分野）
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:15.01
+  type: goal
+  parent: mcc2023:II-A:15
+  text: 波の重ね合わせの原理について説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:15.02
+  type: goal
+  parent: mcc2023:II-A:15
+  text: 波の独立性について説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:15.03
+  type: goal
+  parent: mcc2023:II-A:15
+  text: 二つの波が干渉するとき、互いに強めあう条件と弱めあう条件について説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:15.04
+  type: goal
+  parent: mcc2023:II-A:15
+  text: 定常波の特徴（節、腹の振動の様子など）について説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:16
+  type: content
+  parent: mcc2023:II-A
+  name: 波の反射・屈折・回折（波動分野）
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:16.01
+  type: goal
+  parent: mcc2023:II-A:16
+  text: ホイヘンスの原理について説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:16.02
+  type: goal
+  parent: mcc2023:II-A:16
+  text: 波の反射の法則、屈折の法則及び回折について説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:17
+  type: content
+  parent: mcc2023:II-A
+  name: 音波・発音体（波動分野）
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:17.01
+  type: goal
+  parent: mcc2023:II-A:17
+  text: 弦の長さと弦を伝わる波の速さを用いて、弦の固有振動数を求めることができる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:17.02
+  type: goal
+  parent: mcc2023:II-A:17
+  text: 気柱の長さと音速を用いて、開管、閉管の固有振動数を求めることができる（開口端補正は考えない）。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:17.03
+  type: goal
+  parent: mcc2023:II-A:17
+  text: うなり及び共振、共鳴現象について具体例を挙げて説明できる。
+  note: null
+  source:
+    page_pdf: 53
+    page_printed: 39
+  verification: machine
+- id: mcc2023:II-A:17.04
+  type: goal
+  parent: mcc2023:II-A:17
+  text: 一直線上の運動において、ドップラー効果による音の振動数変化を求めることができる。
+  note: null
+  source:
+    page_pdf: 54
+    page_printed: 40
+    page_top: true
+  verification: machine
+- id: mcc2023:II-A:18
+  type: content
+  parent: mcc2023:II-A
+  name: 光波（波動分野）
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:II-A:18.01
+  type: goal
+  parent: mcc2023:II-A:18
+  text: 自然光と偏光の違いについて説明できる。
+  note: null
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:II-A:18.02
+  type: goal
+  parent: mcc2023:II-A:18
+  text: 光の反射角、屈折角に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:II-A:18.03
+  type: goal
+  parent: mcc2023:II-A:18
+  text: 波長の違いによる分散現象によってスペクトルが生じることを説明できる。
+  note: null
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:II-A:18.04
+  type: goal
+  parent: mcc2023:II-A:18
+  text: 光の回折及び干渉について、具体例を挙げて説明できる。
+  note: null
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:II-A:19
+  type: content
+  parent: mcc2023:II-A
+  name: 静電場（電気分野）
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:II-A:19.01
+  type: goal
+  parent: mcc2023:II-A:19
+  text: 導体と不導体の違いについて、自由電子と関連させて説明できる。
+  note: null
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:II-A:19.02
+  type: goal
+  parent: mcc2023:II-A:19
+  text: クーロンの法則を用いて、点電荷の間にはたらく静電気力を求めることができる。
+  note: null
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:II-A:19.03
+  type: goal
+  parent: mcc2023:II-A:19
+  text: 電場、電位について説明でき、点電荷や単純な形状の帯電体の周りに作られる電場や電位に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:II-A:19.04
+  type: goal
+  parent: mcc2023:II-A:19
+  text: コンデンサの性質を理解し、電気容量などを求めることができる。
+  note: null
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:II-A:20
+  type: content
+  parent: mcc2023:II-A
+  name: 電流（電気分野）
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:II-A:20.01
+  type: goal
+  parent: mcc2023:II-A:20
+  text: オームの法則やキルヒホッフの法則を用いて、電圧、電流、抵抗を求めることができる。
+  note: null
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:II-A:20.02
+  type: goal
+  parent: mcc2023:II-A:20
+  text: 抵抗を直列接続及び並列接続したときの合成抵抗を求めることができる。
+  note: null
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:II-A:20.03
+  type: goal
+  parent: mcc2023:II-A:20
+  text: ジュール熱や電力に関する計算ができる。
+  note: null
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine

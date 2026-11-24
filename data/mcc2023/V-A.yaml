@@ -1,0 +1,1721 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: V-A
+nodes:
+- id: mcc2023:V-A
+  type: field
+  parent: mcc2023:V
+  code: V-A
+  name: 機械系分野
+  heading_raw: 3-1.1 V-A 機械系分野
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-1
+  type: area
+  parent: mcc2023:V-A
+  code: V-A-1
+  name: 設計製図
+  heading_raw: V-A-1 設計製図
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 設計製図系領域は、機械製図の規格、図面の作成方法、図面の内容を理解するための基礎的知識を習得するこ
+    - とを目標とする。
+    - (1) 機械製図の規格を理解し、機械部品等の製作図を正確に作成できる。
+    - (2) 各種の機械・装置について、その仕様に基づいて主要部を設計し、製作図を作成できる。
+    - 2 一般的な科目名
+    - 機械製図、機械設計製図
+    pages_pdf:
+    - 70
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-1:01
+  type: content
+  parent: mcc2023:V-A-1
+  name: 機械製図
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-1:01.01
+  type: goal
+  parent: mcc2023:V-A-1:01
+  text: 図面の役割、線の種類と用途、物体の投影図のかき方、図面の作成に使用する用具を理解し、利用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 機械製図、図面、製図用具、線の種類、投影法、CAD
+    items:
+    - 機械製図
+    - 図面
+    - 製図用具
+    - 線の種類
+    - 投影法
+    - CAD
+  note: null
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-1:01.02
+  type: goal
+  parent: mcc2023:V-A-1:01
+  text: 図形の表し方、寸法・公差・表面性状の指示、部品のスケッチの仕方を理解し、製作図を作成できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 図形の表し方、断面図、寸法公差、はめあい、幾何公差、表面性状、スケッチ、製作図
+    items:
+    - 図形の表し方
+    - 断面図
+    - 寸法公差
+    - はめあい
+    - 幾何公差
+    - 表面性状
+    - スケッチ
+    - 製作図
+  note: null
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-1:01.03
+  type: goal
+  parent: mcc2023:V-A-1:01
+  text: 機械要素の製図の規格を理解し、図面を作成できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 機械要素の製図
+    items:
+    - 機械要素の製図
+  note: null
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-1:02
+  type: content
+  parent: mcc2023:V-A-1
+  name: 機械の設計製図
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-1:02.01
+  type: goal
+  parent: mcc2023:V-A-1:02
+  text: 主要な要素部品などの設計方法を理解し、製作図を作成することができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 機械装置の主要部の設計と製図
+    items:
+    - 機械装置の主要部の設計と製図
+  note: null
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-2
+  type: area
+  parent: mcc2023:V-A
+  code: V-A-2
+  name: 機械設計
+  heading_raw: V-A-2 機械設計
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 機械設計系領域は、機械要素を設計するための基礎的知識を習得することを目標とする。
+    - (1) 機械材料、機械工作法、材料力学、工業力学、機械力学などの基礎知識を活用し、機械要素を設計できる。
+    - (2) 締結用機械要素を使用目的に応じて材料を選定し、機械要素の寸法を理論と規格の両面から決定できる。
+    - (3) 動力伝達機械要素を使用目的に応じて材料を選定し、機械要素の寸法を理論と規格の両面から決定できる。
+    - 2 一般的な科目名
+    - 機械要素学、機械設計法、機構学
+    pages_pdf:
+    - 70
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-2:01
+  type: content
+  parent: mcc2023:V-A-2
+  name: 機械設計の基礎
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-2:01.01
+  type: goal
+  parent: mcc2023:V-A-2:01
+  text: 標準規格の意義を説明でき機械設計に適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 標準規格
+    items:
+    - 標準規格
+  note: null
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-2:01.02
+  type: goal
+  parent: mcc2023:V-A-2:01
+  text: 機械設計に関する基礎用語を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 許容応力、安全率、疲労破壊、応力集中
+    items:
+    - 許容応力
+    - 安全率
+    - 疲労破壊
+    - 応力集中
+  note: null
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-2:02
+  type: content
+  parent: mcc2023:V-A-2
+  name: ねじ、ボルト・ナット
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-2:02.01
+  type: goal
+  parent: mcc2023:V-A-2:02
+  text: ねじ、ボルト・ナットの種類、用途、規格、設計を理解し、適用でき、計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ねじ、ボルト・ナット、締め付けトルク、せん断応力、接触面圧
+    items:
+    - ねじ
+    - ボルト・ナット
+    - 締め付けトルク
+    - せん断応力
+    - 接触面圧
+  note: null
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-2:03
+  type: content
+  parent: mcc2023:V-A-2
+  name: 軸と軸継手
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-2:03.01
+  type: goal
+  parent: mcc2023:V-A-2:03
+  text: 軸、キーの種類、用途、設計を理解し、適用でき、計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 軸、強度、変形、危険速度、キー
+    items:
+    - 軸
+    - 強度
+    - 変形
+    - 危険速度
+    - キー
+  note: null
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-2:03.02
+  type: goal
+  parent: mcc2023:V-A-2:03
+  text: 軸継手の種類と用途を理解し、適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 軸継手
+    items:
+    - 軸継手
+  note: null
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-2:04
+  type: content
+  parent: mcc2023:V-A-2
+  name: 軸受
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-2:04.01
+  type: goal
+  parent: mcc2023:V-A-2:04
+  text: 軸受の構造、種類、用途を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 滑り軸受、転がり軸受、寿命
+    items:
+    - 滑り軸受
+    - 転がり軸受
+    - 寿命
+  note: null
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:V-A-2:05
+  type: content
+  parent: mcc2023:V-A-2
+  name: 歯車
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-2:05.01
+  type: goal
+  parent: mcc2023:V-A-2:05
+  text: 歯車の種類、用語、設計を理解し、説明でき、計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 歯車、歯型曲線、歯の大きさ、歯の曲げ強さ、歯面強さ、速度伝達比
+    items:
+    - 歯車
+    - 歯型曲線
+    - 歯の大きさ
+    - 歯の曲げ強さ
+    - 歯面強さ
+    - 速度伝達比
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+    page_top: true
+  verification: machine
+- id: mcc2023:V-A-2:06
+  type: content
+  parent: mcc2023:V-A-2
+  name: リンク機構
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-2:06.01
+  type: goal
+  parent: mcc2023:V-A-2:06
+  text: リンクの機構を理解し、その運動を説明でき、計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: リンク、変位、速度、加速度
+    items:
+    - リンク
+    - 変位
+    - 速度
+    - 加速度
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-2:07
+  type: content
+  parent: mcc2023:V-A-2
+  name: カム機構
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-2:07.01
+  type: goal
+  parent: mcc2023:V-A-2:07
+  text: カムの機構を理解し、その運動を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: カム、カム線図
+    items:
+    - カム
+    - カム線図
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3
+  type: area
+  parent: mcc2023:V-A
+  code: V-A-3
+  name: 力学
+  heading_raw: V-A-3 力学
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 力学系領域は、物体に作用する力によって、物体に生じる様々な現象を理解するための基礎的知識を習得する
+    - ことを目標とする。
+    - (1) 物体に作用する力、物体の運動、力と運動状態の変化を説明できる。
+    - (2) 材料に作用する荷重と変形の関係を説明できる。
+    - (3) 一自由度系の振動を運動方程式で表し、系の運動を説明できる。
+    - 2 一般的な科目名
+    - 工業力学、材料力学、機械力学
+    pages_pdf:
+    - 71
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:01
+  type: content
+  parent: mcc2023:V-A-3
+  name: 力と力のモーメント
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:01.01
+  type: goal
+  parent: mcc2023:V-A-3:01
+  text: 力の合成と分解をすることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 力、大きさ、向き、合力、分力
+    items:
+    - 力
+    - 大きさ
+    - 向き
+    - 合力
+    - 分力
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:01.02
+  type: goal
+  parent: mcc2023:V-A-3:01
+  text: 力のモーメント、偶力の意味を理解し、それらを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 力のモーメント、偶力
+    items:
+    - 力のモーメント
+    - 偶力
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:01.03
+  type: goal
+  parent: mcc2023:V-A-3:01
+  text: 一点に作用する力のつりあい条件、着力点が異なる力のつりあい条件を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: つりあい条件
+    items:
+    - つりあい条件
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:02
+  type: content
+  parent: mcc2023:V-A-3
+  name: 重心
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:02.01
+  type: goal
+  parent: mcc2023:V-A-3:02
+  text: 重心の意味を理解し、簡単な図形の重心位置を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 重心
+    items:
+    - 重心
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:03
+  type: content
+  parent: mcc2023:V-A-3
+  name: 速度と加速度
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:03.01
+  type: goal
+  parent: mcc2023:V-A-3:03
+  text: 速度と加速度の意味を理解し、時間と変位・速度の関係を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 時間、変位、速度、加速度、等速度運動、等加速度運動
+    items:
+    - 時間
+    - 変位
+    - 速度
+    - 加速度
+    - 等速度運動
+    - 等加速度運動
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:04
+  type: content
+  parent: mcc2023:V-A-3
+  name: 力と運動の法則
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:04.01
+  type: goal
+  parent: mcc2023:V-A-3:04
+  text: 運動の三法則を説明でき、力、質量及び加速度の関係を運動方程式で表すことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 運動の三法則、力、質量、加速度、運動方程式、慣性、作用反作用
+    items:
+    - 運動の三法則
+    - 力
+    - 質量
+    - 加速度
+    - 運動方程式
+    - 慣性
+    - 作用反作用
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:05
+  type: content
+  parent: mcc2023:V-A-3
+  name: 回転運動
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:05.01
+  type: goal
+  parent: mcc2023:V-A-3:05
+  text: 回転運動において、周速度、角速度、回転速度、向心加速度、向心力、遠心力の意味を理解し、それらを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 回転運動、周速度、角速度、回転速度、向心加速度、向心力、遠心力
+    items:
+    - 回転運動
+    - 周速度
+    - 角速度
+    - 回転速度
+    - 向心加速度
+    - 向心力
+    - 遠心力
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:06
+  type: content
+  parent: mcc2023:V-A-3
+  name: 仕事とエネルギー
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:06.01
+  type: goal
+  parent: mcc2023:V-A-3:06
+  text: 仕事、動力の意味を理解し、それらを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 仕事、動力
+    items:
+    - 仕事
+    - 動力
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:06.02
+  type: goal
+  parent: mcc2023:V-A-3:06
+  text: エネルギーの意味と種類、エネルギー保存の法則を理解し、力学的エネルギーを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: エネルギー、エネルギー保存の法則、力学的エネルギー、位置エネルギー、運動エネルギー
+    items:
+    - エネルギー
+    - エネルギー保存の法則
+    - 力学的エネルギー
+    - 位置エネルギー
+    - 運動エネルギー
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:07
+  type: content
+  parent: mcc2023:V-A-3
+  name: 運動量と力積
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:07.01
+  type: goal
+  parent: mcc2023:V-A-3:07
+  text: 運動量及び運動量保存の法則を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 運動量、力積、運動量保存の法則、衝突
+    items:
+    - 運動量
+    - 力積
+    - 運動量保存の法則
+    - 衝突
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:08
+  type: content
+  parent: mcc2023:V-A-3
+  name: 摩擦
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:08.01
+  type: goal
+  parent: mcc2023:V-A-3:08
+  text: すべり摩擦の意味を理解し、摩擦力と摩擦係数の関係を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 摩擦、すべり摩擦、摩擦力、摩擦係数
+    items:
+    - 摩擦
+    - すべり摩擦
+    - 摩擦力
+    - 摩擦係数
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:09
+  type: content
+  parent: mcc2023:V-A-3
+  name: 剛体の運動
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:09.01
+  type: goal
+  parent: mcc2023:V-A-3:09
+  text: 剛体の回転運動を運動方程式で表すことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 剛体、回転運動、運動方程式
+    items:
+    - 剛体
+    - 回転運動
+    - 運動方程式
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:09.02
+  type: goal
+  parent: mcc2023:V-A-3:09
+  text: 簡単な形状の慣性モーメントを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 慣性モーメント
+    items:
+    - 慣性モーメント
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:10
+  type: content
+  parent: mcc2023:V-A-3
+  name: 応力とひずみ
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:10.01
+  type: goal
+  parent: mcc2023:V-A-3:10
+  text: 材料に荷重が作用した時の応力とひずみを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 荷重、変形、応力、ひずみ
+    items:
+    - 荷重
+    - 変形
+    - 応力
+    - ひずみ
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:10.02
+  type: goal
+  parent: mcc2023:V-A-3:10
+  text: 応力とひずみの関係を理解し、弾性係数や安全率を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: フックの法則、縦弾性係数、横弾性係数、許容応力、安全率
+    items:
+    - フックの法則
+    - 縦弾性係数
+    - 横弾性係数
+    - 許容応力
+    - 安全率
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:11
+  type: content
+  parent: mcc2023:V-A-3
+  name: 引張と圧縮
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:11.01
+  type: goal
+  parent: mcc2023:V-A-3:11
+  text: 引張荷重や圧縮荷重が作用する棒の応力や変形を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 引張荷重、圧縮荷重、応力、変形
+    items:
+    - 引張荷重
+    - 圧縮荷重
+    - 応力
+    - 変形
+  note: null
+  source:
+    page_pdf: 71
+    page_printed: 57
+  verification: machine
+- id: mcc2023:V-A-3:11.02
+  type: goal
+  parent: mcc2023:V-A-3:11
+  text: 簡単な不静定問題や熱応力が発生する問題について、材料に作用する応力を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 不静定問題、線膨張係数、熱応力
+    items:
+    - 不静定問題
+    - 線膨張係数
+    - 熱応力
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+    page_top: true
+  verification: machine
+- id: mcc2023:V-A-3:12
+  type: content
+  parent: mcc2023:V-A-3
+  name: ねじり
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-3:12.01
+  type: goal
+  parent: mcc2023:V-A-3:12
+  text: ねじりモーメントが作用する軸に生じるせん断ひずみ、せん断応力及びねじれ角を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ねじり、ねじりモーメント、せん断ひずみ、せん断応力、横弾性係数、断面二次極モーメント、ねじり剛性、ねじれ角
+    items:
+    - ねじり
+    - ねじりモーメント
+    - せん断ひずみ
+    - せん断応力
+    - 横弾性係数
+    - 断面二次極モーメント
+    - ねじり剛性
+    - ねじれ角
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-3:13
+  type: content
+  parent: mcc2023:V-A-3
+  name: 曲げ
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-3:13.01
+  type: goal
+  parent: mcc2023:V-A-3:13
+  text: 各種のはりについて、はりの任意位置におけるせん断力及び曲げモーメントを計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: はり、支持方法、集中荷重、分布荷重、せん断力、曲げモーメント、せん断力図、曲げモーメント図
+    items:
+    - はり
+    - 支持方法
+    - 集中荷重
+    - 分布荷重
+    - せん断力
+    - 曲げモーメント
+    - せん断力図
+    - 曲げモーメント図
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-3:13.02
+  type: goal
+  parent: mcc2023:V-A-3:13
+  text: 各種断面の図心及び断面二次モーメントを理解し、曲げモーメントが作用するはりに生じる曲げ応力を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 曲げ応力、断面二次モーメント
+    items:
+    - 曲げ応力
+    - 断面二次モーメント
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-3:13.03
+  type: goal
+  parent: mcc2023:V-A-3:13
+  text: 各種のはりについて、たわみとたわみ角を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: たわみ、たわみ曲線、たわみの微分方程式
+    items:
+    - たわみ
+    - たわみ曲線
+    - たわみの微分方程式
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-3:14
+  type: content
+  parent: mcc2023:V-A-3
+  name: 一自由度系の振動
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-3:14.01
+  type: goal
+  parent: mcc2023:V-A-3:14
+  text: 一自由度系の自由振動を運動方程式で表し、系の運動を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 運動方程式、自由振動、不減衰系、減衰系
+    items:
+    - 運動方程式
+    - 自由振動
+    - 不減衰系
+    - 減衰系
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-3:14.02
+  type: goal
+  parent: mcc2023:V-A-3:14
+  text: 一自由度系の強制振動を運動方程式で表し、系の運動を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 運動方程式、強制振動、調和外力、調和変位
+    items:
+    - 運動方程式
+    - 強制振動
+    - 調和外力
+    - 調和変位
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4
+  type: area
+  parent: mcc2023:V-A
+  code: V-A-4
+  name: 熱流体
+  heading_raw: V-A-4 熱流体
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 熱流体系領域は、機械に係る熱と流体の基礎的知識を習得することを目標とする。
+    - (1) 流体の性質や静止状態及び運動状態での力学、流体が物体に及ぼす力について理解し、流れの諸問題の計
+    - 算ができる。
+    - (2) 熱の基本法則について理解し、熱力学的諸量を計算できる。
+    - 2 一般的な科目名
+    - 水力学、流体工学、流体力学、熱力学、工業熱力学
+    pages_pdf:
+    - 72
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:01
+  type: content
+  parent: mcc2023:V-A-4
+  name: 流体の性質
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:01.01
+  type: goal
+  parent: mcc2023:V-A-4:01
+  text: 流体の性質を表す各種物性値について理解し、流体の分類について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 流体の物性値、粘性、圧縮性、ニュートンの粘性法則
+    items:
+    - 流体の物性値
+    - 粘性
+    - 圧縮性
+    - ニュートンの粘性法則
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:02
+  type: content
+  parent: mcc2023:V-A-4
+  name: 流体の静力学
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:02.01
+  type: goal
+  parent: mcc2023:V-A-4:02
+  text: 圧力の表示方法や静止流体の圧力分布について理解し、流体の圧力を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 絶対圧力、ゲージ圧力、パスカルの原理、マノメータ
+    items:
+    - 絶対圧力
+    - ゲージ圧力
+    - パスカルの原理
+    - マノメータ
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:02.02
+  type: goal
+  parent: mcc2023:V-A-4:02
+  text: 流体に接している面に作用する圧力による力について理解し、壁面に作用する力や静止流体中にある物体に働く力を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 全圧力、圧力中心、浮力
+    items:
+    - 全圧力
+    - 圧力中心
+    - 浮力
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:03
+  type: content
+  parent: mcc2023:V-A-4
+  name: 流体の動力学
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:03.01
+  type: goal
+  parent: mcc2023:V-A-4:03
+  text: 流体の流れの速度、流れる量、流れ状態について理解し、流体における質量保存則やエネルギー保存則を適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 流速、流量、流線、連続の式、ベルヌーイの式
+    items:
+    - 流速
+    - 流量
+    - 流線
+    - 連続の式
+    - ベルヌーイの式
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:03.02
+  type: goal
+  parent: mcc2023:V-A-4:03
+  text: 流体の運動量理論を理解し、適用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 運動量の法則、流体が物体に及ぼす力
+    items:
+    - 運動量の法則
+    - 流体が物体に及ぼす力
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:04
+  type: content
+  parent: mcc2023:V-A-4
+  name: 管路内の流れ
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:04.01
+  type: goal
+  parent: mcc2023:V-A-4:04
+  text: 流れの状態の種類について理解し、レイノルズ数をもとに管内の流れの状態を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 層流、乱流、レイノルズ数
+    items:
+    - 層流
+    - 乱流
+    - レイノルズ数
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:04.02
+  type: goal
+  parent: mcc2023:V-A-4:04
+  text: 直管路内を流体が流れる場合のエネルギー損失について理解し、管摩擦損失を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ダルシー・ワイスバッハの式、管摩擦損失
+    items:
+    - ダルシー・ワイスバッハの式
+    - 管摩擦損失
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:05
+  type: content
+  parent: mcc2023:V-A-4
+  name: 抗力と揚力
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:05.01
+  type: goal
+  parent: mcc2023:V-A-4:05
+  text: 物体まわりの流れに現れる特徴的な現象を理解し、説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 境界層、はく離、後流
+    items:
+    - 境界層
+    - はく離
+    - 後流
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:05.02
+  type: goal
+  parent: mcc2023:V-A-4:05
+  text: 流れの中に置かれた物体に作用する力の要因について理解し、物体に作用する流体力を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 抗力、抗力係数、揚力、揚力係数
+    items:
+    - 抗力
+    - 抗力係数
+    - 揚力
+    - 揚力係数
+  note: null
+  source:
+    page_pdf: 72
+    page_printed: 58
+  verification: machine
+- id: mcc2023:V-A-4:06
+  type: content
+  parent: mcc2023:V-A-4
+  name: 熱力学の基礎
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-4:06.01
+  type: goal
+  parent: mcc2023:V-A-4:06
+  text: 熱力学の基本となる物理量や対象とする各種の系について理解し、熱力学的性質について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 温度、圧力、熱量、比熱、比容積、密度、閉じた系、開いた系、状態量
+    items:
+    - 温度
+    - 圧力
+    - 熱量
+    - 比熱
+    - 比容積
+    - 密度
+    - 閉じた系
+    - 開いた系
+    - 状態量
+  note: null
+  source:
+    page_pdf: 73
+    page_printed: 59
+    page_top: true
+  verification: machine
+- id: mcc2023:V-A-4:07
+  type: content
+  parent: mcc2023:V-A-4
+  name: 熱力学の第一法則
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-4:07.01
+  type: goal
+  parent: mcc2023:V-A-4:07
+  text: 熱力学の第一法則を理解し、各種の系について、エネルギー式を適用でき、線図を用いて各種の系の仕事について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 熱力学の第一法則、絶対仕事、工業仕事、内部エネルギー、エンタルピー、p-V線図
+    items:
+    - 熱力学の第一法則
+    - 絶対仕事
+    - 工業仕事
+    - 内部エネルギー
+    - エンタルピー
+    - p-V線図
+  note: null
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-4:08
+  type: content
+  parent: mcc2023:V-A-4
+  name: 理想気体の性質と状態変化
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-4:08.01
+  type: goal
+  parent: mcc2023:V-A-4:08
+  text: 理想気体の状態方程式を理解し、状態量の計算や比熱と気体定数との関係について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 理想気体、状態方程式、定積比熱、定圧比熱、比熱比
+    items:
+    - 理想気体
+    - 状態方程式
+    - 定積比熱
+    - 定圧比熱
+    - 比熱比
+  note: null
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-4:08.02
+  type: goal
+  parent: mcc2023:V-A-4:08
+  text: 理想気体の各種の状態変化を理解し、状態変化の式を用いて、熱力学的諸量を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 等圧変化、等積変化、等温変化、断熱変化、ポリトロープ変化
+    items:
+    - 等圧変化
+    - 等積変化
+    - 等温変化
+    - 断熱変化
+    - ポリトロープ変化
+  note: null
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-4:09
+  type: content
+  parent: mcc2023:V-A-4
+  name: 熱力学の第二法則
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-4:09.01
+  type: goal
+  parent: mcc2023:V-A-4:09
+  text: 熱力学の第二法則を理解し、サイクルを理想気体の状態変化の式を用いて、熱機関の熱効率を計算できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 熱力学の第二法則、サイクル、熱効率
+    items:
+    - 熱力学の第二法則
+    - サイクル
+    - 熱効率
+  note: null
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-4:09.02
+  type: goal
+  parent: mcc2023:V-A-4:09
+  text: エントロピーについて理解し、エントロピー変化について計算でき、線図を用いてサイクルを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: エントロピー、Ｔ-s線図
+    items:
+    - エントロピー
+    - Ｔ-s線図
+  note: null
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-5
+  type: area
+  parent: mcc2023:V-A
+  code: V-A-5
+  name: 工作
+  heading_raw: V-A-5 工作
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 工作系領域は、機械材料の工作方法の基礎的知識を習得することを目標とする。
+    - (1) 鋳造の基礎を理解し、種類、特徴を説明できる。
+    - (2) 溶接の基礎を理解し、種類、特徴を説明できる。
+    - (3) 塑性加工の基礎を理解し、種類、特徴を説明できる。
+    - (4) 切削加工の基礎を理解し、種類、特徴を説明できる。
+    - (5) 研削加工の基礎を理解し、種類、特徴を説明できる。
+    - 2 一般的な科目名
+    - 機械工作法
+    pages_pdf:
+    - 73
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-5:01
+  type: content
+  parent: mcc2023:V-A-5
+  name: 鋳造
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-5:01.01
+  type: goal
+  parent: mcc2023:V-A-5:01
+  text: 鋳造の工程、種類、特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 鋳造、鋳型、精密鋳造法、ダイカスト法
+    items:
+    - 鋳造
+    - 鋳型
+    - 精密鋳造法
+    - ダイカスト法
+  note: null
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-5:02
+  type: content
+  parent: mcc2023:V-A-5
+  name: 溶接
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-5:02.01
+  type: goal
+  parent: mcc2023:V-A-5:02
+  text: 溶接の種類、特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 溶接、溶接法、ガス溶接、アーク溶接
+    items:
+    - 溶接
+    - 溶接法
+    - ガス溶接
+    - アーク溶接
+  note: null
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-5:03
+  type: content
+  parent: mcc2023:V-A-5
+  name: 塑性加工
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-5:03.01
+  type: goal
+  parent: mcc2023:V-A-5:03
+  text: 塑性加工の原理、種類、特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 塑性加工、鍛造、圧延加工、押し出し加工、プレス加工
+    items:
+    - 塑性加工
+    - 鍛造
+    - 圧延加工
+    - 押し出し加工
+    - プレス加工
+  note: null
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-5:04
+  type: content
+  parent: mcc2023:V-A-5
+  name: 切削加工
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-5:04.01
+  type: goal
+  parent: mcc2023:V-A-5:04
+  text: 切削加工の原理、切削工具の種類、切削条件を説明できる。また、旋盤、フライス盤、ボール盤の種類と構造を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 切削加工、切削工具、切削条件、旋盤、フライス盤、ボール盤
+    items:
+    - 切削加工
+    - 切削工具
+    - 切削条件
+    - 旋盤
+    - フライス盤
+    - ボール盤
+  note: null
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-5:05
+  type: content
+  parent: mcc2023:V-A-5
+  name: 研削加工
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-5:05.01
+  type: goal
+  parent: mcc2023:V-A-5:05
+  text: 研削加工の原理、研削方式、砥石を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 研削加工、円筒研削、平面研削、仕上加工、砥石
+    items:
+    - 研削加工
+    - 円筒研削
+    - 平面研削
+    - 仕上加工
+    - 砥石
+  note: null
+  source:
+    page_pdf: 73
+    page_printed: 59
+  verification: machine
+- id: mcc2023:V-A-6
+  type: area
+  parent: mcc2023:V-A
+  code: V-A-6
+  name: 材料
+  heading_raw: V-A-6 材料
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 材料系領域は、機械で用いられる材料の基礎的知識を習得することを目標とする。
+    - (1) 機械で用いられる材料について、種類、製法、性質、用途、加工性、処理技術等について説明できる。
+    - 2 一般的な科目名
+    - 機械材料
+    pages_pdf:
+    - 74
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-6:01
+  type: content
+  parent: mcc2023:V-A-6
+  name: 機械材料の種類と性質
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-6:01.01
+  type: goal
+  parent: mcc2023:V-A-6:01
+  text: 機械材料の種類と性質について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 金属材料、非金属材料、複合材料、機能性材料
+    items:
+    - 金属材料
+    - 非金属材料
+    - 複合材料
+    - 機能性材料
+  note: null
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-6:02
+  type: content
+  parent: mcc2023:V-A-6
+  name: 機械的性質と試験方法
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-6:02.01
+  type: goal
+  parent: mcc2023:V-A-6:02
+  text: 材料の機械的性質について理解し、機械的性質を調べる各試験方法について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 引張試験、硬さ試験、衝撃試験、疲労試験、クリープ現象、脆性、靭性、S-N曲線
+    items:
+    - 引張試験
+    - 硬さ試験
+    - 衝撃試験
+    - 疲労試験
+    - クリープ現象
+    - 脆性
+    - 靭性
+    - S-N曲線
+  note: null
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-6:03
+  type: content
+  parent: mcc2023:V-A-6
+  name: 金属・合金の結晶と状態変化
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-6:03.01
+  type: goal
+  parent: mcc2023:V-A-6:03
+  text: 金属と合金の結晶構造や状態変化を理解し、状態図について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 結晶構造、状態変化、凝固過程、合金の状態図
+    items:
+    - 結晶構造
+    - 状態変化
+    - 凝固過程
+    - 合金の状態図
+  note: null
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-6:04
+  type: content
+  parent: mcc2023:V-A-6
+  name: 金属材料の変形と結晶
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-6:04.01
+  type: goal
+  parent: mcc2023:V-A-6:04
+  text: 金属材料の変形メカニズムについて理解し、材料の特性と結晶との関係を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 塑性変形、加工硬化、再結晶
+    items:
+    - 塑性変形
+    - 加工硬化
+    - 再結晶
+  note: null
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-6:05
+  type: content
+  parent: mcc2023:V-A-6
+  name: 炭素鋼
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-6:05.01
+  type: goal
+  parent: mcc2023:V-A-6:05
+  text: 鉄鋼の製法と炭素鋼の状態図を理解して、炭素鋼の性質を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 鉄鋼、炭素鋼、Fe-C 系平衡状態図
+    items:
+    - 鉄鋼
+    - 炭素鋼
+    - Fe-C 系平衡状態図
+  note: null
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-6:06
+  type: content
+  parent: mcc2023:V-A-6
+  name: 炭素鋼の熱処理
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-6:06.01
+  type: goal
+  parent: mcc2023:V-A-6:06
+  text: 炭素鋼の熱処理の方法を理解し、各方法の目的と操作について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 焼きなまし、焼きならし、焼入れ、焼戻し
+    items:
+    - 焼きなまし
+    - 焼きならし
+    - 焼入れ
+    - 焼戻し
+  note: null
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-7
+  type: area
+  parent: mcc2023:V-A
+  code: V-A-7
+  name: 計測制御
+  heading_raw: V-A-7 計測制御
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 計測制御領域は、計測の基礎と各種物理量の計測方法、制御系の数学的表現とその特性を解析するための基礎
+    - 的知識を習得することを目標とする。
+    - (1) 計測の基礎を理解し、代表的な物理量の計測方法を説明できる。
+    - (2) 制御の概念を理解し、数学モデルを用いて制御系を表現できる。
+    - (3) 時間応答及び周波数応答を計算し、その特性を説明できる。
+    - (4) 制御系の安定性を判別できる。
+    - 2 一般的な科目名
+    - 計測工学、制御工学
+    pages_pdf:
+    - 74
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-7:01
+  type: content
+  parent: mcc2023:V-A-7
+  name: 計測の基礎
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-7:01.01
+  type: goal
+  parent: mcc2023:V-A-7:01
+  text: 測定値の誤差、精度、不確かさ及び単位系などの計測の基礎を理解し、代表的な物理量の計測方法と計測機器を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 国際単位系、計測、測定、誤差、精度、不確かさ
+    items:
+    - 国際単位系
+    - 計測
+    - 測定
+    - 誤差
+    - 精度
+    - 不確かさ
+  note: null
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-7:02
+  type: content
+  parent: mcc2023:V-A-7
+  name: 自動制御の概要
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-7:02.01
+  type: goal
+  parent: mcc2023:V-A-7:02
+  text: 自動制御を理解し、制御系の基本構成を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 自動制御、フィードバック制御
+    items:
+    - 自動制御
+    - フィードバック制御
+  note: null
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-7:03
+  type: content
+  parent: mcc2023:V-A-7
+  name: ラプラス変換
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-7:03.01
+  type: goal
+  parent: mcc2023:V-A-7:03
+  text: ラプラス変換を用いて微分方程式を解くことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ラプラス変換、逆ラプラス変換、微分方程式
+    items:
+    - ラプラス変換
+    - 逆ラプラス変換
+    - 微分方程式
+  note: null
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-7:04
+  type: content
+  parent: mcc2023:V-A-7
+  name: 伝達関数とブロック線図
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-7:04.01
+  type: goal
+  parent: mcc2023:V-A-7:04
+  text: 伝達関数を理解し、ブロック線図を用いて制御系を表現できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 伝達関数、ブロック線図
+    items:
+    - 伝達関数
+    - ブロック線図
+  note: null
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-7:05
+  type: content
+  parent: mcc2023:V-A-7
+  name: 制御系の応答
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-7:05.01
+  type: goal
+  parent: mcc2023:V-A-7:05
+  text: 制御系の応答を計算し、過渡特性、定常特性、周波数特性について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 過渡特性、定常特性、周波数特性
+    items:
+    - 過渡特性
+    - 定常特性
+    - 周波数特性
+  note: null
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-7:06
+  type: content
+  parent: mcc2023:V-A-7
+  name: 制御系の安定性
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine
+- id: mcc2023:V-A-7:06.01
+  type: goal
+  parent: mcc2023:V-A-7:06
+  text: 制御系の安定性を判別できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 安定判別法、安定、不安定
+    items:
+    - 安定判別法
+    - 安定
+    - 不安定
+  note: null
+  source:
+    page_pdf: 74
+    page_printed: 60
+  verification: machine

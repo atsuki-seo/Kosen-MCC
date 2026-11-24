@@ -1,0 +1,72 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VII-D
+nodes:
+- id: mcc2023:VII-D
+  type: field
+  parent: mcc2023:VII
+  code: VII-D
+  name: 思考力
+  heading_raw: 4-1.4 VII-D 思考力
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine
+- id: mcc2023:VII-D:01
+  type: content
+  parent: mcc2023:VII-D
+  name: 思考力
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine
+- id: mcc2023:VII-D:01.01
+  type: goal
+  parent: mcc2023:VII-D:01
+  text: 複合的な事象や出来事を分析できる。
+  supplement:
+    kind: キーワード
+    raw: 分析的思考、要素間の関係性など
+    items:
+    - 分析的思考
+    - 要素間の関係性など
+  note: null
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine
+- id: mcc2023:VII-D:01.02
+  type: goal
+  parent: mcc2023:VII-D:01
+  text: 情報や主張を批判的に検証できる。
+  supplement:
+    kind: キーワード
+    raw: 批判的思考、偏見の排除、根拠と結論など
+    items:
+    - 批判的思考
+    - 偏見の排除
+    - 根拠と結論など
+  note: null
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine
+- id: mcc2023:VII-D:01.03
+  type: goal
+  parent: mcc2023:VII-D:01
+  text: 情報や主張を説得的に提示するための方法を考えることができる。
+  supplement:
+    kind: キーワード
+    raw: 筋道立った説明、主張と根拠、エビデンス、図示など
+    items:
+    - 筋道立った説明
+    - 主張と根拠
+    - エビデンス
+    - 図示など
+  note: null
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine

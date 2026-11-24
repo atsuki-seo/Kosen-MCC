@@ -1,0 +1,1129 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: V-D
+nodes:
+- id: mcc2023:V-D
+  type: field
+  parent: mcc2023:V
+  code: V-D
+  name: 情報系分野
+  heading_raw: 3-1.4 V-D 情報系分野
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-1
+  type: area
+  parent: mcc2023:V-D
+  code: V-D-1
+  name: プログラミング
+  heading_raw: V-D-1 プログラミング
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - プログラミング系領域は、プログラムの書き方、書かれたプログラムの読み方、ソフトウェア生成に必要なツ
+    - ール類の仕組みと使い方を学習する領域である。
+    - (1) プログラミング分野では、ソフトウェア作成に必要な基礎概念及びソフトウェアの作成工程を理解し、少
+    - なくとも一つのプログラミング言語（言語処理系）を用いて簡単なソフトウェアを生成できること。
+    - (2) プログラミング言語分野では、言語処理系を構成する各種ツールの役割や機能を理解しており、各種プロ
+    - グラミング言語が意味付けに使われる計算モデルの違いにより分類されることを説明できる。
+    - 2 一般的な科目名
+    - プログラミング、プログラミング演習、プログラミング言語
+    pages_pdf:
+    - 90
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-1:01
+  type: content
+  parent: mcc2023:V-D-1
+  name: プログラミングの要素
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-1:01.01
+  type: goal
+  parent: mcc2023:V-D-1:01
+  text: プログラミングの基本的な構造を理解し、プログラムを記述できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 変数、データ型、演算子、基本的制御構造（順次、分岐、繰返し）
+    items:
+    - 変数
+    - データ型
+    - 演算子
+    - 基本的制御構造（順次、分岐、繰返し）
+  note: null
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-1:01.02
+  type: goal
+  parent: mcc2023:V-D-1:01
+  text: サブルーチンの概念を理解し、これらを含むプログラムを記述できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: サブルーチン、モジュール、汎化、値渡し、参照渡し
+    items:
+    - サブルーチン
+    - モジュール
+    - 汎化
+    - 値渡し
+    - 参照渡し
+  note: null
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-1:02
+  type: content
+  parent: mcc2023:V-D-1
+  name: ソフトウェアの作成
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-1:02.01
+  type: goal
+  parent: mcc2023:V-D-1:02
+  text: 与えられた問題に対して、それを解決するためのソースプログラムを記述できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: フローチャート、擬似言語、UML、コーディング
+    items:
+    - フローチャート
+    - 擬似言語
+    - UML
+    - コーディング
+  note: null
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-1:02.02
+  type: goal
+  parent: mcc2023:V-D-1:02
+  text: 与えられたソースプログラムを解析し、プログラムの動作を予測できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: プログラムの解析、デバッグ
+    items:
+    - プログラムの解析
+    - デバッグ
+  note: null
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-1:02.03
+  type: goal
+  parent: mcc2023:V-D-1:02
+  text: ソフトウェア生成に必要なツールを使い、ソースプログラムを実行できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: プログラムの実行、コンパイル、リンク、エディタ、IDE、ライブラリ、API
+    items:
+    - プログラムの実行
+    - コンパイル
+    - リンク
+    - エディタ
+    - IDE
+    - ライブラリ
+    - API
+  note: null
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-1:03
+  type: content
+  parent: mcc2023:V-D-1
+  name: 言語処理系
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-1:03.01
+  type: goal
+  parent: mcc2023:V-D-1:03
+  text: 主要な言語処理プロセッサの種類と特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: コンパイラ、インタプリタ、プリプロセッサ、アセンブラ
+    items:
+    - コンパイラ
+    - インタプリタ
+    - プリプロセッサ
+    - アセンブラ
+  note: null
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-2
+  type: area
+  parent: mcc2023:V-D
+  code: V-D-2
+  name: ソフトウェア
+  heading_raw: V-D-2 ソフトウェア
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - ソフトウェア系領域は、問題を解決する手順という視点でソフトウェアを抽象化した概念であるアルゴリズム
+    - とデータ構造について学ぶ領域である。
+    - (1) アルゴリズム分野とデータ構造分野では、問題解決を効率よく行うにはアルゴリズムとデータ構造の選択
+    - が重要であると説明できる
+    - (2) 数値処理分野では、コンピュータ上で数値を表現したりする際に発生する誤差が処理結果に悪影響を与え
+    - ることを説明できる。
+    - 2 一般的な科目名
+    - プログラミング、アルゴリズムとデータ構造、数値解析、数値計算
+    pages_pdf:
+    - 90
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-2:01
+  type: content
+  parent: mcc2023:V-D-2
+  name: アルゴリズム
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-2:01.01
+  type: goal
+  parent: mcc2023:V-D-2:01
+  text: アルゴリズムの概念を理解し、与えられたアルゴリズムが問題を解決していく過程を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: アルゴリズム、ソート、探索
+    items:
+    - アルゴリズム
+    - ソート
+    - 探索
+  note: null
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-2:01.02
+  type: goal
+  parent: mcc2023:V-D-2:01
+  text: 計算量によってアルゴリズムを比較・評価できることを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 時間計算量、領域計算量、オーダ記法
+    items:
+    - 時間計算量
+    - 領域計算量
+    - オーダ記法
+  note: null
+  source:
+    page_pdf: 90
+    page_printed: 76
+  verification: machine
+- id: mcc2023:V-D-2:02
+  type: content
+  parent: mcc2023:V-D-2
+  name: データ構造
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-2:02.01
+  type: goal
+  parent: mcc2023:V-D-2:02
+  text: コンピュータ内部でデータを表現する方法（データ構造）にはバリエーションがあることを理解し、基本的なデータ構造の概念と操作を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: リスト構造、スタック、キュー、木構造、グラフ構造
+    items:
+    - リスト構造
+    - スタック
+    - キュー
+    - 木構造
+    - グラフ構造
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+    page_top: true
+  verification: machine
+- id: mcc2023:V-D-2:03
+  type: content
+  parent: mcc2023:V-D-2
+  name: 数値処理と誤差
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-2:03.01
+  type: goal
+  parent: mcc2023:V-D-2:03
+  text: コンピュータ上での数値表現方法や計算方法により、誤差が発生することを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 丸め誤差、打ち切り誤差、桁落ち誤差、誤差の伝播
+    items:
+    - 丸め誤差
+    - 打ち切り誤差
+    - 桁落ち誤差
+    - 誤差の伝播
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-2:04
+  type: content
+  parent: mcc2023:V-D-2
+  name: 数値計算
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-2:04.01
+  type: goal
+  parent: mcc2023:V-D-2:04
+  text: コンピュータ向けの主要な数値計算アルゴリズムの概要や特徴を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 関数近似、非線形方程式の解法、連立方程式の解法、積分の解法、微分方程式の解法
+    items:
+    - 関数近似
+    - 非線形方程式の解法
+    - 連立方程式の解法
+    - 積分の解法
+    - 微分方程式の解法
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3
+  type: area
+  parent: mcc2023:V-D
+  code: V-D-3
+  name: 計算機工学
+  heading_raw: V-D-3 計算機工学
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 計算機工学系領域は、現在主流となっているディジタルコンピュータのハードウェアの原理や、実際のコンピ
+    - ュータに利用されているハードウェア要素について学ぶ領域である。
+    - (1) 論理回路分野では、データをディジタル表現する原理とディジタル表現されたデータを処理する原理を理
+    - 解し、データを処理するための簡単な回路を設計できる。
+    - (2) コンピュータアーキテクチャ分野では、ディジタルコンピュータの構成や実際に用いられる構成要素の機
+    - 能を理解し、その中で利用されている主要な技術を説明できる。
+    - 2 一般的な科目名
+    - 論理回路、コンピュータアーキテクチャ、コンピュータ基礎、情報数学、情報リテラシー
+    pages_pdf:
+    - 91
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:01
+  type: content
+  parent: mcc2023:V-D-3
+  name: 数の体系
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:01.01
+  type: goal
+  parent: mcc2023:V-D-3:01
+  text: 整数・小数を二進数、十進数、十六進数で表現でき、それぞれの間で相互に変換できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 二進数、十進数、十六進数、基数変換
+    items:
+    - 二進数
+    - 十進数
+    - 十六進数
+    - 基数変換
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:01.02
+  type: goal
+  parent: mcc2023:V-D-3:01
+  text: 整数・小数をコンピュータのメモリ上でディジタル表現する方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ディジタル、ビット、バイト、浮動小数点方式
+    items:
+    - ディジタル
+    - ビット
+    - バイト
+    - 浮動小数点方式
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:02
+  type: content
+  parent: mcc2023:V-D-3
+  name: 論理関数
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:02.01
+  type: goal
+  parent: mcc2023:V-D-3:02
+  text: 基本的な論理演算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 論理演算（AND、OR、NOT、XOR）
+    items:
+    - 論理演算（AND、OR、NOT、XOR）
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:02.02
+  type: goal
+  parent: mcc2023:V-D-3:02
+  text: 基本的な論理演算を組み合わせて、論理関数をブール代数の論理式として表現できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ブール代数、ド・モルガンの法則
+    items:
+    - ブール代数
+    - ド・モルガンの法則
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:02.03
+  type: goal
+  parent: mcc2023:V-D-3:02
+  text: 論理式の簡単化の概念を説明でき、与えられた論理式を様々な手法で簡単化できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 積和（加法）標準形、和積（乗法）標準形、カルノー図
+    items:
+    - 積和（加法）標準形
+    - 和積（乗法）標準形
+    - カルノー図
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:03
+  type: content
+  parent: mcc2023:V-D-3
+  name: 組合せ論理回路
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:03.01
+  type: goal
+  parent: mcc2023:V-D-3:03
+  text: 論理ゲートを用いて論理式を組合せ論理回路として表現でき、回路の機能を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 論理記号、組合せ論理回路、真理値表
+    items:
+    - 論理記号
+    - 組合せ論理回路
+    - 真理値表
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:03.02
+  type: goal
+  parent: mcc2023:V-D-3:03
+  text: 組合せ論理回路を設計できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: デコーダ、エンコーダ、加算器
+    items:
+    - デコーダ
+    - エンコーダ
+    - 加算器
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:04
+  type: content
+  parent: mcc2023:V-D-3
+  name: 順序回路
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:04.01
+  type: goal
+  parent: mcc2023:V-D-3:04
+  text: フリップフロップなどの順序回路の基本素子について、その動作と特性を説明でき、与えられた順序回路の機能を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 順序回路、カウンタ回路、シフトレジスタ、タイミングチャート
+    items:
+    - 順序回路
+    - カウンタ回路
+    - シフトレジスタ
+    - タイミングチャート
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:04.02
+  type: goal
+  parent: mcc2023:V-D-3:04
+  text: 順序回路を設計できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 状態遷移図、状態遷移表
+    items:
+    - 状態遷移図
+    - 状態遷移表
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:05
+  type: content
+  parent: mcc2023:V-D-3
+  name: コンピュータのハードウェア
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:05.01
+  type: goal
+  parent: mcc2023:V-D-3:05
+  text: コンピュータを構成する基本的な要素の役割を説明でき、各要素を実現する主要な技術を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 演算装置、制御装置、記憶装置、入出力装置、命令コード、命令サイクル、レジスタ、キャッシュ、割込み
+    items:
+    - 演算装置
+    - 制御装置
+    - 記憶装置
+    - 入出力装置
+    - 命令コード
+    - 命令サイクル
+    - レジスタ
+    - キャッシュ
+    - 割込み
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-3:05.02
+  type: goal
+  parent: mcc2023:V-D-3:05
+  text: コンピュータアーキテクチャにおけるトレードオフについて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: アーキテクチャ、信頼性と性能
+    items:
+    - アーキテクチャ
+    - 信頼性と性能
+  note: null
+  source:
+    page_pdf: 91
+    page_printed: 77
+  verification: machine
+- id: mcc2023:V-D-4
+  type: area
+  parent: mcc2023:V-D
+  code: V-D-4
+  name: コンピュータシステム
+  heading_raw: V-D-4 コンピュータシステム
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - コンピュータシステム系領域は、コンピュータシステムの全体像を理解するための領域である。
+    - (1) コンピュータシステム分野では、実用に供せられているものを中心に、コンピュータシステムの各種形態
+    - を説明できる。
+    - (2) システム設計分野では、まずシステム全体の仕様が確定され、これに基づいてハードウェアとソフトウェ
+    - アの機能分担がなされるという設計プロセスの大きな流れを説明できる。
+    - 2 一般的な科目名
+    - コンピュータアーキテクチャ、システム工学、計算機システム、システム設計
+    pages_pdf:
+    - 92
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-4:01
+  type: content
+  parent: mcc2023:V-D-4
+  name: コンピュータシステム
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-4:01.01
+  type: goal
+  parent: mcc2023:V-D-4:01
+  text: コンピュータシステムの処理形態について、それぞれの特徴と代表的な例を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 集中処理、分散処理、シンクライアント、水平分散、垂直分散
+    items:
+    - 集中処理
+    - 分散処理
+    - シンクライアント
+    - 水平分散
+    - 垂直分散
+  note: null
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-4:01.02
+  type: goal
+  parent: mcc2023:V-D-4:01
+  text: コンピュータシステムの信頼性や機能を向上させるための代表的なシステム構成について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: デュアルシステム、マルチプロセッサシステム、リスク管理
+    items:
+    - デュアルシステム
+    - マルチプロセッサシステム
+    - リスク管理
+  note: null
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-4:02
+  type: content
+  parent: mcc2023:V-D-4
+  name: システム設計
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-4:02.01
+  type: goal
+  parent: mcc2023:V-D-4:02
+  text: ユーザの要求に従ってシステム設計を行うプロセスを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ウォーターフォールモデル、プロトタイピングモデル、スパイラルモデル、アジャイルプロセスモデル
+    items:
+    - ウォーターフォールモデル
+    - プロトタイピングモデル
+    - スパイラルモデル
+    - アジャイルプロセスモデル
+  note: null
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-4:02.02
+  type: goal
+  parent: mcc2023:V-D-4:02
+  text: プロジェクト管理の必要性について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: スケジュール管理、バージョン管理、品質管理、ステークホルダー管理
+    items:
+    - スケジュール管理
+    - バージョン管理
+    - 品質管理
+    - ステークホルダー管理
+  note: null
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-4:02.03
+  type: goal
+  parent: mcc2023:V-D-4:02
+  text: プロジェクト管理手法の少なくとも一つについて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: WBS、PERT図、ガントチャート
+    items:
+    - WBS
+    - PERT図
+    - ガントチャート
+  note: null
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-5
+  type: area
+  parent: mcc2023:V-D
+  code: V-D-5
+  name: システムプログラム
+  heading_raw: V-D-5 システムプログラム
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - システムプログラム系領域は、コンピュータを効率よく利用するために不可欠なオペレーティングシステムに
+    - ついて学ぶ領域である。
+    - (1) オペレーティングシステム分野では、コンピュータシステムにおけるオペレーティングシステムの役割や
+    - 機能を説明できる。
+    - 2 一般的な科目名
+    - オペレーティングシステム、計算機システム
+    pages_pdf:
+    - 92
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-5:01
+  type: content
+  parent: mcc2023:V-D-5
+  name: オペレーティングシステムの基礎
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-5:01.01
+  type: goal
+  parent: mcc2023:V-D-5:01
+  text: コンピュータシステムにおけるオペレーティングシステムの位置づけを説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ハードウェアの抽象化、資源管理
+    items:
+    - ハードウェアの抽象化
+    - 資源管理
+  note: null
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-5:01.02
+  type: goal
+  parent: mcc2023:V-D-5:01
+  text: プロセス管理やスケジューリングなどCPUの仮想化について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 多重化、プロセス、リソース
+    items:
+    - 多重化
+    - プロセス
+    - リソース
+  note: null
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-5:01.03
+  type: goal
+  parent: mcc2023:V-D-5:01
+  text: 排他制御の基本的な考え方について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ロック法、デッドロック、Dekkerのアルゴリズム、割込み制御
+    items:
+    - ロック法
+    - デッドロック
+    - Dekkerのアルゴリズム
+    - 割込み制御
+  note: null
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-5:01.04
+  type: goal
+  parent: mcc2023:V-D-5:01
+  text: 記憶管理の基本的な考え方について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: アドレス空間、ページング
+    items:
+    - アドレス空間
+    - ページング
+  note: null
+  source:
+    page_pdf: 92
+    page_printed: 78
+  verification: machine
+- id: mcc2023:V-D-6
+  type: area
+  parent: mcc2023:V-D
+  code: V-D-6
+  name: 情報通信ネットワーク
+  heading_raw: V-D-6 情報通信ネットワーク
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 情報通信ネットワーク系領域は、社会インフラの一つである情報通信ネットワークの仕組みやこれを支える基
+    - 礎技術を学ぶ領域である。
+    - (1) 情報通信ネットワーク分野では、プロトコルの階層化の概念を理解し、それを具現化しているプロトコル
+    - 体系の一つであるインターネットプロトコルスイートを取り上げ、これに関わる具体的かつ標準的な技術を理
+    - 解し、実践できる。
+    - 2 一般的な科目名
+    - 情報通信ネットワーク、計算機システム
+    pages_pdf:
+    - 93
+  source:
+    page_pdf: 93
+    page_printed: 79
+  verification: machine
+- id: mcc2023:V-D-6:01
+  type: content
+  parent: mcc2023:V-D-6
+  name: 階層化プロトコル
+  source:
+    page_pdf: 93
+    page_printed: 79
+  verification: machine
+- id: mcc2023:V-D-6:01.01
+  type: goal
+  parent: mcc2023:V-D-6:01
+  text: プロトコルの概念を理解し、階層化の概念や利点を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: プロトコル、OSI参照モデル
+    items:
+    - プロトコル
+    - OSI参照モデル
+  note: null
+  source:
+    page_pdf: 93
+    page_printed: 79
+  verification: machine
+- id: mcc2023:V-D-6:02
+  type: content
+  parent: mcc2023:V-D-6
+  name: ローカルエリアネットワークとインターネット
+  source:
+    page_pdf: 93
+    page_printed: 79
+  verification: machine
+- id: mcc2023:V-D-6:02.01
+  type: goal
+  parent: mcc2023:V-D-6:02
+  text: インターネット、ローカルエリアネットワーク等の概念を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: インターネット、WAN、LAN、WWW
+    items:
+    - インターネット
+    - WAN
+    - LAN
+    - WWW
+  note: null
+  source:
+    page_pdf: 93
+    page_printed: 79
+  verification: machine
+- id: mcc2023:V-D-6:02.02
+  type: goal
+  parent: mcc2023:V-D-6:02
+  text: TCP/IPの四階層について、各層の役割及び各層に関係する具体的かつ標準的な規約や技術を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: TCP/IP、UDP、SSL、TLS、IPSec
+    items:
+    - TCP/IP
+    - UDP
+    - SSL
+    - TLS
+    - IPSec
+  note: null
+  source:
+    page_pdf: 93
+    page_printed: 79
+  verification: machine
+- id: mcc2023:V-D-6:03
+  type: content
+  parent: mcc2023:V-D-6
+  name: ネットワーク応用
+  source:
+    page_pdf: 93
+    page_printed: 79
+  verification: machine
+- id: mcc2023:V-D-6:03.01
+  type: goal
+  parent: mcc2023:V-D-6:03
+  text: 主要なサーバの構築方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: Web サーバ、メールサーバ、DNSサーバ、ファイルサーバ、DBサーバ
+    items:
+    - Web サーバ
+    - メールサーバ
+    - DNSサーバ
+    - ファイルサーバ
+    - DBサーバ
+  note: null
+  source:
+    page_pdf: 93
+    page_printed: 79
+  verification: machine
+- id: mcc2023:V-D-7
+  type: area
+  parent: mcc2023:V-D
+  code: V-D-7
+  name: 情報数学・情報理論
+  heading_raw: V-D-7 情報数学・情報理論
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 情報数学・情報理論系領域は、コンピュータサイエンスに必要とされる数学的基礎理論を理解するための基礎
+    - を学ぶ領域である。
+    - (1) 離散数学分野では、記号を扱う数学的概念の総称である離散構造の範疇の中で、特にコンピュータサイエ
+    - ンスに関係深い概念を説明できる。
+    - 2 一般的な科目名
+    - 情報数学、ディジタル基礎、コンピュータ基礎
+    pages_pdf:
+    - 93
+  source:
+    page_pdf: 93
+    page_printed: 79
+  verification: machine
+- id: mcc2023:V-D-7:01
+  type: content
+  parent: mcc2023:V-D-7
+  name: 離散数学
+  source:
+    page_pdf: 93
+    page_printed: 79
+  verification: machine
+- id: mcc2023:V-D-7:01.01
+  type: goal
+  parent: mcc2023:V-D-7:01
+  text: 集合に関する基本的な概念を理解し、集合演算を実行できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 集合、写像、関係、命題、述語論理
+    items:
+    - 集合
+    - 写像
+    - 関係
+    - 命題
+    - 述語論理
+  note: null
+  source:
+    page_pdf: 93
+    page_printed: 79
+  verification: machine
+- id: mcc2023:V-D-8
+  type: area
+  parent: mcc2023:V-D
+  code: V-D-8
+  name: その他の学習内容
+  heading_raw: V-D-8 その他の学習内容
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - その他の学習内容領域は、情報技術に精通した技術者が活動する上で知っておくべき、コンピュータに関する
+    - 必須事項を学ぶ領域である。
+    - (1) データベース分野では、データ資産を効率よく安全に活用するために不可欠なデータベースに関する基礎
+    - 知識を説明できること。
+    - (2) メディア情報処理分野では、多様化するメディアにおける情報の表現方法と、コンピュータ上での情報の
+    - 扱い方を説明できる。
+    - (3) サイバーセキュリティの重要性を理解し、サイバー攻撃への対応の必要性を説明できる。
+    - 2 一般的な科目名
+    - データベース、メディア情報処理、情報セキュリティ、情報通信、ネットワーク
+    pages_pdf:
+    - 94
+  source:
+    page_pdf: 94
+    page_printed: 80
+  verification: machine
+- id: mcc2023:V-D-8:01
+  type: content
+  parent: mcc2023:V-D-8
+  name: データベース
+  source:
+    page_pdf: 94
+    page_printed: 80
+  verification: machine
+- id: mcc2023:V-D-8:01.01
+  type: goal
+  parent: mcc2023:V-D-8:01
+  text: データモデル、データベース設計法に関する基本的な概念を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 概念データモデル、論理データモデル、物理データモデル、E-R図、階層型モデル、リレーショナルモデル
+    items:
+    - 概念データモデル
+    - 論理データモデル
+    - 物理データモデル
+    - E-R図
+    - 階層型モデル
+    - リレーショナルモデル
+  note: null
+  source:
+    page_pdf: 94
+    page_printed: 80
+  verification: machine
+- id: mcc2023:V-D-8:01.02
+  type: goal
+  parent: mcc2023:V-D-8:01
+  text: データベース言語を用いて基本的なデータ問合わせを記述できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: SQL、DBMS、データ操作、データ定義、データ制御
+    items:
+    - SQL
+    - DBMS
+    - データ操作
+    - データ定義
+    - データ制御
+  note: null
+  source:
+    page_pdf: 94
+    page_printed: 80
+  verification: machine
+- id: mcc2023:V-D-8:02
+  type: content
+  parent: mcc2023:V-D-8
+  name: メディア情報処理
+  source:
+    page_pdf: 94
+    page_printed: 80
+  verification: machine
+- id: mcc2023:V-D-8:02.01
+  type: goal
+  parent: mcc2023:V-D-8:02
+  text: ディジタル信号とアナログ信号の特性について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ディジタル／アナログ、標本化、量子化
+    items:
+    - ディジタル／アナログ
+    - 標本化
+    - 量子化
+  note: null
+  source:
+    page_pdf: 94
+    page_printed: 80
+  verification: machine
+- id: mcc2023:V-D-8:02.02
+  type: goal
+  parent: mcc2023:V-D-8:02
+  text: 情報を離散化する際に必要な技術並びに生じる現象について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ADC、DAC
+    items:
+    - ADC
+    - DAC
+  note: null
+  source:
+    page_pdf: 94
+    page_printed: 80
+  verification: machine
+- id: mcc2023:V-D-8:02.03
+  type: goal
+  parent: mcc2023:V-D-8:02
+  text: メディア情報の主要な表現形式や処理技法について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 画像符号化、音声符号化、映像符号化、CSV
+    items:
+    - 画像符号化
+    - 音声符号化
+    - 映像符号化
+    - CSV
+  note: null
+  source:
+    page_pdf: 94
+    page_printed: 80
+  verification: machine
+- id: mcc2023:V-D-8:03
+  type: content
+  parent: mcc2023:V-D-8
+  name: サイバーセキュリティ
+  source:
+    page_pdf: 94
+    page_printed: 80
+  verification: machine
+- id: mcc2023:V-D-8:03.01
+  type: goal
+  parent: mcc2023:V-D-8:03
+  text: サイバーセキュリティの重要性を理解し、その必要性を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 脅威・攻撃手法の多様化、サイバーテロ、暗号・セキュリティ技術の輸出入規制、リバースエンジニアリング
+    items:
+    - 脅威・攻撃手法の多様化
+    - サイバーテロ
+    - 暗号・セキュリティ技術の輸出入規制
+    - リバースエンジニアリング
+  note: null
+  source:
+    page_pdf: 94
+    page_printed: 80
+  verification: machine
+- id: mcc2023:V-D-8:03.02
+  type: goal
+  parent: mcc2023:V-D-8:03
+  text: ネットワークにおける安全な通信方法と、基礎的な環境構築に必要な技術を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 通信の安全、ファイアウォール
+    items:
+    - 通信の安全
+    - ファイアウォール
+  note: null
+  source:
+    page_pdf: 94
+    page_printed: 80
+  verification: machine
+- id: mcc2023:V-D-8:03.03
+  type: goal
+  parent: mcc2023:V-D-8:03
+  text: ネットワークの稼働状況や通信の証跡を確認する基礎的な対応方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ネットワーク解析、ログの分析
+    items:
+    - ネットワーク解析
+    - ログの分析
+  note: null
+  source:
+    page_pdf: 94
+    page_printed: 80
+  verification: machine
+- id: mcc2023:V-D-8:03.04
+  type: goal
+  parent: mcc2023:V-D-8:03
+  text: ネットワークに接続したシステムで発生しうる脆弱性と、その診断・対策方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: システムの脆弱診断、ペネトレーションテスト
+    items:
+    - システムの脆弱診断
+    - ペネトレーションテスト
+  note: null
+  source:
+    page_pdf: 94
+    page_printed: 80
+  verification: machine

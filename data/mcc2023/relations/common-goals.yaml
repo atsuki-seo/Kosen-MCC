@@ -1,0 +1,102 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: relations
+  file: relations/common-goals
+relations:
+- id: mcc2023:rel:common:II-B:01.02
+  type: common-goal
+  from: mcc2023:II-B:01.02
+  note_raw: （化学実験と共通）
+  targets:
+  - raw: （化学実験と共通）
+    id: mcc2023:II-D:01.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:rel:common:II-B:01.03
+  type: common-goal
+  from: mcc2023:II-B:01.03
+  note_raw: （化学実験と共通）
+  targets:
+  - raw: （化学実験と共通）
+    id: mcc2023:II-D:01.05
+    method: text-exact-in-scope
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:rel:common:II-B:02.03
+  type: common-goal
+  from: mcc2023:II-B:02.03
+  note_raw: （化学実験と共通）
+  targets:
+  - raw: （化学実験と共通）
+    id: mcc2023:II-D:02.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:rel:common:II-B:02.05
+  type: common-goal
+  from: mcc2023:II-B:02.05
+  note_raw: （化学実験と共通）
+  targets:
+  - raw: （化学実験と共通）
+    id: mcc2023:II-D:02.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 54
+    page_printed: 40
+  verification: machine
+- id: mcc2023:rel:common:II-D:01.03
+  type: common-goal
+  from: mcc2023:II-D:01.03
+  note_raw: （物理実験と共通）
+  targets:
+  - raw: （物理実験と共通）
+    id: mcc2023:II-B:01.02
+    method: text-exact-in-scope
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:rel:common:II-D:01.05
+  type: common-goal
+  from: mcc2023:II-D:01.05
+  note_raw: （物理実験と共通）
+  targets:
+  - raw: （物理実験と共通）
+    id: mcc2023:II-B:01.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:rel:common:II-D:02.02
+  type: common-goal
+  from: mcc2023:II-D:02.02
+  note_raw: （物理実験と共通）
+  targets:
+  - raw: （物理実験と共通）
+    id: mcc2023:II-B:02.03
+    method: text-exact-in-scope
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:rel:common:II-D:02.03
+  type: common-goal
+  from: mcc2023:II-D:02.03
+  note_raw: （物理実験と共通）
+  targets:
+  - raw: （物理実験と共通）
+    id: mcc2023:II-B:02.05
+    method: text-exact-in-scope
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine

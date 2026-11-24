@@ -1,0 +1,122 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: II-D
+nodes:
+- id: mcc2023:II-D
+  type: field
+  parent: mcc2023:II
+  code: II-D
+  name: 化学実験
+  heading_raw: 2-2.4 II -D 化学実験
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 観察・実験により座学などで学習した知識を確認し理解を深め、化学的な事物・現象についての関心や探究心
+    - を高める。
+    - (1) 実験器具や試薬などの取扱い方を理解した上で、安全に実験を行うことができる。
+    - (2) 実験を正確に記録し、実験データを適切な有効数字及び単位などを用いて取り扱うことができる。
+    - (3) 観察・実験結果を座学などで学んだ内容と関連付けて説明できる。
+    - 2 学習内容の取扱い
+    - (1) ICTなどの活用や、少人数グループでの探究活動、発表などを積極的に取り入れることが推奨される。
+    - (2) 実験の実施及び報告書の作成に際しては、IV-A工学実験技術（各種測定方法、データ処理、考察方法）の
+    - 学習内容も考慮する。
+    - 3 一般的な科目名
+    - 化学実験
+    pages_pdf:
+    - 56
+    - 57
+  source:
+    page_pdf: 56
+    page_printed: 42
+  verification: machine
+- id: mcc2023:II-D:01
+  type: content
+  parent: mcc2023:II-D
+  name: 実験
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-D:01.01
+  type: goal
+  parent: mcc2023:II-D:01
+  text: 実験器具（電子天秤やガラス器具など）を目的と精度に応じて選択し正しく使うことができる。
+  note: null
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-D:01.02
+  type: goal
+  parent: mcc2023:II-D:01
+  text: 試薬（粉体及び液体）の取扱いができる。
+  note: null
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-D:01.03
+  type: goal
+  parent: mcc2023:II-D:01
+  text: 整理整頓により実験環境を適切に保ち、手順に従って安全に実験ができる。
+  note: （物理実験と共通）
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-D:01.04
+  type: goal
+  parent: mcc2023:II-D:01
+  text: 事故への対処の方法（薬品の付着、引火、火傷、切り傷など）を説明できる。
+  note: null
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-D:01.05
+  type: goal
+  parent: mcc2023:II-D:01
+  text: 実験条件やデータなどを正確に記録できる。
+  note: （物理実験と共通）
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-D:02
+  type: content
+  parent: mcc2023:II-D
+  name: 結果及び考察
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-D:02.01
+  type: goal
+  parent: mcc2023:II-D:02
+  text: 実験結果を表やグラフなどに見やすく整理できる。
+  note: null
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-D:02.02
+  type: goal
+  parent: mcc2023:II-D:02
+  text: 適切な有効数字及び単位を用いて物理量を表すことができる。
+  note: （物理実験と共通）
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine
+- id: mcc2023:II-D:02.03
+  type: goal
+  parent: mcc2023:II-D:02
+  text: 観察・実験結果を座学などで学んだ内容と関連付けて説明できる。
+  note: （物理実験と共通）
+  source:
+    page_pdf: 57
+    page_printed: 43
+  verification: machine

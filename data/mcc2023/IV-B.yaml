@@ -1,0 +1,263 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: IV-B
+nodes:
+- id: mcc2023:IV-B
+  type: field
+  parent: mcc2023:IV
+  code: IV-B
+  name: 技術者倫理
+  heading_raw: 2-4.2 IV-B 技術者倫理
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 技術者としての責任ある行動について考え、実践するために、以下の事項について理解し、具体例に即して考
+    - えることができることを目標とする。
+    - (1) 工学や科学技術が人々や社会に対してどのように貢献してきたのかについて理解し、説明することができ
+    - る。
+    - (2) 地域社会、わが国、及び国際社会が直面している問題や実現すべき課題について理解し、説明することが
+    - できる。
+    - (3) 専門職としての技術者に要求される責任や、人々や社会に対して担いうる役割について理解し、説明する
+    - ことができる。
+    - 2 一般的な科目名
+    - 技術者倫理、法律、知的財産、技術史、社会系科目、PBL、社会実装教育等
+    pages_pdf:
+    - 64
+  source:
+    page_pdf: 64
+    page_printed: 50
+  verification: machine
+- id: mcc2023:IV-B:01
+  type: content
+  parent: mcc2023:IV-B
+  name: 工学や科学技術が果たす役割や意義
+  source:
+    page_pdf: 64
+    page_printed: 50
+  verification: machine
+- id: mcc2023:IV-B:01.01
+  type: goal
+  parent: mcc2023:IV-B:01
+  text: 工学や科学技術が人類に果たしてきた貢献、成果について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 人類の安全・健康・福利（Well-being、 Welfare）、エンジニアリングやテクノロジーの果たしてきた貢献、QOLの向上、技術史
+    items:
+    - 人類の安全・健康・福利（Well-being、 Welfare）
+    - エンジニアリングやテクノロジーの果たしてきた貢献
+    - QOLの向上
+    - 技術史
+  note: null
+  source:
+    page_pdf: 64
+    page_printed: 50
+  verification: machine
+- id: mcc2023:IV-B:01.02
+  type: goal
+  parent: mcc2023:IV-B:01
+  text: 科学技術の発展動向を踏まえ、現代社会における工学や科学技術の役割、意義について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 現代社会の抱える問題や達成すべき課題に対してエンジニアリングやテクノロジーが果たしうる役割（研究開発の実践例など）、Society 5.0、Diversity、Inclusiveness の尊重、実現など
+    items:
+    - 現代社会の抱える問題や達成すべき課題に対してエンジニアリングやテクノロジーが果たしうる役割（研究開発の実践例など）
+    - Society 5.0
+    - Diversity
+    - Inclusiveness の尊重
+    - 実現など
+  note: null
+  source:
+    page_pdf: 64
+    page_printed: 50
+  verification: machine
+- id: mcc2023:IV-B:01.03
+  type: goal
+  parent: mcc2023:IV-B:01
+  text: 科学技術の発達が社会、環境、人々に対して与える影響や変化について説明できる（応用倫理学を含む）。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 環境倫理、情報倫理、生命倫理などの応用倫理に関する基本的知識、デュアル・ユース問題など
+    items:
+    - 環境倫理
+    - 情報倫理
+    - 生命倫理などの応用倫理に関する基本的知識
+    - デュアル・ユース問題など
+  note: null
+  source:
+    page_pdf: 64
+    page_printed: 50
+  verification: machine
+- id: mcc2023:IV-B:02
+  type: content
+  parent: mcc2023:IV-B
+  name: 社会や人類の問題、課題に対する工学や科学技術の貢献
+  source:
+    page_pdf: 64
+    page_printed: 50
+  verification: machine
+- id: mcc2023:IV-B:02.01
+  type: goal
+  parent: mcc2023:IV-B:02
+  text: 地域社会やわが国が直面している種々の問題について理解し、工学や科学技術の果たしうる貢献について考え、説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: SDGs、地域社会や日本が直面している種々の問題（防災、安全、少子高齢化対応、経済・産業など）、地域課題に対するエンジニアリングやテクノロジーの貢献についての考察
+    items:
+    - SDGs
+    - 地域社会や日本が直面している種々の問題（防災、安全、少子高齢化対応、経済・産業など）
+    - 地域課題に対するエンジニアリングやテクノロジーの貢献についての考察
+  note: null
+  source:
+    page_pdf: 64
+    page_printed: 50
+  verification: machine
+- id: mcc2023:IV-B:02.02
+  type: goal
+  parent: mcc2023:IV-B:02
+  text: 国際社会や人類が直面している種々の問題について理解し、工学や科学技術の果たしうる貢献について考え、説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: SDGs、国際社会が直面している種々の問題や課題（貧困や飢餓、紛争、環境破壊、資源・エネルギー問題、気候変動、持続可能性の実現、グローバリゼーションの影響、多様性の尊重など）、現代社会の課題に対するエンジニアリングやテクノロジーの貢献
+    items:
+    - SDGs
+    - 国際社会が直面している種々の問題や課題（貧困や飢餓、紛争、環境破壊、資源・エネルギー問題、気候変動、持続可能性の実現、グローバリゼーションの影響、多様性の尊重など）
+    - 現代社会の課題に対するエンジニアリングやテクノロジーの貢献
+  note: null
+  source:
+    page_pdf: 64
+    page_printed: 50
+  verification: machine
+- id: mcc2023:IV-B:03
+  type: content
+  parent: mcc2023:IV-B
+  name: 専門職としての技術者に求められる役割と責任
+  source:
+    page_pdf: 65
+    page_printed: 51
+  verification: machine
+- id: mcc2023:IV-B:03.01
+  type: goal
+  parent: mcc2023:IV-B:03
+  text: 現代社会の特徴を理解した上で、安全の確保、実現に向けた技術者の役割、責任について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 現代社会の特徴（複雑性、科学技術の高度化・複雑化、予見可能性の低下、多様性など）、リスク概念、リスクマネージメント手法、安全性実現に向けた工学的手法
+    items:
+    - 現代社会の特徴（複雑性、科学技術の高度化・複雑化、予見可能性の低下、多様性など）
+    - リスク概念
+    - リスクマネージメント手法
+    - 安全性実現に向けた工学的手法
+  note: null
+  source:
+    page_pdf: 65
+    page_printed: 51
+    page_top: true
+  verification: machine
+- id: mcc2023:IV-B:03.02
+  type: goal
+  parent: mcc2023:IV-B:03
+  text: 専門職としての技術者の役割や責任について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 技術者の判断や行動が人々や社会、環境に与える影響や変化、複雑化する社会を支える専門職の役割、専門職としてのGood Work、公害や環境破壊、事故、事故などが生じた人為的要因、組織的要因、技術的要因や背景
+    items:
+    - 技術者の判断や行動が人々や社会
+    - 環境に与える影響や変化
+    - 複雑化する社会を支える専門職の役割
+    - 専門職としてのGood Work
+    - 公害や環境破壊
+    - 事故
+    - 事故などが生じた人為的要因
+    - 組織的要因
+    - 技術的要因や背景
+  note: null
+  source:
+    page_pdf: 65
+    page_printed: 51
+  verification: machine
+- id: mcc2023:IV-B:03.03
+  type: goal
+  parent: mcc2023:IV-B:03
+  text: 法的責任の基本について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 不法行為責任、契約責任など基本的な法的責任についての理解、技術者の活動に関わる法的責任（製造物責任、知的財産権、個人情報保護法など）
+    items:
+    - 不法行為責任
+    - 契約責任など基本的な法的責任についての理解
+    - 技術者の活動に関わる法的責任（製造物責任、知的財産権、個人情報保護法など）
+  note: null
+  source:
+    page_pdf: 65
+    page_printed: 51
+  verification: machine
+- id: mcc2023:IV-B:03.04
+  type: goal
+  parent: mcc2023:IV-B:03
+  text: 倫理的責任の基本について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 法的責任と異なる、あるいは法的責任を含む倫理的責任についての理解、専門分野などにおける倫理規範（学協会の倫理綱領など）の理解、企業などの組織で要求される行動規範など
+    items:
+    - 法的責任と異なる
+    - あるいは法的責任を含む倫理的責任についての理解
+    - 専門分野などにおける倫理規範（学協会の倫理綱領など）の理解
+    - 企業などの組織で要求される行動規範など
+  note: null
+  source:
+    page_pdf: 65
+    page_printed: 51
+  verification: machine
+- id: mcc2023:IV-B:03.05
+  type: goal
+  parent: mcc2023:IV-B:03
+  text: 専門職としての技術者が実務上要求される責任、配慮すべき問題に関して説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 安全、コスト、納期などの複数の価値間の調整、事故・事件などの発生要因など
+    items:
+    - 安全
+    - コスト
+    - 納期などの複数の価値間の調整
+    - 事故・事件などの発生要因など
+  note: null
+  source:
+    page_pdf: 65
+    page_printed: 51
+  verification: machine
+- id: mcc2023:IV-B:03.06
+  type: goal
+  parent: mcc2023:IV-B:03
+  text: 国際的なフィールドでの実務で要求される責任、配慮すべき問題について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 諸外国の歴史・文化などを含む多様性の尊重、配慮の必要性及び要求される態度、考え方など
+    items:
+    - 諸外国の歴史・文化などを含む多様性の尊重
+    - 配慮の必要性及び要求される態度
+    - 考え方など
+  note: null
+  source:
+    page_pdf: 65
+    page_printed: 51
+  verification: machine
+- id: mcc2023:IV-B:03.07
+  type: goal
+  parent: mcc2023:IV-B:03
+  text: 公正な研究活動の推進に向けて必要な知識や態度について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 科学研究の意義や役割についての理解、特定不正行為（FFP）、問題となる研究活動（QRP）、公正な研究活動に必要な態度や考え方など
+    items:
+    - 科学研究の意義や役割についての理解
+    - 特定不正行為（FFP）
+    - 問題となる研究活動（QRP）
+    - 公正な研究活動に必要な態度や考え方など
+  note: null
+  source:
+    page_pdf: 65
+    page_printed: 51
+  verification: machine

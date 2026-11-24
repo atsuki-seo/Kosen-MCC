@@ -1,0 +1,194 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: categories
+nodes:
+- id: mcc2023:I
+  type: category
+  parent: null
+  code: I
+  name: 数学
+  heading_raw: 2-1 I 数学
+  heading_raw_sub: 2-1.1 I 数学
+  chapter: 第2章 技術者が分野共通で備えるべき基礎的能力における到達目標
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 工学の基本的問題を解決するために必要な数学の知識、計算技術及び応用能力を習得し、この知識及び技術等
+    - を工学における現象と関連づけて活用する能力を養う。
+    - 2 学習内容の取扱い
+    - 学習内容の取扱いに関しては、次の事項に配慮するものとする。
+    - （１）中学校の学習の成果を活用するとともに、専攻科数学及び物理・専門科目との連携を密にし、スムーズ
+    - にカリキュラムが展開するように指導計画を作成する。
+    - （２）学習内容の履修学年については特に指定せず、高専毎の独自のカリキュラム設計に沿って柔軟に運用す
+    - る。
+    - （３）学習内容の専門科目での履修を妨げるものではない。
+    - （４）下記以外の学習内容を取り扱うことを妨げるものではない。
+    pages_pdf:
+    - 49
+  division:
+    mcc: MCC(コア)
+    group: 技術者が共通で備えるべき基礎的能力
+    page_pdf: 25
+  level:
+    value: レベル3（適用）
+    quote: 分野共通の基礎的専門能力はレベル3まで
+    page_pdf: 26
+  source:
+    page_pdf: 49
+    page_printed: 35
+  verification: machine
+- id: mcc2023:II
+  type: category
+  parent: null
+  code: II
+  name: 自然科学
+  heading_raw: 2-2 II 自然科学
+  chapter: 第2章 技術者が分野共通で備えるべき基礎的能力における到達目標
+  division:
+    mcc: MCC(コア)
+    group: 技術者が共通で備えるべき基礎的能力
+    page_pdf: 25
+  level:
+    value: レベル3（適用）
+    quote: 分野共通の基礎的専門能力はレベル3まで
+    page_pdf: 26
+  source:
+    page_pdf: 52
+    page_printed: 38
+  verification: machine
+- id: mcc2023:III
+  type: category
+  parent: null
+  code: III
+  name: 人文社会科学
+  heading_raw: 2-3 III 人文社会科学
+  chapter: 第2章 技術者が分野共通で備えるべき基礎的能力における到達目標
+  division:
+    mcc: MCC(コア)
+    group: 技術者が共通で備えるべき基礎的能力
+    page_pdf: 25
+  level:
+    value: レベル3（適用）
+    quote: 分野共通の基礎的専門能力はレベル3まで
+    page_pdf: 26
+  source:
+    page_pdf: 59
+    page_printed: 45
+  verification: machine
+- id: mcc2023:IV
+  type: category
+  parent: null
+  code: IV
+  name: 工学基礎
+  heading_raw: 2-4 IV 工学基礎
+  chapter: 第2章 技術者が分野共通で備えるべき基礎的能力における到達目標
+  division:
+    mcc: MCC(コア)
+    group: 技術者が共通で備えるべき基礎的能力
+    page_pdf: 25
+  level:
+    value: レベル3（適用）
+    quote: 分野共通の基礎的専門能力はレベル3まで
+    page_pdf: 26
+  source:
+    page_pdf: 63
+    page_printed: 49
+  verification: machine
+- id: mcc2023:V
+  type: category
+  parent: null
+  code: V
+  name: 分野別の専門工学
+  heading_raw: 3-1 V 分野別の専門工学
+  chapter: 第3章 技術者が備えるべき分野別の専門能力における到達目標
+  division:
+    mcc: MCC(コア)
+    group: 技術者が備えるべき分野別の専門的能力
+    page_pdf: 25
+  level:
+    value: レベル4（実践）
+    quote: 分野別専門的能力はレベル4までの到達を図るものと設定する
+    page_pdf: 26
+  source:
+    page_pdf: 70
+    page_printed: 56
+  verification: machine
+- id: mcc2023:VI
+  type: category
+  parent: null
+  code: VI
+  name: 分野別の工学実験・実習能力
+  heading_raw: 3-2 VI 分野別の工学実験・実習能力
+  chapter: 第3章 技術者が備えるべき分野別の専門能力における到達目標
+  division:
+    mcc: MCC(コア)
+    group: 技術者が備えるべき分野別の専門的能力
+    page_pdf: 25
+  level:
+    value: レベル4（実践）
+    quote: 分野別専門的能力はレベル4までの到達を図るものと設定する
+    page_pdf: 26
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VII
+  type: category
+  parent: null
+  code: VII
+  name: 汎用的技能
+  heading_raw: 4-1 VII 汎用的技能
+  chapter: 第4章 技術者が備えるべき基盤的資質・能力
+  division:
+    mcc: MCC(モデル)
+    group: MCC(モデル)：基盤的資質・能力
+    page_pdf: 25
+  level:
+    value: null
+    quote: MCC(モデル)に対しては段階的な到達水準（Level1～4）の設定はおこなわない
+    page_pdf: 28
+  source:
+    page_pdf: 144
+    page_printed: 130
+  verification: machine
+- id: mcc2023:VIII
+  type: category
+  parent: null
+  code: VIII
+  name: 基盤的資質・能力
+  heading_raw: 4-2 VIII 基盤的資質・能力
+  chapter: 第4章 技術者が備えるべき基盤的資質・能力
+  division:
+    mcc: MCC(モデル)
+    group: MCC(モデル)：基盤的資質・能力
+    page_pdf: 25
+  level:
+    value: null
+    quote: MCC(モデル)に対しては段階的な到達水準（Level1～4）の設定はおこなわない
+    page_pdf: 28
+  source:
+    page_pdf: 146
+    page_printed: 132
+  verification: machine
+- id: mcc2023:IX
+  type: category
+  parent: null
+  code: IX
+  name: 創造性・デザイン能力
+  heading_raw: 5-1 IX 創造性・デザイン能力
+  chapter: 第5章 技術者が備えるべき創造性・デザイン能力
+  division:
+    mcc: MCC(モデル)
+    group: MCC(モデル)：創造性・デザイン能力
+    page_pdf: 25
+  level:
+    value: null
+    quote: MCC(モデル)に対しては段階的な到達水準（Level1～4）の設定はおこなわない
+    page_pdf: 28
+  source:
+    page_pdf: 149
+    page_printed: 135
+  verification: machine

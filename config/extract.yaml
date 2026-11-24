@@ -1,0 +1,24 @@
+# 抽出器のページ固有の設定（設計 6.3）。
+# コードに埋めず、ここに書く。値の根拠はページ画像で確認する（verification-log.yaml）。
+
+goals:
+  # 第 2 部（様式 1〜3 と複合融合学科への配慮事項）
+  part2_pages: [49, 149]
+  # 第 3 部 MCC plus の到達目標
+  plus_pages: [158, 178]
+  # ページ先頭の行の「学習内容」セルが、前ページ最後の学習内容の名称の続きであるページ
+  content_name_continues: [60, 126]
+  # ページ先頭の行の「到達目標」セルが、前ページ最後の到達目標の続きであるページ
+  row_continues: []
+  hairyo_row_continues: []
+  # ヘッダー行で種類を判定できず、自動で取り込まない表（設計 6.2）
+  unclassified_tables:
+    - page: 55
+      table: 0
+      reason: ヘッダー行のない 1 行の表で、到達目標の列に箇条書きが入っている。前ページの II-B 物理実験「分野」の到達目標の続きに見えるが、セル内の改行が折り返しではなく箇条書きであり、到達目標の 1 件として取り込めるか判定できない
+  # MCC plus の分野コード。原本にはコードがないので、このリポジトリで定める（設計 5.2）
+  plus_fields:
+    - {number: 1, code: AI, name: AI・数理データサイエンス}
+    - {number: 2, code: SEC, name: サイバーセキュリティ}
+    - {number: 3, code: ROBOT, name: ロボット}
+    - {number: 4, code: IOT, name: IoT}

@@ -1,0 +1,241 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: III-B
+nodes:
+- id: mcc2023:III-B
+  type: field
+  parent: mcc2023:III
+  code: III-B
+  name: 英語
+  heading_raw: 2-3.1 III-B 英語
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - (1) 英語コミュニケーションの基礎となる知識や技能を習得し、目的や場面、状況に応じて適切に活用できる。
+    - （1～5年次）
+    - (2) 多様性や異文化への理解を深め、相手に配慮しながら英語を用いて主体的にコミュニケーションを図ろう
+    - とすることができる。（1～5年次）
+    - (3) 日常的な話題や社会的な話題について、情報や考えなどを適切かつ正確に理解、表現できる。（1～3年次）
+    - (4) 自分の専門分野に関する基本的な情報や考えについて、適切かつ正確に理解、表現し、簡単な意見交換が
+    - できる。(3～5年次)
+    - 2 学習内容の取扱い
+    - (1) 英語コミュニケーション能力の向上のためには「英語」とそれ以外の授業科目が連携すること、また、様々
+    - な「実際のコミュニケーションの機会」を作り出すことが重要である。例えば、英文アブストラクトや実験報
+    - 告の書式、及び報告すべき内容の整理などについては、専門科目と連携して教育内容を精査することで、より
+    - 実際に近いコミュニケーションの場面が再現できるものと期待する。いずれにしても、実際の場面でのコミュ
+    - ニケーションを目的にした学習が実現できるよう、他の科目も含めた総合的なカリキュラムデザインが望まれ
+    - る。
+    - (2) 口頭発表の質疑応答やディベート、ディスカッションは英語コミュニケーションの実践としては非常に高
+    - い能力が要求される。本科卒業時にはその能力の「完成」というより「準備・基礎」が到達目標の意図すると
+    - ころであると理解されたい。
+    - (3) 英語を実際の場面でのコミュニケーションに応用するには、基礎的な知識を習得しておくことに加え、相
+    - 手の文化や立場を尊重した上で積極的にコミュニケーションをとろうとする姿勢を持つことが重要である。今
+    - 回の到達目標におけるそうした要素は教室の中だけでなく、短期・中期の国際交流の場面（機会）を有効利用
+    - することでより効果が上がるものと考える。
+    - (4) 到達目標はコアを示したものであり、それ以外の学習内容（例えば英会話やアカデミックライティング、
+    - ビジネス英語など）も必要に応じて積極的に取り入れられたい。
+    - 3 一般的な科目名
+    - 英語（Ⅰ～Ⅴ）、英語コミュニケーション（Ⅰ～Ⅴ）、英語表現、総合英語等
+    pages_pdf:
+    - 60
+  source:
+    page_pdf: 60
+    page_printed: 46
+  verification: machine
+- id: mcc2023:III-B:01
+  type: content
+  parent: mcc2023:III-B
+  name: 音声
+  source:
+    page_pdf: 60
+    page_printed: 46
+  verification: machine
+- id: mcc2023:III-B:01.01
+  type: goal
+  parent: mcc2023:III-B:01
+  text: 聞き手に正しく伝わるよう、語・句・文における強勢、文におけるリズム・イントネーション、音のつながり・区切りを意識しながら明瞭に音読あるいは発話できる。
+  note: null
+  source:
+    page_pdf: 60
+    page_printed: 46
+  verification: machine
+- id: mcc2023:III-B:02
+  type: content
+  parent: mcc2023:III-B
+  name: 語彙
+  source:
+    page_pdf: 60
+    page_printed: 46
+  verification: machine
+- id: mcc2023:III-B:02.01
+  type: goal
+  parent: mcc2023:III-B:02
+  text: 中学校までに学習した語彙の定着を図り、高等学校指導要領に準じた新出語彙、及び専門教育に必要となる語彙を習得して適切に運用できる。
+  note: null
+  source:
+    page_pdf: 60
+    page_printed: 46
+  verification: machine
+- id: mcc2023:III-B:03
+  type: content
+  parent: mcc2023:III-B
+  name: 文法及び構文
+  source:
+    page_pdf: 60
+    page_printed: 46
+  verification: machine
+- id: mcc2023:III-B:03.01
+  type: goal
+  parent: mcc2023:III-B:03
+  text: 中学校までに学習した文構造及び文法事項に加え、高等学校学習指導要領に準じた文構造及び文法事項について習得して適切に運用できる。
+  note: null
+  source:
+    page_pdf: 60
+    page_printed: 46
+  verification: machine
+- id: mcc2023:III-B:04
+  type: content
+  parent: mcc2023:III-B
+  name: 英語コミュニケーション（英語運用能力の基礎固め）
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:04.01
+  type: goal
+  parent: mcc2023:III-B:04
+  text: 日常的な話題や社会的な話題について、はっきりとした発音で、調整された速さで話された内容から、必要な情報を聞き取り、話し手の意図を把握できる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+    page_top: true
+  verification: machine
+- id: mcc2023:III-B:04.02
+  type: goal
+  parent: mcc2023:III-B:04
+  text: 日常的な話題や社会的な話題について、基本的な表現を用いて、情報や考え、気持ちなどを話すことができる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:04.03
+  type: goal
+  parent: mcc2023:III-B:04
+  text: 日常的な話題や社会的な話題について平易な英語で書かれた文章を読み、その概要を把握して必要な情報を読み取り、書き手の意図、概要や要点を把握できる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:04.04
+  type: goal
+  parent: mcc2023:III-B:04
+  text: 日常的な話題や社会的な話題について、自分の意見や感想を整理し、情報や考え、気持ちなどを伝える文章を書くことができる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:04.05
+  type: goal
+  parent: mcc2023:III-B:04
+  text: 母国以外の言語や文化を理解しようとする姿勢を持ち、実際の場面で積極的にコミュニケーションを図ることができる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:04.06
+  type: goal
+  parent: mcc2023:III-B:04
+  text: 実際の場面や目的に応じて、基本的なコミュニケーション方略（ジェスチャー、アイコンタクト）を適切に用いることができる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:05
+  type: content
+  parent: mcc2023:III-B
+  name: 英語コミュニケーション（英語運用能力向上のための学習）
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:05.01
+  type: goal
+  parent: mcc2023:III-B:05
+  text: 自分の専門分野などの予備知識のある事柄や関心のあるトピックについて、話の展開や話者の意図に注意しながら必要な情報を聞き取り、概要や要点を把握できる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:05.02
+  type: goal
+  parent: mcc2023:III-B:05
+  text: 英語でのディスカッション（必要に応じてディベート）を想定して、意見や主張、課題の解決策などをやり取りできる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:05.03
+  type: goal
+  parent: mcc2023:III-B:05
+  text: 英語でディスカッション（必要に応じてディベート）を行うため、学生自ら準備活動や情報収集を行い、主体的な態度で行動できる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:05.04
+  type: goal
+  parent: mcc2023:III-B:05
+  text: 母国以外の言語や文化を理解しようとする姿勢をもち、教室内外で英語で円滑なコミュニケーションをとることができる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:05.05
+  type: goal
+  parent: mcc2023:III-B:05
+  text: 関心のあるトピックについて、意見や主張を適切な理由や根拠とともに伝える複数の段落を書くことができる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:05.06
+  type: goal
+  parent: mcc2023:III-B:05
+  text: 自分の専門分野に関する口頭発表などを念頭に置き、関心のあるトピックについて、平易な英語でのプレゼンテーションや内容に関する簡単な質疑応答のやりとりができる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:05.07
+  type: goal
+  parent: mcc2023:III-B:05
+  text: 関心のあるトピックや自分の専門分野に関する論文やマニュアルなどの概要を把握し、必要な情報を読み取ることができる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine
+- id: mcc2023:III-B:05.08
+  type: goal
+  parent: mcc2023:III-B:05
+  text: 英文資料を、自分の専門分野に関する論文の英文アブストラクトや口頭発表用の資料等の作成にもつながるよう、英文テクニカルライティングにおける基礎的な語彙や表現を使って書くことができる。
+  note: null
+  source:
+    page_pdf: 61
+    page_printed: 47
+  verification: machine

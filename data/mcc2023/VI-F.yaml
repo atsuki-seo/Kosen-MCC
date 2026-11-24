@@ -1,0 +1,399 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VI-F
+nodes:
+- id: mcc2023:VI-F
+  type: field
+  parent: mcc2023:VI
+  code: VI-F
+  name: 建設系分野
+  heading_raw: 3-2.6 VI-F 建設系分野
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 実験・実習系領域は、測量、材料、構造、地盤、水理、計画・交通、環境などについて、その実験の目的と方法
+    - を体験的に理解し、その結果について工学的に説明できる能力を養う。
+    - (1) 実験分野は、測量、材料、構造、地盤、水理、環境などであり、その実験の目的と方法を理解し、その結果
+    - について工学的に説明できること。
+    - 2 一般的な科目名
+    - 環境都市工学実習、環境都市工学実験、基礎実験
+    pages_pdf:
+    - 130
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:01
+  type: content
+  parent: mcc2023:VI-F
+  name: 測量
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:01.01
+  type: goal
+  parent: mcc2023:VI-F:01
+  text: 距離測量の方法を理解し、その測量ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 直接距離測量
+    items:
+    - 直接距離測量
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:01.02
+  type: goal
+  parent: mcc2023:VI-F:01
+  text: セオドライトによる角測量を理解し、その測量ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 単測法、倍角法
+    items:
+    - 単測法
+    - 倍角法
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:01.03
+  type: goal
+  parent: mcc2023:VI-F:01
+  text: トラバース測量を理解し、その測量ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 内角和、閉合差、閉合比
+    items:
+    - 内角和
+    - 閉合差
+    - 閉合比
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:01.04
+  type: goal
+  parent: mcc2023:VI-F:01
+  text: 水準測量を理解し、その測量ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 昇降式、器高式
+    items:
+    - 昇降式
+    - 器高式
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:02
+  type: content
+  parent: mcc2023:VI-F
+  name: 材料
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:02.01
+  type: goal
+  parent: mcc2023:VI-F:02
+  text: 骨材のふるい分け試験を理解し、その試験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 粒度、粗粒率、粗骨材の最大寸法
+    items:
+    - 粒度
+    - 粗粒率
+    - 粗骨材の最大寸法
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:02.02
+  type: goal
+  parent: mcc2023:VI-F:02
+  text: 骨材の密度、吸水率試験を理解し、その試験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 含水状態、密度、吸水率
+    items:
+    - 含水状態
+    - 密度
+    - 吸水率
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:02.03
+  type: goal
+  parent: mcc2023:VI-F:02
+  text: コンクリートのスランプ試験を理解し、その試験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: スランプ値、ワーカビリティー
+    items:
+    - スランプ値
+    - ワーカビリティー
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:02.04
+  type: goal
+  parent: mcc2023:VI-F:02
+  text: コンクリートの空気量試験を理解し、その試験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 空気量
+    items:
+    - 空気量
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:02.05
+  type: goal
+  parent: mcc2023:VI-F:02
+  text: コンクリートの強度試験を理解し、その試験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 圧縮強度、引張強度、曲げ強度
+    items:
+    - 圧縮強度
+    - 引張強度
+    - 曲げ強度
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:03
+  type: content
+  parent: mcc2023:VI-F
+  name: 構造
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:03.01
+  type: goal
+  parent: mcc2023:VI-F:03
+  text: 各種構造形式によるコンクリートや金属などの供試体を用いた載荷実験を行い、変形の性状などを力学的な視点で観察できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 応力と歪み、部材応力とたわみ
+    items:
+    - 応力と歪み
+    - 部材応力とたわみ
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:04
+  type: content
+  parent: mcc2023:VI-F
+  name: 地盤、土質
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:04.01
+  type: goal
+  parent: mcc2023:VI-F:04
+  text: 土粒子の密度試験を理解し、その試験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 土粒子の密度
+    items:
+    - 土粒子の密度
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:04.02
+  type: goal
+  parent: mcc2023:VI-F:04
+  text: 液性限界・塑性限界試験を理解し、その試験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 液性限界、塑性限界、塑性指数
+    items:
+    - 液性限界
+    - 塑性限界
+    - 塑性指数
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:04.03
+  type: goal
+  parent: mcc2023:VI-F:04
+  text: 粒度試験を理解し、その試験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 粒径加積曲線、均等係数、曲率係数
+    items:
+    - 粒径加積曲線
+    - 均等係数
+    - 曲率係数
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-F:04.04
+  type: goal
+  parent: mcc2023:VI-F:04
+  text: 透水試験を理解し、その試験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 透水係数
+    items:
+    - 透水係数
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+    page_top: true
+  verification: machine
+- id: mcc2023:VI-F:04.05
+  type: goal
+  parent: mcc2023:VI-F:04
+  text: 突固めによる土の締固め試験を理解し、その試験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 締固め曲線、最適含水比、最大乾燥密度
+    items:
+    - 締固め曲線
+    - 最適含水比
+    - 最大乾燥密度
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-F:04.06
+  type: goal
+  parent: mcc2023:VI-F:04
+  text: 一軸圧縮試験又は一面せん断試験を理解し、その試験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 一軸圧縮強さ、変形係数、非排水せん断強さ
+    items:
+    - 一軸圧縮強さ
+    - 変形係数
+    - 非排水せん断強さ
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-F:05
+  type: content
+  parent: mcc2023:VI-F
+  name: 水理
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-F:05.01
+  type: goal
+  parent: mcc2023:VI-F:05
+  text: 層流・乱流を観測してレイノルズ数を算出できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 摩擦損失水頭、レイノルズ数、限界レイノルズ数
+    items:
+    - 摩擦損失水頭
+    - レイノルズ数
+    - 限界レイノルズ数
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-F:05.02
+  type: goal
+  parent: mcc2023:VI-F:05
+  text: 各種の流量測定の方法を理解し、その実験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 三角堰、四角堰、ベンチュリーメータ
+    items:
+    - 三角堰
+    - 四角堰
+    - ベンチュリーメータ
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-F:05.03
+  type: goal
+  parent: mcc2023:VI-F:05
+  text: 常流・射流・跳水に関する実験を理解し、その実験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 比エネルギー、フルード数、限界流と限界水深、比力
+    items:
+    - 比エネルギー
+    - フルード数
+    - 限界流と限界水深
+    - 比力
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-F:06
+  type: content
+  parent: mcc2023:VI-F
+  name: 環境
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-F:06.01
+  type: goal
+  parent: mcc2023:VI-F:06
+  text: DO、BODに関する実験について理解し、その実験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 飽和DO、DO消費
+    items:
+    - 飽和DO
+    - DO消費
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-F:06.02
+  type: goal
+  parent: mcc2023:VI-F:06
+  text: pHに関する実験について理解し、その実験ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 環境基準
+    items:
+    - 環境基準
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine

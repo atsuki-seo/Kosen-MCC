@@ -1,0 +1,189 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VI-B
+nodes:
+- id: mcc2023:VI-B
+  type: field
+  parent: mcc2023:VI
+  code: VI-B
+  name: 材料系分野
+  heading_raw: 3-2.2 VI-B 材料系分野
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 実験・実習系領域は、ものづくりの基礎及び材料工学の理論や観察・分析・評価法を理解して基本操作ができ
+    - ることを目標とする。
+    - (1) 機械工作実習では、各種工作法の技能・技術を習得するとともに、技術者として望ましい態度や習慣を身
+    - に付けることも併せて目標とする。
+    - (2) 材料工学実験では、実験装置の原理と操作方法を理解し、実験の過程及び結果を説明できる能力を養うこ
+    - とを目標とする。
+    - 2 一般的な科目名
+    - 材料工学実験、工作実習、機器分析実験
+    pages_pdf:
+    - 127
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-B:01
+  type: content
+  parent: mcc2023:VI-B
+  name: 測定機器の取扱い方
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-B:01.01
+  type: goal
+  parent: mcc2023:VI-B:01
+  text: 各種計測機器の使い方を理解し、計測できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ノギス、マイクロメータ
+    items:
+    - ノギス
+    - マイクロメータ
+  note: null
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-B:02
+  type: content
+  parent: mcc2023:VI-B
+  name: 金属加工
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-B:02.01
+  type: goal
+  parent: mcc2023:VI-B:02
+  text: 鋳造、溶接の作業手順を理解し、基本作業ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 鋳造、溶接、アーク溶接
+    items:
+    - 鋳造
+    - 溶接
+    - アーク溶接
+  note: null
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-B:03
+  type: content
+  parent: mcc2023:VI-B
+  name: 機械加工
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-B:03.01
+  type: goal
+  parent: mcc2023:VI-B:03
+  text: 旋盤、フライス盤、ボール盤の基本操作を習得し、切削作業ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 外丸削り、端面削り、段付削り、ねじ切り、穴あけ、中ぐり、平面削り、側面削り
+    items:
+    - 外丸削り
+    - 端面削り
+    - 段付削り
+    - ねじ切り
+    - 穴あけ
+    - 中ぐり
+    - 平面削り
+    - 側面削り
+  note: null
+  source:
+    page_pdf: 127
+    page_printed: 113
+  verification: machine
+- id: mcc2023:VI-B:04
+  type: content
+  parent: mcc2023:VI-B
+  name: 工学実験
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-B:04.01
+  type: goal
+  parent: mcc2023:VI-B:04
+  text: 材料工学に関する実験を行い、実験の準備、実験装置の操作、実験結果の整理と考察ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 金属材料実験、機械的特性評価試験、化学実験、分析実験、電気工学実験
+    items:
+    - 金属材料実験
+    - 機械的特性評価試験
+    - 化学実験
+    - 分析実験
+    - 電気工学実験
+  note: null
+  source:
+    page_pdf: 128
+    page_printed: 114
+    page_top: true
+  verification: machine
+- id: mcc2023:VI-B:04.02
+  type: goal
+  parent: mcc2023:VI-B:04
+  text: X線回折装置などを用いて、物質の結晶構造を解析できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 結晶構造解析
+    items:
+    - 結晶構造解析
+  note: null
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-B:04.03
+  type: goal
+  parent: mcc2023:VI-B:04
+  text: 光学顕微鏡や電子顕微鏡などで材料を観察し、組織について評価できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 組織観察
+    items:
+    - 組織観察
+  note: null
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-B:04.04
+  type: goal
+  parent: mcc2023:VI-B:04
+  text: 硬さ試験機や万能試験機などを用いて、材料の強度特性を評価できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 機械的特性評価
+    items:
+    - 機械的特性評価
+  note: null
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-B:04.05
+  type: goal
+  parent: mcc2023:VI-B:04
+  text: 分析機器を用いて、成分などを定量的に評価できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 定性・定量分析
+    items:
+    - 定性・定量分析
+  note: null
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine

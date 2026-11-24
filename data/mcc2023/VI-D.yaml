@@ -1,0 +1,91 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VI-D
+nodes:
+- id: mcc2023:VI-D
+  type: field
+  parent: mcc2023:VI
+  code: VI-D
+  name: 情報系分野
+  heading_raw: 3-2.4 VI-D 情報系分野
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 実験・実習系領域では、情報工学に関する基本的な知識や技術を実験実習や机上での演習を通じて、体験的に
+    - 習得することを目標とする。
+    - (1) プログラミング基礎実習分野では、ソフトウェアの標準的な開発ツールや開発環境の利用経験を通じて、
+    - 簡単なソフトウェアの生成とその動作確認ができる。
+    - (2) 論理回路設計実習では、簡単な組合せ論理回路と順序回路を設計できる。
+    - (3) 開発環境構築実習では、目的に合った開発環境の利用及び構築ができる。
+    - (4) アプリケーションの設計と製作では、仕様に合ったプログラムを作成し、実行結果を得ることができる。
+    - 2 一般的な科目名
+    - 工学実験、ソフトウェア演習、論理回路
+    pages_pdf:
+    - 129
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-D:01
+  type: content
+  parent: mcc2023:VI-D
+  name: プログラミング基礎実習
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-D:01.01
+  type: goal
+  parent: mcc2023:VI-D:01
+  text: 与えられた問題に対してそれを解決するためのソースプログラムを、標準的な開発ツールや開発環境を利用して記述できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: コーディング、プログラムの実行、デバッグ、エディタ、IDE、ライブラリ、API
+    items:
+    - コーディング
+    - プログラムの実行
+    - デバッグ
+    - エディタ
+    - IDE
+    - ライブラリ
+    - API
+  note: null
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-D:01.02
+  type: goal
+  parent: mcc2023:VI-D:01
+  text: 標準的な方法を用いて、作成するプログラムの設計図を作成できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: フローチャート、UML、擬似言語
+    items:
+    - フローチャート
+    - UML
+    - 擬似言語
+  note: null
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-D:01.03
+  type: goal
+  parent: mcc2023:VI-D:01
+  text: 与えられた仕様に合致した組合せ論理回路や順序回路を設計、評価できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 真理値表、状態遷移図、状態遷移表
+    items:
+    - 真理値表
+    - 状態遷移図
+    - 状態遷移表
+  note: null
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine

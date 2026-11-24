@@ -1,0 +1,74 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VII-E
+nodes:
+- id: mcc2023:VII-E
+  type: field
+  parent: mcc2023:VII
+  code: VII-E
+  name: 課題発見力・問題解決力
+  heading_raw: 4-1.5 VII-E 課題発見力・問題解決力
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine
+- id: mcc2023:VII-E:01
+  type: content
+  parent: mcc2023:VII-E
+  name: 課題発見力・問題解決力
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine
+- id: mcc2023:VII-E:01.01
+  type: goal
+  parent: mcc2023:VII-E:01
+  text: 直面している事象や出来事を分析して、対応すべき問題を特定できる。
+  supplement:
+    kind: キーワード
+    raw: 分析的思考の応用、目的-手段（合理的）思考、知識・情報の適用、費用対効果など
+    items:
+    - 分析的思考の応用
+    - 目的-手段（合理的）思考
+    - 知識・情報の適用
+    - 費用対効果など
+  note: null
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine
+- id: mcc2023:VII-E:01.02
+  type: goal
+  parent: mcc2023:VII-E:01
+  text: 現状を分析した上で、実現すべき理想との乖離（ギャップ）の中に含まれる課題を把握できる。
+  supplement:
+    kind: キーワード
+    raw: 未来志向、理想と現状との間のギャップ把握、分析的思考の応用、批判的思考の応用など
+    items:
+    - 未来志向
+    - 理想と現状との間のギャップ把握
+    - 分析的思考の応用
+    - 批判的思考の応用など
+  note: null
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine
+- id: mcc2023:VII-E:01.03
+  type: goal
+  parent: mcc2023:VII-E:01
+  text: 問題の解決、理想の実現のために達成すべき目標を設定し、また、具体的な行動案を検討できる。
+  supplement:
+    kind: キーワード
+    raw: 優先順位の検討、行動計画（目標、期限などを含む）の策定、行動目標（量的目標、KGI、KPIなど）の設定など
+    items:
+    - 優先順位の検討
+    - 行動計画（目標、期限などを含む）の策定
+    - 行動目標（量的目標、KGI、KPIなど）の設定など
+  note: null
+  source:
+    page_pdf: 145
+    page_printed: 131
+  verification: machine

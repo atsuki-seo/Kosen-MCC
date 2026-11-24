@@ -1,0 +1,60 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VIII-F
+nodes:
+- id: mcc2023:VIII-F
+  type: field
+  parent: mcc2023:VIII
+  code: VIII-F
+  name: 継続的な学習と学びの目的
+  heading_raw: 4-2.6 VIII-F 継続的な学習と学びの目的
+  source:
+    page_pdf: 148
+    page_printed: 134
+  verification: machine
+- id: mcc2023:VIII-F:01
+  type: content
+  parent: mcc2023:VIII-F
+  name: 継続的な学習と学びの目的
+  source:
+    page_pdf: 148
+    page_printed: 134
+  verification: machine
+- id: mcc2023:VIII-F:01.01
+  type: goal
+  parent: mcc2023:VIII-F:01
+  text: 学習状況、学習成果を把握し、それぞれの特性、必要、目的に応じて学習計画を考えることができる。
+  supplement:
+    kind: キーワード
+    raw: ポートフォリオ、（学ぶ・働く）目的の考察、学びのメタ認知、学ぶ内容、学び方の考察、様々な学び方の理解と考察
+    items:
+    - ポートフォリオ
+    - （学ぶ・働く）目的の考察
+    - 学びのメタ認知
+    - 学ぶ内容
+    - 学び方の考察
+    - 様々な学び方の理解と考察
+  note: null
+  source:
+    page_pdf: 148
+    page_printed: 134
+  verification: machine
+- id: mcc2023:VIII-F:01.02
+  type: goal
+  parent: mcc2023:VIII-F:01
+  text: 主体的、継続的な学習の実現に向けて自分の学習活動や学習内容を点検し、改善を検討できる。
+  supplement:
+    kind: キーワード
+    raw: 自分の学びの振り返り、学びの把握、学習活動や学習成果の把握、学びの計画と実践
+    items:
+    - 自分の学びの振り返り
+    - 学びの把握
+    - 学習活動や学習成果の把握
+    - 学びの計画と実践
+  note: null
+  source:
+    page_pdf: 148
+    page_printed: 134
+  verification: machine

@@ -1,0 +1,328 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VI-E
+nodes:
+- id: mcc2023:VI-E
+  type: field
+  parent: mcc2023:VI
+  code: VI-E
+  name: 化学・生物系分野
+  heading_raw: 3-2.5 VI-E 化学・生物系分野
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 実験・実習系領域では、化学・生物に関する各種の計測、試験法等についての技術を習得するとともに、専門
+    - 科目について学習した内容を、実験を通して理解、習得することを目標とする。
+    - (1) 実験内容を理解し、安全に配慮して実験ができる。
+    - (2) 実験操作を理解し、適切なガラス器具等を用いて合成実験ができる。
+    - (3) 微生物、生物試料、酵素の取扱い方法を習得する。
+    - (4) 実験装置の仕組みを理解し、取扱い方法を習得するとともに得られたデータを解析できる。
+    - 2 一般的な科目名
+    - 有機化学実験、無機化学実験、分析化学実験、物理化学実験、化学工学実験、生物工学実験
+    pages_pdf:
+    - 129
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-E:01
+  type: content
+  parent: mcc2023:VI-E
+  name: 安全教育
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-E:01.01
+  type: goal
+  parent: mcc2023:VI-E:01
+  text: 使用する試薬の危険性を理解し、適切に取り扱うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 試薬の取扱い
+    items:
+    - 試薬の取扱い
+  note: null
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-E:01.02
+  type: goal
+  parent: mcc2023:VI-E:01
+  text: 実験廃液の分類方法を理解し、適切に処理できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 廃液処理
+    items:
+    - 廃液処理
+  note: null
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-E:01.03
+  type: goal
+  parent: mcc2023:VI-E:01
+  text: 安全を意識して実験に取り組み、災害時の対応について説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 災害時の対応
+    items:
+    - 災害時の対応
+  note: null
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-E:02
+  type: content
+  parent: mcc2023:VI-E
+  name: 基本操作
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-E:02.01
+  type: goal
+  parent: mcc2023:VI-E:02
+  text: 実験の目的・理論・操作方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 実験操作
+    items:
+    - 実験操作
+  note: null
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-E:02.02
+  type: goal
+  parent: mcc2023:VI-E:02
+  text: 実験データを正しく取り扱うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 結果の整理
+    items:
+    - 結果の整理
+  note: null
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-E:02.03
+  type: goal
+  parent: mcc2023:VI-E:02
+  text: 適切な構成と文章でレポートを作成できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: レポートの作成
+    items:
+    - レポートの作成
+  note: null
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-E:03
+  type: content
+  parent: mcc2023:VI-E
+  name: 合成実験
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-E:03.01
+  type: goal
+  parent: mcc2023:VI-E:03
+  text: 適切な実験装置を組み立て、合成反応ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 還流、（吸引）ろ過
+    items:
+    - 還流
+    - （吸引）ろ過
+  note: null
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-E:03.02
+  type: goal
+  parent: mcc2023:VI-E:03
+  text: 物質の単離又は精製ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 蒸留、再結晶、分液漏斗による抽出、薄層クロマトグラフィ、融点測定、沸点測定
+    items:
+    - 蒸留
+    - 再結晶
+    - 分液漏斗による抽出
+    - 薄層クロマトグラフィ
+    - 融点測定
+    - 沸点測定
+  note: null
+  source:
+    page_pdf: 129
+    page_printed: 115
+  verification: machine
+- id: mcc2023:VI-E:03.03
+  type: goal
+  parent: mcc2023:VI-E:03
+  text: 収率の計算ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 理論収量、収率
+    items:
+    - 理論収量
+    - 収率
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+    page_top: true
+  verification: machine
+- id: mcc2023:VI-E:04
+  type: content
+  parent: mcc2023:VI-E
+  name: 定性・定量分析
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-E:04.01
+  type: goal
+  parent: mcc2023:VI-E:04
+  text: 適切な方法を用いて定性及び定量分析ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 中和滴定、酸化還元滴定、キレート滴定、陽イオンの分離と定性
+    items:
+    - 中和滴定
+    - 酸化還元滴定
+    - キレート滴定
+    - 陽イオンの分離と定性
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-E:05
+  type: content
+  parent: mcc2023:VI-E
+  name: 機器分析
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-E:05.01
+  type: goal
+  parent: mcc2023:VI-E:05
+  text: 各種の機器・装置を用いて、物質（材料）の構造解析、試料観察、物性測定、定量分析、定性分析等を行うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: IR、NMR、MS、XRD、UV、光学顕微鏡、電子顕微鏡、HPLC、吸光度測定、熱分析
+    items:
+    - IR
+    - NMR
+    - MS
+    - XRD
+    - UV
+    - 光学顕微鏡
+    - 電子顕微鏡
+    - HPLC
+    - 吸光度測定
+    - 熱分析
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-E:06
+  type: content
+  parent: mcc2023:VI-E
+  name: 物性測定
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-E:06.01
+  type: goal
+  parent: mcc2023:VI-E:06
+  text: 適切な器具を用いて各種の物性値を測定し、得られたデータを解析できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 密度測定、粘度測定、分子量測定、溶解熱測定、反応速度測定、起電力測定、活性化エネルギー測定、流量・流速の計測、物質収支、エネルギー収支
+    items:
+    - 密度測定
+    - 粘度測定
+    - 分子量測定
+    - 溶解熱測定
+    - 反応速度測定
+    - 起電力測定
+    - 活性化エネルギー測定
+    - 流量・流速の計測
+    - 物質収支
+    - エネルギー収支
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-E:07
+  type: content
+  parent: mcc2023:VI-E
+  name: 生物化学
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-E:07.01
+  type: goal
+  parent: mcc2023:VI-E:07
+  text: 微生物の分離、培養、観察を行うことができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 微生物の分離、培養、観察
+    items:
+    - 微生物の分離
+    - 培養
+    - 観察
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-E:07.02
+  type: goal
+  parent: mcc2023:VI-E:07
+  text: 適切な方法や溶媒を用いて、生物試料から目的の生体物質を抽出し、ろ過や遠心分離等の簡単な精製ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 生体物質の抽出、精製
+    items:
+    - 生体物質の抽出
+    - 精製
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine
+- id: mcc2023:VI-E:07.03
+  type: goal
+  parent: mcc2023:VI-E:07
+  text: 酵素の活性を定量的又は定性的に調べることができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 酵素活性
+    items:
+    - 酵素活性
+  note: null
+  source:
+    page_pdf: 130
+    page_printed: 116
+  verification: machine

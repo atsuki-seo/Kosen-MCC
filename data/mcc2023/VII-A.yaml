@@ -1,0 +1,101 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VII-A
+nodes:
+- id: mcc2023:VII-A
+  type: field
+  parent: mcc2023:VII
+  code: VII-A
+  name: コミュニケーションスキル
+  heading_raw: 4-1.1 VII-A コミュニケーションスキル
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - あらゆる分野の基盤的技能について、大きく（１）対人関係技能（Interpersonal Skills）、（２）個人的技能
+    - （Personal Skills）に分類している。（１）対人関係技能には「コミュニケーションスキル」及び「チームワ
+    - ークとリーダーシップ」が含まれ、（２）個人的技能には「情報収集・活用・発信力」、「思考力」及び「課題
+    - 発見力・問題解決力」が含まれる。学修やその他の活動を通してこれらの技能を習得、発展させることを目標
+    - とする。
+    - 2 授業設計の考え方
+    - あらゆる科目で、その分野の知識・技能に加え、この領域に含まれる技能を組み合わせた到達目標及び学習内
+    - 容を設定した上で、学生の学修活動や学修成果の振り返りを通して到達状況を測定・評価することを想定して
+    - いる。
+    - 特に高等学校学習指導要領において学力の三要素として「知識・技能」、「思考力・判断力・表現力」及び「学
+    - 習に向かう態度」が挙げられ、各科目においてこれらの学力の発達を促す授業設計が要求されていることを踏
+    - まえ、高等専門学校においても「基礎的能力」及び「分野別専門的能力」の各項目とこの領域に示す汎用的技
+    - 能の伸長を図る授業設計を行うことが求められる。
+    pages_pdf:
+    - 144
+  source:
+    page_pdf: 144
+    page_printed: 130
+  verification: machine
+- id: mcc2023:VII-A:01
+  type: content
+  parent: mcc2023:VII-A
+  name: コミュニケーションスキル
+  source:
+    page_pdf: 144
+    page_printed: 130
+  verification: machine
+- id: mcc2023:VII-A:01.01
+  type: goal
+  parent: mcc2023:VII-A:01
+  text: 他者の考えや主張を理解するために、相手を尊重し配慮する態度をとることができる。
+  supplement:
+    kind: キーワード
+    raw: 傾聴（共感、反応、態度）、質問、他者への配慮、多様性の理解と尊重など
+    items:
+    - 傾聴（共感、反応、態度）
+    - 質問
+    - 他者への配慮
+    - 多様性の理解と尊重など
+  note: null
+  source:
+    page_pdf: 144
+    page_printed: 130
+  verification: machine
+- id: mcc2023:VII-A:01.02
+  type: goal
+  parent: mcc2023:VII-A:01
+  text: 目的に応じた適切な方法で自分の考えや主張を伝えることができる。
+  supplement:
+    kind: キーワード
+    raw: 主張、アサーティブ・コミュニケーション、論理的説明、主張と論拠、プレゼンテーション、図表等の使用、ネットワーク、SNSなど
+    items:
+    - 主張
+    - アサーティブ・コミュニケーション
+    - 論理的説明
+    - 主張と論拠
+    - プレゼンテーション
+    - 図表等の使用
+    - ネットワーク
+    - SNSなど
+  note: null
+  source:
+    page_pdf: 144
+    page_printed: 130
+  verification: machine
+- id: mcc2023:VII-A:01.03
+  type: goal
+  parent: mcc2023:VII-A:01
+  text: 多様な他者との間で良好な人間関係を形成するための行動ができる。
+  supplement:
+    kind: キーワード
+    raw: 信頼関係、礼節、アンガーマネージメント、多様性の尊重と配慮、異文化交流、世代間交流、社会との交流など
+    items:
+    - 信頼関係
+    - 礼節
+    - アンガーマネージメント
+    - 多様性の尊重と配慮
+    - 異文化交流
+    - 世代間交流
+    - 社会との交流など
+  note: null
+  source:
+    page_pdf: 144
+    page_printed: 130
+  verification: machine

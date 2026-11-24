@@ -1,0 +1,199 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VI-G
+nodes:
+- id: mcc2023:VI-G
+  type: field
+  parent: mcc2023:VI
+  code: VI-G
+  name: 建築系分野
+  heading_raw: 3-2.7 VI-G 建築系分野
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 実験・実習系領域は、座学で学んだ各教育領域について、体験的に理解し、知識の定着を図る領域である。
+    - (1) 実験分野は、材料、構造、環境などであり、その実験の目的と方法を理解し、その結果について工学的に説
+    - 明できる。
+    - 2 一般的な科目名
+    - 実験実習、創造実験演習
+    pages_pdf:
+    - 131
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:01
+  type: content
+  parent: mcc2023:VI-G
+  name: 材料
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:01.01
+  type: goal
+  parent: mcc2023:VI-G:01
+  text: 実験の目的と方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 実験方法（ISOなどに記載されている場合）
+    items:
+    - 実験方法（ISOなどに記載されている場合）
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:01.02
+  type: goal
+  parent: mcc2023:VI-G:01
+  text: 建築に用いる構造材料（例えば木、コンクリート、金属など）の物理的特性を実験により明らかにできる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 座学の確認
+    items:
+    - 座学の確認
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:01.03
+  type: goal
+  parent: mcc2023:VI-G:01
+  text: 実験結果を整理し、考察できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 実験データの妥当性の検証
+    items:
+    - 実験データの妥当性の検証
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:02
+  type: content
+  parent: mcc2023:VI-G
+  name: 構造
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:02.01
+  type: goal
+  parent: mcc2023:VI-G:02
+  text: 実験の目的と方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 実験方法（ISOなどに記載されている場合）
+    items:
+    - 実験方法（ISOなどに記載されている場合）
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:02.02
+  type: goal
+  parent: mcc2023:VI-G:02
+  text: 構造材料（例えば木、コンクリート、金属など）によるいずれかの構造形式（ラーメン、トラスなど）の試験体を用い、載荷実験を行い、破壊形状と変形の性状を観察することができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 座学の確認
+    items:
+    - 座学の確認
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:02.03
+  type: goal
+  parent: mcc2023:VI-G:02
+  text: 実験結果を整理し、考察できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 実験データの妥当性の検証
+    items:
+    - 実験データの妥当性の検証
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:03
+  type: content
+  parent: mcc2023:VI-G
+  name: 環境
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:03.01
+  type: goal
+  parent: mcc2023:VI-G:03
+  text: 実験の目的と方法を説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 実験方法（ISOなどに記載されている場合）
+    items:
+    - 実験方法（ISOなどに記載されている場合）
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:03.02
+  type: goal
+  parent: mcc2023:VI-G:03
+  text: 建築を取巻く環境（例えば音、光、温度、湿度、振動など）を実験により把握できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 座学の確認
+    items:
+    - 座学の確認
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:03.03
+  type: goal
+  parent: mcc2023:VI-G:03
+  text: 実験結果を整理し、考察できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 実験データの妥当性の検証
+    items:
+    - 実験データの妥当性の検証
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:04
+  type: content
+  parent: mcc2023:VI-G
+  name: 測量
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine
+- id: mcc2023:VI-G:04.01
+  type: goal
+  parent: mcc2023:VI-G:04
+  text: 建築生産で利用されている測量（例えば、レベル、トランシット、トータルステーション、GPS測量など）について機器の取扱いができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 機器の取扱い
+    items:
+    - 機器の取扱い
+  note: null
+  source:
+    page_pdf: 131
+    page_printed: 117
+  verification: machine

@@ -1,0 +1,266 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VI-I
+nodes:
+- id: mcc2023:VI-I
+  type: field
+  parent: mcc2023:VI
+  code: VI-I
+  name: 商船系分野（機関）
+  heading_raw: 3-2.9 VI-I 商船系分野（機関）
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 実験・実習系領域では、船舶機関士に必要な基礎知識・技術を習得し、船内機器の運転や保守管理に活用する
+    - ために必要な基本的な能力を養うことを目標とする。
+    - (1) 舶用諸機関及び各種工作機器の基本原理と操作方法を理解し、実験・実習を遂行できる。
+    - (2) 実験・実習内容を理解し、レポートにまとめることができる。
+    - (3) 航海当直、機関当直を通して船員としての基本を身につけること。
+    - (4) 機関室内の主機及び補機器の取扱い等を理解して操作できる。
+    - (5) 自ら（グループ）船舶を安全に運航できる。
+    - 2 一般的な科目名
+    - 実験実習、機関工学実験、校内練習船実習、漕艇通信
+    pages_pdf:
+    - 133
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:01
+  type: content
+  parent: mcc2023:VI-I
+  name: 工具、測定器具
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:01.01
+  type: goal
+  parent: mcc2023:VI-I:01
+  text: 工具・測定器具の取扱いができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 工具の取扱い、テスター・マイクロメータなどの各種測定器具の使用方法・取扱い
+    items:
+    - 工具の取扱い
+    - テスター・マイクロメータなどの各種測定器具の使用方法・取扱い
+  note: null
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:02
+  type: content
+  parent: mcc2023:VI-I
+  name: 金属加工
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:02.01
+  type: goal
+  parent: mcc2023:VI-I:02
+  text: 溶接の作業手順を理解し、基本作業ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ガス（アーク）溶接装置・器具・溶接トーチ（溶接棒）の取扱方法、ガス（アーク）溶接及びガス切断の基本作業
+    items:
+    - ガス（アーク）溶接装置・器具・溶接トーチ（溶接棒）の取扱方法
+    - ガス（アーク）溶接及びガス切断の基本作業
+  note: null
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:03
+  type: content
+  parent: mcc2023:VI-I
+  name: 機械加工
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:03.01
+  type: goal
+  parent: mcc2023:VI-I:03
+  text: 旋盤等の工作機械の基本操作を理解し、工作機械の取扱いができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 旋盤等の工作機械の工具の運動、工作機械を用いた加工
+    items:
+    - 旋盤等の工作機械の工具の運動
+    - 工作機械を用いた加工
+  note: null
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:04
+  type: content
+  parent: mcc2023:VI-I
+  name: 端艇
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:04.01
+  type: goal
+  parent: mcc2023:VI-I:04
+  text: 端艇の各名称、号令、漕艇の取扱いについて説明できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 整列・人員確認・報告・敬礼等の集団行動に必要な基本動作、端艇の各部名称、漕艇号令、号令に従った操作、基本的なロープワーク
+    items:
+    - 整列・人員確認・報告・敬礼等の集団行動に必要な基本動作
+    - 端艇の各部名称
+    - 漕艇号令
+    - 号令に従った操作
+    - 基本的なロープワーク
+  note: null
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:05
+  type: content
+  parent: mcc2023:VI-I
+  name: 消火・救命講習
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:05.01
+  type: goal
+  parent: mcc2023:VI-I:05
+  text: 消火機材の取扱いができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 各種消火器及び消火ホースを使用した初期消火、持運び式消火器へ予備の消火剤の充填、呼吸具及び防火服の装着
+    items:
+    - 各種消火器及び消火ホースを使用した初期消火
+    - 持運び式消火器へ予備の消火剤の充填
+    - 呼吸具及び防火服の装着
+  note: null
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:05.02
+  type: goal
+  parent: mcc2023:VI-I:05
+  text: 救命作業、救命設備の取扱いができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 船舶に備え付けられている救命設備の使用方法、非常事態を想定した船外への退船行動を実践、心肺停止者の発見からAED を使用した心肺の蘇生を実施、救命胴衣の使用・装着、信号装置及び無線救命設備の使用方法・運用方法
+    items:
+    - 船舶に備え付けられている救命設備の使用方法
+    - 非常事態を想定した船外への退船行動を実践
+    - 心肺停止者の発見からAED を使用した心肺の蘇生を実施
+    - 救命胴衣の使用・装着
+    - 信号装置及び無線救命設備の使用方法・運用方法
+  note: null
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:06
+  type: content
+  parent: mcc2023:VI-I
+  name: 工学実験
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:06.01
+  type: goal
+  parent: mcc2023:VI-I:06
+  text: 工学実験を行い、実験装置の操作、実験結果の整理・考察ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 内燃機関実験、蒸気工学実験、補助機械工学実験、電気工学実験、制御工学実験、材料力学実験、実験装置の操作、実験結果の整理と考察
+    items:
+    - 内燃機関実験
+    - 蒸気工学実験
+    - 補助機械工学実験
+    - 電気工学実験
+    - 制御工学実験
+    - 材料力学実験
+    - 実験装置の操作
+    - 実験結果の整理と考察
+  note: null
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:07
+  type: content
+  parent: mcc2023:VI-I
+  name: 機器・配管調査、校内練習船実習
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:07.01
+  type: goal
+  parent: mcc2023:VI-I:07
+  text: 機 器調査・配管調査(プラント)ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 各種船舶機器の名称と用途、弁（バルブ）の種類・構造及び用途、プラントの構成（燃料油・潤滑油・冷却清水・冷却海水等各系統の流体の流れと役割/構成機器の役目）
+    items:
+    - 各種船舶機器の名称と用途
+    - 弁（バルブ）の種類・構造及び用途
+    - プラントの構成（燃料油・潤滑油・冷却清水・冷却海水等各系統の流体の流れと役割/構成機器の役目）
+  note: null
+  source:
+    page_pdf: 133
+    page_printed: 119
+  verification: machine
+- id: mcc2023:VI-I:07.02
+  type: goal
+  parent: mcc2023:VI-I:07
+  text: 主機関の暖機、運転及び当直（航海・停泊・MO）ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 機関の暖機（冷機）・運転準備（手じまい）/試運転計画、機関室における当直基準(航海/停泊/M0)、各機器の運転操作、各種ポンプに応じた吸吐出弁の操作・ポンプの運転、発電機の並行運転、各機器の温度・圧力等の計測、運転状態の把握
+    items:
+    - 機関の暖機（冷機）・運転準備（手じまい）/試運転計画
+    - 機関室における当直基準(航海/停泊/M0)
+    - 各機器の運転操作
+    - 各種ポンプに応じた吸吐出弁の操作・ポンプの運転
+    - 発電機の並行運転
+    - 各機器の温度・圧力等の計測
+    - 運転状態の把握
+  note: null
+  source:
+    page_pdf: 134
+    page_printed: 120
+    page_top: true
+  verification: machine
+- id: mcc2023:VI-I:08
+  type: content
+  parent: mcc2023:VI-I
+  name: LOG BOOK
+  source:
+    page_pdf: 134
+    page_printed: 120
+  verification: machine
+- id: mcc2023:VI-I:08.01
+  type: goal
+  parent: mcc2023:VI-I:08
+  text: LOG BOOKの記載ができる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 各機器の計測事項、正午計算、各機器の発停の英文記載方法
+    items:
+    - 各機器の計測事項
+    - 正午計算
+    - 各機器の発停の英文記載方法
+  note: null
+  source:
+    page_pdf: 134
+    page_printed: 120
+  verification: machine

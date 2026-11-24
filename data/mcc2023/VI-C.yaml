@@ -1,0 +1,162 @@
+# 生成: tools/extract_all.py（原本 PDF から抽出）。手で編集しない。誤りは抽出スクリプトか config/ を直して再実行する。
+meta:
+  source: mcc2023
+  extractor: goals
+  file: VI-C
+nodes:
+- id: mcc2023:VI-C
+  type: field
+  parent: mcc2023:VI
+  code: VI-C
+  name: 電気・電子系分野
+  heading_raw: 3-2.3 VI-C 電気・電子系分野
+  description:
+    lines:
+    - 【教育領域の到達目標】
+    - 1 目標
+    - 実験・実習系領域では、電気電子に関する各種の計測、試験法等についての技術を習得するとともに、専門科
+    - 目について学習した内容を、実験を通して理解し、整理することを目標とする。
+    - (1) 実験装置・器具・情報機器等を利用して目的を達成する手法を実践できる。
+    - (2) 実験を通じて工学の基礎に係わる知識を整理できる。
+    - (3) 実験から得られたデータについて工学的に考察し、説明できる。
+    - 2 一般的な科目名
+    - 電気電子工学実験
+    pages_pdf:
+    - 128
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-C:01
+  type: content
+  parent: mcc2023:VI-C
+  name: 計測技術
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-C:01.01
+  type: goal
+  parent: mcc2023:VI-C:01
+  text: 実験装置・器具・情報機器等を利用して直流や交流の電気的特性を測定できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 電気諸量や抵抗・インピーダンスの測定法、オシロスコープの使い方
+    items:
+    - 電気諸量や抵抗・インピーダンスの測定法
+    - オシロスコープの使い方
+  note: null
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-C:01.02
+  type: goal
+  parent: mcc2023:VI-C:01
+  text: 実験装置・器具・情報機器等を安全に正しく利用できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: 実験装置の正しい使い方、安全教育
+    items:
+    - 実験装置の正しい使い方
+    - 安全教育
+  note: null
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-C:02
+  type: content
+  parent: mcc2023:VI-C
+  name: 電気回路
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-C:02.01
+  type: goal
+  parent: mcc2023:VI-C:02
+  text: 直流回路の電気諸量を測定し、結果を考察できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: キルヒホッフ、重ね合わせ理、分圧則、分流則などの実測
+    items:
+    - キルヒホッフ
+    - 重ね合わせ理
+    - 分圧則
+    - 分流則などの実測
+  note: null
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-C:02.02
+  type: goal
+  parent: mcc2023:VI-C:02
+  text: 交流回路の電気諸量を測定し、結果を考察できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: RLCのインピーダンス、インピーダンスの大きさや位相、周波数特性などの実測
+    items:
+    - RLCのインピーダンス
+    - インピーダンスの大きさや位相
+    - 周波数特性などの実測
+  note: null
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-C:03
+  type: content
+  parent: mcc2023:VI-C
+  name: 電子回路
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-C:03.01
+  type: goal
+  parent: mcc2023:VI-C:03
+  text: 半導体や増幅回路の電気的特性を実測やシミュレーターにより求め、その結果を考察できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ダイオード、トランジスタの静特性、オペアンプによる増幅器の利得や周波数特性の測定
+    items:
+    - ダイオード
+    - トランジスタの静特性
+    - オペアンプによる増幅器の利得や周波数特性の測定
+  note: null
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-C:03.02
+  type: goal
+  parent: mcc2023:VI-C:03
+  text: 論理回路の動作を実測やシミュレーターにより求め、その実験結果を考察できる。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: ANDやOR、NOT、NAND を組み合わせた論理回路の測定
+    items:
+    - ANDやOR
+    - NOT
+    - NAND を組み合わせた論理回路の測定
+  note: null
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
+- id: mcc2023:VI-C:03.03
+  type: goal
+  parent: mcc2023:VI-C:03
+  text: マイコンやPCを用いた制御回路の使用法を習得する。
+  supplement:
+    kind: 学習の目安となる項目
+    raw: マイコンやPCを用いた制御実験
+    items:
+    - マイコンやPCを用いた制御実験
+  note: null
+  source:
+    page_pdf: 128
+    page_printed: 114
+  verification: machine
