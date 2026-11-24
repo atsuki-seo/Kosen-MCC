@@ -1,0 +1,27 @@
+# CI（plan フェーズ 8）。原本の PDF は取得しない。PDF を使う検査（ページの対応、原文の照合）は手元で実行し、
+# 結果を build/STATUS.md に残す（uv run python tools/build.py --with-local-checks）。
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: 依存の準備
+        run: uv sync
+      - name: 検査（スキーマ、ID の重複、関係の指し先、生成物の食い違い、rulesync、絶対パス）
+        run: >-
+          uv run python tools/check_all.py --ci
+          --only schema,id-unique,relations-target,build-up-to-date,rulesync-check,no-absolute-path
