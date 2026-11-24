@@ -277,7 +277,7 @@ nodes:
     page_pdf: 50
     page_printed: 36
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:I:06.04
   type: goal
   parent: mcc2023:I:06
@@ -691,7 +691,7 @@ nodes:
     page_pdf: 51
     page_printed: 37
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:I:16.02
   type: goal
   parent: mcc2023:I:16

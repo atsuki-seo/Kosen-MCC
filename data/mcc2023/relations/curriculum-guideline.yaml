@@ -97,7 +97,7 @@ relations:
   source:
     page_pdf: 186
     page_printed: 168
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:I-004
   type: curriculum-guideline
   row_kind: content
@@ -152,7 +152,7 @@ relations:
   source:
     page_pdf: 186
     page_printed: 168
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:I-006
   type: curriculum-guideline
   row_kind: content
@@ -234,7 +234,7 @@ relations:
     page_pdf: 187
     page_printed: 169
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:I-009
   type: curriculum-guideline
   row_kind: content
@@ -519,7 +519,7 @@ relations:
     - 187
     - 188
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:I-019
   type: curriculum-guideline
   row_kind: content
@@ -887,7 +887,7 @@ relations:
     page_pdf: 190
     page_printed: 172
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:II-A-011
   type: curriculum-guideline
   row_kind: content
@@ -1012,7 +1012,7 @@ relations:
   source:
     page_pdf: 190
     page_printed: 172
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:II-A-015
   type: curriculum-guideline
   row_kind: content
@@ -1029,7 +1029,7 @@ relations:
   source:
     page_pdf: 190
     page_printed: 172
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:II-A-016
   type: curriculum-guideline
   row_kind: content
@@ -1180,10 +1180,13 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 191
-    page_printed: 173
+    page_pdf: 190
+    page_printed: 172
+    pages_pdf:
+    - 190
+    - 191
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:II-A-022
   type: curriculum-guideline
   row_kind: content
@@ -1272,7 +1275,7 @@ relations:
   source:
     page_pdf: 191
     page_printed: 173
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:II-A-026
   type: curriculum-guideline
   row_kind: content
@@ -1289,7 +1292,7 @@ relations:
   source:
     page_pdf: 191
     page_printed: 173
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:II-C-001
   type: curriculum-guideline
   row_kind: objective
@@ -1330,7 +1333,7 @@ relations:
     - 191
     - 192
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:II-C-003
   type: curriculum-guideline
   row_kind: content
@@ -1634,7 +1637,7 @@ relations:
     - 192
     - 193
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:II-C-015
   type: curriculum-guideline
   row_kind: content
@@ -1712,7 +1715,7 @@ relations:
   source:
     page_pdf: 193
     page_printed: 175
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:II-C-018
   type: curriculum-guideline
   row_kind: content
@@ -1803,7 +1806,7 @@ relations:
     - 193
     - 194
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:II-E-001
   type: curriculum-guideline
   row_kind: objective
@@ -1968,10 +1971,13 @@ relations:
     id: mcc2023:II-E:05.03
     method: text-exact-in-scope
   source:
-    page_pdf: 195
-    page_printed: 177
+    page_pdf: 194
+    page_printed: 176
+    pages_pdf:
+    - 194
+    - 195
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:II-E-008
   type: curriculum-guideline
   row_kind: content
@@ -2027,7 +2033,7 @@ relations:
     - 195
     - 196
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-A-003
   type: curriculum-guideline
   row_kind: content
@@ -2045,8 +2051,11 @@ relations:
     id: mcc2023:III-A:01.02
     method: text-exact-in-scope
   source:
-    page_pdf: 196
-    page_printed: 178
+    page_pdf: 195
+    page_printed: 177
+    pages_pdf:
+    - 195
+    - 196
   verification: machine
 - id: mcc2023:rel:guideline:III-A-004
   type: curriculum-guideline
@@ -2065,8 +2074,11 @@ relations:
     id: mcc2023:III-A:01.03
     method: text-exact-in-scope
   source:
-    page_pdf: 196
-    page_printed: 178
+    page_pdf: 195
+    page_printed: 177
+    pages_pdf:
+    - 195
+    - 196
   verification: machine
 - id: mcc2023:rel:guideline:III-A-005
   type: curriculum-guideline
@@ -2085,8 +2097,11 @@ relations:
     id: mcc2023:III-A:01.04
     method: text-exact-in-scope
   source:
-    page_pdf: 196
-    page_printed: 178
+    page_pdf: 195
+    page_printed: 177
+    pages_pdf:
+    - 195
+    - 196
   verification: machine
 - id: mcc2023:rel:guideline:III-A-006
   type: curriculum-guideline
@@ -2111,7 +2126,7 @@ relations:
     - 196
     - 197
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-A-007
   type: curriculum-guideline
   row_kind: content
@@ -2129,8 +2144,11 @@ relations:
     id: mcc2023:III-A:02.02
     method: text-exact-in-scope
   source:
-    page_pdf: 197
-    page_printed: 179
+    page_pdf: 196
+    page_printed: 178
+    pages_pdf:
+    - 196
+    - 197
   verification: machine
 - id: mcc2023:rel:guideline:III-A-008
   type: curriculum-guideline
@@ -2149,8 +2167,11 @@ relations:
     id: mcc2023:III-A:02.03
     method: text-exact-in-scope
   source:
-    page_pdf: 197
-    page_printed: 179
+    page_pdf: 196
+    page_printed: 178
+    pages_pdf:
+    - 196
+    - 197
   verification: machine
 - id: mcc2023:rel:guideline:III-A-009
   type: curriculum-guideline
@@ -2169,8 +2190,11 @@ relations:
     id: mcc2023:III-A:02.04
     method: text-exact-in-scope
   source:
-    page_pdf: 197
-    page_printed: 179
+    page_pdf: 196
+    page_printed: 178
+    pages_pdf:
+    - 196
+    - 197
   verification: machine
 - id: mcc2023:rel:guideline:III-A-010
   type: curriculum-guideline
@@ -2215,7 +2239,7 @@ relations:
     - 197
     - 198
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-A-012
   type: curriculum-guideline
   row_kind: content
@@ -2234,8 +2258,11 @@ relations:
     id: mcc2023:III-A:03.03
     method: text-exact-in-scope
   source:
-    page_pdf: 198
-    page_printed: 180
+    page_pdf: 197
+    page_printed: 179
+    pages_pdf:
+    - 197
+    - 198
   verification: machine
 - id: mcc2023:rel:guideline:III-A-013
   type: curriculum-guideline
@@ -2254,13 +2281,14 @@ relations:
     id: mcc2023:III-A:03.04
     method: text-exact-in-scope
   source:
-    page_pdf: 198
-    page_printed: 180
+    page_pdf: 197
+    page_printed: 179
     pages_pdf:
+    - 197
     - 198
     - 199
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-A-014
   type: curriculum-guideline
   row_kind: content
@@ -2278,8 +2306,11 @@ relations:
     id: mcc2023:III-A:03.05
     method: text-exact-in-scope
   source:
-    page_pdf: 199
-    page_printed: 181
+    page_pdf: 197
+    page_printed: 179
+    pages_pdf:
+    - 197
+    - 199
   verification: machine
 - id: mcc2023:rel:guideline:III-A-015
   type: curriculum-guideline
@@ -2298,8 +2329,11 @@ relations:
     id: mcc2023:III-A:03.05
     method: text-exact-in-scope
   source:
-    page_pdf: 199
-    page_printed: 181
+    page_pdf: 197
+    page_printed: 179
+    pages_pdf:
+    - 197
+    - 199
   verification: machine
 - id: mcc2023:rel:guideline:III-A-016
   type: curriculum-guideline
@@ -2318,13 +2352,14 @@ relations:
     id: mcc2023:III-A:03.06
     method: text-exact-in-scope
   source:
-    page_pdf: 199
-    page_printed: 181
+    page_pdf: 197
+    page_printed: 179
     pages_pdf:
+    - 197
     - 199
     - 200
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-A-017
   type: curriculum-guideline
   row_kind: content
@@ -2342,8 +2377,11 @@ relations:
     id: mcc2023:III-A:03.07
     method: text-exact-in-scope
   source:
-    page_pdf: 200
-    page_printed: 182
+    page_pdf: 197
+    page_printed: 179
+    pages_pdf:
+    - 197
+    - 200
   verification: machine
 - id: mcc2023:rel:guideline:III-A-018
   type: curriculum-guideline
@@ -2415,7 +2453,7 @@ relations:
     - 200
     - 201
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-B-003
   type: curriculum-guideline
   row_kind: content
@@ -2579,7 +2617,7 @@ relations:
     - 201
     - 202
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-B-011
   type: curriculum-guideline
   row_kind: content
@@ -2597,8 +2635,11 @@ relations:
     id: mcc2023:III-B:04.02
     method: text-exact-in-scope
   source:
-    page_pdf: 202
-    page_printed: 184
+    page_pdf: 201
+    page_printed: 183
+    pages_pdf:
+    - 201
+    - 202
   verification: machine
 - id: mcc2023:rel:guideline:III-B-012
   type: curriculum-guideline
@@ -2617,8 +2658,11 @@ relations:
     id: mcc2023:III-B:04.03
     method: text-exact-in-scope
   source:
-    page_pdf: 202
-    page_printed: 184
+    page_pdf: 201
+    page_printed: 183
+    pages_pdf:
+    - 201
+    - 202
   verification: machine
 - id: mcc2023:rel:guideline:III-B-013
   type: curriculum-guideline
@@ -2637,8 +2681,11 @@ relations:
     id: mcc2023:III-B:04.04
     method: text-exact-in-scope
   source:
-    page_pdf: 202
-    page_printed: 184
+    page_pdf: 201
+    page_printed: 183
+    pages_pdf:
+    - 201
+    - 202
   verification: machine
 - id: mcc2023:rel:guideline:III-B-014
   type: curriculum-guideline
@@ -2657,8 +2704,11 @@ relations:
     id: mcc2023:III-B:04.04
     method: text-exact-in-scope
   source:
-    page_pdf: 202
-    page_printed: 184
+    page_pdf: 201
+    page_printed: 183
+    pages_pdf:
+    - 201
+    - 202
   verification: machine
 - id: mcc2023:rel:guideline:III-B-015
   type: curriculum-guideline
@@ -2677,8 +2727,11 @@ relations:
     id: mcc2023:III-B:04.05
     method: text-exact-in-scope
   source:
-    page_pdf: 202
-    page_printed: 184
+    page_pdf: 201
+    page_printed: 183
+    pages_pdf:
+    - 201
+    - 202
   verification: machine
 - id: mcc2023:rel:guideline:III-B-016
   type: curriculum-guideline
@@ -2697,8 +2750,11 @@ relations:
     id: mcc2023:III-B:04.05
     method: text-exact-in-scope
   source:
-    page_pdf: 202
-    page_printed: 184
+    page_pdf: 201
+    page_printed: 183
+    pages_pdf:
+    - 201
+    - 202
   verification: machine
 - id: mcc2023:rel:guideline:III-B-017
   type: curriculum-guideline
@@ -2717,8 +2773,11 @@ relations:
     id: mcc2023:III-B:04.05
     method: text-exact-in-scope
   source:
-    page_pdf: 202
-    page_printed: 184
+    page_pdf: 201
+    page_printed: 183
+    pages_pdf:
+    - 201
+    - 202
   verification: machine
 - id: mcc2023:rel:guideline:III-B-018
   type: curriculum-guideline
@@ -2737,13 +2796,14 @@ relations:
     id: mcc2023:III-B:04.05
     method: text-exact-in-scope
   source:
-    page_pdf: 202
-    page_printed: 184
+    page_pdf: 201
+    page_printed: 183
     pages_pdf:
+    - 201
     - 202
     - 203
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-B-019
   type: curriculum-guideline
   row_kind: content
@@ -2761,8 +2821,11 @@ relations:
     id: mcc2023:III-B:04.06
     method: text-exact-in-scope
   source:
-    page_pdf: 203
-    page_printed: 185
+    page_pdf: 201
+    page_printed: 183
+    pages_pdf:
+    - 201
+    - 203
   verification: machine
 - id: mcc2023:rel:guideline:III-B-020
   type: curriculum-guideline
@@ -2907,7 +2970,7 @@ relations:
     - 203
     - 204
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-B-027
   type: curriculum-guideline
   row_kind: content
@@ -2925,8 +2988,11 @@ relations:
     id: mcc2023:III-B:05.05
     method: text-exact-in-scope
   source:
-    page_pdf: 204
-    page_printed: 186
+    page_pdf: 203
+    page_printed: 185
+    pages_pdf:
+    - 203
+    - 204
   verification: machine
 - id: mcc2023:rel:guideline:III-B-028
   type: curriculum-guideline
@@ -2945,8 +3011,11 @@ relations:
     id: mcc2023:III-B:05.06
     method: text-exact-in-scope
   source:
-    page_pdf: 204
-    page_printed: 186
+    page_pdf: 203
+    page_printed: 185
+    pages_pdf:
+    - 203
+    - 204
   verification: machine
 - id: mcc2023:rel:guideline:III-B-029
   type: curriculum-guideline
@@ -2965,8 +3034,11 @@ relations:
     id: mcc2023:III-B:05.06
     method: text-exact-in-scope
   source:
-    page_pdf: 204
-    page_printed: 186
+    page_pdf: 203
+    page_printed: 185
+    pages_pdf:
+    - 203
+    - 204
   verification: machine
 - id: mcc2023:rel:guideline:III-B-030
   type: curriculum-guideline
@@ -2985,8 +3057,11 @@ relations:
     id: mcc2023:III-B:05.07
     method: text-exact-in-scope
   source:
-    page_pdf: 204
-    page_printed: 186
+    page_pdf: 203
+    page_printed: 185
+    pages_pdf:
+    - 203
+    - 204
   verification: machine
 - id: mcc2023:rel:guideline:III-B-031
   type: curriculum-guideline
@@ -3005,8 +3080,11 @@ relations:
     id: mcc2023:III-B:05.08
     method: text-exact-in-scope
   source:
-    page_pdf: 204
-    page_printed: 186
+    page_pdf: 203
+    page_printed: 185
+    pages_pdf:
+    - 203
+    - 204
   verification: machine
 - id: mcc2023:rel:guideline:III-C-001
   type: curriculum-guideline
@@ -3125,7 +3203,7 @@ relations:
     - 205
     - 206
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-C-007
   type: curriculum-guideline
   row_kind: content
@@ -3143,8 +3221,11 @@ relations:
     id: mcc2023:III-C:01.02
     method: text-exact-in-scope
   source:
-    page_pdf: 206
-    page_printed: 188
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 206
   verification: machine
 - id: mcc2023:rel:guideline:III-C-008
   type: curriculum-guideline
@@ -3163,8 +3244,11 @@ relations:
     id: mcc2023:III-C:01.03
     method: text-exact-in-scope
   source:
-    page_pdf: 206
-    page_printed: 188
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 206
   verification: machine
 - id: mcc2023:rel:guideline:III-C-009
   type: curriculum-guideline
@@ -3183,8 +3267,11 @@ relations:
     id: mcc2023:III-C:01.03
     method: text-exact-in-scope
   source:
-    page_pdf: 206
-    page_printed: 188
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 206
   verification: machine
 - id: mcc2023:rel:guideline:III-C-010
   type: curriculum-guideline
@@ -3203,8 +3290,11 @@ relations:
     id: mcc2023:III-C:01.03
     method: text-exact-in-scope
   source:
-    page_pdf: 206
-    page_printed: 188
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 206
   verification: machine
 - id: mcc2023:rel:guideline:III-C-011
   type: curriculum-guideline
@@ -3223,8 +3313,11 @@ relations:
     id: mcc2023:III-C:01.03
     method: text-exact-in-scope
   source:
-    page_pdf: 206
-    page_printed: 188
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 206
   verification: machine
 - id: mcc2023:rel:guideline:III-C-012
   type: curriculum-guideline
@@ -3243,8 +3336,11 @@ relations:
     id: mcc2023:III-C:01.03
     method: text-exact-in-scope
   source:
-    page_pdf: 206
-    page_printed: 188
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 206
   verification: machine
 - id: mcc2023:rel:guideline:III-C-013
   type: curriculum-guideline
@@ -3263,13 +3359,14 @@ relations:
     id: mcc2023:III-C:01.03
     method: text-exact-in-scope
   source:
-    page_pdf: 206
-    page_printed: 188
+    page_pdf: 205
+    page_printed: 187
     pages_pdf:
+    - 205
     - 206
     - 207
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-C-014
   type: curriculum-guideline
   row_kind: content
@@ -3287,8 +3384,11 @@ relations:
     id: mcc2023:III-C:01.04
     method: text-exact-in-scope
   source:
-    page_pdf: 207
-    page_printed: 189
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 207
   verification: machine
 - id: mcc2023:rel:guideline:III-C-015
   type: curriculum-guideline
@@ -3307,8 +3407,11 @@ relations:
     id: mcc2023:III-C:01.04
     method: text-exact-in-scope
   source:
-    page_pdf: 207
-    page_printed: 189
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 207
   verification: machine
 - id: mcc2023:rel:guideline:III-C-016
   type: curriculum-guideline
@@ -3327,8 +3430,11 @@ relations:
     id: mcc2023:III-C:01.04
     method: text-exact-in-scope
   source:
-    page_pdf: 207
-    page_printed: 189
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 207
   verification: machine
 - id: mcc2023:rel:guideline:III-C-017
   type: curriculum-guideline
@@ -3347,8 +3453,11 @@ relations:
     id: mcc2023:III-C:01.04
     method: text-exact-in-scope
   source:
-    page_pdf: 207
-    page_printed: 189
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 207
   verification: machine
 - id: mcc2023:rel:guideline:III-C-018
   type: curriculum-guideline
@@ -3367,8 +3476,11 @@ relations:
     id: mcc2023:III-C:01.04
     method: text-exact-in-scope
   source:
-    page_pdf: 207
-    page_printed: 189
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 207
   verification: machine
 - id: mcc2023:rel:guideline:III-C-019
   type: curriculum-guideline
@@ -3387,13 +3499,14 @@ relations:
     id: mcc2023:III-C:01.04
     method: text-exact-in-scope
   source:
-    page_pdf: 207
-    page_printed: 189
+    page_pdf: 205
+    page_printed: 187
     pages_pdf:
+    - 205
     - 207
     - 208
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-C-020
   type: curriculum-guideline
   row_kind: content
@@ -3411,8 +3524,12 @@ relations:
     id: mcc2023:III-C:01.04
     method: text-exact-in-scope
   source:
-    page_pdf: 208
-    page_printed: 190
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 207
+    - 208
   verification: machine
 - id: mcc2023:rel:guideline:III-C-021
   type: curriculum-guideline
@@ -3431,8 +3548,11 @@ relations:
     id: mcc2023:III-C:01.05
     method: text-exact-in-scope
   source:
-    page_pdf: 208
-    page_printed: 190
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 208
   verification: machine
 - id: mcc2023:rel:guideline:III-C-022
   type: curriculum-guideline
@@ -3451,8 +3571,11 @@ relations:
     id: mcc2023:III-C:01.05
     method: text-exact-in-scope
   source:
-    page_pdf: 208
-    page_printed: 190
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 208
   verification: machine
 - id: mcc2023:rel:guideline:III-C-023
   type: curriculum-guideline
@@ -3471,8 +3594,11 @@ relations:
     id: mcc2023:III-C:01.05
     method: text-exact-in-scope
   source:
-    page_pdf: 208
-    page_printed: 190
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 208
   verification: machine
 - id: mcc2023:rel:guideline:III-C-024
   type: curriculum-guideline
@@ -3491,8 +3617,11 @@ relations:
     id: mcc2023:III-C:01.05
     method: text-exact-in-scope
   source:
-    page_pdf: 208
-    page_printed: 190
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 208
   verification: machine
 - id: mcc2023:rel:guideline:III-C-025
   type: curriculum-guideline
@@ -3511,13 +3640,14 @@ relations:
     id: mcc2023:III-C:01.05
     method: text-exact-in-scope
   source:
-    page_pdf: 208
-    page_printed: 190
+    page_pdf: 205
+    page_printed: 187
     pages_pdf:
+    - 205
     - 208
     - 209
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-C-026
   type: curriculum-guideline
   row_kind: content
@@ -3535,8 +3665,12 @@ relations:
     id: mcc2023:III-C:01.05
     method: text-exact-in-scope
   source:
-    page_pdf: 209
-    page_printed: 191
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 208
+    - 209
   verification: machine
 - id: mcc2023:rel:guideline:III-C-027
   type: curriculum-guideline
@@ -3555,8 +3689,12 @@ relations:
     id: mcc2023:III-C:01.05
     method: text-exact-in-scope
   source:
-    page_pdf: 209
-    page_printed: 191
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 208
+    - 209
   verification: machine
 - id: mcc2023:rel:guideline:III-C-028
   type: curriculum-guideline
@@ -3575,8 +3713,11 @@ relations:
     id: mcc2023:III-C:01.06
     method: text-exact-in-scope
   source:
-    page_pdf: 209
-    page_printed: 191
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 209
   verification: machine
 - id: mcc2023:rel:guideline:III-C-029
   type: curriculum-guideline
@@ -3595,8 +3736,11 @@ relations:
     id: mcc2023:III-C:01.06
     method: text-exact-in-scope
   source:
-    page_pdf: 209
-    page_printed: 191
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 209
   verification: machine
 - id: mcc2023:rel:guideline:III-C-030
   type: curriculum-guideline
@@ -3615,8 +3759,11 @@ relations:
     id: mcc2023:III-C:01.06
     method: text-exact-in-scope
   source:
-    page_pdf: 209
-    page_printed: 191
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 209
   verification: machine
 - id: mcc2023:rel:guideline:III-C-031
   type: curriculum-guideline
@@ -3635,8 +3782,11 @@ relations:
     id: mcc2023:III-C:01.06
     method: text-exact-in-scope
   source:
-    page_pdf: 209
-    page_printed: 191
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 209
   verification: machine
 - id: mcc2023:rel:guideline:III-C-032
   type: curriculum-guideline
@@ -3655,13 +3805,14 @@ relations:
     id: mcc2023:III-C:01.06
     method: text-exact-in-scope
   source:
-    page_pdf: 209
-    page_printed: 191
+    page_pdf: 205
+    page_printed: 187
     pages_pdf:
+    - 205
     - 209
     - 210
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-C-033
   type: curriculum-guideline
   row_kind: content
@@ -3679,8 +3830,12 @@ relations:
     id: mcc2023:III-C:01.06
     method: text-exact-in-scope
   source:
-    page_pdf: 210
-    page_printed: 192
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 209
+    - 210
   verification: machine
 - id: mcc2023:rel:guideline:III-C-034
   type: curriculum-guideline
@@ -3699,8 +3854,12 @@ relations:
     id: mcc2023:III-C:01.06
     method: text-exact-in-scope
   source:
-    page_pdf: 210
-    page_printed: 192
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 209
+    - 210
   verification: machine
 - id: mcc2023:rel:guideline:III-C-035
   type: curriculum-guideline
@@ -3719,8 +3878,12 @@ relations:
     id: mcc2023:III-C:01.06
     method: text-exact-in-scope
   source:
-    page_pdf: 210
-    page_printed: 192
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 209
+    - 210
   verification: machine
 - id: mcc2023:rel:guideline:III-C-036
   type: curriculum-guideline
@@ -3739,8 +3902,12 @@ relations:
     id: mcc2023:III-C:01.06
     method: text-exact-in-scope
   source:
-    page_pdf: 210
-    page_printed: 192
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 209
+    - 210
   verification: machine
 - id: mcc2023:rel:guideline:III-C-037
   type: curriculum-guideline
@@ -3759,8 +3926,12 @@ relations:
     id: mcc2023:III-C:01.06
     method: text-exact-in-scope
   source:
-    page_pdf: 210
-    page_printed: 192
+    page_pdf: 205
+    page_printed: 187
+    pages_pdf:
+    - 205
+    - 209
+    - 210
   verification: machine
 - id: mcc2023:rel:guideline:III-C-038
   type: curriculum-guideline
@@ -3779,13 +3950,15 @@ relations:
     id: mcc2023:III-C:01.06
     method: text-exact-in-scope
   source:
-    page_pdf: 210
-    page_printed: 192
+    page_pdf: 205
+    page_printed: 187
     pages_pdf:
+    - 205
+    - 209
     - 210
     - 211
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-C-039
   type: curriculum-guideline
   row_kind: content
@@ -3889,7 +4062,7 @@ relations:
     - 211
     - 212
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-C-044
   type: curriculum-guideline
   row_kind: content
@@ -3907,8 +4080,11 @@ relations:
     id: mcc2023:III-C:02.02
     method: text-exact-in-scope
   source:
-    page_pdf: 212
-    page_printed: 194
+    page_pdf: 211
+    page_printed: 193
+    pages_pdf:
+    - 211
+    - 212
   verification: machine
 - id: mcc2023:rel:guideline:III-C-045
   type: curriculum-guideline
@@ -3927,8 +4103,11 @@ relations:
     id: mcc2023:III-C:02.02
     method: text-exact-in-scope
   source:
-    page_pdf: 212
-    page_printed: 194
+    page_pdf: 211
+    page_printed: 193
+    pages_pdf:
+    - 211
+    - 212
   verification: machine
 - id: mcc2023:rel:guideline:III-C-046
   type: curriculum-guideline
@@ -3947,8 +4126,11 @@ relations:
     id: mcc2023:III-C:02.02
     method: text-exact-in-scope
   source:
-    page_pdf: 212
-    page_printed: 194
+    page_pdf: 211
+    page_printed: 193
+    pages_pdf:
+    - 211
+    - 212
   verification: machine
 - id: mcc2023:rel:guideline:III-C-047
   type: curriculum-guideline
@@ -4013,7 +4195,7 @@ relations:
     - 212
     - 213
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-C-050
   type: curriculum-guideline
   row_kind: content
@@ -4031,8 +4213,11 @@ relations:
     id: mcc2023:III-C:03.01
     method: text-exact-in-scope
   source:
-    page_pdf: 213
-    page_printed: 195
+    page_pdf: 212
+    page_printed: 194
+    pages_pdf:
+    - 212
+    - 213
   verification: machine
 - id: mcc2023:rel:guideline:III-C-051
   type: curriculum-guideline
@@ -4051,8 +4236,11 @@ relations:
     id: mcc2023:III-C:03.01
     method: text-exact-in-scope
   source:
-    page_pdf: 213
-    page_printed: 195
+    page_pdf: 212
+    page_printed: 194
+    pages_pdf:
+    - 212
+    - 213
   verification: machine
 - id: mcc2023:rel:guideline:III-C-052
   type: curriculum-guideline
@@ -4071,8 +4259,11 @@ relations:
     id: mcc2023:III-C:03.01
     method: text-exact-in-scope
   source:
-    page_pdf: 213
-    page_printed: 195
+    page_pdf: 212
+    page_printed: 194
+    pages_pdf:
+    - 212
+    - 213
   verification: machine
 - id: mcc2023:rel:guideline:III-C-053
   type: curriculum-guideline
@@ -4091,8 +4282,11 @@ relations:
     id: mcc2023:III-C:03.01
     method: text-exact-in-scope
   source:
-    page_pdf: 213
-    page_printed: 195
+    page_pdf: 212
+    page_printed: 194
+    pages_pdf:
+    - 212
+    - 213
   verification: machine
 - id: mcc2023:rel:guideline:III-C-054
   type: curriculum-guideline
@@ -4111,8 +4305,11 @@ relations:
     id: mcc2023:III-C:03.01
     method: text-exact-in-scope
   source:
-    page_pdf: 213
-    page_printed: 195
+    page_pdf: 212
+    page_printed: 194
+    pages_pdf:
+    - 212
+    - 213
   verification: machine
 - id: mcc2023:rel:guideline:III-C-055
   type: curriculum-guideline
@@ -4131,13 +4328,14 @@ relations:
     id: mcc2023:III-C:03.01
     method: text-exact-in-scope
   source:
-    page_pdf: 213
-    page_printed: 195
+    page_pdf: 212
+    page_printed: 194
     pages_pdf:
+    - 212
     - 213
     - 214
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-C-056
   type: curriculum-guideline
   row_kind: content
@@ -4155,8 +4353,11 @@ relations:
     id: mcc2023:III-C:03.01
     method: text-exact-in-scope
   source:
-    page_pdf: 214
-    page_printed: 196
+    page_pdf: 212
+    page_printed: 194
+    pages_pdf:
+    - 212
+    - 214
   verification: machine
 - id: mcc2023:rel:guideline:III-C-057
   type: curriculum-guideline
@@ -4175,8 +4376,11 @@ relations:
     id: mcc2023:III-C:03.01
     method: text-exact-in-scope
   source:
-    page_pdf: 214
-    page_printed: 196
+    page_pdf: 212
+    page_printed: 194
+    pages_pdf:
+    - 212
+    - 214
   verification: machine
 - id: mcc2023:rel:guideline:III-C-058
   type: curriculum-guideline
@@ -4195,8 +4399,11 @@ relations:
     id: mcc2023:III-C:03.01
     method: text-exact-in-scope
   source:
-    page_pdf: 214
-    page_printed: 196
+    page_pdf: 212
+    page_printed: 194
+    pages_pdf:
+    - 212
+    - 214
   verification: machine
 - id: mcc2023:rel:guideline:III-C-059
   type: curriculum-guideline
@@ -4255,7 +4462,7 @@ relations:
     - 214
     - 215
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-C-062
   type: curriculum-guideline
   row_kind: content
@@ -4271,8 +4478,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 215
-    page_printed: 197
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 215
   verification: machine
 - id: mcc2023:rel:guideline:III-C-063
   type: curriculum-guideline
@@ -4289,8 +4499,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 215
-    page_printed: 197
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 215
   verification: machine
 - id: mcc2023:rel:guideline:III-C-064
   type: curriculum-guideline
@@ -4307,8 +4520,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 215
-    page_printed: 197
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 215
   verification: machine
 - id: mcc2023:rel:guideline:III-C-065
   type: curriculum-guideline
@@ -4325,8 +4541,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 215
-    page_printed: 197
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 215
   verification: machine
 - id: mcc2023:rel:guideline:III-C-066
   type: curriculum-guideline
@@ -4343,8 +4562,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 215
-    page_printed: 197
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 215
   verification: machine
 - id: mcc2023:rel:guideline:III-C-067
   type: curriculum-guideline
@@ -4361,8 +4583,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 215
-    page_printed: 197
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 215
   verification: machine
 - id: mcc2023:rel:guideline:III-C-068
   type: curriculum-guideline
@@ -4379,13 +4604,14 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 215
-    page_printed: 197
+    page_pdf: 214
+    page_printed: 196
     pages_pdf:
+    - 214
     - 215
     - 216
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-C-069
   type: curriculum-guideline
   row_kind: content
@@ -4401,8 +4627,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 216
-    page_printed: 198
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 216
   verification: machine
 - id: mcc2023:rel:guideline:III-C-070
   type: curriculum-guideline
@@ -4419,8 +4648,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 216
-    page_printed: 198
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 216
   verification: machine
 - id: mcc2023:rel:guideline:III-C-071
   type: curriculum-guideline
@@ -4437,8 +4669,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 216
-    page_printed: 198
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 216
   verification: machine
 - id: mcc2023:rel:guideline:III-C-072
   type: curriculum-guideline
@@ -4455,8 +4690,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 216
-    page_printed: 198
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 216
   verification: machine
 - id: mcc2023:rel:guideline:III-C-073
   type: curriculum-guideline
@@ -4473,8 +4711,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 216
-    page_printed: 198
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 216
   verification: machine
 - id: mcc2023:rel:guideline:III-C-074
   type: curriculum-guideline
@@ -4491,8 +4732,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 216
-    page_printed: 198
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 216
   verification: machine
 - id: mcc2023:rel:guideline:III-C-075
   type: curriculum-guideline
@@ -4509,8 +4753,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 216
-    page_printed: 198
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 216
   verification: machine
 - id: mcc2023:rel:guideline:III-C-076
   type: curriculum-guideline
@@ -4527,10 +4774,13 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 217
-    page_printed: 199
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 217
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-C-077
   type: curriculum-guideline
   row_kind: content
@@ -4546,8 +4796,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 217
-    page_printed: 199
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 217
   verification: machine
 - id: mcc2023:rel:guideline:III-C-078
   type: curriculum-guideline
@@ -4564,8 +4817,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 217
-    page_printed: 199
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 217
   verification: machine
 - id: mcc2023:rel:guideline:III-C-079
   type: curriculum-guideline
@@ -4582,8 +4838,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 217
-    page_printed: 199
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 217
   verification: machine
 - id: mcc2023:rel:guideline:III-C-080
   type: curriculum-guideline
@@ -4600,8 +4859,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 217
-    page_printed: 199
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 217
   verification: machine
 - id: mcc2023:rel:guideline:III-C-081
   type: curriculum-guideline
@@ -4618,8 +4880,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 217
-    page_printed: 199
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 217
   verification: machine
 - id: mcc2023:rel:guideline:III-C-082
   type: curriculum-guideline
@@ -4636,8 +4901,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 217
-    page_printed: 199
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 217
   verification: machine
 - id: mcc2023:rel:guideline:III-C-083
   type: curriculum-guideline
@@ -4654,10 +4922,13 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 218
-    page_printed: 200
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 218
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:III-C-084
   type: curriculum-guideline
   row_kind: content
@@ -4673,8 +4944,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 218
-    page_printed: 200
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 218
   verification: machine
 - id: mcc2023:rel:guideline:III-C-085
   type: curriculum-guideline
@@ -4691,8 +4965,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 218
-    page_printed: 200
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 218
   verification: machine
 - id: mcc2023:rel:guideline:III-C-086
   type: curriculum-guideline
@@ -4709,8 +4986,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 218
-    page_printed: 200
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 218
   verification: machine
 - id: mcc2023:rel:guideline:III-C-087
   type: curriculum-guideline
@@ -4727,8 +5007,11 @@ relations:
   guideline_shared: false
   targets: []
   source:
-    page_pdf: 218
-    page_printed: 200
+    page_pdf: 214
+    page_printed: 196
+    pages_pdf:
+    - 214
+    - 218
   verification: machine
 - id: mcc2023:rel:guideline:IV-C-001
   type: curriculum-guideline
@@ -4786,7 +5069,7 @@ relations:
     - 219
     - 220
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:IV-C-003
   type: curriculum-guideline
   row_kind: content
@@ -4862,7 +5145,7 @@ relations:
     - 220
     - 221
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:guideline:IV-C-006
   type: curriculum-guideline
   row_kind: content

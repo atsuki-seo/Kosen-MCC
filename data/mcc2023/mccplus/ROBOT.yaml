@@ -36,7 +36,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 情報基礎
-  group: ≪ロボット分野共通≫
+  group:
+    raw: ≪ロボット分野共通≫
+    page_pdf: 168
   source:
     page_pdf: 168
     page_printed: 152
@@ -198,7 +200,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: プログラミングとアルゴリズム
-  group: ≪ロボット分野共通≫
+  group:
+    raw: ≪ロボット分野共通≫
+    page_pdf: 168
   source:
     page_pdf: 168
     page_printed: 152
@@ -267,12 +271,14 @@ nodes:
     page_pdf: 169
     page_printed: 153
     page_top: true
-  verification: machine
+  verification: image
 - id: mccplus2023:ROBOT:03
   type: content
   parent: mccplus2023:ROBOT
   name: メディア
-  group: ≪ロボット分野共通≫
+  group:
+    raw: ≪ロボット分野共通≫
+    page_pdf: 168
   source:
     page_pdf: 169
     page_printed: 153
@@ -321,7 +327,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: ネットワーク
-  group: ≪ロボット分野共通≫
+  group:
+    raw: ≪ロボット分野共通≫
+    page_pdf: 168
   source:
     page_pdf: 169
     page_printed: 153
@@ -386,7 +394,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 情報セキュリティ基礎
-  group: ≪ロボット分野共通≫
+  group:
+    raw: ≪ロボット分野共通≫
+    page_pdf: 168
   source:
     page_pdf: 169
     page_printed: 153
@@ -414,7 +424,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 情報セキュリティの要素
-  group: ≪ロボット分野共通≫
+  group:
+    raw: ≪ロボット分野共通≫
+    page_pdf: 168
   source:
     page_pdf: 169
     page_printed: 153
@@ -471,7 +483,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: サイバー攻撃と防御
-  group: ≪ロボット分野共通≫
+  group:
+    raw: ≪ロボット分野共通≫
+    page_pdf: 168
   source:
     page_pdf: 169
     page_printed: 153
@@ -499,7 +513,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 法規、規則、ポリシー
-  group: ≪ロボット分野共通≫
+  group:
+    raw: ≪ロボット分野共通≫
+    page_pdf: 168
   source:
     page_pdf: 169
     page_printed: 153
@@ -556,7 +572,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: リスク管理とセキュリティマネジメント
-  group: ≪ロボット分野共通≫
+  group:
+    raw: ≪ロボット分野共通≫
+    page_pdf: 168
   source:
     page_pdf: 169
     page_printed: 153
@@ -595,7 +613,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: データサイエンス・AI
-  group: ≪ロボット分野共通≫
+  group:
+    raw: ≪ロボット分野共通≫
+    page_pdf: 168
   source:
     page_pdf: 169
     page_printed: 153
@@ -633,7 +653,7 @@ nodes:
     page_pdf: 170
     page_printed: 154
     page_top: true
-  verification: machine
+  verification: image
 - id: mccplus2023:ROBOT:10.03
   type: goal
   parent: mccplus2023:ROBOT:10
@@ -705,7 +725,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: プロジェクト管理
-  group: ≪ロボット設計者 ロボットSI≫
+  group:
+    raw: ≪ロボット設計者 ロボットSI≫
+    page_pdf: 170
   source:
     page_pdf: 170
     page_printed: 154
@@ -747,7 +769,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 課題検証
-  group: ≪ロボット設計者 ロボットSI≫
+  group:
+    raw: ≪ロボット設計者 ロボットSI≫
+    page_pdf: 170
   source:
     page_pdf: 170
     page_printed: 154
@@ -783,7 +807,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 工程分析
-  group: ≪ロボット設計者 ロボットSI≫
+  group:
+    raw: ≪ロボット設計者 ロボットSI≫
+    page_pdf: 170
   source:
     page_pdf: 170
     page_printed: 154
@@ -824,7 +850,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 生産プロセス
-  group: ≪ロボット設計者 ロボットSI≫
+  group:
+    raw: ≪ロボット設計者 ロボットSI≫
+    page_pdf: 170
   source:
     page_pdf: 170
     page_printed: 154
@@ -861,7 +889,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 安全な構造機構設計計算
-  group: ≪ロボット設計者 ロボットSI≫
+  group:
+    raw: ≪ロボット設計者 ロボットSI≫
+    page_pdf: 170
   source:
     page_pdf: 170
     page_printed: 154
@@ -888,7 +918,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 機械設計製図
-  group: ≪ロボット設計者 ロボットSI≫
+  group:
+    raw: ≪ロボット設計者 ロボットSI≫
+    page_pdf: 170
   source:
     page_pdf: 170
     page_printed: 154
@@ -915,7 +947,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: CAD設計
-  group: ≪ロボット設計者 ロボットSI≫
+  group:
+    raw: ≪ロボット設計者 ロボットSI≫
+    page_pdf: 170
   source:
     page_pdf: 170
     page_printed: 154
@@ -939,7 +973,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 駆動機器設計
-  group: ≪ロボット設計者 ロボットSI≫
+  group:
+    raw: ≪ロボット設計者 ロボットSI≫
+    page_pdf: 170
   source:
     page_pdf: 170
     page_printed: 154
@@ -969,7 +1005,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: センサ設計
-  group: ≪ロボット設計者 ロボットSI≫
+  group:
+    raw: ≪ロボット設計者 ロボットSI≫
+    page_pdf: 170
   source:
     page_pdf: 171
     page_printed: 155
@@ -997,12 +1035,14 @@ nodes:
     page_pdf: 171
     page_printed: 155
     page_top: true
-  verification: machine
+  verification: image
 - id: mccplus2023:ROBOT:20
   type: content
   parent: mccplus2023:ROBOT
   name: 材料力学応用能力
-  group: ≪機械設計者≫
+  group:
+    raw: ≪機械設計者≫
+    page_pdf: 171
   source:
     page_pdf: 171
     page_printed: 155
@@ -1035,7 +1075,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 機械図面
-  group: ≪機械設計者≫
+  group:
+    raw: ≪機械設計者≫
+    page_pdf: 171
   source:
     page_pdf: 171
     page_printed: 155
@@ -1063,7 +1105,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 機械力学応用能力
-  group: ≪機械設計者≫
+  group:
+    raw: ≪機械設計者≫
+    page_pdf: 171
   source:
     page_pdf: 171
     page_printed: 155
@@ -1095,7 +1139,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 熱力学応用能力
-  group: ≪機械設計者≫
+  group:
+    raw: ≪機械設計者≫
+    page_pdf: 171
   source:
     page_pdf: 171
     page_printed: 155
@@ -1121,7 +1167,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 機械要素・機械部品応用能力
-  group: ≪機械設計者≫
+  group:
+    raw: ≪機械設計者≫
+    page_pdf: 171
   source:
     page_pdf: 171
     page_printed: 155
@@ -1158,7 +1206,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: ロボット工学応用能力（運動学）
-  group: ≪機械設計者≫
+  group:
+    raw: ≪機械設計者≫
+    page_pdf: 171
   source:
     page_pdf: 171
     page_printed: 155
@@ -1186,7 +1236,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: CAE活用能力
-  group: ≪機械設計者≫
+  group:
+    raw: ≪機械設計者≫
+    page_pdf: 171
   source:
     page_pdf: 171
     page_printed: 155
@@ -1209,7 +1261,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: CAD活用能力
-  group: ≪機械設計者≫
+  group:
+    raw: ≪機械設計者≫
+    page_pdf: 171
   source:
     page_pdf: 171
     page_printed: 155
@@ -1232,7 +1286,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 材料力学応用能力
-  group: ≪機械設計者≫
+  group:
+    raw: ≪機械設計者≫
+    page_pdf: 171
   source:
     page_pdf: 171
     page_printed: 155
@@ -1265,7 +1321,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 機械図面
-  group: ≪機械設計者≫
+  group:
+    raw: ≪機械設計者≫
+    page_pdf: 171
   source:
     page_pdf: 171
     page_printed: 155
@@ -1293,7 +1351,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 機械力学応用能力
-  group: ≪機械設計者≫
+  group:
+    raw: ≪機械設計者≫
+    page_pdf: 171
   source:
     page_pdf: 171
     page_printed: 155
@@ -1325,7 +1385,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 熱力学応用能力
-  group: ≪機械設計者≫
+  group:
+    raw: ≪機械設計者≫
+    page_pdf: 171
   source:
     page_pdf: 171
     page_printed: 155
@@ -1351,7 +1413,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 機械要素・機械部品応用能力
-  group: ≪機械設計者≫
+  group:
+    raw: ≪機械設計者≫
+    page_pdf: 171
   source:
     page_pdf: 171
     page_printed: 155
@@ -1388,7 +1452,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 電気回路設計能力(モータ回路)
-  group: ≪電気設計者≫
+  group:
+    raw: ≪電気設計者≫
+    page_pdf: 172
   source:
     page_pdf: 172
     page_printed: 156
@@ -1431,12 +1497,14 @@ nodes:
     page_pdf: 172
     page_printed: 156
     page_top: true
-  verification: machine
+  verification: image
 - id: mccplus2023:ROBOT:34
   type: content
   parent: mccplus2023:ROBOT
   name: 電気回路設計能力（パワー回路）
-  group: ≪電気設計者≫
+  group:
+    raw: ≪電気設計者≫
+    page_pdf: 172
   source:
     page_pdf: 172
     page_printed: 156
@@ -1493,7 +1561,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 電気回路設計能力（電子回路）
-  group: ≪電気設計者≫
+  group:
+    raw: ≪電気設計者≫
+    page_pdf: 172
   source:
     page_pdf: 172
     page_printed: 156
@@ -1523,7 +1593,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: ネットワーク活用能力
-  group: ≪電気設計者≫
+  group:
+    raw: ≪電気設計者≫
+    page_pdf: 172
   source:
     page_pdf: 172
     page_printed: 156
@@ -1562,7 +1634,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: CAD活用能力
-  group: ≪電気設計者≫
+  group:
+    raw: ≪電気設計者≫
+    page_pdf: 172
   source:
     page_pdf: 172
     page_printed: 156
@@ -1594,7 +1668,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: センサ・センシング活用能力
-  group: ≪電気設計者≫
+  group:
+    raw: ≪電気設計者≫
+    page_pdf: 172
   source:
     page_pdf: 172
     page_printed: 156
@@ -1622,7 +1698,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 安全規格の理解
-  group: ≪電気設計者≫
+  group:
+    raw: ≪電気設計者≫
+    page_pdf: 172
   source:
     page_pdf: 172
     page_printed: 156
@@ -1656,7 +1734,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 組み込みソフトウェア開発能力
-  group: ≪ソフトウェア設計者≫
+  group:
+    raw: ≪ソフトウェア設計者≫
+    page_pdf: 172
   source:
     page_pdf: 172
     page_printed: 156
@@ -1693,7 +1773,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: PCソフトウェア開発能力
-  group: ≪ソフトウェア設計者≫
+  group:
+    raw: ≪ソフトウェア設計者≫
+    page_pdf: 172
   source:
     page_pdf: 173
     page_printed: 157
@@ -1725,12 +1807,14 @@ nodes:
     page_pdf: 173
     page_printed: 157
     page_top: true
-  verification: machine
+  verification: image
 - id: mccplus2023:ROBOT:42
   type: content
   parent: mccplus2023:ROBOT
   name: ネットワーク開発能力
-  group: ≪ソフトウェア設計者≫
+  group:
+    raw: ≪ソフトウェア設計者≫
+    page_pdf: 172
   source:
     page_pdf: 173
     page_printed: 157
@@ -1755,7 +1839,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: ロボット工学応用能力（運動学、動力学）
-  group: ≪ソフトウェア設計者≫
+  group:
+    raw: ≪ソフトウェア設計者≫
+    page_pdf: 172
   source:
     page_pdf: 173
     page_printed: 157
@@ -1797,7 +1883,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 制御理論応用能力
-  group: ≪ソフトウェア設計者≫
+  group:
+    raw: ≪ソフトウェア設計者≫
+    page_pdf: 172
   source:
     page_pdf: 173
     page_printed: 157
@@ -1840,7 +1928,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: AI ソフトウェア適用・開発能力
-  group: ≪ソフトウェア設計者≫
+  group:
+    raw: ≪ソフトウェア設計者≫
+    page_pdf: 172
   source:
     page_pdf: 173
     page_printed: 157
@@ -1873,7 +1963,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: IoT に関する適用・開発能力
-  group: ≪ソフトウェア設計者≫
+  group:
+    raw: ≪ソフトウェア設計者≫
+    page_pdf: 172
   source:
     page_pdf: 173
     page_printed: 157
@@ -1902,7 +1994,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: ロボットシミュレーター開発能力
-  group: ≪ソフトウェア設計者≫
+  group:
+    raw: ≪ソフトウェア設計者≫
+    page_pdf: 172
   source:
     page_pdf: 173
     page_printed: 157
@@ -1937,7 +2031,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: 組み込みソフトウェア開発能力
-  group: ≪ソフトウェア設計者≫
+  group:
+    raw: ≪ソフトウェア設計者≫
+    page_pdf: 172
   source:
     page_pdf: 173
     page_printed: 157
@@ -1974,7 +2070,9 @@ nodes:
   type: content
   parent: mccplus2023:ROBOT
   name: PCソフトウェア開発能力
-  group: ≪ソフトウェア設計者≫
+  group:
+    raw: ≪ソフトウェア設計者≫
+    page_pdf: 172
   source:
     page_pdf: 173
     page_printed: 157

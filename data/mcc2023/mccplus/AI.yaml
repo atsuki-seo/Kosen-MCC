@@ -253,7 +253,7 @@ nodes:
     page_pdf: 159
     page_printed: 143
     page_top: true
-  verification: machine
+  verification: image
 - id: mccplus2023:AI:02.04
   type: goal
   parent: mccplus2023:AI:02
@@ -625,7 +625,7 @@ nodes:
     page_pdf: 160
     page_printed: 144
     page_top: true
-  verification: machine
+  verification: image
 - id: mccplus2023:AI:10.03
   type: goal
   parent: mccplus2023:AI:10
@@ -969,7 +969,7 @@ nodes:
     page_pdf: 161
     page_printed: 145
     page_top: true
-  verification: machine
+  verification: image
 - id: mccplus2023:AI:12.05
   type: goal
   parent: mccplus2023:AI:12
@@ -1304,7 +1304,7 @@ nodes:
     page_pdf: 162
     page_printed: 146
     page_top: true
-  verification: machine
+  verification: image
 - id: mccplus2023:AI:13.13
   type: goal
   parent: mccplus2023:AI:13

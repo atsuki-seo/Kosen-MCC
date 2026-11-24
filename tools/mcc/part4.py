@@ -63,6 +63,7 @@ class GuidelineExtractor:
         self.cur_guideline: str | None = None
         self.last: dict | None = None
         self.in_note = False
+        self.goals_page = self.guideline_page = 0
 
     def new_id(self) -> str:
         n = self.counter.get(self.section_code, 0) + 1
@@ -128,7 +129,10 @@ class GuidelineExtractor:
         shared = mcc is None
         if mcc is not None:
             self.cur_goals = mcc
+            self.goals_page = page
         rec = self._rec(page, row_kind="objective")
+        if shared:
+            rec["_pages"] = sorted({page, self.goals_page})
         rec["_goals"] = self.cur_goals or ""
         rec["goals_shared"] = shared
         rec["guideline_raw_parts"] = [gl or ""]
@@ -170,10 +174,19 @@ class GuidelineExtractor:
         goals_shared = goals is None
         if goals is not None:
             self.cur_goals = goals
+            self.goals_page = page
         gl_shared = gl is None
         if gl is not None:
             self.cur_guideline = gl
+            self.guideline_page = page
         rec = self._rec(page, row_kind="content")
+        # 結合セルを共有する行は、セルの始まるページも原文のあるページに含める
+        origin = set(self.cur_content["pages"]) if self.cur_content else set()
+        if goals_shared:
+            origin.add(self.goals_page)
+        if gl_shared:
+            origin.add(self.guideline_page)
+        rec["_pages"] = sorted(set(rec["_pages"]) | origin)
         rec["_content_obj"] = self.cur_content
         rec["_goals"] = self.cur_goals or ""
         rec["goals_shared"] = goals_shared

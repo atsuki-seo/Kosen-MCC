@@ -1,0 +1,21 @@
+{
+  "fingerprint": "b8d34f1a6abb0ba970913610098528aacca2f570c540690a806e474d694e487f",
+  "source_sha256": "7810bf3a68110f2be0336b3cc83dcbcafda698b86abbd34c5bffc237e6cde965",
+  "results": [
+    {
+      "name": "source-hash",
+      "ok": true,
+      "summary": "sha256 一致"
+    },
+    {
+      "name": "page-coverage",
+      "ok": true,
+      "summary": "234/234"
+    },
+    {
+      "name": "text-in-source",
+      "ok": true,
+      "summary": "3055/3055 records"
+    }
+  ]
+}

@@ -19,4 +19,4 @@ tables:
   source:
     page_pdf: 55
     page_printed: 41
-  verification: machine
+  verification: image

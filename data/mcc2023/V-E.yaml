@@ -388,7 +388,7 @@ nodes:
     page_pdf: 96
     page_printed: 82
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:V-E-2
   type: area
   parent: mcc2023:V-E
@@ -1466,7 +1466,7 @@ nodes:
     page_pdf: 99
     page_printed: 85
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:V-E-4:05
   type: content
   parent: mcc2023:V-E-4
@@ -2189,7 +2189,7 @@ nodes:
     page_pdf: 101
     page_printed: 87
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:V-E-6:06.04
   type: goal
   parent: mcc2023:V-E-6:06

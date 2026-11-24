@@ -1,0 +1,669 @@
+# 画像照合と人の確認の記録（設計 7.1）。tools/record_verification.py で追記する。
+meta:
+  source: mcc2023
+  note: 画像照合と人の確認の記録。tools/record_verification.py で追記する
+entries:
+- id: vlog-0001
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: page-top-row
+  pages_pdf:
+  - 49
+  - 50
+  - 51
+  - 52
+  - 53
+  - 54
+  - 55
+  - 56
+  - 57
+  - 58
+  - 59
+  - 60
+  - 61
+  - 64
+  - 65
+  - 66
+  - 67
+  - 68
+  - 70
+  - 71
+  - 72
+  - 73
+  - 76
+  - 77
+  - 81
+  - 82
+  - 83
+  - 85
+  - 86
+  - 88
+  - 89
+  - 90
+  - 91
+  - 95
+  - 96
+  - 98
+  - 99
+  scope: バッチ b1-top-49-100 の page-top-row の対象 22 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: match
+  record_ids:
+  - mcc2023:I:06.03
+  - mcc2023:I:16.01
+  - mcc2023:II-A:06.05
+  - mcc2023:II-A:17.04
+  - mcc2023:II-C:09.02
+  - mcc2023:II-E:02.03
+  - mcc2023:III-A:03.02
+  - mcc2023:III-B:04.01
+  - mcc2023:IV-B:03.01
+  - mcc2023:IV-C:01.05
+  - mcc2023:IV-C:05.02
+  - mcc2023:V-A-2:05.01
+  - mcc2023:V-A-3:11.02
+  - mcc2023:V-A-4:06.01
+  - mcc2023:V-B-2:08.02
+  - mcc2023:V-B-7:05.03
+  - mcc2023:V-B-8:06.01
+  - mcc2023:V-C-3:02.01
+  - mcc2023:V-C-7:02.01
+  - mcc2023:V-D-2:02.01
+  - mcc2023:V-E-1:06.01
+  - mcc2023:V-E-4:04.05
+  findings: |-
+    mcc2023:III-A:03.02: 参考: 学習内容のセルは 59 ページで「表現・コミュニケ」、60 ページで「ーション」に分かれている。抽出結果の「表現・コミュニケーション」はこの 2 つをつないだ文字列と同じ。到達目標の行は、60 ページの先頭で新しい行として始まっている。
+    mcc2023:III-B:04.01: 参考: 学習内容の丸括弧は、画像では全角の「（）」に見える。ただし解像度が低いため、全角か半角かは断定できない。
+    mcc2023:IV-B:03.01: 参考: 学習の目安となる項目の「（複雑性、…など）」の括弧は、画像では全角に見える。ただし解像度が低いため、全角か半角かは断定できない。
+    mcc2023:V-B-8:06.01: 参考: 原本では「Maxwell モデル」「Voigt モデル」の英字とカナの間に空白がある。空白の違いは無視する指示のため、一致として扱った。
+    mcc2023:V-C-7:02.01: 参考: 88 ページ最後の行は、学習内容の欄が罫線つきの空欄になっている。89 ページ先頭の「伝達関数とブロック線図」は、新しい行の学習内容の欄に書かれている。到達目標と学習の目安となる項目の欄も、上の罫線で区切られた別の行である。どちらも抽出結果の判断と合う。
+- id: vlog-0002
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: page-top-row
+  pages_pdf:
+  - 100
+  - 101
+  - 104
+  - 105
+  - 110
+  - 111
+  - 113
+  - 114
+  - 115
+  - 117
+  - 118
+  - 119
+  - 121
+  - 122
+  - 124
+  - 125
+  - 126
+  - 127
+  - 128
+  - 129
+  - 130
+  - 131
+  - 133
+  - 134
+  - 135
+  - 136
+  - 137
+  - 138
+  - 139
+  - 140
+  - 141
+  - 142
+  - 143
+  - 144
+  - 145
+  - 146
+  - 147
+  scope: バッチ b2-top-101-149 の page-top-row の対象 23 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: match
+  record_ids:
+  - mcc2023:V-E-6:06.03
+  - mcc2023:V-F-3:11.02
+  - mcc2023:V-G-2:03.01
+  - mcc2023:V-G-4:12.01
+  - mcc2023:V-G-5:03.03
+  - mcc2023:V-H-1:06.01
+  - mcc2023:V-H-2:01.05
+  - mcc2023:V-I-2:01.02
+  - mcc2023:V-I-6:02.02
+  - mcc2023:V-I-7:05.03
+  - mcc2023:VI-B:04.01
+  - mcc2023:VI-E:03.03
+  - mcc2023:VI-F:04.04
+  - mcc2023:VI-I:07.02
+  - mcc2023:VII-B:01.03
+  - mcc2023:VIII-C:01.01
+  - mcc2023:rel:composite:1-029
+  - mcc2023:rel:composite:2-024
+  - mcc2023:rel:composite:4-003
+  - mcc2023:rel:composite:5-005
+  - mcc2023:rel:composite:6-004
+  - mcc2023:rel:composite:6-033
+  - mcc2023:rel:composite:7-007
+  findings: |-
+    mcc2023:V-G-5:03.03: 判読できない: 「中間検査･完了検査」の中黒が全角か半角かは、画像の解像度では区別できない。
+    mcc2023:V-I-2:01.02: 判読できない: 抽出結果は「諸性能(ボイラ効率など）」と開き括弧が半角、閉じ括弧が全角になっている。p122 の原本の括弧が全角か半角かは、画像の解像度では区別できない。同様に p121 の「（装置）」の括弧も判別できない。文字列とページをまたぐつなぎ方（p121 の「構造・作用・」から p122 の「取扱い、」へ続く）は原本と合っている。
+    mcc2023:V-I-7:05.03: 判読できない: 学習の目安となる項目「応力(せん断応力、曲げ応力など)」の区切り記号が読点「、」かカンマ「,」かは、画像では区別できない。
+    mcc2023:VI-I:07.02: 判読できない: 抽出結果は、到達目標を「MO」（英字 O）、学習の目安となる項目を「M0」（数字ゼロ）としている。画像でも、到達目標の字はやや幅広く、項目の字はやや細く見える。ただし英字 O か数字 0 かは確定できない。
+    mcc2023:rel:composite:1-029: 判読できない: 学習領域の先頭の字がローマ数字「Ⅴ」（抽出結果）か英字「V」かは、画像では区別できない。
+    mcc2023:rel:composite:2-024: 判読できない: 「V-B-5」の V と「Ⅳ-B」のローマ数字が全角記号か英字かは、画像では区別できない。
+- id: vlog-0003
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: unresolved
+  pages_pdf:
+  - 135
+  - 136
+  - 137
+  - 138
+  - 139
+  - 140
+  - 141
+  - 142
+  - 143
+  scope: バッチ b3-composite-unresolved の unresolved の対象 82 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: match
+  record_ids:
+  - mcc2023:rel:composite:1-001
+  - mcc2023:rel:composite:1-004
+  - mcc2023:rel:composite:1-006
+  - mcc2023:rel:composite:1-031
+  - mcc2023:rel:composite:1-032
+  - mcc2023:rel:composite:1-033
+  - mcc2023:rel:composite:2-019
+  - mcc2023:rel:composite:2-046
+  - mcc2023:rel:composite:2-047
+  - mcc2023:rel:composite:2-048
+  - mcc2023:rel:composite:2-049
+  - mcc2023:rel:composite:3-022
+  - mcc2023:rel:composite:3-023
+  - mcc2023:rel:composite:3-024
+  - mcc2023:rel:composite:4-004
+  - mcc2023:rel:composite:4-012
+  - mcc2023:rel:composite:4-021
+  - mcc2023:rel:composite:4-022
+  - mcc2023:rel:composite:5-001
+  - mcc2023:rel:composite:5-002
+  - mcc2023:rel:composite:5-003
+  - mcc2023:rel:composite:5-004
+  - mcc2023:rel:composite:5-005
+  - mcc2023:rel:composite:5-006
+  - mcc2023:rel:composite:5-007
+  - mcc2023:rel:composite:5-008
+  - mcc2023:rel:composite:5-009
+  - mcc2023:rel:composite:5-010
+  - mcc2023:rel:composite:5-011
+  - mcc2023:rel:composite:5-012
+  - mcc2023:rel:composite:5-013
+  - mcc2023:rel:composite:5-014
+  - mcc2023:rel:composite:5-015
+  - mcc2023:rel:composite:5-016
+  - mcc2023:rel:composite:5-017
+  - mcc2023:rel:composite:5-018
+  - mcc2023:rel:composite:5-019
+  - mcc2023:rel:composite:5-020
+  - mcc2023:rel:composite:5-021
+  - mcc2023:rel:composite:5-022
+  - mcc2023:rel:composite:5-023
+  - mcc2023:rel:composite:5-024
+  - mcc2023:rel:composite:5-025
+  - mcc2023:rel:composite:5-026
+  - mcc2023:rel:composite:5-027
+  - mcc2023:rel:composite:5-028
+  - mcc2023:rel:composite:5-029
+  - mcc2023:rel:composite:6-001
+  - mcc2023:rel:composite:6-002
+  - mcc2023:rel:composite:6-003
+  - mcc2023:rel:composite:6-023
+  - mcc2023:rel:composite:6-024
+  - mcc2023:rel:composite:6-025
+  - mcc2023:rel:composite:6-026
+  - mcc2023:rel:composite:6-032
+  - mcc2023:rel:composite:6-033
+  - mcc2023:rel:composite:6-035
+  - mcc2023:rel:composite:6-036
+  - mcc2023:rel:composite:6-037
+  - mcc2023:rel:composite:6-040
+  - mcc2023:rel:composite:6-042
+  - mcc2023:rel:composite:6-043
+  - mcc2023:rel:composite:6-047
+  - mcc2023:rel:composite:6-048
+  - mcc2023:rel:composite:6-049
+  - mcc2023:rel:composite:6-050
+  - mcc2023:rel:composite:7-001
+  - mcc2023:rel:composite:7-002
+  - mcc2023:rel:composite:7-003
+  - mcc2023:rel:composite:7-004
+  - mcc2023:rel:composite:7-005
+  - mcc2023:rel:composite:7-007
+  - mcc2023:rel:composite:7-009
+  - mcc2023:rel:composite:7-010
+  - mcc2023:rel:composite:7-011
+  - mcc2023:rel:composite:7-012
+  - mcc2023:rel:composite:7-014
+  - mcc2023:rel:composite:7-016
+  - mcc2023:rel:composite:7-017
+  - mcc2023:rel:composite:7-019
+  - mcc2023:rel:composite:7-021
+  - mcc2023:rel:composite:7-022
+  findings: |-
+    mcc2023:rel:composite:1-031: 配慮欄は空欄（1-032 と同じ空のセル）。学習領域の括弧が全角か半角かは画像では判読できない
+    mcc2023:rel:composite:2-019: 学習領域の先頭がローマ数字 Ⅴ かラテン文字 V かは画像では判読できない
+    mcc2023:rel:composite:2-046: 配慮は Ⅵ-B の 4 行に結合したセルで、抽出文と一致
+    mcc2023:rel:composite:5-016: 目標文の括弧「(単位、物質収支等)」が全角か半角かは画像では判読できない
+    mcc2023:rel:composite:5-018: 原本は「V-E-6 生物化学」で間に空白あり（空白の違いなので食い違いとしない）
+    mcc2023:rel:composite:6-023: 括弧が全角か半角かは画像では判読できない（半角に見える）
+- id: vlog-0004
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: unresolved
+  pages_pdf:
+  - 142
+  scope: バッチ b3-composite-unresolved の unresolved の対象 1 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: mismatch-open
+  record_ids:
+  - mcc2023:rel:composite:7-006
+  findings: 'mcc2023:rel:composite:7-006: 履修上の配慮が「…計算におい」で途切れている。原本では V-G-3 の配慮は 7-006 と 7-007 の 2 行に結合した 1 つのセルで、p142 末尾の「…計算におい」から p143 先頭の続きの行の「ては、公式を利用して単純な問題を解けること。」へ続く。正しくは 7-007 の抽出と同じ文になるはず'
+- id: vlog-0005
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: page-top-row
+  pages_pdf:
+  - 158
+  - 159
+  - 160
+  - 161
+  - 162
+  - 163
+  - 164
+  - 165
+  - 166
+  - 167
+  - 168
+  - 169
+  - 170
+  - 171
+  - 172
+  - 173
+  - 174
+  - 175
+  - 176
+  - 177
+  - 178
+  scope: バッチ b4-top-158-178 の page-top-row の対象 34 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: match
+  record_ids:
+  - mcc2023:rel:mccplus:AI:02.03
+  - mcc2023:rel:mccplus:AI:10.02
+  - mcc2023:rel:mccplus:AI:12.04
+  - mcc2023:rel:mccplus:AI:13.12
+  - mcc2023:rel:mccplus:IOT:02.04
+  - mcc2023:rel:mccplus:IOT:10.02
+  - mcc2023:rel:mccplus:IOT:12.04
+  - mcc2023:rel:mccplus:IOT:20.01
+  - mcc2023:rel:mccplus:ROBOT:02.04
+  - mcc2023:rel:mccplus:ROBOT:10.02
+  - mcc2023:rel:mccplus:ROBOT:19.01
+  - mcc2023:rel:mccplus:ROBOT:33.01
+  - mcc2023:rel:mccplus:ROBOT:41.01
+  - mcc2023:rel:mccplus:SEC:02.02
+  - mcc2023:rel:mccplus:SEC:10.01
+  - mcc2023:rel:mccplus:SEC:11.07
+  - mcc2023:rel:mccplus:SEC:11.19
+  - mccplus2023:AI:02.03
+  - mccplus2023:AI:10.02
+  - mccplus2023:AI:12.04
+  - mccplus2023:AI:13.12
+  - mccplus2023:IOT:02.04
+  - mccplus2023:IOT:10.02
+  - mccplus2023:IOT:12.04
+  - mccplus2023:IOT:20.01
+  - mccplus2023:ROBOT:02.04
+  - mccplus2023:ROBOT:10.02
+  - mccplus2023:ROBOT:19.01
+  - mccplus2023:ROBOT:33.01
+  - mccplus2023:ROBOT:41.01
+  - mccplus2023:SEC:02.02
+  - mccplus2023:SEC:10.01
+  - mccplus2023:SEC:11.07
+  - mccplus2023:SEC:11.19
+  findings: |-
+    mcc2023:rel:mccplus:AI:02.03: p159 先頭行の MCC対応 欄は V-D-1 / V-D-2。画像からは V がラテン文字の V かローマ数字の Ⅴ かを区別できない（判読できない）
+    mccplus2023:IOT:20.01: 原本どおり「Google Could」（Cloud ではない）。抽出も同じ
+- id: vlog-0006
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: abet
+  pages_pdf:
+  - 183
+  - 184
+  scope: バッチ b5-part4-tables の abet の対象 7 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: match
+  record_ids:
+  - mcc2023:rel:abet:01
+  - mcc2023:rel:abet:02
+  - mcc2023:rel:abet:04
+  - mcc2023:rel:abet:07
+  - mcc2023:rel:abet:03
+  - mcc2023:rel:abet:05
+  - mcc2023:rel:abet:06
+  findings: 'mcc2023:rel:abet:02: 文字列は一致。原本の MCC 欄の 1 行目は 1 つの続いた行で、抽出ではこれを読点の位置で 2 項目（Ⅳ-B…／Ⅳ-E…）に分けている（文字の違いはない）'
+- id: vlog-0007
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: cdio
+  pages_pdf:
+  - 185
+  scope: バッチ b5-part4-tables の cdio の対象 22 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: match
+  record_ids:
+  - mcc2023:rel:cdio:1.2
+  - mcc2023:rel:cdio:1.3
+  - mcc2023:rel:cdio:2.4
+  - mcc2023:rel:cdio:2.5
+  - mcc2023:rel:cdio:3.3
+  - mcc2023:rel:cdio:4.1
+  - mcc2023:rel:cdio:4.2
+  - mcc2023:rel:cdio:4.4
+  - mcc2023:rel:cdio:1
+  - mcc2023:rel:cdio:1.1
+  - mcc2023:rel:cdio:1.4
+  - mcc2023:rel:cdio:2
+  - mcc2023:rel:cdio:2.1
+  - mcc2023:rel:cdio:2.2
+  - mcc2023:rel:cdio:2.3
+  - mcc2023:rel:cdio:3
+  - mcc2023:rel:cdio:3.1
+  - mcc2023:rel:cdio:3.2
+  - mcc2023:rel:cdio:4
+  - mcc2023:rel:cdio:4.3
+  - mcc2023:rel:cdio:4.5
+  - mcc2023:rel:cdio:4.6
+  findings: |-
+    mcc2023:rel:cdio:1: 原本でも右の列は空（灰色の見出し行）
+    mcc2023:rel:cdio:2: 原本でも右の列は空
+    mcc2023:rel:cdio:2.3: 原本でも右の列は空
+    mcc2023:rel:cdio:3: 原本でも右の列は空
+    mcc2023:rel:cdio:4: 原本でも「CONTEXT ? THE INNOVATION PROCESS」と「?」が印字されている。右の列は空
+    mcc2023:rel:cdio:4.6: 原本でも右の列は空
+- id: vlog-0008
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: unresolved
+  pages_pdf:
+  - 54
+  - 55
+  - 183
+  - 184
+  - 185
+  - 186
+  - 190
+  - 191
+  - 193
+  scope: バッチ b5-part4-tables の unresolved の対象 20 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: match
+  record_ids:
+  - mcc2023:rel:abet:01
+  - mcc2023:rel:abet:02
+  - mcc2023:rel:abet:04
+  - mcc2023:rel:abet:07
+  - mcc2023:rel:cdio:1.2
+  - mcc2023:rel:cdio:1.3
+  - mcc2023:rel:cdio:2.4
+  - mcc2023:rel:cdio:2.5
+  - mcc2023:rel:cdio:3.3
+  - mcc2023:rel:cdio:4.1
+  - mcc2023:rel:cdio:4.2
+  - mcc2023:rel:cdio:4.4
+  - mcc2023:rel:guideline:I-003
+  - mcc2023:rel:guideline:I-005
+  - mcc2023:rel:guideline:II-A-014
+  - mcc2023:rel:guideline:II-A-015
+  - mcc2023:rel:guideline:II-A-025
+  - mcc2023:rel:guideline:II-A-026
+  - mcc2023:rel:guideline:II-C-017
+  - mcc2023:unclassified:p055-t0
+  findings: |-
+    mcc2023:rel:abet:02: 文字列は一致。原本の MCC 欄の 1 行目は 1 つの続いた行で、抽出ではこれを読点の位置で 2 項目（Ⅳ-B…／Ⅳ-E…）に分けている（文字の違いはない）
+    mcc2023:rel:guideline:I-003: 本文は一致。「数学 I (1)」の I がラテン文字かローマ数字か、行頭の「･」と「・」の区別、括弧の全角・半角は、画像からは判読できない
+    mcc2023:rel:guideline:II-A-015: 原本では学習内容の欄が II-A-014 と同じ結合セルで、学習内容が 014 と同じ値で抽出されているのは、この結合セルと合っている
+    mcc2023:rel:guideline:II-C-017: 原本では、指導要領の欄は「酸と塩基」と「pH 中和」の 2 行にまたがる結合セル。抽出結果の文字列はそのセルの内容と一致する
+    mcc2023:unclassified:p055-t0: p055 の表は、p054 最後の行「分野」の続き。左のセルは空、右のセルは 6 分野の列挙で、抽出結果と一致する
+- id: vlog-0009
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: page-top-row
+  pages_pdf:
+  - 142
+  - 143
+  scope: バッチ b3r-composite-7-006 の page-top-row の対象 1 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: match
+  record_ids:
+  - mcc2023:rel:composite:7-007
+  findings: |-
+    vlog-0004 の食い違い（履修上の配慮が途中で切れていた）を直した。原因: 複数の行で共有する結合セルの、次ページ先頭の続きを最後の行にだけ足していた。tools/mcc/goals.py で、同じセルを共有する行すべてに続きを足すようにした
+    mcc2023:rel:composite:7-007: p.142 最終行の履修上の配慮「…計算におい」と、p.143 先頭行の「ては、公式を利用して単純な問題を解けること。」をつなぐと、抽出した全文と一致する。p.143 先頭行は学習領域と到達目標の列が空欄で、配慮の列だけに続きの文がある。前ページの V-G-3 の行の続きとした判断は、罫線と合っている。
+- id: vlog-0010
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: unresolved
+  pages_pdf:
+  - 142
+  - 143
+  scope: バッチ b3r-composite-7-006 の unresolved の対象 1 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: match
+  record_ids:
+  - mcc2023:rel:composite:7-007
+  findings: |-
+    vlog-0004 の食い違い（履修上の配慮が途中で切れていた）を直した。原因: 複数の行で共有する結合セルの、次ページ先頭の続きを最後の行にだけ足していた。tools/mcc/goals.py で、同じセルを共有する行すべてに続きを足すようにした
+    mcc2023:rel:composite:7-007: p.142 最終行の履修上の配慮「…計算におい」と、p.143 先頭行の「ては、公式を利用して単純な問題を解けること。」をつなぐと、抽出した全文と一致する。p.143 先頭行は学習領域と到達目標の列が空欄で、配慮の列だけに続きの文がある。前ページの V-G-3 の行の続きとした判断は、罫線と合っている。
+- id: vlog-0011
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: unresolved
+  pages_pdf:
+  - 142
+  - 143
+  scope: バッチ b3r-composite-7-006 の unresolved の対象 1 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: mismatch-fixed
+  record_ids:
+  - mcc2023:rel:composite:7-006
+  findings: 'vlog-0004 の食い違い（履修上の配慮が途中で切れていた）を直した。原因: 複数の行で共有する結合セルの、次ページ先頭の続きを最後の行にだけ足していた。tools/mcc/goals.py で、同じセルを共有する行すべてに続きを足すようにした'
+- id: vlog-0012
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: committee
+  pages_pdf:
+  - 225
+  - 226
+  - 227
+  - 228
+  - 229
+  - 230
+  - 231
+  - 232
+  - 233
+  - 234
+  scope: バッチ b7-committee の committee の対象 1 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: mismatch-open
+  record_ids:
+  - mcc2023:doc:088
+  findings: 'mcc2023:doc:088: 審議過程の最後の行「令和5年 ４月 改訂版MCC公開」の年の数字が半角の「5」になっている。ほかの日付は全角で、画像ではこの行の「５」も全角に見える。ただし画像の解像度が低いため確定できない。ほかの行（審議過程、委員名簿、各 WG の会議一覧）は、抜け・重複・順序の入れ替わりがなく一致。判読できない: p226「福島 翔太」の「翔」、「濵田 裕康」の「濵」、期間と会議一覧の数字の全角・半角'
+- id: vlog-0013
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: figure
+  pages_pdf:
+  - 1
+  - 23
+  - 24
+  - 26
+  - 28
+  - 29
+  - 31
+  - 32
+  - 34
+  - 36
+  - 37
+  - 38
+  - 39
+  - 47
+  - 48
+  - 153
+  - 154
+  - 157
+  scope: バッチ b8-figures の figure の対象 21 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: match
+  record_ids:
+  - mcc2023:doc:002
+  - mcc2023:doc:017
+  - mcc2023:doc:019
+  - mcc2023:doc:023
+  - mcc2023:doc:027
+  - mcc2023:doc:029
+  - mcc2023:doc:032
+  - mcc2023:doc:034
+  - mcc2023:doc:035
+  - mcc2023:doc:038
+  - mcc2023:doc:041
+  - mcc2023:doc:044
+  - mcc2023:doc:046
+  - mcc2023:doc:047
+  - mcc2023:doc:048
+  - mcc2023:doc:060
+  - mcc2023:doc:062
+  - mcc2023:doc:064
+  - mcc2023:doc:071
+  - mcc2023:doc:073
+  - mcc2023:doc:078
+  findings: |-
+    mcc2023:doc:019: 弧を描く矢印の左端は緑の枠の後ろに隠れていて、「解決すべき問題」の箱に直接つながっているかは図から判読できない（説明は図の配置と矛盾しない）。
+    mcc2023:doc:047: 「言葉で論理的に理解した知識」の箱は、図では「考える」の真下ではなく右下（「なっとく」寄り）にあり、上向きの矢印は「なっとく」の方を指している。「『考える』の下」という説明は大まかには合うが、位置の言い方として少し不正確。
+    mcc2023:doc:048: 引用の中黒や閉じ括弧の全角・半角は、画像からは判読できない。
+    mcc2023:doc:071: 図の表記は「MCC plus」「COMPASS 5.0」（空白あり）。空白の違いなので無視した。
+    mcc2023:doc:078: 「MCC対応状況」列の記号（引用は「ー」）が長音符か全角ハイフンかは判読できない。学習内容の列は「データエンジニアリ」までしか見えず、末尾は判読できない。
+- id: vlog-0014
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: page-top-row
+  pages_pdf:
+  - 186
+  - 187
+  - 188
+  - 189
+  - 190
+  - 191
+  - 192
+  - 193
+  - 194
+  - 195
+  - 196
+  - 197
+  - 198
+  - 199
+  - 200
+  - 201
+  - 202
+  - 203
+  - 204
+  - 205
+  - 206
+  - 207
+  - 208
+  - 209
+  - 210
+  - 211
+  - 212
+  - 213
+  - 214
+  - 215
+  - 216
+  - 217
+  - 218
+  - 219
+  - 220
+  - 221
+  scope: バッチ b6-top-186-221 の page-top-row の対象 32 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: match
+  record_ids:
+  - mcc2023:rel:guideline:I-008
+  - mcc2023:rel:guideline:I-018
+  - mcc2023:rel:guideline:II-A-010
+  - mcc2023:rel:guideline:II-A-021
+  - mcc2023:rel:guideline:II-C-002
+  - mcc2023:rel:guideline:II-C-014
+  - mcc2023:rel:guideline:II-C-021
+  - mcc2023:rel:guideline:II-E-007
+  - mcc2023:rel:guideline:III-A-002
+  - mcc2023:rel:guideline:III-A-006
+  - mcc2023:rel:guideline:III-A-011
+  - mcc2023:rel:guideline:III-A-013
+  - mcc2023:rel:guideline:III-A-016
+  - mcc2023:rel:guideline:III-B-002
+  - mcc2023:rel:guideline:III-B-010
+  - mcc2023:rel:guideline:III-B-018
+  - mcc2023:rel:guideline:III-B-026
+  - mcc2023:rel:guideline:III-C-006
+  - mcc2023:rel:guideline:III-C-013
+  - mcc2023:rel:guideline:III-C-019
+  - mcc2023:rel:guideline:III-C-025
+  - mcc2023:rel:guideline:III-C-032
+  - mcc2023:rel:guideline:III-C-038
+  - mcc2023:rel:guideline:III-C-043
+  - mcc2023:rel:guideline:III-C-049
+  - mcc2023:rel:guideline:III-C-055
+  - mcc2023:rel:guideline:III-C-061
+  - mcc2023:rel:guideline:III-C-068
+  - mcc2023:rel:guideline:III-C-076
+  - mcc2023:rel:guideline:III-C-083
+  - mcc2023:rel:guideline:IV-C-002
+  - mcc2023:rel:guideline:IV-C-005
+  findings: |-
+    mcc2023:rel:guideline:III-A-011: 指導要領側で [言語文化 A 書くこと(1)] から [国語表現 B 書くこと(2)]ウ までが 2 回続いているが、原本（p197 下端から p198 上部）でも同じ並びが 2 回印刷されている。抽出の誤りではない。
+    mcc2023:rel:guideline:III-B-010: 抽出の「第４ 論理・表現I」は末尾が ASCII の I。画像ではローマ数字の Ⅰ と見分けられず、判読できない。
+    mcc2023:rel:guideline:III-C-038: MCC側は III-C-032 と同じ文。原本でも MCC セルが p209 中ほどから p211 上端まで縦に続き、p210 下端の [世界史探究]E(2) をこのセルが覆っている。対応づけは正しい。
+    mcc2023:rel:guideline:III-C-076: p217 先頭の行は、p216 末尾の罫線で閉じたあとに「該当なし」から始まる新しい行で、前ページからの続きではない。抽出結果は罫線と合っている。
+    mcc2023:rel:guideline:III-C-083: p218 先頭の行は「該当なし」から始まる新しい行で、前ページからの続きではない。抽出結果は罫線と合っている。
+    mcc2023:rel:guideline:IV-C-002: ア(ア) などの括弧が全角か半角かは、画像からは判読できない。
+    mcc2023:rel:guideline:IV-C-005: 見出しの「（4）」と項目の「(ア)」の括弧が全角か半角かは画像からは判読できない。
+- id: vlog-0015
+  date: '2026-11-25'
+  status: image
+  verifier: page-verifier（Claude エージェント。ページ画像と抽出結果だけを受け取って照合）
+  target: committee
+  pages_pdf:
+  - 225
+  - 226
+  - 227
+  - 228
+  - 229
+  - 230
+  - 231
+  - 232
+  - 233
+  - 234
+  scope: バッチ b7r-committee-300dpi の committee の対象 1 件。抽出結果の文字列と、行の境目の判断をページ画像と突き合わせた
+  result: match
+  record_ids:
+  - mcc2023:doc:088
+  findings: |-
+    vlog-0012 の指摘（全角か半角か）は、300dpi の照合で原本どおりと確認した。抽出は変えていない
+    mcc2023:doc:088: 300dpi で、前回確定できなかった点を確かめ、食い違いはなかった。(1) p225 の最後の行「令和5年 ４月」の 5 は、字幅では判別できないが、字形と描画（欧文書体、中間調あり）が半角と抽出された箇所と同じで、原本は半角。抽出と一致。(2) p226「福島 翔太」の「翔」、「濵田 裕康」の「濵」は原本どおり（同じページの「濱口」とは字形が違う）。(3) 全角・半角が混在する数字を抜き取りで照合し、すべて一致

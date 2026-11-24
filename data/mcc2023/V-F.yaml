@@ -1125,7 +1125,7 @@ nodes:
     page_pdf: 105
     page_printed: 91
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:V-F-3:11.03
   type: goal
   parent: mcc2023:V-F-3:11

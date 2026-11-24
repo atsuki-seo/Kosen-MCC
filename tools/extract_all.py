@@ -10,9 +10,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from mcc import categories, emit, errata, part4, relations, yamlio  # noqa: E402
+from mcc import categories, emit, errata, part4, prose, relations, yamlio  # noqa: E402
 from mcc.goals import GoalExtractor  # noqa: E402
-from mcc.paths import CONFIG, DATA  # noqa: E402
+from mcc.paths import CONFIG, DATA, TEXT  # noqa: E402
 from mcc.resolver import Resolver  # noqa: E402
 
 
@@ -139,6 +139,16 @@ def main() -> int:
     yamlio.write(DATA / "errata.yaml", {"meta": write_meta("errata", "errata", note="config/errata.yaml の引用を照合して書き出す"),
                                         "entries": entries}, header=emit.GENERATED)
     print(f"errata: {len(entries)} entries")
+
+    # 散文と図
+    pcfg = yamlio.load(CONFIG / "prose.yaml")
+    fcfg = yamlio.load(CONFIG / "figures.yaml")["figures"]
+    sections = prose.ProseExtractor(pcfg, fcfg).run()
+    sec_paths, fig_paths = prose.write_all(sections, TEXT, status)
+    clean(TEXT / "sections", "*.md", set(sec_paths))
+    clean(TEXT / "figures", "*.md", set(fig_paths))
+    clean(TEXT / "figures", "*.png", {p.with_suffix(".png") for p in fig_paths})
+    print(f"text: {len(sec_paths)} sections, {len(fig_paths)} figures")
     return 0
 
 

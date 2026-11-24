@@ -76,4 +76,4 @@ nodes:
     - 144
     - 145
     page_top: true
-  verification: machine
+  verification: image

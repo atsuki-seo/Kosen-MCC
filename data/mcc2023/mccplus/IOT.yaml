@@ -247,7 +247,7 @@ nodes:
     page_pdf: 175
     page_printed: 159
     page_top: true
-  verification: machine
+  verification: image
 - id: mccplus2023:IOT:03
   type: content
   parent: mccplus2023:IOT
@@ -605,7 +605,7 @@ nodes:
     page_pdf: 176
     page_printed: 160
     page_top: true
-  verification: machine
+  verification: image
 - id: mccplus2023:IOT:10.03
   type: goal
   parent: mccplus2023:IOT:10
@@ -815,7 +815,7 @@ nodes:
     page_pdf: 177
     page_printed: 161
     page_top: true
-  verification: machine
+  verification: image
 - id: mccplus2023:IOT:13
   type: content
   parent: mccplus2023:IOT
@@ -1048,7 +1048,7 @@ nodes:
     page_pdf: 178
     page_printed: 162
     page_top: true
-  verification: machine
+  verification: image
 - id: mccplus2023:IOT:20.02
   type: goal
   parent: mccplus2023:IOT:20

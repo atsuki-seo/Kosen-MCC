@@ -21,7 +21,7 @@ relations:
   source:
     page_pdf: 135
     page_printed: 121
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:1-002
   type: composite-required
   section: 機械系分野
@@ -75,7 +75,7 @@ relations:
   source:
     page_pdf: 135
     page_printed: 121
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:1-005
   type: composite-required
   section: 機械系分野
@@ -111,7 +111,7 @@ relations:
   source:
     page_pdf: 135
     page_printed: 121
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:1-007
   type: composite-required
   section: 機械系分野
@@ -526,7 +526,7 @@ relations:
     page_pdf: 136
     page_printed: 122
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:1-030
   type: composite-required
   section: 機械系分野
@@ -562,7 +562,7 @@ relations:
   source:
     page_pdf: 136
     page_printed: 122
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:1-032
   type: composite-required
   section: 機械系分野
@@ -580,7 +580,7 @@ relations:
   source:
     page_pdf: 136
     page_printed: 122
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:1-033
   type: composite-required
   section: 機械系分野
@@ -598,7 +598,7 @@ relations:
   source:
     page_pdf: 136
     page_printed: 122
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:2-001
   type: composite-required
   section: 材料系分野
@@ -940,7 +940,7 @@ relations:
   source:
     page_pdf: 136
     page_printed: 122
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:2-020
   type: composite-required
   section: 材料系分野
@@ -1031,7 +1031,7 @@ relations:
     page_pdf: 137
     page_printed: 123
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:2-025
   type: composite-required
   section: 材料系分野
@@ -1427,7 +1427,7 @@ relations:
   source:
     page_pdf: 137
     page_printed: 123
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:2-047
   type: composite-required
   section: 材料系分野
@@ -1445,7 +1445,7 @@ relations:
   source:
     page_pdf: 137
     page_printed: 123
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:2-048
   type: composite-required
   section: 材料系分野
@@ -1463,7 +1463,7 @@ relations:
   source:
     page_pdf: 137
     page_printed: 123
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:2-049
   type: composite-required
   section: 材料系分野
@@ -1481,7 +1481,7 @@ relations:
   source:
     page_pdf: 137
     page_printed: 123
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:3-001
   type: composite-required
   section: 電気・電子系分野
@@ -1877,7 +1877,7 @@ relations:
   source:
     page_pdf: 138
     page_printed: 124
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:3-023
   type: composite-required
   section: 電気・電子系分野
@@ -1895,7 +1895,7 @@ relations:
   source:
     page_pdf: 138
     page_printed: 124
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:3-024
   type: composite-required
   section: 電気・電子系分野
@@ -1913,7 +1913,7 @@ relations:
   source:
     page_pdf: 138
     page_printed: 124
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:4-001
   type: composite-required
   section: 情報系分野
@@ -1965,10 +1965,13 @@ relations:
     id: mcc2023:V-D-1:02.01
     method: text-exact-in-scope
   source:
-    page_pdf: 139
-    page_printed: 125
+    page_pdf: 138
+    page_printed: 124
+    pages_pdf:
+    - 138
+    - 139
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:4-004
   type: composite-required
   section: 情報系分野
@@ -1984,9 +1987,12 @@ relations:
     id: null
     reason: mcc2023:V-D-1 の中に同じ文の到達目標がない
   source:
-    page_pdf: 139
-    page_printed: 125
-  verification: machine
+    page_pdf: 138
+    page_printed: 124
+    pages_pdf:
+    - 138
+    - 139
+  verification: image
 - id: mcc2023:rel:composite:4-005
   type: composite-required
   section: 情報系分野
@@ -2002,8 +2008,11 @@ relations:
     id: mcc2023:V-D-1:02.03
     method: text-exact-in-scope
   source:
-    page_pdf: 139
-    page_printed: 125
+    page_pdf: 138
+    page_printed: 124
+    pages_pdf:
+    - 138
+    - 139
   verification: machine
 - id: mcc2023:rel:composite:4-006
   type: composite-required
@@ -2130,7 +2139,7 @@ relations:
   source:
     page_pdf: 139
     page_printed: 125
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:4-013
   type: composite-required
   section: 情報系分野
@@ -2292,7 +2301,7 @@ relations:
   source:
     page_pdf: 139
     page_printed: 125
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:4-022
   type: composite-required
   section: 情報系分野
@@ -2310,7 +2319,7 @@ relations:
   source:
     page_pdf: 139
     page_printed: 125
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-001
   type: composite-required
   section: 化学・生物系分野
@@ -2328,7 +2337,7 @@ relations:
   source:
     page_pdf: 139
     page_printed: 125
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-002
   type: composite-required
   section: 化学・生物系分野
@@ -2346,7 +2355,7 @@ relations:
   source:
     page_pdf: 139
     page_printed: 125
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-003
   type: composite-required
   section: 化学・生物系分野
@@ -2364,7 +2373,7 @@ relations:
   source:
     page_pdf: 139
     page_printed: 125
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-004
   type: composite-required
   section: 化学・生物系分野
@@ -2382,7 +2391,7 @@ relations:
   source:
     page_pdf: 139
     page_printed: 125
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-005
   type: composite-required
   section: 化学・生物系分野
@@ -2398,10 +2407,13 @@ relations:
     id: null
     reason: mcc2023:V-E-2 の中に同じ文の到達目標がない
   source:
-    page_pdf: 140
-    page_printed: 126
+    page_pdf: 139
+    page_printed: 125
+    pages_pdf:
+    - 139
+    - 140
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-006
   type: composite-required
   section: 化学・生物系分野
@@ -2419,7 +2431,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-007
   type: composite-required
   section: 化学・生物系分野
@@ -2437,7 +2449,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-008
   type: composite-required
   section: 化学・生物系分野
@@ -2455,7 +2467,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-009
   type: composite-required
   section: 化学・生物系分野
@@ -2473,7 +2485,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-010
   type: composite-required
   section: 化学・生物系分野
@@ -2491,7 +2503,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-011
   type: composite-required
   section: 化学・生物系分野
@@ -2509,7 +2521,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-012
   type: composite-required
   section: 化学・生物系分野
@@ -2527,7 +2539,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-013
   type: composite-required
   section: 化学・生物系分野
@@ -2545,7 +2557,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-014
   type: composite-required
   section: 化学・生物系分野
@@ -2563,7 +2575,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-015
   type: composite-required
   section: 化学・生物系分野
@@ -2581,7 +2593,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-016
   type: composite-required
   section: 化学・生物系分野
@@ -2599,7 +2611,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-017
   type: composite-required
   section: 化学・生物系分野
@@ -2617,7 +2629,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-018
   type: composite-required
   section: 化学・生物系分野
@@ -2635,7 +2647,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-019
   type: composite-required
   section: 化学・生物系分野
@@ -2653,7 +2665,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-020
   type: composite-required
   section: 化学・生物系分野
@@ -2671,7 +2683,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-021
   type: composite-required
   section: 化学・生物系分野
@@ -2689,7 +2701,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-022
   type: composite-required
   section: 化学・生物系分野
@@ -2707,7 +2719,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-023
   type: composite-required
   section: 化学・生物系分野
@@ -2725,7 +2737,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-024
   type: composite-required
   section: 化学・生物系分野
@@ -2743,7 +2755,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-025
   type: composite-required
   section: 化学・生物系分野
@@ -2761,7 +2773,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-026
   type: composite-required
   section: 化学・生物系分野
@@ -2779,7 +2791,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-027
   type: composite-required
   section: 化学・生物系分野
@@ -2797,7 +2809,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-028
   type: composite-required
   section: 化学・生物系分野
@@ -2815,7 +2827,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:5-029
   type: composite-required
   section: 化学・生物系分野
@@ -2833,7 +2845,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-001
   type: composite-required
   section: 建設系分野
@@ -2851,7 +2863,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-002
   type: composite-required
   section: 建設系分野
@@ -2869,7 +2881,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-003
   type: composite-required
   section: 建設系分野
@@ -2887,7 +2899,7 @@ relations:
   source:
     page_pdf: 140
     page_printed: 126
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-004
   type: composite-required
   section: 建設系分野
@@ -2906,7 +2918,7 @@ relations:
     page_pdf: 141
     page_printed: 127
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-005
   type: composite-required
   section: 建設系分野
@@ -3248,7 +3260,7 @@ relations:
   source:
     page_pdf: 141
     page_printed: 127
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-024
   type: composite-required
   section: 建設系分野
@@ -3266,7 +3278,7 @@ relations:
   source:
     page_pdf: 141
     page_printed: 127
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-025
   type: composite-required
   section: 建設系分野
@@ -3284,7 +3296,7 @@ relations:
   source:
     page_pdf: 141
     page_printed: 127
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-026
   type: composite-required
   section: 建設系分野
@@ -3302,7 +3314,7 @@ relations:
   source:
     page_pdf: 141
     page_printed: 127
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-027
   type: composite-required
   section: 建設系分野
@@ -3410,7 +3422,7 @@ relations:
   source:
     page_pdf: 141
     page_printed: 127
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-033
   type: composite-required
   section: 建設系分野
@@ -3426,10 +3438,13 @@ relations:
     id: null
     reason: mcc2023:V-F-5 の中に同じ文の到達目標がない
   source:
-    page_pdf: 142
-    page_printed: 128
+    page_pdf: 141
+    page_printed: 127
+    pages_pdf:
+    - 141
+    - 142
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-034
   type: composite-required
   section: 建設系分野
@@ -3465,7 +3480,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-036
   type: composite-required
   section: 建設系分野
@@ -3483,7 +3498,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-037
   type: composite-required
   section: 建設系分野
@@ -3501,7 +3516,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-038
   type: composite-required
   section: 建設系分野
@@ -3555,7 +3570,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-041
   type: composite-required
   section: 建設系分野
@@ -3591,7 +3606,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-043
   type: composite-required
   section: 建設系分野
@@ -3609,7 +3624,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-044
   type: composite-required
   section: 建設系分野
@@ -3681,7 +3696,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-048
   type: composite-required
   section: 建設系分野
@@ -3699,7 +3714,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-049
   type: composite-required
   section: 建設系分野
@@ -3717,7 +3732,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:6-050
   type: composite-required
   section: 建設系分野
@@ -3735,7 +3750,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-001
   type: composite-required
   section: 建築系分野
@@ -3753,7 +3768,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-002
   type: composite-required
   section: 建築系分野
@@ -3771,7 +3786,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-003
   type: composite-required
   section: 建築系分野
@@ -3789,7 +3804,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-004
   type: composite-required
   section: 建築系分野
@@ -3807,7 +3822,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-005
   type: composite-required
   section: 建築系分野
@@ -3825,7 +3840,7 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-006
   type: composite-required
   section: 建築系分野
@@ -3834,7 +3849,7 @@ relations:
     id: mcc2023:V-G-3
     method: code+name
   text: 日射・光環境・温熱環境・空気環境・音環境について説明できる。
-  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算におい
+  consideration: 知識においては、最重要項目（教科書などでの太字項目）を説明できれば良い。計算においては、公式を利用して単純な問題を解けること。
   consideration_shared: false
   targets:
   - raw: 日射・光環境・温熱環境・空気環境・音環境について説明できる。
@@ -3843,7 +3858,10 @@ relations:
   source:
     page_pdf: 142
     page_printed: 128
-  verification: machine
+    pages_pdf:
+    - 142
+    - 143
+  verification: image
 - id: mcc2023:rel:composite:7-007
   type: composite-required
   section: 建築系分野
@@ -3865,7 +3883,7 @@ relations:
     - 142
     - 143
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-008
   type: composite-required
   section: 建築系分野
@@ -3901,7 +3919,7 @@ relations:
   source:
     page_pdf: 143
     page_printed: 129
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-010
   type: composite-required
   section: 建築系分野
@@ -3919,7 +3937,7 @@ relations:
   source:
     page_pdf: 143
     page_printed: 129
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-011
   type: composite-required
   section: 建築系分野
@@ -3937,7 +3955,7 @@ relations:
   source:
     page_pdf: 143
     page_printed: 129
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-012
   type: composite-required
   section: 建築系分野
@@ -3955,7 +3973,7 @@ relations:
   source:
     page_pdf: 143
     page_printed: 129
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-013
   type: composite-required
   section: 建築系分野
@@ -3991,7 +4009,7 @@ relations:
   source:
     page_pdf: 143
     page_printed: 129
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-015
   type: composite-required
   section: 建築系分野
@@ -4027,7 +4045,7 @@ relations:
   source:
     page_pdf: 143
     page_printed: 129
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-017
   type: composite-required
   section: 建築系分野
@@ -4045,7 +4063,7 @@ relations:
   source:
     page_pdf: 143
     page_printed: 129
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-018
   type: composite-required
   section: 建築系分野
@@ -4081,7 +4099,7 @@ relations:
   source:
     page_pdf: 143
     page_printed: 129
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-020
   type: composite-required
   section: 建築系分野
@@ -4117,7 +4135,7 @@ relations:
   source:
     page_pdf: 143
     page_printed: 129
-  verification: machine
+  verification: image
 - id: mcc2023:rel:composite:7-022
   type: composite-required
   section: 建築系分野
@@ -4135,4 +4153,4 @@ relations:
   source:
     page_pdf: 143
     page_printed: 129
-  verification: machine
+  verification: image

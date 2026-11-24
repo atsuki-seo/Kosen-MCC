@@ -69,6 +69,7 @@ class GoalRow:
 class HairyoRow:
     section: str
     section_no: int
+    origin_pages: list[int]
     area_parts: list[str]
     goal_parts: list[str]
     consideration_parts: list[str]
@@ -126,7 +127,7 @@ class GoalExtractor:
     def heading(self, ln: Line) -> bool:
         text = roman(ln.text)
         if m := RE_CHAPTER.match(text):
-            self.chapter = ln.text
+            self.chapter = {"raw": ln.text, "page_pdf": ln.page}
             self.headings.append({"kind": "chapter", "raw": ln.text, "page": ln.page})
             self.desc_target = None
             return True
@@ -143,7 +144,7 @@ class GoalExtractor:
                 self.desc_target = self.field
                 return True
             if m := RE_GROUP.match(ln.text):
-                self.group = ln.text
+                self.group = {"raw": ln.text, "page_pdf": ln.page}
                 self.desc_target = None
                 return True
             return False
@@ -156,6 +157,7 @@ class GoalExtractor:
             if m := RE_HAIRYO_SEC.match(text):
                 self.hairyo_section = (int(m.group(1)), m.group(2))
                 self.hairyo_area_parts, self.hairyo_consideration = [], []
+                self.hairyo_area_page = self.hairyo_cons_page = ln.page
                 return True
             if RE_MAJOR.match(text):
                 self.mode = "goals"
@@ -199,7 +201,7 @@ class GoalExtractor:
             self.desc_target = self.area
             return True
         if RE_GROUP.match(ln.text):
-            self.group = ln.text
+            self.group = {"raw": ln.text, "page_pdf": ln.page}
             self.desc_target = None
             return True
         return False
@@ -285,7 +287,7 @@ class GoalExtractor:
         if m := RE_CONTENT_NOTE.match(name):
             data = {"name": m.group(1), "note": m.group(2)}
         if self.group:
-            data["group"] = self.group
+            data["group"] = dict(self.group)
         nid = f"{parent.id}:{parent.children:02d}"
         self.content = self.add(Node(nid, "content", parent.id, page, data))
         self.content_parts = [raw]
@@ -346,7 +348,12 @@ class GoalExtractor:
             if goal:
                 last.goal_parts.append(goal)
             if cons:
-                last.consideration_parts.append(cons)
+                # 履修上の配慮は結合セルで複数の行に共有されることがある。同じセルを共有する行すべてに続きを足す
+                shared = last.consideration_parts
+                shared.append(cons)
+                for row in self.hairyo:
+                    if row.consideration_parts is shared and page not in row.pages:
+                        row.pages.append(page)
             if page not in last.pages:
                 last.pages.append(page)
             if page_top:
@@ -358,15 +365,18 @@ class GoalExtractor:
             return
         if area:
             self.hairyo_area_parts = [area]
+            self.hairyo_area_page = page
         inherited = False
         if cons is None:
             inherited = True
-            cons_parts = list(self.hairyo_consideration)
+            cons_parts = self.hairyo_consideration  # 結合セルの共有（同じリストを指す）
         else:
             cons_parts = [cons] if cons else []
             self.hairyo_consideration = cons_parts
+            self.hairyo_cons_page = page
+        origin = sorted({self.hairyo_area_page, self.hairyo_cons_page} - {page})
         no, sec = self.hairyo_section
-        self.hairyo.append(HairyoRow(sec, no, list(self.hairyo_area_parts), [goal], cons_parts, [page], inherited,
+        self.hairyo.append(HairyoRow(sec, no, origin, list(self.hairyo_area_parts), [goal], cons_parts, [page], inherited,
                                      page_top))
 
     # ---- 実行 ----

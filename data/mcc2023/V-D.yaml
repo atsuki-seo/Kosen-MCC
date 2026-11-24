@@ -256,7 +256,7 @@ nodes:
     page_pdf: 91
     page_printed: 77
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:V-D-2:03
   type: content
   parent: mcc2023:V-D-2

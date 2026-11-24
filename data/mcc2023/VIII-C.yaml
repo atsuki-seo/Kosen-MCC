@@ -42,7 +42,7 @@ nodes:
     - 146
     - 147
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:VIII-C:01.02
   type: goal
   parent: mcc2023:VIII-C:01

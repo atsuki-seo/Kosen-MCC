@@ -295,7 +295,7 @@ nodes:
     page_pdf: 53
     page_printed: 39
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:II-A:07
   type: content
   parent: mcc2023:II-A
@@ -699,7 +699,7 @@ nodes:
     page_pdf: 54
     page_printed: 40
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:II-A:18
   type: content
   parent: mcc2023:II-A

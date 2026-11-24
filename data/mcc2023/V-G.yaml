@@ -289,7 +289,7 @@ nodes:
     page_pdf: 111
     page_printed: 97
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:V-G-2:03.02
   type: goal
   parent: mcc2023:V-G-2:03
@@ -514,7 +514,9 @@ nodes:
   type: content
   parent: mcc2023:V-G-2
   name: 塑性解析
-  group: 上記以外の観点
+  group:
+    raw: 上記以外の観点
+    page_pdf: 111
   source:
     page_pdf: 111
     page_printed: 97
@@ -552,7 +554,9 @@ nodes:
   type: content
   parent: mcc2023:V-G-2
   name: 基礎構造
-  group: 上記以外の観点
+  group:
+    raw: 上記以外の観点
+    page_pdf: 111
   source:
     page_pdf: 111
     page_printed: 97
@@ -603,7 +607,9 @@ nodes:
   type: content
   parent: mcc2023:V-G-2
   name: 建物の振動
-  group: 上記以外の観点
+  group:
+    raw: 上記以外の観点
+    page_pdf: 111
   source:
     page_pdf: 111
     page_printed: 97
@@ -1445,7 +1451,9 @@ nodes:
   type: content
   parent: mcc2023:V-G-4
   name: 計画基礎
-  group: 上記以外の観点
+  group:
+    raw: 上記以外の観点
+    page_pdf: 114
   source:
     page_pdf: 114
     page_printed: 100
@@ -1464,7 +1472,7 @@ nodes:
     page_pdf: 114
     page_printed: 100
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:V-G-4:12.02
   type: goal
   parent: mcc2023:V-G-4:12
@@ -1778,7 +1786,7 @@ nodes:
     page_pdf: 115
     page_printed: 101
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:V-G-5:04
   type: content
   parent: mcc2023:V-G-5

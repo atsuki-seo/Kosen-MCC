@@ -106,7 +106,7 @@ nodes:
     page_pdf: 58
     page_printed: 44
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:II-E:03
   type: content
   parent: mcc2023:II-E

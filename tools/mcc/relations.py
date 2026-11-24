@@ -37,7 +37,7 @@ def composite(ex: GoalExtractor, R: Resolver, status: dict[str, str]) -> list[di
             "consideration": join_lines("\n".join(h.consideration_parts)),
             "consideration_shared": h.consideration_inherited,
             "targets": [goal.target(text)],
-            "source": source(h.pages, h.page_top),
+            "source": source(h.pages + h.origin_pages, h.page_top),
             "verification": status.get(rid, "machine"),
         }
         out.append(rec)

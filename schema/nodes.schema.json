@@ -4,125 +4,400 @@
   "title": "ノード（大分類・分野・領域・学習内容・到達目標）のファイル",
   "description": "data/mcc2023/*.yaml と data/mcc2023/mccplus/*.yaml。設計 5.1〜5.3",
   "type": "object",
-  "required": ["meta", "nodes"],
+  "required": [
+    "meta",
+    "nodes"
+  ],
   "additionalProperties": false,
   "properties": {
-    "meta": {"$ref": "common.schema.json#/$defs/meta"},
-    "nodes": {"type": "array", "items": {"$ref": "#/$defs/node"}, "minItems": 1}
+    "meta": {
+      "$ref": "common.schema.json#/$defs/meta"
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node"
+      },
+      "minItems": 1
+    }
   },
   "$defs": {
     "description": {
       "type": "object",
-      "required": ["lines", "pages_pdf"],
+      "required": [
+        "lines",
+        "pages_pdf"
+      ],
       "additionalProperties": false,
       "properties": {
-        "lines": {"type": "array", "items": {"type": "string"}, "minItems": 1, "description": "原本の行。改行位置は紙面のまま"},
-        "pages_pdf": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/page"}}
+        "lines": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "description": "原本の行。改行位置は紙面のまま"
+        },
+        "pages_pdf": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/page"
+          }
+        }
       }
     },
     "notes": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["label", "text", "page"],
+        "required": [
+          "label",
+          "text",
+          "page"
+        ],
         "additionalProperties": false,
-        "properties": {"label": {"type": "string"}, "text": {"type": "string"}, "page": {"$ref": "common.schema.json#/$defs/page"}}
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "page": {
+            "$ref": "common.schema.json#/$defs/page"
+          }
+        }
       }
     },
     "node": {
       "type": "object",
-      "required": ["id", "type", "parent", "source", "verification"],
+      "required": [
+        "id",
+        "type",
+        "parent",
+        "source",
+        "verification"
+      ],
       "properties": {
-        "id": {"$ref": "common.schema.json#/$defs/nodeId"},
-        "type": {"enum": ["category", "field", "area", "content", "goal"]},
-        "parent": {"oneOf": [{"$ref": "common.schema.json#/$defs/nodeId"}, {"type": "null"}]},
-        "source": {"$ref": "common.schema.json#/$defs/source"},
-        "verification": {"$ref": "common.schema.json#/$defs/verification"}
+        "id": {
+          "$ref": "common.schema.json#/$defs/nodeId"
+        },
+        "type": {
+          "enum": [
+            "category",
+            "field",
+            "area",
+            "content",
+            "goal"
+          ]
+        },
+        "parent": {
+          "oneOf": [
+            {
+              "$ref": "common.schema.json#/$defs/nodeId"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source": {
+          "$ref": "common.schema.json#/$defs/source"
+        },
+        "verification": {
+          "$ref": "common.schema.json#/$defs/verification"
+        }
       },
       "allOf": [
-        {"if": {"properties": {"type": {"const": "category"}}}, "then": {"$ref": "#/$defs/category"}},
-        {"if": {"properties": {"type": {"enum": ["field", "area"]}}}, "then": {"$ref": "#/$defs/section"}},
-        {"if": {"properties": {"type": {"const": "content"}}}, "then": {"$ref": "#/$defs/content"}},
-        {"if": {"properties": {"type": {"const": "goal"}}}, "then": {"$ref": "#/$defs/goal"}}
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "category"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/category"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": [
+                  "field",
+                  "area"
+                ]
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/section"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/content"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "goal"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/goal"
+          }
+        }
       ]
     },
     "category": {
-      "required": ["code", "name", "heading_raw", "division"],
+      "required": [
+        "code",
+        "name",
+        "heading_raw",
+        "division"
+      ],
       "additionalProperties": false,
       "properties": {
-        "id": true, "type": true, "parent": {"type": "null"}, "source": true, "verification": true,
-        "code": {"type": "string", "pattern": "^(I|II|III|IV|V|VI|VII|VIII|IX)$"},
-        "name": {"type": "string", "minLength": 1},
-        "heading_raw": {"type": "string"},
-        "heading_raw_sub": {"type": "string"},
-        "chapter": {"type": ["string", "null"]},
+        "id": true,
+        "type": true,
+        "parent": {
+          "type": "null"
+        },
+        "source": true,
+        "verification": true,
+        "code": {
+          "type": "string",
+          "pattern": "^(I|II|III|IV|V|VI|VII|VIII|IX)$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "heading_raw": {
+          "type": "string"
+        },
+        "heading_raw_sub": {
+          "type": "string"
+        },
+        "chapter": {
+          "oneOf": [
+            {
+              "type": "object",
+              "required": [
+                "raw",
+                "page_pdf"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "raw": {
+                  "type": "string"
+                },
+                "page_pdf": {
+                  "$ref": "common.schema.json#/$defs/page"
+                }
+              }
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "大分類を含む章の見出し"
+        },
         "division": {
           "type": "object",
           "description": "区分（表 3、PDF 25 ページ）",
-          "required": ["mcc", "group", "page_pdf"],
+          "required": [
+            "mcc",
+            "group",
+            "page_pdf"
+          ],
           "additionalProperties": false,
           "properties": {
-            "mcc": {"enum": ["MCC(コア)", "MCC(モデル)"]},
-            "group": {"type": "string"},
-            "page_pdf": {"$ref": "common.schema.json#/$defs/page"}
+            "mcc": {
+              "enum": [
+                "MCC(コア)",
+                "MCC(モデル)"
+              ]
+            },
+            "group": {
+              "type": "string"
+            },
+            "page_pdf": {
+              "$ref": "common.schema.json#/$defs/page"
+            }
           }
         },
         "level": {
-          "type": ["object", "null"],
+          "type": [
+            "object",
+            "null"
+          ],
           "description": "到達水準。原本の記述を quote に持つ",
-          "required": ["value", "quote", "page_pdf"],
+          "required": [
+            "value",
+            "quote",
+            "page_pdf"
+          ],
           "additionalProperties": false,
           "properties": {
-            "value": {"type": ["string", "null"]},
-            "quote": {"type": "string"},
-            "page_pdf": {"$ref": "common.schema.json#/$defs/page"}
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "quote": {
+              "type": "string"
+            },
+            "page_pdf": {
+              "$ref": "common.schema.json#/$defs/page"
+            }
           }
         },
-        "description": {"$ref": "#/$defs/description"},
-        "notes": {"$ref": "#/$defs/notes"}
+        "description": {
+          "$ref": "#/$defs/description"
+        },
+        "notes": {
+          "$ref": "#/$defs/notes"
+        }
       }
     },
     "section": {
-      "required": ["code", "name", "heading_raw"],
+      "required": [
+        "code",
+        "name",
+        "heading_raw"
+      ],
       "additionalProperties": false,
       "properties": {
-        "id": true, "type": true, "parent": true, "source": true, "verification": true,
-        "code": {"type": "string", "pattern": "^([IVX]+(-[A-I](-[0-9]+)?)?|AI|SEC|ROBOT|IOT)$"},
-        "code_defined_by": {"const": "this-repository", "description": "原本にないコードをこのリポジトリで定めた（MCC plus）"},
-        "name": {"type": "string", "minLength": 1},
-        "heading_raw": {"type": "string"},
-        "description": {"$ref": "#/$defs/description"},
-        "notes": {"$ref": "#/$defs/notes"}
+        "id": true,
+        "type": true,
+        "parent": true,
+        "source": true,
+        "verification": true,
+        "code": {
+          "type": "string",
+          "pattern": "^([IVX]+(-[A-I](-[0-9]+)?)?|AI|SEC|ROBOT|IOT)$"
+        },
+        "code_defined_by": {
+          "const": "this-repository",
+          "description": "原本にないコードをこのリポジトリで定めた（MCC plus）"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "heading_raw": {
+          "type": "string"
+        },
+        "description": {
+          "$ref": "#/$defs/description"
+        },
+        "notes": {
+          "$ref": "#/$defs/notes"
+        }
       }
     },
     "content": {
-      "required": ["name"],
+      "required": [
+        "name"
+      ],
       "additionalProperties": false,
       "properties": {
-        "id": true, "type": true, "parent": true, "source": true, "verification": true,
-        "name": {"type": "string"},
-        "name_empty_in_source": {"const": true},
-        "note": {"type": "string"},
-        "group": {"type": "string", "description": "学習内容のまとまりを示す小見出し（「≪機械設計者≫」「上記以外の観点」など）"}
+        "id": true,
+        "type": true,
+        "parent": true,
+        "source": true,
+        "verification": true,
+        "name": {
+          "type": "string"
+        },
+        "name_empty_in_source": {
+          "const": true
+        },
+        "note": {
+          "type": "string"
+        },
+        "group": {
+          "type": "object",
+          "required": [
+            "raw",
+            "page_pdf"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "raw": {
+              "type": "string"
+            },
+            "page_pdf": {
+              "$ref": "common.schema.json#/$defs/page"
+            }
+          },
+          "description": "学習内容のまとまりを示す小見出し（「≪機械設計者≫」「上記以外の観点」など）とその見出しのあるページ"
+        }
       }
     },
     "goal": {
-      "required": ["text", "note"],
+      "required": [
+        "text",
+        "note"
+      ],
       "additionalProperties": false,
       "properties": {
-        "id": true, "type": true, "parent": true, "source": true, "verification": true,
-        "text": {"type": "string", "minLength": 1},
+        "id": true,
+        "type": true,
+        "parent": true,
+        "source": true,
+        "verification": true,
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
         "supplement": {
           "type": "object",
-          "required": ["kind", "raw", "items"],
+          "required": [
+            "kind",
+            "raw",
+            "items"
+          ],
           "additionalProperties": false,
           "properties": {
-            "kind": {"enum": ["学習の目安となる項目", "キーワード"]},
-            "raw": {"type": "string"},
-            "items": {"type": "array", "items": {"type": "string"}}
+            "kind": {
+              "enum": [
+                "学習の目安となる項目",
+                "キーワード"
+              ]
+            },
+            "raw": {
+              "type": "string"
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
           }
         },
-        "note": {"type": ["string", "null"]}
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     }
   }

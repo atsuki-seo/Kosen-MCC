@@ -135,7 +135,7 @@ relations:
     page_pdf: 159
     page_printed: 143
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:AI:02.04
   type: mccplus-correspondence
   from: mccplus2023:AI:02.04
@@ -349,7 +349,7 @@ relations:
     page_pdf: 160
     page_printed: 144
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:AI:10.03
   type: mccplus-correspondence
   from: mccplus2023:AI:10.03
@@ -515,7 +515,7 @@ relations:
     page_pdf: 161
     page_printed: 145
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:AI:12.05
   type: mccplus-correspondence
   from: mccplus2023:AI:12.05
@@ -651,7 +651,7 @@ relations:
     page_pdf: 162
     page_printed: 146
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:AI:13.13
   type: mccplus-correspondence
   from: mccplus2023:AI:13.13
@@ -820,7 +820,7 @@ relations:
     page_pdf: 164
     page_printed: 148
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:SEC:02.03
   type: mccplus-correspondence
   from: mccplus2023:SEC:02.03
@@ -1039,7 +1039,7 @@ relations:
     page_pdf: 165
     page_printed: 149
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:SEC:10.02
   type: mccplus-correspondence
   from: mccplus2023:SEC:10.02
@@ -1163,7 +1163,7 @@ relations:
     page_pdf: 166
     page_printed: 150
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:SEC:11.08
   type: mccplus-correspondence
   from: mccplus2023:SEC:11.08
@@ -1272,7 +1272,7 @@ relations:
     page_pdf: 167
     page_printed: 151
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:SEC:11.20
   type: mccplus-correspondence
   from: mccplus2023:SEC:11.20
@@ -1542,7 +1542,7 @@ relations:
     page_pdf: 169
     page_printed: 153
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:ROBOT:03.01
   type: mccplus-correspondence
   from: mccplus2023:ROBOT:03.01
@@ -1744,7 +1744,7 @@ relations:
     page_pdf: 170
     page_printed: 154
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:ROBOT:10.03
   type: mccplus-correspondence
   from: mccplus2023:ROBOT:10.03
@@ -1877,7 +1877,7 @@ relations:
     page_pdf: 171
     page_printed: 155
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:ROBOT:20.01
   type: mccplus-correspondence
   from: mccplus2023:ROBOT:20.01
@@ -2057,7 +2057,7 @@ relations:
     page_pdf: 172
     page_printed: 156
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:ROBOT:34.01
   type: mccplus-correspondence
   from: mccplus2023:ROBOT:34.01
@@ -2130,7 +2130,7 @@ relations:
     page_pdf: 173
     page_printed: 157
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:ROBOT:42.01
   type: mccplus-correspondence
   from: mccplus2023:ROBOT:42.01
@@ -2334,7 +2334,7 @@ relations:
     page_pdf: 175
     page_printed: 159
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:IOT:03.01
   type: mccplus-correspondence
   from: mccplus2023:IOT:03.01
@@ -2536,7 +2536,7 @@ relations:
     page_pdf: 176
     page_printed: 160
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:IOT:10.03
   type: mccplus-correspondence
   from: mccplus2023:IOT:10.03
@@ -2666,7 +2666,7 @@ relations:
     page_pdf: 177
     page_printed: 161
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:IOT:13.01
   type: mccplus-correspondence
   from: mccplus2023:IOT:13.01
@@ -2775,7 +2775,7 @@ relations:
     page_pdf: 178
     page_printed: 162
     page_top: true
-  verification: machine
+  verification: image
 - id: mcc2023:rel:mccplus:IOT:20.02
   type: mccplus-correspondence
   from: mccplus2023:IOT:20.02

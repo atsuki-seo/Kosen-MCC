@@ -158,3 +158,35 @@ def events(no: int):
     items = [(ln.top, 0, ln) for ln in outside_lines(no)] + [(t.top, 1, t) for t in tables(no)]
     items.sort(key=lambda x: (round(x[0], 1), x[1]))
     return [x[2] for x in items]
+
+
+@functools.cache
+def body_stream(no: int) -> str:
+    """照合用のページ本文。ストリーム順で、フッターのページ番号の数字と空白を除く。"""
+    chars = [c["text"] for c in page(no).chars
+             if not (c["top"] >= FOOTER_TOP and c["text"].isdigit())]
+    return squash("".join(chars))
+
+
+def pages_stream(pages) -> str:
+    return "".join(body_stream(p) for p in sorted(set(pages)))
+
+
+@functools.cache
+def views(no: int) -> tuple[str, ...]:
+    """照合用のページの抽出テキスト（空白とフッターのページ番号を除く）。
+
+    1. 文字のストリーム順（PDF に書かれた順）
+    2. 行単位の抽出（上から下、左から右）
+    3. 表の列ごとの抽出（各表を列の幅で切り出し、上から下に読む）
+    """
+    p = page(no)
+    body = p.filter(lambda o: o.get("object_type") != "char"
+                    or not (o["top"] >= FOOTER_TOP and o["text"].isdigit()))
+    out = [body_stream(no), squash(body.extract_text(y_tolerance=Y_TOLERANCE))]
+    for t in p.find_tables():
+        xs = sorted({round(c[0], 1) for row in t.rows for c in row.cells if c} | {round(t.bbox[2], 1)})
+        for x0, x1 in zip(xs, xs[1:]):
+            crop = body.crop((x0, t.bbox[1], x1, t.bbox[3]), strict=False)
+            out.append(squash(crop.extract_text(y_tolerance=Y_TOLERANCE)))
+    return tuple(out)

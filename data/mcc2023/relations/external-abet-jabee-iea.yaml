@@ -114,7 +114,7 @@ relations:
   source:
     page_pdf: 183
     page_printed: 165
-  verification: machine
+  verification: image
 - id: mcc2023:rel:abet:02
   type: external-standard
   standard: ABET-JABEE-IEA
@@ -186,7 +186,7 @@ relations:
   source:
     page_pdf: 183
     page_printed: 165
-  verification: machine
+  verification: image
 - id: mcc2023:rel:abet:03
   type: external-standard
   standard: ABET-JABEE-IEA
@@ -219,7 +219,7 @@ relations:
   source:
     page_pdf: 183
     page_printed: 165
-  verification: machine
+  verification: image
 - id: mcc2023:rel:abet:04
   type: external-standard
   standard: ABET-JABEE-IEA
@@ -269,7 +269,7 @@ relations:
   source:
     page_pdf: 184
     page_printed: 166
-  verification: machine
+  verification: image
 - id: mcc2023:rel:abet:05
   type: external-standard
   standard: ABET-JABEE-IEA
@@ -312,7 +312,7 @@ relations:
   source:
     page_pdf: 184
     page_printed: 166
-  verification: machine
+  verification: image
 - id: mcc2023:rel:abet:06
   type: external-standard
   standard: ABET-JABEE-IEA
@@ -382,7 +382,7 @@ relations:
   source:
     page_pdf: 184
     page_printed: 166
-  verification: machine
+  verification: image
 - id: mcc2023:rel:abet:07
   type: external-standard
   standard: ABET-JABEE-IEA
@@ -427,4 +427,4 @@ relations:
   source:
     page_pdf: 184
     page_printed: 166
-  verification: machine
+  verification: image
