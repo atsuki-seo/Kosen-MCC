@@ -1,0 +1,11 @@
+// permissions（設計 9.6）。Claude Code にだけ効く。
+// source/ は権威への参照（出典情報と取得スクリプト）なので編集しない。
+// build/ は tools/build.py の生成物なので直接編集しない。
+{
+  "permission": {
+    "edit": {
+      "source/**": "deny",
+      "build/**": "deny"
+    }
+  }
+}

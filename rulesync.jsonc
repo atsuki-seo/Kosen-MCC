@@ -1,0 +1,10 @@
+// rulesync の設定（設計 9.1）。AI エージェント向け設定のソースは .rulesync/ だけに置く。
+// 生成物（AGENTS.md、CLAUDE.md、.claude/、.agents/）は手で編集しない。生成物はコミットする。
+// 使う版は .rulesync-version に固定している: npx rulesync@<版> generate
+{
+  "$schema": "https://github.com/dyoshikawa/rulesync/releases/download/v43.13.0/config-schema.json",
+  "targets": ["agentsmd", "claudecode", "agentsskills"],
+  "features": ["rules", "skills", "subagents", "hooks", "permissions"],
+  "outputRoots": ["."],
+  "delete": true
+}

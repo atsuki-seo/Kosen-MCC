@@ -1,0 +1,15 @@
+// hooks（設計 9.5）。Claude Code にだけ効く。同じ検査（メールアドレスの検査を除く）を CI でも実行する。
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      { "matcher": "Bash", "command": "uv run --quiet python tools/hooks/check_commit_email.py" }
+    ],
+    "postToolUse": [
+      { "matcher": "Write|Edit", "command": "uv run --quiet python tools/hooks/validate_data.py" }
+    ],
+    "stop": [
+      { "command": "uv run --quiet python tools/hooks/check_build.py" }
+    ]
+  }
+}
