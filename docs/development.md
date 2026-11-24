@@ -82,7 +82,7 @@ uv run python tools/render_pages.py 90 91
 | ページをまたぐ行の分断 | 到達目標の表で 3 か所（PDF 122、145、147 ページの先頭。3 列目だけが続く）、学習内容の名称の分断が 2 か所（60、126 ページ）、配慮事項の表で 1 か所（143 ページ。結合セルの続き）、学習指導要領の対照表で 29 ページの先頭（多くは指導要領側の結合セルの続き）と学習内容の名称の分断 1 か所（195 ページ） | 抽出器の続きの処理の回数を数え、ページ先頭の行は画像照合した（verification-log.yaml の page-top-row） |
 | 再掲された到達目標が元の文と一字一句同じか | 学習指導要領の対照表の再掲 336 件は、空白と行頭の「･」を除いてすべて元の文と同じ。複合融合学科への配慮事項の再掲 229 件のうち 154 件は同じで、75 件は元の文を縮めた別の文であり、到達目標の ID に解決していない（build/STATUS.md の未解決の一覧） | 参照の解決器の照合結果 |
 | `Edit(...)` の拒否が新規作成の Write にも効くか | 効く。`Edit(source/**)` だけの設定で、`source/` への新規作成の Write は「権限設定で拒否されたディレクトリ」として拒否された。既存ファイルの Edit と、`build/` への Edit も拒否された。Write 用の設定は足していない | Claude Code で Write と Edit を試した（2026-11-25、rulesync 43.13.0 の生成物） |
-| `rulesync fetch` で `mcc-lookup` を取り込めるか | フェーズ 9（公開後）で確かめる | — |
+| `rulesync fetch` で `mcc-lookup` を取り込めるか | 取り込める。`npx rulesync@43.13.0 fetch atsuki-seo/kosen-mcc --skills mcc-lookup` で、`.rulesync/skills/mcc-lookup/SKILL.md` が作られた（リポジトリ直下の `skills/` から取得される） | 公開後に、空の一時ディレクトリで実行した（2026-11-25） |
 
 ## 6. 原文の照合（text-in-source）の規則
 
